@@ -29,7 +29,7 @@ function RenderHeader() {
 						<NavbarItem name="Themes" url="/themes" />
 						<NavbarItem name="Plugins" url="/plugins" />
 						<NavbarItem name="Docs" url="https://docs.steambrew.app/" isExternal={true} />
-						<NavbarItem name="GitHub" url="https://github.com/shdwmtr/millennium" isExternal={true} />
+						<NavbarItem name="GitHub" url="https://github.com/SteamClientHomebrew/Millennium" isExternal={true} />
 						<NavbarItem name="About" url="https://docs.steambrew.app/about" isExternal={true} />
 
 						<a href="/discord">

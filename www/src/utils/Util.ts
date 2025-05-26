@@ -9,8 +9,8 @@ export interface StatisticProps {
 
 export const GetStatisticsSync = async (): Promise<StatisticProps> => {
 	const discord = await fetch('https://discord.com/api/v9/invites/NcNMP6r2Cw?with_counts=true&with_expiration=true').then((response) => response.json());
-	const github = await fetch('https://api.github.com/repos/shdwmtr/millennium/releases').then((response) => response.json());
-	const contributors = await fetch('https://api.github.com/repos/shdwmtr/millennium/contributors').then((response) => response.json());
+	const github = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium/releases').then((response) => response.json());
+	const contributors = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium/contributors').then((response) => response.json());
 
 	// add download count from old cdn as well: https://api.github.com/repos/ShadowMonster99/millennium-steam-binaries/releases
 	const totalDownloads =

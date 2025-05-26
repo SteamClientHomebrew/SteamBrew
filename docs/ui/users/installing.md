@@ -43,7 +43,7 @@ We also don't support any ARM based distributions as they require custom Steam i
 :::
 
 :::note
-Looking to package Millennium for your favorite distribution? It should be a relatively simple process, the filesystem hierarchy is easily change-able [here](https://github.com/shdwmtr/millennium/blob/main/src/sys/env.cc#L111C1-L134C11). From there you can build Millennium to use any filesystem standard!
+Looking to package Millennium for your favorite distribution? It should be a relatively simple process, the filesystem hierarchy is easily change-able [here](https://github.com/SteamClientHomebrew/Millennium/blob/main/src/sys/env.cc#L111C1-L134C11). From there you can build Millennium to use any filesystem standard!
 :::
 
 ### Arch Linux (AUR)
@@ -52,7 +52,7 @@ We officially offer support for Millennium on the [Arch User Repository (AUR)](h
 
 ### NixOS
 
-We don't currently have a package for NixOS but it's somewhat in development in [#227](https://github.com/shdwmtr/millennium/issues/227).
+We don't currently have a package for NixOS but it's somewhat in development in [#227](https://github.com/SteamClientHomebrew/Millennium/issues/227).
 Feel free to contribute and help finish the package.
 
 <details>
@@ -65,7 +65,7 @@ Feel free to contribute and help finish the package.
 This installer is entirely open source and we encourage the community audit the [source code](https://github.com/SteamClientHomebrew/Millennium/blob/main/scripts/install.sh).
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/shdwmtr/millennium/main/scripts/install.sh" | sudo sh
+curl -fsSL "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/scripts/install.sh" | sudo sh
 ```
 
 </details>
