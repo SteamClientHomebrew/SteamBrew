@@ -17,15 +17,15 @@ function getFilesFromDirectory(dirPath, dirPathBase = '', baseDir = '', topLevel
 	const entries = fs.readdirSync(dirPath, { withFileTypes: true });
 	const files = [];
 	const categories = [];
-  
+
 	entries.forEach((entry) => {
 		const fullPath = path.join(dirPath, entry.name);
 		const relativePath = path.join(baseDir, entry.name);
-	
+
 		const categoryLabel = CustomNames[entry.name] || entry.name.charAt(0).toUpperCase() + entry.name.slice(1);
-	
+
 		if (entry.isDirectory()) {
-	
+
 			const category = {
 				type: 'category',
 				collapsed: true,
@@ -34,29 +34,29 @@ function getFilesFromDirectory(dirPath, dirPathBase = '', baseDir = '', topLevel
 			};
 			// Check if category already exists
 			const existingCategory = categories.find(c => c.label === categoryLabel);
-	
+
 			if (existingCategory) {
 				existingCategory.items.push(...category.items);
-			} 
+			}
 			else {
 				categories.push(category);
 			}
-		} 
+		}
 		else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))) {
-	
+
 			if (entry.name === "README.md") {
 				/** Ignore auto generated README files. */
 				return;
 			}
-	
+
 			const filePath = (dirPathBase || dirPath) + relativePath.replace(/\.mdx?$/, '').replace(/\\\\|\\/g, '/');
-			
+
 			const fileContent = fs.readFileSync(fullPath, 'utf-8');
 			const { data } = matter(fileContent);
-	
+
 			if (data.component) {
 				const componentName = data.component;
-		
+
 				if (!topLevelComponents[componentName]) {
 					topLevelComponents[componentName] = {
 						type: 'category',
@@ -66,16 +66,16 @@ function getFilesFromDirectory(dirPath, dirPathBase = '', baseDir = '', topLevel
 					};
 				}
 				topLevelComponents[componentName].items.push(filePath);
-			} 
+			}
 			else {
 				files.push(filePath);
 			}
 		}
 	});
-  
+
 	// Filter out categories with no items
 	const filteredCategories = categories.filter(category => category.items.length > 0);
-  
+
 	return [...files, ...filteredCategories];
 }
 
@@ -152,6 +152,7 @@ module.exports = {
 					items: [
 						'developers/plugins/learn',
 						'developers/plugins/packages',
+						'developers/plugins/file-proxy',
 						{
 							type: 'category',
 							label: 'Python Reference',
@@ -170,7 +171,9 @@ module.exports = {
 								'developers/plugins/python/remove-module',
 								'developers/plugins/python/set-setting',
 								'developers/plugins/python/user-settings',
-								'developers/plugins/python/version'
+								'developers/plugins/python/version',
+								'developers/plugins/python/add-proxy-pattern',
+								'developers/plugins/python/remove-proxy-pattern',
 							],
 						},
 						{
