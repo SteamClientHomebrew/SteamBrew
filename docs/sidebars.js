@@ -81,8 +81,8 @@ function getFilesWithComponents(dirPath) {
 	return [...Object.values(topLevelComponents), ...items];
 }
 
-const steamBrewClient = getFilesWithComponents('ui/developers/plugins/typescript/client/');
-const steamBrewWebkit = getFilesWithComponents('ui/developers/plugins/typescript/browser/');
+const steamBrewClient = getFilesWithComponents('ui/developers/plugins/typescript/client/src');
+const steamBrewWebkit = getFilesWithComponents('ui/developers/plugins/typescript/browser/src');
 
 module.exports = {
 	homeSidebar: [
