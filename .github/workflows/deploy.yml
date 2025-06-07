@@ -27,6 +27,15 @@ jobs:
             - name: Install pnpm
               run: npm install -g pnpm
 
+            - name: Generate Auto Documentation
+              run: |
+                  git clone https://github.com/SteamClientHomebrew/SDK 
+                  cd SDK
+                  pnpm install
+                  pnpm run docs
+                  cp -r ./docs/* ../docs/ui/developers/plugins/typescript/
+                  ls -la ../docs/ui/developers/
+
             - name: Install dependencies and build
               run: |
                   cd www

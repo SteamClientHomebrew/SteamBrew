@@ -13,6 +13,8 @@ import { API_URL } from '@/utils/globals';
 
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
+import { HiOutlineClipboardCopy } from 'react-icons/hi';
+import { SiKofi } from 'react-icons/si';
 
 function HeadProp({ json }) {
 	return (
@@ -59,89 +61,6 @@ export const getServerSideProps = async (context) => {
 };
 
 export default function Home({ json, markdown, isSteamClient }) {
-	const [isMillenniumConnected, setIsMillenniumConnected] = useState(false);
-	const [isThemeInstalled, setIsThemeInstalled] = useState(false);
-	const [millenniumIPC, setMillenniumIPC] = useState(null);
-
-	const GetThemeStatus = (millenniumIPC) => {
-		millenniumIPC.addEventListener('message', (event) => {
-			try {
-				console.log(event.data);
-				const data = JSON.parse(event.data);
-
-				console.log(`theme is installed ? ${data.data}`);
-
-				if (data.type === 'checkInstall') {
-					setIsThemeInstalled(data.data);
-				}
-			} catch (err) {
-				console.log(err);
-				setIsThemeInstalled(false);
-			}
-		});
-		millenniumIPC.send(
-			JSON.stringify({
-				type: 'checkInstall',
-				data: {
-					owner: json?.data?.github?.owner,
-					repo: json?.data?.github?.repo,
-				},
-			}),
-		);
-	};
-
-	const EstablishConnection = () => {
-		const millenniumIPC = new WebSocket('ws://localhost:9123');
-		setMillenniumIPC(millenniumIPC);
-
-		millenniumIPC.onopen = () => {
-			setIsMillenniumConnected(true);
-			GetThemeStatus(millenniumIPC);
-		};
-
-		millenniumIPC.onerror = async () => {
-			toast.warn(
-				<div>
-					You're currently in view mode. To install this theme you must have Millennium installed with Steam open. &nbsp;
-					<a href="https://docs.steambrew.app/users/getting-started#installing-themes">Learn more...</a>
-				</div>,
-				{
-					position: 'bottom-right',
-					autoClose: 5000,
-					hideProgressBar: false,
-					closeOnClick: true,
-					pauseOnHover: true,
-					draggable: true,
-					progress: undefined,
-					theme: 'dark',
-				},
-			);
-
-			const isBrave = (navigator.brave && (await navigator.brave.isBrave())) || false;
-
-			if (isBrave) {
-				toast.info(
-					<div>
-						It appears you're using Brave browser. Brave may block the connection between this site and Millennium. &nbsp;
-						<a href="https://docs.steambrew.app/users/getting-started#installing-themes">Learn more...</a>
-					</div>,
-					{
-						position: 'bottom-right',
-						autoClose: 15000,
-						hideProgressBar: false,
-						closeOnClick: true,
-						pauseOnHover: true,
-						draggable: true,
-						progress: undefined,
-						theme: 'dark',
-					},
-				);
-			}
-
-			setIsMillenniumConnected(false);
-		};
-	};
-
 	useEffect(() => {
 		Fancybox.bind('[data-fancybox]', {
 			Images: {
@@ -154,91 +73,18 @@ export default function Home({ json, markdown, isSteamClient }) {
 			},
 			animated: true,
 		});
-		EstablishConnection();
 	}, []);
 
-	const IncrementDownloadCount = () => {
-		fetch(`https://steambrew.app/api/v2/download`, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({
-				owner: json?.data?.github?.owner,
-				repo: json?.data?.github?.repo,
-			}),
-		});
-	};
-
-	const InstallTheme = () => {
-		setTimeout(() => {
-			millenniumIPC.send(
-				JSON.stringify({
-					type: 'installTheme',
-					data: {
-						repo: json?.data?.github?.repo,
-						owner: json?.data?.github?.owner,
-					},
-				}),
-			);
-		}, 2000);
-
-		return new Promise((resolve, reject) => {
-			millenniumIPC.addEventListener('message', (event) => {
-				const data = JSON.parse(event.data);
-
-				if (data.type === 'installTheme') {
-					if (data.data) {
-						resolve(true);
-						IncrementDownloadCount();
-					} else {
-						reject(false);
-					}
-					GetThemeStatus(millenniumIPC);
-				}
+	function copyThemeId() {
+		navigator.clipboard
+			.writeText(json?.data?.id)
+			.then(() => {
+				toast.success('Successfully copied to clipboard!');
+			})
+			.catch(() => {
+				toast.error('Failed to copy theme ID');
 			});
-		});
-	};
-
-	const startDownload = () => {
-		toast.promise(InstallTheme(), {
-			pending: `Downloading and Installing ${json.name}. This may take a moment...`,
-			success: `Successfully installed!`,
-			error: `Failed to install ${json.name}`,
-		});
-	};
-
-	const UninstallTheme = () => {
-		setTimeout(() => {
-			millenniumIPC.send(
-				JSON.stringify({
-					type: 'uninstallTheme',
-					data: {
-						repo: json?.data?.github?.repo,
-						owner: json?.data?.github?.owner,
-					},
-				}),
-			);
-		}, 2000);
-
-		return new Promise((resolve, reject) => {
-			millenniumIPC.addEventListener('message', (event) => {
-				const data = JSON.parse(event.data);
-				if (data.type === 'uninstallTheme') {
-					data.data ? resolve(true) : resolve(false);
-					GetThemeStatus(millenniumIPC);
-				}
-			});
-		});
-	};
-
-	const startUninstall = () => {
-		toast.promise(UninstallTheme(), {
-			pending: `Uninstalling ${json.name}...`,
-			success: `Successfully uninstalled!`,
-			error: `Failed to uninstall theme ${json.name}`,
-		});
-	};
+	}
 
 	return (
 		<div>
@@ -274,25 +120,11 @@ export default function Home({ json, markdown, isSteamClient }) {
 												<div className="title-description theme-desc">{json?.description}</div>
 												<section id="addon-actions">
 													<div className="btn-container direction-column">
+														<a onClick={copyThemeId} className="btn btn-primary" id="download-btn">
+															<HiOutlineClipboardCopy style={{ marginRight: '10px', height: '20px', width: '20px' }} />
+															<span draggable>Copy Theme ID</span>
+														</a>
 														<div className="wrap-buttons">
-															{isMillenniumConnected &&
-																(!isThemeInstalled ? (
-																	<a onClick={(_) => startDownload()} className="btn btn-primary" id="download-btn">
-																		<img
-																			height={'16px'}
-																			width={'16px'}
-																			src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAg0lEQVR4nO2UOwqAMBBE3zWsLCxsLLSw8vYGPYSghYVgIR4hErAQ/58EQfNgIBCYIRN24U9kgBwlTATImWzAAmkr+l5F1Yrplso7ATHQnTDvgeTuKyKg3TFXdyEP8YF6xbwBAjThAsXEXP2Ph2YcIB+3qjpb9CMuDJY8kDAdkBoo4CUG+aZ0PJTVTQsAAAAASUVORK5CYII="
-																		/>
-																		<span draggable>Install</span>
-																	</a>
-																) : (
-																	<a onClick={(_) => startUninstall()} className="btn btn-primary" id="uninstall-btn">
-																		<svg className="btn-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 48 48">
-																			<path d="M 24 4 C 20.491685 4 17.570396 6.6214322 17.080078 10 L 6.5 10 A 1.50015 1.50015 0 1 0 6.5 13 L 8.6367188 13 L 11.15625 39.029297 C 11.43025 41.862297 13.785813 44 16.632812 44 L 31.367188 44 C 34.214187 44 36.56875 41.862297 36.84375 39.029297 L 39.363281 13 L 41.5 13 A 1.50015 1.50015 0 1 0 41.5 10 L 30.919922 10 C 30.429604 6.6214322 27.508315 4 24 4 z M 24 7 C 25.879156 7 27.420767 8.2681608 27.861328 10 L 20.138672 10 C 20.579233 8.2681608 22.120844 7 24 7 z M 19.5 18 C 20.328 18 21 18.671 21 19.5 L 21 34.5 C 21 35.329 20.328 36 19.5 36 C 18.672 36 18 35.329 18 34.5 L 18 19.5 C 18 18.671 18.672 18 19.5 18 z M 28.5 18 C 29.328 18 30 18.671 30 19.5 L 30 34.5 C 30 35.329 29.328 36 28.5 36 C 27.672 36 27 35.329 27 34.5 L 27 19.5 C 27 18.671 27.672 18 28.5 18 z"></path>
-																		</svg>
-																		<span draggable>Uninstall</span>
-																	</a>
-																))}
 															<a rel="noreferrer noopener" target="_blank" href={`https://github.com/${json?.data?.github?.owner}/${json?.data?.github?.repo}/`} className="btn btn-secondary" id="view-source">
 																<svg className="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
 																	<path
@@ -302,13 +134,13 @@ export default function Home({ json, markdown, isSteamClient }) {
 																</svg>
 																<span>View Source</span>
 															</a>
+															{json?.skin_data?.funding?.kofi && (
+																<a href={`https://ko-fi.com/${json?.skin_data?.funding?.kofi}`} className="btn btn-primary" id="kofi-btn">
+																	<SiKofi style={{ height: '16px', width: '16px', marginRight: '10px' }} />
+																	<span draggable="true">Donate</span>
+																</a>
+															)}
 														</div>
-														{json?.skin_data?.funding?.kofi && (
-															<a href={`https://ko-fi.com/${json?.skin_data?.funding?.kofi}`} className="btn btn-primary" id="kofi-btn">
-																<img id="kofi-icon" src={'https://raw.githubusercontent.com/DeybisMelendez/godot-kofi-button/master/addons/kofi-donation-button/logo.png'}></img>
-																<span draggable="true">Support me on Ko-fi</span>
-															</a>
-														)}
 													</div>
 												</section>
 
