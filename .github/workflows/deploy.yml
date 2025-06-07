@@ -35,8 +35,7 @@ jobs:
                   cd SDK
                   pnpm install
                   pnpm run docs
-                  cp -r ./docs/* ../docs/ui/developers/plugins/typescript/
-                  ls -la ../docs/ui/developers/
+                  cp -r ./docs/* ../docs/ui/sdk/typescript/
 
             - name: Install dependencies and build
               run: |
