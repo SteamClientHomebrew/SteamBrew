@@ -81,8 +81,8 @@ function getFilesWithComponents(dirPath) {
 	return [...Object.values(topLevelComponents), ...items];
 }
 
-const steamBrewClient = getFilesWithComponents('ui/developers/plugins/typescript/client/src/');
-const steamBrewWebkit = getFilesWithComponents('ui/developers/plugins/typescript/browser/src/');
+const steamBrewClient = getFilesWithComponents('ui/sdk/typescript/client/src/');
+const steamBrewWebkit = getFilesWithComponents('ui/sdk/typescript/browser/src/');
 
 module.exports = {
 	homeSidebar: [
@@ -128,63 +128,62 @@ module.exports = {
 						description: "Creating plugins for Millennium is a fun and rewarding experience. Let's get started!",
 						slug: '/developers/plugins',
 					},
+					items: ['developers/plugins/learn', 'developers/plugins/packages'],
+				},
+			],
+		},
+		{
+			type: 'category',
+			label: 'SDK Documentation',
+			collapsed: true,
+			link: {
+				type: 'generated-index',
+				description: "A Guide to Millennium's API.",
+				slug: '/api',
+			},
+			items: [
+				{
+					type: 'category',
+					label: 'Python Reference',
+					collapsed: true,
+					link: {
+						type: 'generated-index',
+						description: "Creating plugins for Millennium is a fun and rewarding experience. Let's get started!",
+						slug: 'sdk/python',
+					},
+					items: ['sdk/python/ready', 'sdk/python/steam-path', 'sdk/python/call-method', 'sdk/python/add-css', 'sdk/python/add-js', 'sdk/python/remove-module', 'sdk/python/set-setting', 'sdk/python/user-settings', 'sdk/python/version'],
+				},
+				{
+					type: 'category',
+					label: 'TypeScript Reference',
+					collapsed: true,
+					link: {
+						type: 'generated-index',
+						description: "Creating plugins for Millennium is a fun and rewarding experience. Let's get started!",
+						slug: '/sdk/typescript',
+					},
 					items: [
-						'developers/plugins/learn',
-						'developers/plugins/packages',
 						{
 							type: 'category',
-							label: 'Python Reference',
+							label: '@steambrew/client',
 							collapsed: true,
 							link: {
 								type: 'generated-index',
-								description: "Creating plugins for Millennium is a fun and rewarding experience. Let's get started!",
-								slug: '/developers/plugins/python',
+								description: 'A plugin utility library for the client side of Steam.',
+								slug: '/sdk/typescript/client',
 							},
-							items: [
-								'developers/plugins/python/ready',
-								'developers/plugins/python/steam-path',
-								'developers/plugins/python/call-method',
-								'developers/plugins/python/add-css',
-								'developers/plugins/python/add-js',
-								'developers/plugins/python/remove-module',
-								'developers/plugins/python/set-setting',
-								'developers/plugins/python/user-settings',
-								'developers/plugins/python/version',
-							],
+							items: steamBrewClient,
 						},
 						{
 							type: 'category',
-							label: 'TypeScript Reference',
+							label: '@steambrew/webkit',
 							collapsed: true,
 							link: {
 								type: 'generated-index',
-								description: "Creating plugins for Millennium is a fun and rewarding experience. Let's get started!",
-								slug: '/developers/plugins/typescript',
+								description: 'A plugin utility library for the web/server side of Steam.',
+								slug: '/sdk/typescript/webkit',
 							},
-							items: [
-								{
-									type: 'category',
-									label: '@steambrew/client',
-									collapsed: true,
-									link: {
-										type: 'generated-index',
-										description: 'A plugin utility library for the client side of Steam.',
-										slug: '/developers/plugins/typescript/client',
-									},
-									items: steamBrewClient,
-								},
-								{
-									type: 'category',
-									label: '@steambrew/webkit',
-									collapsed: true,
-									link: {
-										type: 'generated-index',
-										description: 'A plugin utility library for the web/server side of Steam.',
-										slug: '/developers/plugins/typescript/webkit',
-									},
-									items: steamBrewWebkit,
-								},
-							],
+							items: steamBrewWebkit,
 						},
 					],
 				},

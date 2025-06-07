@@ -39,8 +39,8 @@ next-env.d.ts
 .docusaurus
 docs/build
 docs/node_modules
-docs/ui/developers/plugins/typescript/client
-docs/ui/developers/plugins/typescript/browser
+docs/ui/sdk/typescript/client
+docs/ui/sdk/typescript/browser
 api/credentials
 api/node_modules
 
