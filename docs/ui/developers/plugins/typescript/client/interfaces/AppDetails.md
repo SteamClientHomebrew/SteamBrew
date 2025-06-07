@@ -4,7 +4,7 @@
 
 # Interface: AppDetails
 
-Defined in: [src/globals/SteamClient.ts:232](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L232)
+Defined in: [src/globals/SteamClient.ts:232](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L232)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/globals/SteamClient.ts:232](https://github.com/shdwmtr/plugutil
 achievements: AppAchievements;
 ```
 
-Defined in: [src/globals/SteamClient.ts:233](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L233)
+Defined in: [src/globals/SteamClient.ts:233](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L233)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/globals/SteamClient.ts:233](https://github.com/shdwmtr/plugutil
 bCanMoveInstallFolder: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:234](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L234)
+Defined in: [src/globals/SteamClient.ts:234](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L234)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/globals/SteamClient.ts:234](https://github.com/shdwmtr/plugutil
 bCloudAvailable: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:235](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L235)
+Defined in: [src/globals/SteamClient.ts:235](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L235)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/globals/SteamClient.ts:235](https://github.com/shdwmtr/plugutil
 bCloudEnabledForAccount: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:236](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L236)
+Defined in: [src/globals/SteamClient.ts:236](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L236)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/globals/SteamClient.ts:236](https://github.com/shdwmtr/plugutil
 bCloudEnabledForApp: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:237](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L237)
+Defined in: [src/globals/SteamClient.ts:237](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L237)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/globals/SteamClient.ts:237](https://github.com/shdwmtr/plugutil
 bCloudSyncOnSuspendAvailable: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:238](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L238)
+Defined in: [src/globals/SteamClient.ts:238](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L238)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [src/globals/SteamClient.ts:238](https://github.com/shdwmtr/plugutil
 bCloudSyncOnSuspendEnabled: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:239](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L239)
+Defined in: [src/globals/SteamClient.ts:239](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L239)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [src/globals/SteamClient.ts:239](https://github.com/shdwmtr/plugutil
 bCommunityMarketPresence: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:240](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L240)
+Defined in: [src/globals/SteamClient.ts:240](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L240)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [src/globals/SteamClient.ts:240](https://github.com/shdwmtr/plugutil
 bEnableAllowDesktopConfiguration: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:241](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L241)
+Defined in: [src/globals/SteamClient.ts:241](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L241)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [src/globals/SteamClient.ts:241](https://github.com/shdwmtr/plugutil
 bFreeRemovableLicense: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:242](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L242)
+Defined in: [src/globals/SteamClient.ts:242](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L242)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [src/globals/SteamClient.ts:242](https://github.com/shdwmtr/plugutil
 bHasAllLegacyCDKeys: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:243](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L243)
+Defined in: [src/globals/SteamClient.ts:243](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L243)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [src/globals/SteamClient.ts:243](https://github.com/shdwmtr/plugutil
 bHasAnyLocalContent: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:244](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L244)
+Defined in: [src/globals/SteamClient.ts:244](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L244)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [src/globals/SteamClient.ts:244](https://github.com/shdwmtr/plugutil
 bHasLockedPrivateBetas: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:245](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L245)
+Defined in: [src/globals/SteamClient.ts:245](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L245)
 
 ***
 
@@ -144,7 +144,7 @@ Defined in: [src/globals/SteamClient.ts:245](https://github.com/shdwmtr/plugutil
 bIsExcludedFromSharing: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:246](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L246)
+Defined in: [src/globals/SteamClient.ts:246](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L246)
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: [src/globals/SteamClient.ts:246](https://github.com/shdwmtr/plugutil
 bIsSubscribedTo: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:247](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L247)
+Defined in: [src/globals/SteamClient.ts:247](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L247)
 
 ***
 
@@ -164,7 +164,7 @@ Defined in: [src/globals/SteamClient.ts:247](https://github.com/shdwmtr/plugutil
 bOverlayEnabled: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:248](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L248)
+Defined in: [src/globals/SteamClient.ts:248](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L248)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [src/globals/SteamClient.ts:248](https://github.com/shdwmtr/plugutil
 bOverrideInternalResolution: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:249](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L249)
+Defined in: [src/globals/SteamClient.ts:249](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L249)
 
 ***
 
@@ -184,7 +184,7 @@ Defined in: [src/globals/SteamClient.ts:249](https://github.com/shdwmtr/plugutil
 bRequiresLegacyCDKey: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:250](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L250)
+Defined in: [src/globals/SteamClient.ts:250](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L250)
 
 ***
 
@@ -194,7 +194,7 @@ Defined in: [src/globals/SteamClient.ts:250](https://github.com/shdwmtr/plugutil
 bShortcutIsVR: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:251](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L251)
+Defined in: [src/globals/SteamClient.ts:251](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L251)
 
 ***
 
@@ -204,7 +204,7 @@ Defined in: [src/globals/SteamClient.ts:251](https://github.com/shdwmtr/plugutil
 bShowCDKeyInMenus: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:252](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L252)
+Defined in: [src/globals/SteamClient.ts:252](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L252)
 
 ***
 
@@ -214,7 +214,7 @@ Defined in: [src/globals/SteamClient.ts:252](https://github.com/shdwmtr/plugutil
 bShowControllerConfig: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:253](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L253)
+Defined in: [src/globals/SteamClient.ts:253](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L253)
 
 ***
 
@@ -224,7 +224,7 @@ Defined in: [src/globals/SteamClient.ts:253](https://github.com/shdwmtr/plugutil
 bSupportsCDKeyCopyToClipboard: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:254](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L254)
+Defined in: [src/globals/SteamClient.ts:254](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L254)
 
 ***
 
@@ -234,7 +234,7 @@ Defined in: [src/globals/SteamClient.ts:254](https://github.com/shdwmtr/plugutil
 bVRGameTheatreEnabled: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:255](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L255)
+Defined in: [src/globals/SteamClient.ts:255](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L255)
 
 ***
 
@@ -244,7 +244,7 @@ Defined in: [src/globals/SteamClient.ts:255](https://github.com/shdwmtr/plugutil
 bWorkshopVisible: boolean;
 ```
 
-Defined in: [src/globals/SteamClient.ts:256](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L256)
+Defined in: [src/globals/SteamClient.ts:256](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L256)
 
 ***
 
@@ -254,7 +254,7 @@ Defined in: [src/globals/SteamClient.ts:256](https://github.com/shdwmtr/plugutil
 eAppOwnershipFlags: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:257](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L257)
+Defined in: [src/globals/SteamClient.ts:257](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L257)
 
 ***
 
@@ -264,7 +264,7 @@ Defined in: [src/globals/SteamClient.ts:257](https://github.com/shdwmtr/plugutil
 eAutoUpdateValue: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:258](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L258)
+Defined in: [src/globals/SteamClient.ts:258](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L258)
 
 ***
 
@@ -274,7 +274,7 @@ Defined in: [src/globals/SteamClient.ts:258](https://github.com/shdwmtr/plugutil
 eBackgroundDownloads: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:259](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L259)
+Defined in: [src/globals/SteamClient.ts:259](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L259)
 
 ***
 
@@ -284,7 +284,7 @@ Defined in: [src/globals/SteamClient.ts:259](https://github.com/shdwmtr/plugutil
 eCloudSync: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:260](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L260)
+Defined in: [src/globals/SteamClient.ts:260](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L260)
 
 ***
 
@@ -294,7 +294,7 @@ Defined in: [src/globals/SteamClient.ts:260](https://github.com/shdwmtr/plugutil
 eControllerRumblePreference: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:261](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L261)
+Defined in: [src/globals/SteamClient.ts:261](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L261)
 
 ***
 
@@ -304,7 +304,7 @@ Defined in: [src/globals/SteamClient.ts:261](https://github.com/shdwmtr/plugutil
 eDisplayStatus: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:262](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L262)
+Defined in: [src/globals/SteamClient.ts:262](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L262)
 
 ***
 
@@ -314,7 +314,7 @@ Defined in: [src/globals/SteamClient.ts:262](https://github.com/shdwmtr/plugutil
 eEnableThirdPartyControllerConfiguration: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:263](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L263)
+Defined in: [src/globals/SteamClient.ts:263](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L263)
 
 ***
 
@@ -324,7 +324,7 @@ Defined in: [src/globals/SteamClient.ts:263](https://github.com/shdwmtr/plugutil
 eSteamInputControllerMask: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:264](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L264)
+Defined in: [src/globals/SteamClient.ts:264](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L264)
 
 ***
 
@@ -334,7 +334,7 @@ Defined in: [src/globals/SteamClient.ts:264](https://github.com/shdwmtr/plugutil
 iInstallFolder: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:265](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L265)
+Defined in: [src/globals/SteamClient.ts:265](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L265)
 
 ***
 
@@ -344,7 +344,7 @@ Defined in: [src/globals/SteamClient.ts:265](https://github.com/shdwmtr/plugutil
 lDiskUsageBytes: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:266](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L266)
+Defined in: [src/globals/SteamClient.ts:266](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L266)
 
 ***
 
@@ -354,7 +354,7 @@ Defined in: [src/globals/SteamClient.ts:266](https://github.com/shdwmtr/plugutil
 lDlcUsageBytes: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:267](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L267)
+Defined in: [src/globals/SteamClient.ts:267](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L267)
 
 ***
 
@@ -366,7 +366,7 @@ optional libraryAssets: {
 };
 ```
 
-Defined in: [src/globals/SteamClient.ts:307](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L307)
+Defined in: [src/globals/SteamClient.ts:307](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L307)
 
 #### logoPosition?
 
@@ -382,7 +382,7 @@ optional logoPosition: LogoPosition;
 nBuildID: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:268](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L268)
+Defined in: [src/globals/SteamClient.ts:268](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L268)
 
 ***
 
@@ -392,7 +392,7 @@ Defined in: [src/globals/SteamClient.ts:268](https://github.com/shdwmtr/plugutil
 nCompatToolPriority: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:269](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L269)
+Defined in: [src/globals/SteamClient.ts:269](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L269)
 
 ***
 
@@ -402,7 +402,7 @@ Defined in: [src/globals/SteamClient.ts:269](https://github.com/shdwmtr/plugutil
 nPlaytimeForever: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:270](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L270)
+Defined in: [src/globals/SteamClient.ts:270](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L270)
 
 ***
 
@@ -412,7 +412,7 @@ Defined in: [src/globals/SteamClient.ts:270](https://github.com/shdwmtr/plugutil
 nScreenshots: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:271](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L271)
+Defined in: [src/globals/SteamClient.ts:271](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L271)
 
 ***
 
@@ -422,7 +422,7 @@ Defined in: [src/globals/SteamClient.ts:271](https://github.com/shdwmtr/plugutil
 rtLastTimePlayed: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:272](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L272)
+Defined in: [src/globals/SteamClient.ts:272](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L272)
 
 ***
 
@@ -432,7 +432,7 @@ Defined in: [src/globals/SteamClient.ts:272](https://github.com/shdwmtr/plugutil
 rtLastUpdated: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:273](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L273)
+Defined in: [src/globals/SteamClient.ts:273](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L273)
 
 ***
 
@@ -442,7 +442,7 @@ Defined in: [src/globals/SteamClient.ts:273](https://github.com/shdwmtr/plugutil
 rtPurchased: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:274](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L274)
+Defined in: [src/globals/SteamClient.ts:274](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L274)
 
 ***
 
@@ -455,7 +455,7 @@ selectedLanguage: {
 };
 ```
 
-Defined in: [src/globals/SteamClient.ts:275](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L275)
+Defined in: [src/globals/SteamClient.ts:275](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L275)
 
 #### strDisplayName
 
@@ -477,7 +477,7 @@ strShortName: string;
 strCloudBytesAvailable: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:279](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L279)
+Defined in: [src/globals/SteamClient.ts:279](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L279)
 
 ***
 
@@ -487,7 +487,7 @@ Defined in: [src/globals/SteamClient.ts:279](https://github.com/shdwmtr/plugutil
 strCloudBytesUsed: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:280](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L280)
+Defined in: [src/globals/SteamClient.ts:280](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L280)
 
 ***
 
@@ -497,7 +497,7 @@ Defined in: [src/globals/SteamClient.ts:280](https://github.com/shdwmtr/plugutil
 strCompatToolDisplayName: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:281](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L281)
+Defined in: [src/globals/SteamClient.ts:281](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L281)
 
 ***
 
@@ -507,7 +507,7 @@ Defined in: [src/globals/SteamClient.ts:281](https://github.com/shdwmtr/plugutil
 strCompatToolName: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:282](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L282)
+Defined in: [src/globals/SteamClient.ts:282](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L282)
 
 ***
 
@@ -517,7 +517,7 @@ Defined in: [src/globals/SteamClient.ts:282](https://github.com/shdwmtr/plugutil
 strDeveloperName: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:283](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L283)
+Defined in: [src/globals/SteamClient.ts:283](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L283)
 
 ***
 
@@ -527,7 +527,7 @@ Defined in: [src/globals/SteamClient.ts:283](https://github.com/shdwmtr/plugutil
 strDeveloperURL: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:284](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L284)
+Defined in: [src/globals/SteamClient.ts:284](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L284)
 
 ***
 
@@ -537,7 +537,7 @@ Defined in: [src/globals/SteamClient.ts:284](https://github.com/shdwmtr/plugutil
 strDisplayName: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:285](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L285)
+Defined in: [src/globals/SteamClient.ts:285](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L285)
 
 ***
 
@@ -547,7 +547,7 @@ Defined in: [src/globals/SteamClient.ts:285](https://github.com/shdwmtr/plugutil
 strExternalSubscriptionURL: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:286](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L286)
+Defined in: [src/globals/SteamClient.ts:286](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L286)
 
 ***
 
@@ -557,7 +557,7 @@ Defined in: [src/globals/SteamClient.ts:286](https://github.com/shdwmtr/plugutil
 strFlatpakAppID: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:287](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L287)
+Defined in: [src/globals/SteamClient.ts:287](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L287)
 
 ***
 
@@ -567,7 +567,7 @@ Defined in: [src/globals/SteamClient.ts:287](https://github.com/shdwmtr/plugutil
 strHomepageURL: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:288](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L288)
+Defined in: [src/globals/SteamClient.ts:288](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L288)
 
 ***
 
@@ -577,7 +577,7 @@ Defined in: [src/globals/SteamClient.ts:288](https://github.com/shdwmtr/plugutil
 strLaunchOptions: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:289](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L289)
+Defined in: [src/globals/SteamClient.ts:289](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L289)
 
 ***
 
@@ -587,7 +587,7 @@ Defined in: [src/globals/SteamClient.ts:289](https://github.com/shdwmtr/plugutil
 strManualURL: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:290](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L290)
+Defined in: [src/globals/SteamClient.ts:290](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L290)
 
 ***
 
@@ -597,7 +597,7 @@ Defined in: [src/globals/SteamClient.ts:290](https://github.com/shdwmtr/plugutil
 strOwnerSteamID: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:291](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L291)
+Defined in: [src/globals/SteamClient.ts:291](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L291)
 
 ***
 
@@ -607,7 +607,7 @@ Defined in: [src/globals/SteamClient.ts:291](https://github.com/shdwmtr/plugutil
 strResolutionOverride: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:292](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L292)
+Defined in: [src/globals/SteamClient.ts:292](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L292)
 
 ***
 
@@ -617,7 +617,7 @@ Defined in: [src/globals/SteamClient.ts:292](https://github.com/shdwmtr/plugutil
 strSelectedBeta: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:293](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L293)
+Defined in: [src/globals/SteamClient.ts:293](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L293)
 
 ***
 
@@ -627,7 +627,7 @@ Defined in: [src/globals/SteamClient.ts:293](https://github.com/shdwmtr/plugutil
 strShortcutExe: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:294](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L294)
+Defined in: [src/globals/SteamClient.ts:294](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L294)
 
 ***
 
@@ -637,7 +637,7 @@ Defined in: [src/globals/SteamClient.ts:294](https://github.com/shdwmtr/plugutil
 strShortcutLaunchOptions: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:295](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L295)
+Defined in: [src/globals/SteamClient.ts:295](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L295)
 
 ***
 
@@ -647,7 +647,7 @@ Defined in: [src/globals/SteamClient.ts:295](https://github.com/shdwmtr/plugutil
 strShortcutStartDir: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:296](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L296)
+Defined in: [src/globals/SteamClient.ts:296](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L296)
 
 ***
 
@@ -657,7 +657,7 @@ Defined in: [src/globals/SteamClient.ts:296](https://github.com/shdwmtr/plugutil
 strSteamDeckBlogURL: string;
 ```
 
-Defined in: [src/globals/SteamClient.ts:297](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L297)
+Defined in: [src/globals/SteamClient.ts:297](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L297)
 
 ***
 
@@ -667,7 +667,7 @@ Defined in: [src/globals/SteamClient.ts:297](https://github.com/shdwmtr/plugutil
 unAppID: number;
 ```
 
-Defined in: [src/globals/SteamClient.ts:298](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L298)
+Defined in: [src/globals/SteamClient.ts:298](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L298)
 
 ***
 
@@ -677,7 +677,7 @@ Defined in: [src/globals/SteamClient.ts:298](https://github.com/shdwmtr/plugutil
 vecBetas: any[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:299](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L299)
+Defined in: [src/globals/SteamClient.ts:299](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L299)
 
 ***
 
@@ -687,7 +687,7 @@ Defined in: [src/globals/SteamClient.ts:299](https://github.com/shdwmtr/plugutil
 vecDeckCompatTestResults: any[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:301](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L301)
+Defined in: [src/globals/SteamClient.ts:301](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L301)
 
 ***
 
@@ -697,7 +697,7 @@ Defined in: [src/globals/SteamClient.ts:301](https://github.com/shdwmtr/plugutil
 vecDLC: any[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:300](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L300)
+Defined in: [src/globals/SteamClient.ts:300](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L300)
 
 ***
 
@@ -707,7 +707,7 @@ Defined in: [src/globals/SteamClient.ts:300](https://github.com/shdwmtr/plugutil
 vecLanguages: AppLanguages[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:302](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L302)
+Defined in: [src/globals/SteamClient.ts:302](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L302)
 
 ***
 
@@ -717,7 +717,7 @@ Defined in: [src/globals/SteamClient.ts:302](https://github.com/shdwmtr/plugutil
 vecLegacyCDKeys: any[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:303](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L303)
+Defined in: [src/globals/SteamClient.ts:303](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L303)
 
 ***
 
@@ -727,7 +727,7 @@ Defined in: [src/globals/SteamClient.ts:303](https://github.com/shdwmtr/plugutil
 vecMusicAlbums: any[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:304](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L304)
+Defined in: [src/globals/SteamClient.ts:304](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L304)
 
 ***
 
@@ -737,7 +737,7 @@ Defined in: [src/globals/SteamClient.ts:304](https://github.com/shdwmtr/plugutil
 vecPlatforms: string[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:305](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L305)
+Defined in: [src/globals/SteamClient.ts:305](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L305)
 
 ***
 
@@ -747,4 +747,4 @@ Defined in: [src/globals/SteamClient.ts:305](https://github.com/shdwmtr/plugutil
 vecScreenShots: any[];
 ```
 
-Defined in: [src/globals/SteamClient.ts:306](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L306)
+Defined in: [src/globals/SteamClient.ts:306](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L306)

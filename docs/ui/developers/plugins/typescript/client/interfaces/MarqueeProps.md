@@ -4,7 +4,7 @@
 
 # Interface: MarqueeProps
 
-Defined in: [src/components/Marquee.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L5)
+Defined in: [src/components/Marquee.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L5)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/Marquee.ts:5](https://github.com/shdwmtr/plugutil/bl
 optional center: boolean;
 ```
 
-Defined in: [src/components/Marquee.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L11)
+Defined in: [src/components/Marquee.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L11)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/Marquee.ts:11](https://github.com/shdwmtr/plugutil/b
 children: ReactNode;
 ```
 
-Defined in: [src/components/Marquee.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L15)
+Defined in: [src/components/Marquee.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L15)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/components/Marquee.ts:15](https://github.com/shdwmtr/plugutil/b
 optional className: string;
 ```
 
-Defined in: [src/components/Marquee.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L14)
+Defined in: [src/components/Marquee.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L14)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/components/Marquee.ts:14](https://github.com/shdwmtr/plugutil/b
 optional delay: number;
 ```
 
-Defined in: [src/components/Marquee.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L9)
+Defined in: [src/components/Marquee.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L9)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/components/Marquee.ts:9](https://github.com/shdwmtr/plugutil/bl
 optional direction: "left" | "right";
 ```
 
-Defined in: [src/components/Marquee.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L7)
+Defined in: [src/components/Marquee.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L7)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/components/Marquee.ts:7](https://github.com/shdwmtr/plugutil/bl
 optional fadeLength: number;
 ```
 
-Defined in: [src/components/Marquee.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L10)
+Defined in: [src/components/Marquee.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L10)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [src/components/Marquee.ts:10](https://github.com/shdwmtr/plugutil/b
 optional play: boolean;
 ```
 
-Defined in: [src/components/Marquee.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L6)
+Defined in: [src/components/Marquee.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L6)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [src/components/Marquee.ts:6](https://github.com/shdwmtr/plugutil/bl
 optional resetOnPause: boolean;
 ```
 
-Defined in: [src/components/Marquee.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L12)
+Defined in: [src/components/Marquee.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L12)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [src/components/Marquee.ts:12](https://github.com/shdwmtr/plugutil/b
 optional speed: number;
 ```
 
-Defined in: [src/components/Marquee.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L8)
+Defined in: [src/components/Marquee.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L8)
 
 ***
 
@@ -104,4 +104,4 @@ Defined in: [src/components/Marquee.ts:8](https://github.com/shdwmtr/plugutil/bl
 optional style: CSSProperties;
 ```
 
-Defined in: [src/components/Marquee.ts:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Marquee.ts#L13)
+Defined in: [src/components/Marquee.ts:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Marquee.ts#L13)

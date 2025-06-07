@@ -4,7 +4,7 @@
 
 # Interface: Navigation
 
-Defined in: [src/modules/Router.ts:106](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L106)
+Defined in: [src/modules/Router.ts:106](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L106)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [src/modules/Router.ts:106](https://github.com/shdwmtr/plugutil/blob
 CloseSideMenus(): void
 ```
 
-Defined in: [src/modules/Router.ts:120](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L120)
+Defined in: [src/modules/Router.ts:120](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L120)
 
 #### Returns
 
@@ -28,7 +28,7 @@ Defined in: [src/modules/Router.ts:120](https://github.com/shdwmtr/plugutil/blob
 Navigate(path: string): void
 ```
 
-Defined in: [src/modules/Router.ts:107](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L107)
+Defined in: [src/modules/Router.ts:107](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L107)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [src/modules/Router.ts:107](https://github.com/shdwmtr/plugutil/blob
 NavigateBack(): void
 ```
 
-Defined in: [src/modules/Router.ts:108](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L108)
+Defined in: [src/modules/Router.ts:108](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L108)
 
 #### Returns
 
@@ -62,7 +62,7 @@ Defined in: [src/modules/Router.ts:108](https://github.com/shdwmtr/plugutil/blob
 NavigateToAppProperties(): void
 ```
 
-Defined in: [src/modules/Router.ts:109](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L109)
+Defined in: [src/modules/Router.ts:109](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L109)
 
 #### Returns
 
@@ -76,7 +76,7 @@ Defined in: [src/modules/Router.ts:109](https://github.com/shdwmtr/plugutil/blob
 NavigateToChat(): void
 ```
 
-Defined in: [src/modules/Router.ts:112](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L112)
+Defined in: [src/modules/Router.ts:112](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L112)
 
 #### Returns
 
@@ -90,7 +90,7 @@ Defined in: [src/modules/Router.ts:112](https://github.com/shdwmtr/plugutil/blob
 NavigateToExternalWeb(url: string): void
 ```
 
-Defined in: [src/modules/Router.ts:110](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L110)
+Defined in: [src/modules/Router.ts:110](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L110)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [src/modules/Router.ts:110](https://github.com/shdwmtr/plugutil/blob
 NavigateToInvites(): void
 ```
 
-Defined in: [src/modules/Router.ts:111](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L111)
+Defined in: [src/modules/Router.ts:111](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L111)
 
 #### Returns
 
@@ -124,7 +124,7 @@ Defined in: [src/modules/Router.ts:111](https://github.com/shdwmtr/plugutil/blob
 NavigateToLayoutPreview(e: unknown): void
 ```
 
-Defined in: [src/modules/Router.ts:114](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L114)
+Defined in: [src/modules/Router.ts:114](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L114)
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: [src/modules/Router.ts:114](https://github.com/shdwmtr/plugutil/blob
 NavigateToLibraryTab(): void
 ```
 
-Defined in: [src/modules/Router.ts:113](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L113)
+Defined in: [src/modules/Router.ts:113](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L113)
 
 #### Returns
 
@@ -158,7 +158,7 @@ Defined in: [src/modules/Router.ts:113](https://github.com/shdwmtr/plugutil/blob
 NavigateToSteamWeb(url: string): void
 ```
 
-Defined in: [src/modules/Router.ts:115](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L115)
+Defined in: [src/modules/Router.ts:115](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L115)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: [src/modules/Router.ts:115](https://github.com/shdwmtr/plugutil/blob
 OpenMainMenu(): void
 ```
 
-Defined in: [src/modules/Router.ts:118](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L118)
+Defined in: [src/modules/Router.ts:118](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L118)
 
 #### Returns
 
@@ -192,7 +192,7 @@ Defined in: [src/modules/Router.ts:118](https://github.com/shdwmtr/plugutil/blob
 OpenPowerMenu(unknown?: any): void
 ```
 
-Defined in: [src/modules/Router.ts:119](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L119)
+Defined in: [src/modules/Router.ts:119](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L119)
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: [src/modules/Router.ts:119](https://github.com/shdwmtr/plugutil/blob
 OpenQuickAccessMenu(quickAccessTab?: QuickAccessTab): void
 ```
 
-Defined in: [src/modules/Router.ts:117](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L117)
+Defined in: [src/modules/Router.ts:117](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L117)
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: [src/modules/Router.ts:117](https://github.com/shdwmtr/plugutil/blob
 OpenSideMenu(sideMenu: SideMenu): void
 ```
 
-Defined in: [src/modules/Router.ts:116](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L116)
+Defined in: [src/modules/Router.ts:116](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L116)
 
 #### Parameters
 

@@ -4,7 +4,7 @@
 
 # Interface: TabsProps
 
-Defined in: [src/components/Tabs.tsx:61](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L61)
+Defined in: [src/components/Tabs.tsx:61](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L61)
 
 Props for the [Tabs](../functions/Tabs.md)
 
@@ -52,7 +52,7 @@ return (
 activeTab: string;
 ```
 
-Defined in: [src/components/Tabs.tsx:63](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L63)
+Defined in: [src/components/Tabs.tsx:63](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L63)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/components/Tabs.tsx:63](https://github.com/shdwmtr/plugutil/blo
 optional autoFocusContents: boolean;
 ```
 
-Defined in: [src/components/Tabs.tsx:65](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L65)
+Defined in: [src/components/Tabs.tsx:65](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L65)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [src/components/Tabs.tsx:65](https://github.com/shdwmtr/plugutil/blo
 onShowTab: (tab: string) => void;
 ```
 
-Defined in: [src/components/Tabs.tsx:64](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L64)
+Defined in: [src/components/Tabs.tsx:64](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L64)
 
 #### Parameters
 
@@ -92,4 +92,4 @@ Defined in: [src/components/Tabs.tsx:64](https://github.com/shdwmtr/plugutil/blo
 tabs: Tab[];
 ```
 
-Defined in: [src/components/Tabs.tsx:62](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L62)
+Defined in: [src/components/Tabs.tsx:62](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L62)

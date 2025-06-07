@@ -12,7 +12,7 @@ component: UI Components
 function ToggleField(props: PropsWithChildren<ToggleFieldProps>, context?: any): null | ReactElement
 ```
 
-Defined in: [src/components/ToggleField.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ToggleField.ts#L14)
+Defined in: [src/components/ToggleField.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ToggleField.ts#L14)
 
 ## Parameters
 

@@ -4,7 +4,7 @@
 
 # Interface: SingleDropdownOption
 
-Defined in: [src/components/Dropdown.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L7)
+Defined in: [src/components/Dropdown.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L7)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/Dropdown.ts:7](https://github.com/shdwmtr/plugutil/b
 data: any;
 ```
 
-Defined in: [src/components/Dropdown.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L8)
+Defined in: [src/components/Dropdown.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L8)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/Dropdown.ts:8](https://github.com/shdwmtr/plugutil/b
 label: ReactNode;
 ```
 
-Defined in: [src/components/Dropdown.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L9)
+Defined in: [src/components/Dropdown.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L9)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/components/Dropdown.ts:9](https://github.com/shdwmtr/plugutil/b
 optional options: undefined;
 ```
 
-Defined in: [src/components/Dropdown.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L11)
+Defined in: [src/components/Dropdown.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L11)

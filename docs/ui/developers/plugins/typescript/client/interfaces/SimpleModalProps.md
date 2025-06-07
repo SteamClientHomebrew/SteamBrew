@@ -4,7 +4,7 @@
 
 # Interface: SimpleModalProps
 
-Defined in: [src/components/Modal.tsx:107](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L107)
+Defined in: [src/components/Modal.tsx:107](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L107)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/Modal.tsx:107](https://github.com/shdwmtr/plugutil/b
 optional active: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:108](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L108)
+Defined in: [src/components/Modal.tsx:108](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L108)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [src/components/Modal.tsx:108](https://github.com/shdwmtr/plugutil/b
 children: ReactNode;
 ```
 
-Defined in: [src/components/Modal.tsx:109](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L109)
+Defined in: [src/components/Modal.tsx:109](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L109)

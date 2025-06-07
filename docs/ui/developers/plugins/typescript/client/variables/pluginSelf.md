@@ -12,7 +12,7 @@ component: Core
 const pluginSelf: any = m_private_context;
 ```
 
-Defined in: [src/api/index.ts:108](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/api/index.ts#L108)
+Defined in: [src/api/index.ts:108](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/api/index.ts#L108)
 
 `pluginSelf` is a sandbox for data specific to your plugin. 
 You can't access other plugins sandboxes and they can't access yours.

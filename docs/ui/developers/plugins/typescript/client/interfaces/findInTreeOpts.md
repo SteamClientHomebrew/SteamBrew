@@ -4,7 +4,7 @@
 
 # Interface: findInTreeOpts
 
-Defined in: [src/utils/react.ts:109](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/utils/react.ts#L109)
+Defined in: [src/utils/react.ts:109](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/utils/react.ts#L109)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/utils/react.ts:109](https://github.com/shdwmtr/plugutil/blob/b5
 optional ignore: string[];
 ```
 
-Defined in: [src/utils/react.ts:111](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/utils/react.ts#L111)
+Defined in: [src/utils/react.ts:111](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/utils/react.ts#L111)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [src/utils/react.ts:111](https://github.com/shdwmtr/plugutil/blob/b5
 optional walkable: string[];
 ```
 
-Defined in: [src/utils/react.ts:110](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/utils/react.ts#L110)
+Defined in: [src/utils/react.ts:110](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/utils/react.ts#L110)

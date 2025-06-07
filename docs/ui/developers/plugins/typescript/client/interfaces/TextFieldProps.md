@@ -4,7 +4,7 @@
 
 # Interface: TextFieldProps
 
-Defined in: [src/components/TextField.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L5)
+Defined in: [src/components/TextField.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L5)
 
 ## Extends
 
@@ -1097,7 +1097,7 @@ HTMLAttributes.autoSave
 optional bAlwaysShowClearAction: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L12)
+Defined in: [src/components/TextField.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L12)
 
 ***
 
@@ -1107,7 +1107,7 @@ Defined in: [src/components/TextField.ts:12](https://github.com/shdwmtr/plugutil
 optional bIsPassword: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L13)
+Defined in: [src/components/TextField.ts:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L13)
 
 ***
 
@@ -1117,7 +1117,7 @@ Defined in: [src/components/TextField.ts:13](https://github.com/shdwmtr/plugutil
 optional bShowClearAction: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L11)
+Defined in: [src/components/TextField.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L11)
 
 ***
 
@@ -1127,7 +1127,7 @@ Defined in: [src/components/TextField.ts:11](https://github.com/shdwmtr/plugutil
 optional bShowCopyAction: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L10)
+Defined in: [src/components/TextField.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L10)
 
 ***
 
@@ -1289,7 +1289,7 @@ HTMLAttributes.defaultValue
 optional description: ReactNode;
 ```
 
-Defined in: [src/components/TextField.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L8)
+Defined in: [src/components/TextField.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L8)
 
 ***
 
@@ -1315,7 +1315,7 @@ HTMLAttributes.dir
 optional disabled: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L9)
+Defined in: [src/components/TextField.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L9)
 
 ***
 
@@ -1341,7 +1341,7 @@ HTMLAttributes.draggable
 optional focusOnMount: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:19](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L19)
+Defined in: [src/components/TextField.ts:19](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L19)
 
 ***
 
@@ -1383,7 +1383,7 @@ HTMLAttributes.id
 optional inlineControls: ReactNode;
 ```
 
-Defined in: [src/components/TextField.ts:21](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L21)
+Defined in: [src/components/TextField.ts:21](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L21)
 
 ***
 
@@ -1541,7 +1541,7 @@ HTMLAttributes.itemType
 optional label: ReactNode;
 ```
 
-Defined in: [src/components/TextField.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L6)
+Defined in: [src/components/TextField.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L6)
 
 ***
 
@@ -1567,7 +1567,7 @@ HTMLAttributes.lang
 optional mustBeEmail: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:18](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L18)
+Defined in: [src/components/TextField.ts:18](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L18)
 
 ***
 
@@ -1577,7 +1577,7 @@ Defined in: [src/components/TextField.ts:18](https://github.com/shdwmtr/plugutil
 optional mustBeNumeric: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:16](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L16)
+Defined in: [src/components/TextField.ts:16](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L16)
 
 ***
 
@@ -1587,7 +1587,7 @@ Defined in: [src/components/TextField.ts:16](https://github.com/shdwmtr/plugutil
 optional mustBeURL: boolean;
 ```
 
-Defined in: [src/components/TextField.ts:17](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L17)
+Defined in: [src/components/TextField.ts:17](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L17)
 
 ***
 
@@ -1885,7 +1885,7 @@ HTMLAttributes.onCanPlayThroughCapture
 optional onChange: ChangeEventHandler<HTMLInputElement>;
 ```
 
-Defined in: [src/components/TextField.ts:22](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L22)
+Defined in: [src/components/TextField.ts:22](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L22)
 
 #### Overrides
 
@@ -4221,7 +4221,7 @@ HTMLAttributes.radioGroup
 optional rangeMax: number;
 ```
 
-Defined in: [src/components/TextField.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L15)
+Defined in: [src/components/TextField.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L15)
 
 ***
 
@@ -4231,7 +4231,7 @@ Defined in: [src/components/TextField.ts:15](https://github.com/shdwmtr/plugutil
 optional rangeMin: number;
 ```
 
-Defined in: [src/components/TextField.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L14)
+Defined in: [src/components/TextField.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L14)
 
 ***
 
@@ -4241,7 +4241,7 @@ Defined in: [src/components/TextField.ts:14](https://github.com/shdwmtr/plugutil
 optional requiredLabel: ReactNode;
 ```
 
-Defined in: [src/components/TextField.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L7)
+Defined in: [src/components/TextField.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L7)
 
 ***
 
@@ -4427,7 +4427,7 @@ HTMLAttributes.title
 optional tooltip: string;
 ```
 
-Defined in: [src/components/TextField.ts:20](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L20)
+Defined in: [src/components/TextField.ts:20](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L20)
 
 ***
 
@@ -4485,7 +4485,7 @@ HTMLAttributes.unselectable
 optional value: string;
 ```
 
-Defined in: [src/components/TextField.ts:23](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/TextField.ts#L23)
+Defined in: [src/components/TextField.ts:23](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/TextField.ts#L23)
 
 ***
 

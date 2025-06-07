@@ -12,7 +12,7 @@ function replacePatch(
    options: PatchOptions): Patch
 ```
 
-Defined in: [src/utils/patcher.ts:62](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/utils/patcher.ts#L62)
+Defined in: [src/utils/patcher.ts:62](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/utils/patcher.ts#L62)
 
 ## Parameters
 

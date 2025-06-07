@@ -4,7 +4,7 @@
 
 # Interface: ProgressBarProps
 
-Defined in: [src/components/ProgressBar.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L14)
+Defined in: [src/components/ProgressBar.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L14)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/ProgressBar.ts:14](https://github.com/shdwmtr/plugut
 optional focusable: boolean;
 ```
 
-Defined in: [src/components/ProgressBar.ts:18](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L18)
+Defined in: [src/components/ProgressBar.ts:18](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L18)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/ProgressBar.ts:18](https://github.com/shdwmtr/plugut
 optional indeterminate: boolean;
 ```
 
-Defined in: [src/components/ProgressBar.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L15)
+Defined in: [src/components/ProgressBar.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L15)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/components/ProgressBar.ts:15](https://github.com/shdwmtr/plugut
 optional nProgress: number;
 ```
 
-Defined in: [src/components/ProgressBar.ts:17](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L17)
+Defined in: [src/components/ProgressBar.ts:17](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L17)
 
 ***
 
@@ -44,4 +44,4 @@ Defined in: [src/components/ProgressBar.ts:17](https://github.com/shdwmtr/plugut
 optional nTransitionSec: number;
 ```
 
-Defined in: [src/components/ProgressBar.ts:16](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L16)
+Defined in: [src/components/ProgressBar.ts:16](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L16)

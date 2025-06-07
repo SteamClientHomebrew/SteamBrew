@@ -8,7 +8,7 @@
 function createPropListRegex(propList: string[], fromStart: boolean): RegExp
 ```
 
-Defined in: [src/utils/react.ts:18](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/utils/react.ts#L18)
+Defined in: [src/utils/react.ts:18](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/utils/react.ts#L18)
 
 Create a Regular Expression to search for a React component that uses certain props in order.
 

@@ -4,7 +4,7 @@
 
 # Interface: GamepadEventDetail
 
-Defined in: [src/components/FooterLegend.ts:41](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L41)
+Defined in: [src/components/FooterLegend.ts:41](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L41)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/FooterLegend.ts:41](https://github.com/shdwmtr/plugu
 button: number;
 ```
 
-Defined in: [src/components/FooterLegend.ts:42](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L42)
+Defined in: [src/components/FooterLegend.ts:42](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L42)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/FooterLegend.ts:42](https://github.com/shdwmtr/plugu
 optional is_repeat: boolean;
 ```
 
-Defined in: [src/components/FooterLegend.ts:43](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L43)
+Defined in: [src/components/FooterLegend.ts:43](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L43)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/components/FooterLegend.ts:43](https://github.com/shdwmtr/plugu
 source: number;
 ```
 
-Defined in: [src/components/FooterLegend.ts:44](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L44)
+Defined in: [src/components/FooterLegend.ts:44](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L44)

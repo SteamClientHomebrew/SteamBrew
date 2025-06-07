@@ -4,7 +4,7 @@
 
 # Interface: SuspensefulImageProps
 
-Defined in: [src/custom-components/SuspensefulImage.tsx:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/SuspensefulImage.tsx#L6)
+Defined in: [src/custom-components/SuspensefulImage.tsx:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/SuspensefulImage.tsx#L6)
 
 ## Extends
 
@@ -4389,7 +4389,7 @@ ImgHTMLAttributes.suppressHydrationWarning
 optional suspenseHeight: string | number;
 ```
 
-Defined in: [src/custom-components/SuspensefulImage.tsx:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/SuspensefulImage.tsx#L8)
+Defined in: [src/custom-components/SuspensefulImage.tsx:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/SuspensefulImage.tsx#L8)
 
 ***
 
@@ -4399,7 +4399,7 @@ Defined in: [src/custom-components/SuspensefulImage.tsx:8](https://github.com/sh
 optional suspenseWidth: string | number;
 ```
 
-Defined in: [src/custom-components/SuspensefulImage.tsx:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/SuspensefulImage.tsx#L7)
+Defined in: [src/custom-components/SuspensefulImage.tsx:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/SuspensefulImage.tsx#L7)
 
 ***
 

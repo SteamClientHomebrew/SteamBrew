@@ -4,7 +4,7 @@
 
 # Interface: SteamSpinnerProps
 
-Defined in: [src/components/SteamSpinner.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SteamSpinner.ts#L5)
+Defined in: [src/components/SteamSpinner.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SteamSpinner.ts#L5)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/SteamSpinner.ts:5](https://github.com/shdwmtr/plugut
 optional background: "transparent";
 ```
 
-Defined in: [src/components/SteamSpinner.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SteamSpinner.ts#L7)
+Defined in: [src/components/SteamSpinner.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SteamSpinner.ts#L7)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [src/components/SteamSpinner.ts:7](https://github.com/shdwmtr/plugut
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/SteamSpinner.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SteamSpinner.ts#L6)
+Defined in: [src/components/SteamSpinner.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SteamSpinner.ts#L6)

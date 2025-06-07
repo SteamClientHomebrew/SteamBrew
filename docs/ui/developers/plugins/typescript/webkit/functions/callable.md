@@ -12,7 +12,7 @@ component: Core
 function callable<Args, T>(route: string): (...args: Args) => Promise<T>
 ```
 
-Defined in: [index.ts:56](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/webkit/src/index.ts#L56)
+Defined in: [index.ts:56](https://github.com/SteamClientHomebrew/SDK/blob/main/webkit/src/index.ts#L56)
 
 Make reusable IPC call declarations
 

@@ -4,7 +4,7 @@
 
 # Interface: MenuProps
 
-Defined in: [src/components/Menu.ts:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Menu.ts#L13)
+Defined in: [src/components/Menu.ts:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Menu.ts#L13)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/components/Menu.ts:13](https://github.com/shdwmtr/plugutil/blob
 optional actionDescriptionMap: ActionDescriptionMap;
 ```
 
-Defined in: [src/components/FooterLegend.ts:53](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L53)
+Defined in: [src/components/FooterLegend.ts:53](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L53)
 
 #### Inherited from
 
@@ -32,7 +32,7 @@ Defined in: [src/components/FooterLegend.ts:53](https://github.com/shdwmtr/plugu
 optional cancelText: string;
 ```
 
-Defined in: [src/components/Menu.ts:16](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Menu.ts#L16)
+Defined in: [src/components/Menu.ts:16](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Menu.ts#L16)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/components/Menu.ts:16](https://github.com/shdwmtr/plugutil/blob
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/Menu.ts:17](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Menu.ts#L17)
+Defined in: [src/components/Menu.ts:17](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Menu.ts#L17)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [src/components/Menu.ts:17](https://github.com/shdwmtr/plugutil/blob
 label: string;
 ```
 
-Defined in: [src/components/Menu.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Menu.ts#L14)
+Defined in: [src/components/Menu.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Menu.ts#L14)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/components/Menu.ts:14](https://github.com/shdwmtr/plugutil/blob
 optional onButtonDown: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:59](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L59)
+Defined in: [src/components/FooterLegend.ts:59](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L59)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [src/components/FooterLegend.ts:59](https://github.com/shdwmtr/plugu
 optional onButtonUp: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:60](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L60)
+Defined in: [src/components/FooterLegend.ts:60](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L60)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [src/components/FooterLegend.ts:60](https://github.com/shdwmtr/plugu
 optional onCancelActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:55](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L55)
+Defined in: [src/components/FooterLegend.ts:55](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L55)
 
 #### Inherited from
 
@@ -124,7 +124,7 @@ Defined in: [src/components/FooterLegend.ts:55](https://github.com/shdwmtr/plugu
 optional onCancelButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:62](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L62)
+Defined in: [src/components/FooterLegend.ts:62](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L62)
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: [src/components/FooterLegend.ts:62](https://github.com/shdwmtr/plugu
 optional onGamepadBlur: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:67](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L67)
+Defined in: [src/components/FooterLegend.ts:67](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L67)
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: [src/components/FooterLegend.ts:67](https://github.com/shdwmtr/plugu
 optional onGamepadDirection: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:65](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L65)
+Defined in: [src/components/FooterLegend.ts:65](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L65)
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: [src/components/FooterLegend.ts:65](https://github.com/shdwmtr/plugu
 optional onGamepadFocus: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:66](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L66)
+Defined in: [src/components/FooterLegend.ts:66](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L66)
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: [src/components/FooterLegend.ts:66](https://github.com/shdwmtr/plugu
 optional onMenuActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:58](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L58)
+Defined in: [src/components/FooterLegend.ts:58](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L58)
 
 #### Inherited from
 
@@ -234,7 +234,7 @@ Defined in: [src/components/FooterLegend.ts:58](https://github.com/shdwmtr/plugu
 optional onMenuButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:68](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L68)
+Defined in: [src/components/FooterLegend.ts:68](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L68)
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: [src/components/FooterLegend.ts:68](https://github.com/shdwmtr/plugu
 optional onOKActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:54](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L54)
+Defined in: [src/components/FooterLegend.ts:54](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L54)
 
 #### Inherited from
 
@@ -272,7 +272,7 @@ Defined in: [src/components/FooterLegend.ts:54](https://github.com/shdwmtr/plugu
 optional onOKButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:61](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L61)
+Defined in: [src/components/FooterLegend.ts:61](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L61)
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Defined in: [src/components/FooterLegend.ts:61](https://github.com/shdwmtr/plugu
 optional onOptionsActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:57](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L57)
+Defined in: [src/components/FooterLegend.ts:57](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L57)
 
 #### Inherited from
 
@@ -310,7 +310,7 @@ Defined in: [src/components/FooterLegend.ts:57](https://github.com/shdwmtr/plugu
 optional onOptionsButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:64](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L64)
+Defined in: [src/components/FooterLegend.ts:64](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L64)
 
 #### Parameters
 
@@ -334,7 +334,7 @@ Defined in: [src/components/FooterLegend.ts:64](https://github.com/shdwmtr/plugu
 optional onSecondaryActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:56](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L56)
+Defined in: [src/components/FooterLegend.ts:56](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L56)
 
 #### Inherited from
 
@@ -348,7 +348,7 @@ Defined in: [src/components/FooterLegend.ts:56](https://github.com/shdwmtr/plugu
 optional onSecondaryButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:63](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L63)
+Defined in: [src/components/FooterLegend.ts:63](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L63)
 
 #### Parameters
 
@@ -372,7 +372,7 @@ Defined in: [src/components/FooterLegend.ts:63](https://github.com/shdwmtr/plugu
 optional onCancel(): void
 ```
 
-Defined in: [src/components/Menu.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Menu.ts#L15)
+Defined in: [src/components/Menu.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Menu.ts#L15)
 
 #### Returns
 

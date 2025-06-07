@@ -4,7 +4,7 @@
 
 # Interface: WindowRouter
 
-Defined in: [src/modules/Router.ts:74](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L74)
+Defined in: [src/modules/Router.ts:74](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L74)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/modules/Router.ts:74](https://github.com/shdwmtr/plugutil/blob/
 BrowserWindow: Window;
 ```
 
-Defined in: [src/modules/Router.ts:75](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L75)
+Defined in: [src/modules/Router.ts:75](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L75)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/modules/Router.ts:75](https://github.com/shdwmtr/plugutil/blob/
 MenuStore: MenuStore;
 ```
 
-Defined in: [src/modules/Router.ts:76](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L76)
+Defined in: [src/modules/Router.ts:76](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L76)
 
 ## Methods
 
@@ -34,7 +34,7 @@ Defined in: [src/modules/Router.ts:76](https://github.com/shdwmtr/plugutil/blob/
 Navigate(path: string): void
 ```
 
-Defined in: [src/modules/Router.ts:77](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L77)
+Defined in: [src/modules/Router.ts:77](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L77)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/modules/Router.ts:77](https://github.com/shdwmtr/plugutil/blob/
 NavigateBack(): void
 ```
 
-Defined in: [src/modules/Router.ts:80](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L80)
+Defined in: [src/modules/Router.ts:80](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L80)
 
 #### Returns
 
@@ -68,7 +68,7 @@ Defined in: [src/modules/Router.ts:80](https://github.com/shdwmtr/plugutil/blob/
 NavigateToChat(): void
 ```
 
-Defined in: [src/modules/Router.ts:78](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L78)
+Defined in: [src/modules/Router.ts:78](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L78)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Defined in: [src/modules/Router.ts:78](https://github.com/shdwmtr/plugutil/blob/
 NavigateToSteamWeb(url: string): void
 ```
 
-Defined in: [src/modules/Router.ts:79](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L79)
+Defined in: [src/modules/Router.ts:79](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L79)
 
 #### Parameters
 

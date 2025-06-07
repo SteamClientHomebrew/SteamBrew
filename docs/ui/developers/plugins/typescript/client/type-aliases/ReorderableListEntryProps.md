@@ -16,7 +16,7 @@ type ReorderableListEntryProps<T> = {
 };
 ```
 
-Defined in: [src/custom-components/ReorderableList.tsx:105](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ReorderableList.tsx#L105)
+Defined in: [src/custom-components/ReorderableList.tsx:105](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ReorderableList.tsx#L105)
 
 Properties for a ReorderableItem component of type <T>
 

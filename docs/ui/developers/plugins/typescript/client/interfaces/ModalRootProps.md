@@ -4,7 +4,7 @@
 
 # Interface: ModalRootProps
 
-Defined in: [src/components/Modal.tsx:60](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L60)
+Defined in: [src/components/Modal.tsx:60](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L60)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [src/components/Modal.tsx:60](https://github.com/shdwmtr/plugutil/bl
 optional bAllowFullSize: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:68](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L68)
+Defined in: [src/components/Modal.tsx:68](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L68)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/components/Modal.tsx:68](https://github.com/shdwmtr/plugutil/bl
 optional bCancelDisabled: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:73](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L73)
+Defined in: [src/components/Modal.tsx:73](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L73)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/components/Modal.tsx:73](https://github.com/shdwmtr/plugutil/bl
 optional bDestructiveWarning: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:69](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L69)
+Defined in: [src/components/Modal.tsx:69](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L69)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/components/Modal.tsx:69](https://github.com/shdwmtr/plugutil/bl
 optional bDisableBackgroundDismiss: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:70](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L70)
+Defined in: [src/components/Modal.tsx:70](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L70)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/components/Modal.tsx:70](https://github.com/shdwmtr/plugutil/bl
 optional bHideCloseIcon: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:71](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L71)
+Defined in: [src/components/Modal.tsx:71](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L71)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [src/components/Modal.tsx:71](https://github.com/shdwmtr/plugutil/bl
 optional bOKDisabled: boolean;
 ```
 
-Defined in: [src/components/Modal.tsx:72](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L72)
+Defined in: [src/components/Modal.tsx:72](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L72)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [src/components/Modal.tsx:72](https://github.com/shdwmtr/plugutil/bl
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/Modal.tsx:61](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L61)
+Defined in: [src/components/Modal.tsx:61](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L61)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [src/components/Modal.tsx:61](https://github.com/shdwmtr/plugutil/bl
 optional className: string;
 ```
 
-Defined in: [src/components/Modal.tsx:66](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L66)
+Defined in: [src/components/Modal.tsx:66](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L66)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [src/components/Modal.tsx:66](https://github.com/shdwmtr/plugutil/bl
 optional modalClassName: string;
 ```
 
-Defined in: [src/components/Modal.tsx:67](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L67)
+Defined in: [src/components/Modal.tsx:67](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L67)
 
 ## Methods
 
@@ -108,7 +108,7 @@ Defined in: [src/components/Modal.tsx:67](https://github.com/shdwmtr/plugutil/bl
 optional closeModal(): void
 ```
 
-Defined in: [src/components/Modal.tsx:63](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L63)
+Defined in: [src/components/Modal.tsx:63](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L63)
 
 #### Returns
 
@@ -122,7 +122,7 @@ Defined in: [src/components/Modal.tsx:63](https://github.com/shdwmtr/plugutil/bl
 optional onCancel(): void
 ```
 
-Defined in: [src/components/Modal.tsx:62](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L62)
+Defined in: [src/components/Modal.tsx:62](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L62)
 
 #### Returns
 
@@ -136,7 +136,7 @@ Defined in: [src/components/Modal.tsx:62](https://github.com/shdwmtr/plugutil/bl
 optional onEscKeypress(): void
 ```
 
-Defined in: [src/components/Modal.tsx:65](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L65)
+Defined in: [src/components/Modal.tsx:65](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L65)
 
 #### Returns
 
@@ -150,7 +150,7 @@ Defined in: [src/components/Modal.tsx:65](https://github.com/shdwmtr/plugutil/bl
 optional onOK(): void
 ```
 
-Defined in: [src/components/Modal.tsx:64](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L64)
+Defined in: [src/components/Modal.tsx:64](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L64)
 
 #### Returns
 

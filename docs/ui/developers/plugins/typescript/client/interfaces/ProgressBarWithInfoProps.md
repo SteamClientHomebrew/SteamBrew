@@ -4,7 +4,7 @@
 
 # Interface: ProgressBarWithInfoProps
 
-Defined in: [src/components/ProgressBar.ts:21](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L21)
+Defined in: [src/components/ProgressBar.ts:21](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L21)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/components/ProgressBar.ts:21](https://github.com/shdwmtr/plugut
 optional bottomSeparator: "standard" | "thick" | "none";
 ```
 
-Defined in: [src/components/Item.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L9)
+Defined in: [src/components/Item.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L9)
 
 #### Inherited from
 
@@ -32,7 +32,7 @@ Defined in: [src/components/Item.ts:9](https://github.com/shdwmtr/plugutil/blob/
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L6)
+Defined in: [src/components/Item.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L6)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [src/components/Item.ts:6](https://github.com/shdwmtr/plugutil/blob/
 optional description: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L5)
+Defined in: [src/components/Item.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L5)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: [src/components/Item.ts:5](https://github.com/shdwmtr/plugutil/blob/
 optional focusable: boolean;
 ```
 
-Defined in: [src/components/ProgressBar.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L11)
+Defined in: [src/components/ProgressBar.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L11)
 
 #### Inherited from
 
@@ -74,7 +74,7 @@ Defined in: [src/components/ProgressBar.ts:11](https://github.com/shdwmtr/plugut
 optional highlightOnFocus: boolean;
 ```
 
-Defined in: [src/components/Item.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L12)
+Defined in: [src/components/Item.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L12)
 
 #### Inherited from
 
@@ -88,7 +88,7 @@ Defined in: [src/components/Item.ts:12](https://github.com/shdwmtr/plugutil/blob
 optional icon: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L8)
+Defined in: [src/components/Item.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L8)
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: [src/components/Item.ts:8](https://github.com/shdwmtr/plugutil/blob/
 optional indentLevel: number;
 ```
 
-Defined in: [src/components/Item.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L10)
+Defined in: [src/components/Item.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L10)
 
 #### Inherited from
 
@@ -116,7 +116,7 @@ Defined in: [src/components/Item.ts:10](https://github.com/shdwmtr/plugutil/blob
 optional indeterminate: boolean;
 ```
 
-Defined in: [src/components/ProgressBar.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L8)
+Defined in: [src/components/ProgressBar.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L8)
 
 #### Inherited from
 
@@ -130,7 +130,7 @@ Defined in: [src/components/ProgressBar.ts:8](https://github.com/shdwmtr/pluguti
 optional label: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:4](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L4)
+Defined in: [src/components/Item.ts:4](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L4)
 
 #### Inherited from
 
@@ -144,7 +144,7 @@ Defined in: [src/components/Item.ts:4](https://github.com/shdwmtr/plugutil/blob/
 optional layout: "below" | "inline";
 ```
 
-Defined in: [src/components/Item.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L7)
+Defined in: [src/components/Item.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L7)
 
 #### Inherited from
 
@@ -158,7 +158,7 @@ Defined in: [src/components/Item.ts:7](https://github.com/shdwmtr/plugutil/blob/
 optional nProgress: number;
 ```
 
-Defined in: [src/components/ProgressBar.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L10)
+Defined in: [src/components/ProgressBar.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L10)
 
 #### Inherited from
 
@@ -172,7 +172,7 @@ Defined in: [src/components/ProgressBar.ts:10](https://github.com/shdwmtr/plugut
 optional nTransitionSec: number;
 ```
 
-Defined in: [src/components/ProgressBar.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L9)
+Defined in: [src/components/ProgressBar.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L9)
 
 #### Inherited from
 
@@ -186,7 +186,7 @@ Defined in: [src/components/ProgressBar.ts:9](https://github.com/shdwmtr/pluguti
 optional sOperationText: ReactNode;
 ```
 
-Defined in: [src/components/ProgressBar.ts:23](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L23)
+Defined in: [src/components/ProgressBar.ts:23](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L23)
 
 ***
 
@@ -196,7 +196,7 @@ Defined in: [src/components/ProgressBar.ts:23](https://github.com/shdwmtr/plugut
 optional sTimeRemaining: ReactNode;
 ```
 
-Defined in: [src/components/ProgressBar.ts:22](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ProgressBar.ts#L22)
+Defined in: [src/components/ProgressBar.ts:22](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ProgressBar.ts#L22)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [src/components/ProgressBar.ts:22](https://github.com/shdwmtr/plugut
 optional tooltip: string;
 ```
 
-Defined in: [src/components/Item.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L11)
+Defined in: [src/components/Item.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L11)
 
 #### Inherited from
 

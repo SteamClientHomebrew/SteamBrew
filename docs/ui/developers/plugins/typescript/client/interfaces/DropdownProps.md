@@ -4,7 +4,7 @@
 
 # Interface: DropdownProps
 
-Defined in: [src/components/Dropdown.ts:28](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L28)
+Defined in: [src/components/Dropdown.ts:28](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L28)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [src/components/Dropdown.ts:28](https://github.com/shdwmtr/plugutil/
 optional contextMenuPositionOptions: DropdownMenuPositionOptions;
 ```
 
-Defined in: [src/components/Dropdown.ts:35](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L35)
+Defined in: [src/components/Dropdown.ts:35](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L35)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/components/Dropdown.ts:35](https://github.com/shdwmtr/plugutil/
 optional disabled: boolean;
 ```
 
-Defined in: [src/components/Dropdown.ts:31](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L31)
+Defined in: [src/components/Dropdown.ts:31](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L31)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/components/Dropdown.ts:31](https://github.com/shdwmtr/plugutil/
 optional focusable: boolean;
 ```
 
-Defined in: [src/components/Dropdown.ts:39](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L39)
+Defined in: [src/components/Dropdown.ts:39](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L39)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/components/Dropdown.ts:39](https://github.com/shdwmtr/plugutil/
 optional menuLabel: string;
 ```
 
-Defined in: [src/components/Dropdown.ts:36](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L36)
+Defined in: [src/components/Dropdown.ts:36](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L36)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/components/Dropdown.ts:36](https://github.com/shdwmtr/plugutil/
 rgOptions: DropdownOption[];
 ```
 
-Defined in: [src/components/Dropdown.ts:29](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L29)
+Defined in: [src/components/Dropdown.ts:29](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L29)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [src/components/Dropdown.ts:29](https://github.com/shdwmtr/plugutil/
 selectedOption: any;
 ```
 
-Defined in: [src/components/Dropdown.ts:30](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L30)
+Defined in: [src/components/Dropdown.ts:30](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L30)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [src/components/Dropdown.ts:30](https://github.com/shdwmtr/plugutil/
 optional strDefaultLabel: string;
 ```
 
-Defined in: [src/components/Dropdown.ts:37](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L37)
+Defined in: [src/components/Dropdown.ts:37](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L37)
 
 ## Methods
 
@@ -88,7 +88,7 @@ Defined in: [src/components/Dropdown.ts:37](https://github.com/shdwmtr/plugutil/
 optional onChange(data: SingleDropdownOption): void
 ```
 
-Defined in: [src/components/Dropdown.ts:34](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L34)
+Defined in: [src/components/Dropdown.ts:34](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L34)
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: [src/components/Dropdown.ts:34](https://github.com/shdwmtr/plugutil/
 optional onMenuOpened(): void
 ```
 
-Defined in: [src/components/Dropdown.ts:33](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L33)
+Defined in: [src/components/Dropdown.ts:33](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L33)
 
 #### Returns
 
@@ -122,7 +122,7 @@ Defined in: [src/components/Dropdown.ts:33](https://github.com/shdwmtr/plugutil/
 optional onMenuWillOpen(showMenu: () => void): void
 ```
 
-Defined in: [src/components/Dropdown.ts:32](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L32)
+Defined in: [src/components/Dropdown.ts:32](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L32)
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: [src/components/Dropdown.ts:32](https://github.com/shdwmtr/plugutil/
 optional renderButtonValue(element: ReactNode): ReactNode
 ```
 
-Defined in: [src/components/Dropdown.ts:38](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L38)
+Defined in: [src/components/Dropdown.ts:38](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L38)
 
 #### Parameters
 

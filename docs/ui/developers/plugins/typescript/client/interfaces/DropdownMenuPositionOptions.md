@@ -4,7 +4,7 @@
 
 # Interface: DropdownMenuPositionOptions
 
-Defined in: [src/components/Dropdown.ts:23](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L23)
+Defined in: [src/components/Dropdown.ts:23](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L23)
 
 ## Indexable
 
@@ -20,4 +20,4 @@ Defined in: [src/components/Dropdown.ts:23](https://github.com/shdwmtr/plugutil/
 optional bMatchWidth: boolean;
 ```
 
-Defined in: [src/components/Dropdown.ts:25](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dropdown.ts#L25)
+Defined in: [src/components/Dropdown.ts:25](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dropdown.ts#L25)

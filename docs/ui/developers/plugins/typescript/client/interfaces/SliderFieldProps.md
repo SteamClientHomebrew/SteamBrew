@@ -4,7 +4,7 @@
 
 # Interface: SliderFieldProps
 
-Defined in: [src/components/SliderField.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L12)
+Defined in: [src/components/SliderField.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L12)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/components/SliderField.ts:12](https://github.com/shdwmtr/plugut
 optional bottomSeparator: "standard" | "thick" | "none";
 ```
 
-Defined in: [src/components/Item.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L9)
+Defined in: [src/components/Item.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L9)
 
 #### Inherited from
 
@@ -34,7 +34,7 @@ ItemProps.bottomSeparator
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L6)
+Defined in: [src/components/Item.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L6)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ ItemProps.children
 optional className: string;
 ```
 
-Defined in: [src/components/SliderField.ts:28](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L28)
+Defined in: [src/components/SliderField.ts:28](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L28)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [src/components/SliderField.ts:28](https://github.com/shdwmtr/plugut
 optional description: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L5)
+Defined in: [src/components/Item.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L5)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ ItemProps.description
 optional disabled: boolean;
 ```
 
-Defined in: [src/components/SliderField.ts:22](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L22)
+Defined in: [src/components/SliderField.ts:22](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L22)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [src/components/SliderField.ts:22](https://github.com/shdwmtr/plugut
 optional editableValue: boolean;
 ```
 
-Defined in: [src/components/SliderField.ts:23](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L23)
+Defined in: [src/components/SliderField.ts:23](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L23)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [src/components/SliderField.ts:23](https://github.com/shdwmtr/plugut
 optional highlightOnFocus: boolean;
 ```
 
-Defined in: [src/components/Item.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L12)
+Defined in: [src/components/Item.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L12)
 
 #### Inherited from
 
@@ -112,7 +112,7 @@ ItemProps.highlightOnFocus
 optional icon: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L8)
+Defined in: [src/components/Item.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L8)
 
 #### Inherited from
 
@@ -128,7 +128,7 @@ ItemProps.icon
 optional indentLevel: number;
 ```
 
-Defined in: [src/components/Item.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L10)
+Defined in: [src/components/Item.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L10)
 
 #### Inherited from
 
@@ -144,7 +144,7 @@ ItemProps.indentLevel
 optional label: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:4](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L4)
+Defined in: [src/components/Item.ts:4](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L4)
 
 #### Inherited from
 
@@ -160,7 +160,7 @@ ItemProps.label
 optional layout: "below" | "inline";
 ```
 
-Defined in: [src/components/Item.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L7)
+Defined in: [src/components/Item.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L7)
 
 #### Inherited from
 
@@ -176,7 +176,7 @@ ItemProps.layout
 optional max: number;
 ```
 
-Defined in: [src/components/SliderField.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L15)
+Defined in: [src/components/SliderField.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L15)
 
 ***
 
@@ -186,7 +186,7 @@ Defined in: [src/components/SliderField.ts:15](https://github.com/shdwmtr/plugut
 optional min: number;
 ```
 
-Defined in: [src/components/SliderField.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L14)
+Defined in: [src/components/SliderField.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L14)
 
 ***
 
@@ -196,7 +196,7 @@ Defined in: [src/components/SliderField.ts:14](https://github.com/shdwmtr/plugut
 optional minimumDpadGranularity: number;
 ```
 
-Defined in: [src/components/SliderField.ts:26](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L26)
+Defined in: [src/components/SliderField.ts:26](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L26)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [src/components/SliderField.ts:26](https://github.com/shdwmtr/plugut
 optional notchCount: number;
 ```
 
-Defined in: [src/components/SliderField.ts:17](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L17)
+Defined in: [src/components/SliderField.ts:17](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L17)
 
 ***
 
@@ -216,7 +216,7 @@ Defined in: [src/components/SliderField.ts:17](https://github.com/shdwmtr/plugut
 optional notchLabels: NotchLabel[];
 ```
 
-Defined in: [src/components/SliderField.ts:18](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L18)
+Defined in: [src/components/SliderField.ts:18](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L18)
 
 ***
 
@@ -226,7 +226,7 @@ Defined in: [src/components/SliderField.ts:18](https://github.com/shdwmtr/plugut
 optional notchTicksVisible: boolean;
 ```
 
-Defined in: [src/components/SliderField.ts:19](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L19)
+Defined in: [src/components/SliderField.ts:19](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L19)
 
 ***
 
@@ -236,7 +236,7 @@ Defined in: [src/components/SliderField.ts:19](https://github.com/shdwmtr/plugut
 optional resetValue: number;
 ```
 
-Defined in: [src/components/SliderField.ts:21](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L21)
+Defined in: [src/components/SliderField.ts:21](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L21)
 
 ***
 
@@ -246,7 +246,7 @@ Defined in: [src/components/SliderField.ts:21](https://github.com/shdwmtr/plugut
 optional showValue: boolean;
 ```
 
-Defined in: [src/components/SliderField.ts:20](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L20)
+Defined in: [src/components/SliderField.ts:20](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L20)
 
 ***
 
@@ -256,7 +256,7 @@ Defined in: [src/components/SliderField.ts:20](https://github.com/shdwmtr/plugut
 optional step: number;
 ```
 
-Defined in: [src/components/SliderField.ts:16](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L16)
+Defined in: [src/components/SliderField.ts:16](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L16)
 
 ***
 
@@ -266,7 +266,7 @@ Defined in: [src/components/SliderField.ts:16](https://github.com/shdwmtr/plugut
 optional tooltip: string;
 ```
 
-Defined in: [src/components/Item.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L11)
+Defined in: [src/components/Item.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L11)
 
 #### Inherited from
 
@@ -282,7 +282,7 @@ ItemProps.tooltip
 optional validValues: "steps" | "range" | (value: number) => boolean;
 ```
 
-Defined in: [src/components/SliderField.ts:24](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L24)
+Defined in: [src/components/SliderField.ts:24](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L24)
 
 ***
 
@@ -292,7 +292,7 @@ Defined in: [src/components/SliderField.ts:24](https://github.com/shdwmtr/plugut
 value: number;
 ```
 
-Defined in: [src/components/SliderField.ts:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L13)
+Defined in: [src/components/SliderField.ts:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L13)
 
 ***
 
@@ -302,7 +302,7 @@ Defined in: [src/components/SliderField.ts:13](https://github.com/shdwmtr/plugut
 optional valueSuffix: string;
 ```
 
-Defined in: [src/components/SliderField.ts:25](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L25)
+Defined in: [src/components/SliderField.ts:25](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L25)
 
 ## Methods
 
@@ -312,7 +312,7 @@ Defined in: [src/components/SliderField.ts:25](https://github.com/shdwmtr/plugut
 optional onChange(value: number): void
 ```
 
-Defined in: [src/components/SliderField.ts:27](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L27)
+Defined in: [src/components/SliderField.ts:27](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L27)
 
 #### Parameters
 

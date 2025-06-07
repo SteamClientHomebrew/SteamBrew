@@ -11,7 +11,7 @@ type AppLanguages = {
 };
 ```
 
-Defined in: [src/globals/SteamClient.ts:219](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L219)
+Defined in: [src/globals/SteamClient.ts:219](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L219)
 
 ## Type declaration
 

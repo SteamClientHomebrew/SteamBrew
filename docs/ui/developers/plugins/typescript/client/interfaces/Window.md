@@ -4,7 +4,7 @@
 
 # Interface: Window
 
-Defined in: [src/globals/SteamClient.ts:122](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L122)
+Defined in: [src/globals/SteamClient.ts:122](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L122)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/globals/SteamClient.ts:122](https://github.com/shdwmtr/plugutil
 BringToFront: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:135](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L135)
+Defined in: [src/globals/SteamClient.ts:135](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L135)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/globals/SteamClient.ts:135](https://github.com/shdwmtr/plugutil
 FlashWindow: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:138](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L138)
+Defined in: [src/globals/SteamClient.ts:138](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L138)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/globals/SteamClient.ts:138](https://github.com/shdwmtr/plugutil
 GamescopeBlur: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:134](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L134)
+Defined in: [src/globals/SteamClient.ts:134](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L134)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/globals/SteamClient.ts:134](https://github.com/shdwmtr/plugutil
 GetBrowserID: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:148](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L148)
+Defined in: [src/globals/SteamClient.ts:148](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L148)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/globals/SteamClient.ts:148](https://github.com/shdwmtr/plugutil
 GetMousePositionDetails: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:146](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L146)
+Defined in: [src/globals/SteamClient.ts:146](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L146)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/globals/SteamClient.ts:146](https://github.com/shdwmtr/plugutil
 GetWindowDimensions: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:143](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L143)
+Defined in: [src/globals/SteamClient.ts:143](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L143)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [src/globals/SteamClient.ts:143](https://github.com/shdwmtr/plugutil
 GetWindowRestoreDetails: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:144](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L144)
+Defined in: [src/globals/SteamClient.ts:144](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L144)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [src/globals/SteamClient.ts:144](https://github.com/shdwmtr/plugutil
 HideWindow: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:141](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L141)
+Defined in: [src/globals/SteamClient.ts:141](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L141)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [src/globals/SteamClient.ts:141](https://github.com/shdwmtr/plugutil
 IsWindowMinimized: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:147](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L147)
+Defined in: [src/globals/SteamClient.ts:147](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L147)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [src/globals/SteamClient.ts:147](https://github.com/shdwmtr/plugutil
 Minimize: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:126](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L126)
+Defined in: [src/globals/SteamClient.ts:126](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L126)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [src/globals/SteamClient.ts:126](https://github.com/shdwmtr/plugutil
 MoveTo: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:129](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L129)
+Defined in: [src/globals/SteamClient.ts:129](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L129)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [src/globals/SteamClient.ts:129](https://github.com/shdwmtr/plugutil
 PositionWindowRelative: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:145](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L145)
+Defined in: [src/globals/SteamClient.ts:145](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L145)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [src/globals/SteamClient.ts:145](https://github.com/shdwmtr/plugutil
 ProcessShuttingDown: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:127](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L127)
+Defined in: [src/globals/SteamClient.ts:127](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L127)
 
 ***
 
@@ -144,7 +144,7 @@ Defined in: [src/globals/SteamClient.ts:127](https://github.com/shdwmtr/plugutil
 RegisterForExternalDisplayChanged: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:123](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L123)
+Defined in: [src/globals/SteamClient.ts:123](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L123)
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: [src/globals/SteamClient.ts:123](https://github.com/shdwmtr/plugutil
 ResizeTo: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:130](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L130)
+Defined in: [src/globals/SteamClient.ts:130](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L130)
 
 ***
 
@@ -164,7 +164,7 @@ Defined in: [src/globals/SteamClient.ts:130](https://github.com/shdwmtr/plugutil
 SetAutoDisplayScale: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:125](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L125)
+Defined in: [src/globals/SteamClient.ts:125](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L125)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [src/globals/SteamClient.ts:125](https://github.com/shdwmtr/plugutil
 SetComposition: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:133](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L133)
+Defined in: [src/globals/SteamClient.ts:133](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L133)
 
 ***
 
@@ -184,7 +184,7 @@ Defined in: [src/globals/SteamClient.ts:133](https://github.com/shdwmtr/plugutil
 SetForegroundWindow: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:136](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L136)
+Defined in: [src/globals/SteamClient.ts:136](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L136)
 
 ***
 
@@ -194,7 +194,7 @@ Defined in: [src/globals/SteamClient.ts:136](https://github.com/shdwmtr/plugutil
 SetKeyFocus: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:137](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L137)
+Defined in: [src/globals/SteamClient.ts:137](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L137)
 
 ***
 
@@ -204,7 +204,7 @@ Defined in: [src/globals/SteamClient.ts:137](https://github.com/shdwmtr/plugutil
 SetManualDisplayScaleFactor: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:124](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L124)
+Defined in: [src/globals/SteamClient.ts:124](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L124)
 
 ***
 
@@ -214,7 +214,7 @@ Defined in: [src/globals/SteamClient.ts:124](https://github.com/shdwmtr/plugutil
 SetMinSize: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:131](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L131)
+Defined in: [src/globals/SteamClient.ts:131](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L131)
 
 ***
 
@@ -224,7 +224,7 @@ Defined in: [src/globals/SteamClient.ts:131](https://github.com/shdwmtr/plugutil
 SetResizeGrip: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:132](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L132)
+Defined in: [src/globals/SteamClient.ts:132](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L132)
 
 ***
 
@@ -234,7 +234,7 @@ Defined in: [src/globals/SteamClient.ts:132](https://github.com/shdwmtr/plugutil
 SetWindowIcon: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:142](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L142)
+Defined in: [src/globals/SteamClient.ts:142](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L142)
 
 ***
 
@@ -244,7 +244,7 @@ Defined in: [src/globals/SteamClient.ts:142](https://github.com/shdwmtr/plugutil
 ShowWindow: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:140](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L140)
+Defined in: [src/globals/SteamClient.ts:140](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L140)
 
 ***
 
@@ -254,7 +254,7 @@ Defined in: [src/globals/SteamClient.ts:140](https://github.com/shdwmtr/plugutil
 StopFlashWindow: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:139](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L139)
+Defined in: [src/globals/SteamClient.ts:139](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L139)
 
 ***
 
@@ -264,4 +264,4 @@ Defined in: [src/globals/SteamClient.ts:139](https://github.com/shdwmtr/plugutil
 ToggleMaximize: any;
 ```
 
-Defined in: [src/globals/SteamClient.ts:128](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/globals/SteamClient.ts#L128)
+Defined in: [src/globals/SteamClient.ts:128](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/globals/SteamClient.ts#L128)

@@ -12,7 +12,7 @@ component: UI Components
 function ModalRoot(props: PropsWithChildren<ModalRootProps>, context?: any): null | ReactElement
 ```
 
-Defined in: [src/components/Modal.tsx:93](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Modal.tsx#L93)
+Defined in: [src/components/Modal.tsx:93](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Modal.tsx#L93)
 
 ## Parameters
 

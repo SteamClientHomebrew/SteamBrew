@@ -4,7 +4,7 @@
 
 # Interface: MenuStore
 
-Defined in: [src/modules/Router.ts:68](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L68)
+Defined in: [src/modules/Router.ts:68](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L68)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [src/modules/Router.ts:68](https://github.com/shdwmtr/plugutil/blob/
 OpenMainMenu(): void
 ```
 
-Defined in: [src/modules/Router.ts:71](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L71)
+Defined in: [src/modules/Router.ts:71](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L71)
 
 #### Returns
 
@@ -28,7 +28,7 @@ Defined in: [src/modules/Router.ts:71](https://github.com/shdwmtr/plugutil/blob/
 OpenQuickAccessMenu(quickAccessTab?: QuickAccessTab): void
 ```
 
-Defined in: [src/modules/Router.ts:70](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L70)
+Defined in: [src/modules/Router.ts:70](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L70)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [src/modules/Router.ts:70](https://github.com/shdwmtr/plugutil/blob/
 OpenSideMenu(sideMenu: SideMenu): void
 ```
 
-Defined in: [src/modules/Router.ts:69](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L69)
+Defined in: [src/modules/Router.ts:69](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L69)
 
 #### Parameters
 

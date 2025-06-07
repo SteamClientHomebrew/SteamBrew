@@ -4,7 +4,7 @@
 
 # Interface: WindowStore
 
-Defined in: [src/modules/Router.ts:83](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L83)
+Defined in: [src/modules/Router.ts:83](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L83)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/modules/Router.ts:83](https://github.com/shdwmtr/plugutil/blob/
 optional GamepadUIMainWindowInstance: WindowRouter;
 ```
 
-Defined in: [src/modules/Router.ts:84](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L84)
+Defined in: [src/modules/Router.ts:84](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L84)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/modules/Router.ts:84](https://github.com/shdwmtr/plugutil/blob/
 OverlayWindows: WindowRouter[];
 ```
 
-Defined in: [src/modules/Router.ts:86](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L86)
+Defined in: [src/modules/Router.ts:86](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L86)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/modules/Router.ts:86](https://github.com/shdwmtr/plugutil/blob/
 SteamUIWindows: WindowRouter[];
 ```
 
-Defined in: [src/modules/Router.ts:85](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/modules/Router.ts#L85)
+Defined in: [src/modules/Router.ts:85](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/modules/Router.ts#L85)

@@ -4,7 +4,7 @@
 
 # Interface: ToggleFieldProps
 
-Defined in: [src/components/ToggleField.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ToggleField.ts#L6)
+Defined in: [src/components/ToggleField.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ToggleField.ts#L6)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/components/ToggleField.ts:6](https://github.com/shdwmtr/pluguti
 optional bottomSeparator: "standard" | "thick" | "none";
 ```
 
-Defined in: [src/components/Item.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L9)
+Defined in: [src/components/Item.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L9)
 
 #### Inherited from
 
@@ -34,7 +34,7 @@ ItemProps.bottomSeparator
 checked: boolean;
 ```
 
-Defined in: [src/components/ToggleField.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ToggleField.ts#L8)
+Defined in: [src/components/ToggleField.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ToggleField.ts#L8)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/components/ToggleField.ts:8](https://github.com/shdwmtr/pluguti
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L6)
+Defined in: [src/components/Item.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L6)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ ItemProps.children
 optional description: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L5)
+Defined in: [src/components/Item.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L5)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ ItemProps.description
 optional disabled: boolean;
 ```
 
-Defined in: [src/components/ToggleField.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ToggleField.ts#L9)
+Defined in: [src/components/ToggleField.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ToggleField.ts#L9)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [src/components/ToggleField.ts:9](https://github.com/shdwmtr/pluguti
 optional highlightOnFocus: boolean;
 ```
 
-Defined in: [src/components/ToggleField.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ToggleField.ts#L7)
+Defined in: [src/components/ToggleField.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ToggleField.ts#L7)
 
 #### Overrides
 
@@ -102,7 +102,7 @@ ItemProps.highlightOnFocus
 optional icon: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L8)
+Defined in: [src/components/Item.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L8)
 
 #### Inherited from
 
@@ -118,7 +118,7 @@ ItemProps.icon
 optional indentLevel: number;
 ```
 
-Defined in: [src/components/Item.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L10)
+Defined in: [src/components/Item.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L10)
 
 #### Inherited from
 
@@ -134,7 +134,7 @@ ItemProps.indentLevel
 optional label: ReactNode;
 ```
 
-Defined in: [src/components/Item.ts:4](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L4)
+Defined in: [src/components/Item.ts:4](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L4)
 
 #### Inherited from
 
@@ -150,7 +150,7 @@ ItemProps.label
 optional layout: "below" | "inline";
 ```
 
-Defined in: [src/components/Item.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L7)
+Defined in: [src/components/Item.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L7)
 
 #### Inherited from
 
@@ -166,7 +166,7 @@ ItemProps.layout
 optional tooltip: string;
 ```
 
-Defined in: [src/components/Item.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Item.ts#L11)
+Defined in: [src/components/Item.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Item.ts#L11)
 
 #### Inherited from
 
@@ -182,7 +182,7 @@ ItemProps.tooltip
 optional onChange(checked: boolean): void
 ```
 
-Defined in: [src/components/ToggleField.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/ToggleField.ts#L10)
+Defined in: [src/components/ToggleField.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/ToggleField.ts#L10)
 
 #### Parameters
 

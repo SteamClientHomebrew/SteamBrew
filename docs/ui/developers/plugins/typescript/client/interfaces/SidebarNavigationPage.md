@@ -4,7 +4,7 @@
 
 # Interface: SidebarNavigationPage
 
-Defined in: [src/components/SidebarNavigation.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L6)
+Defined in: [src/components/SidebarNavigation.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L6)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/SidebarNavigation.ts:6](https://github.com/shdwmtr/p
 content: ReactNode;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L8)
+Defined in: [src/components/SidebarNavigation.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L8)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/SidebarNavigation.ts:8](https://github.com/shdwmtr/p
 optional hideTitle: boolean;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L11)
+Defined in: [src/components/SidebarNavigation.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L11)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/components/SidebarNavigation.ts:11](https://github.com/shdwmtr/
 optional icon: ReactNode;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L9)
+Defined in: [src/components/SidebarNavigation.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L9)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/components/SidebarNavigation.ts:9](https://github.com/shdwmtr/p
 optional identifier: string;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L12)
+Defined in: [src/components/SidebarNavigation.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L12)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/components/SidebarNavigation.ts:12](https://github.com/shdwmtr/
 optional link: string;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L14)
+Defined in: [src/components/SidebarNavigation.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L14)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/components/SidebarNavigation.ts:14](https://github.com/shdwmtr/
 optional padding: "none" | "compact";
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L15)
+Defined in: [src/components/SidebarNavigation.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L15)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [src/components/SidebarNavigation.ts:15](https://github.com/shdwmtr/
 optional route: string;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L13)
+Defined in: [src/components/SidebarNavigation.ts:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L13)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [src/components/SidebarNavigation.ts:13](https://github.com/shdwmtr/
 title: ReactNode;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L7)
+Defined in: [src/components/SidebarNavigation.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L7)
 
 ***
 
@@ -94,4 +94,4 @@ Defined in: [src/components/SidebarNavigation.ts:7](https://github.com/shdwmtr/p
 optional visible: boolean;
 ```
 
-Defined in: [src/components/SidebarNavigation.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SidebarNavigation.ts#L10)
+Defined in: [src/components/SidebarNavigation.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SidebarNavigation.ts#L10)

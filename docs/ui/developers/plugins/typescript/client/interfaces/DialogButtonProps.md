@@ -4,7 +4,7 @@
 
 # Interface: DialogButtonProps
 
-Defined in: [src/components/Dialog.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L12)
+Defined in: [src/components/Dialog.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L12)
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: [src/components/Dialog.ts:12](https://github.com/shdwmtr/plugutil/bl
 optional actionDescriptionMap: ActionDescriptionMap;
 ```
 
-Defined in: [src/components/FooterLegend.ts:53](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L53)
+Defined in: [src/components/FooterLegend.ts:53](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L53)
 
 #### Inherited from
 
@@ -36,7 +36,7 @@ Defined in: [src/components/FooterLegend.ts:53](https://github.com/shdwmtr/plugu
 optional children: ReactNode;
 ```
 
-Defined in: [src/components/Dialog.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L9)
+Defined in: [src/components/Dialog.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L9)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [src/components/Dialog.ts:9](https://github.com/shdwmtr/plugutil/blo
 optional className: string;
 ```
 
-Defined in: [src/components/Dialog.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L8)
+Defined in: [src/components/Dialog.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L8)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [src/components/Dialog.ts:8](https://github.com/shdwmtr/plugutil/blo
 optional disabled: boolean;
 ```
 
-Defined in: [src/components/Dialog.ts:30](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L30)
+Defined in: [src/components/Dialog.ts:30](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L30)
 
 Disables the button - assigned `on*` methods will not be invoked if clicked.
 
@@ -85,7 +85,7 @@ focusable.
 optional focusable: boolean;
 ```
 
-Defined in: [src/components/Dialog.ts:40](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L40)
+Defined in: [src/components/Dialog.ts:40](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L40)
 
 Enables/disables the navigation based focus on button - you won't be able to navigate to
 it via the gamepad or keyboard.
@@ -117,7 +117,7 @@ Defined in: node\_modules/@types/react/index.d.ts:137
 optional noFocusRing: boolean;
 ```
 
-Defined in: [src/components/Dialog.ts:19](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L19)
+Defined in: [src/components/Dialog.ts:19](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L19)
 
 Enables/disables the focus around the button.
 
@@ -133,7 +133,7 @@ Default value depends on context, so setting it to `false` will enable it.
 optional onButtonDown: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:59](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L59)
+Defined in: [src/components/FooterLegend.ts:59](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L59)
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: [src/components/FooterLegend.ts:59](https://github.com/shdwmtr/plugu
 optional onButtonUp: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:60](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L60)
+Defined in: [src/components/FooterLegend.ts:60](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L60)
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: [src/components/FooterLegend.ts:60](https://github.com/shdwmtr/plugu
 optional onCancelActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:55](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L55)
+Defined in: [src/components/FooterLegend.ts:55](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L55)
 
 #### Inherited from
 
@@ -195,7 +195,7 @@ Defined in: [src/components/FooterLegend.ts:55](https://github.com/shdwmtr/plugu
 optional onCancelButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:62](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L62)
+Defined in: [src/components/FooterLegend.ts:62](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L62)
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: [src/components/FooterLegend.ts:62](https://github.com/shdwmtr/plugu
 optional onGamepadBlur: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:67](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L67)
+Defined in: [src/components/FooterLegend.ts:67](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L67)
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: [src/components/FooterLegend.ts:67](https://github.com/shdwmtr/plugu
 optional onGamepadDirection: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:65](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L65)
+Defined in: [src/components/FooterLegend.ts:65](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L65)
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: [src/components/FooterLegend.ts:65](https://github.com/shdwmtr/plugu
 optional onGamepadFocus: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:66](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L66)
+Defined in: [src/components/FooterLegend.ts:66](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L66)
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: [src/components/FooterLegend.ts:66](https://github.com/shdwmtr/plugu
 optional onMenuActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:58](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L58)
+Defined in: [src/components/FooterLegend.ts:58](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L58)
 
 #### Inherited from
 
@@ -305,7 +305,7 @@ Defined in: [src/components/FooterLegend.ts:58](https://github.com/shdwmtr/plugu
 optional onMenuButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:68](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L68)
+Defined in: [src/components/FooterLegend.ts:68](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L68)
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: [src/components/FooterLegend.ts:68](https://github.com/shdwmtr/plugu
 optional onOKActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:54](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L54)
+Defined in: [src/components/FooterLegend.ts:54](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L54)
 
 #### Inherited from
 
@@ -343,7 +343,7 @@ Defined in: [src/components/FooterLegend.ts:54](https://github.com/shdwmtr/plugu
 optional onOKButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:61](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L61)
+Defined in: [src/components/FooterLegend.ts:61](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L61)
 
 #### Parameters
 
@@ -367,7 +367,7 @@ Defined in: [src/components/FooterLegend.ts:61](https://github.com/shdwmtr/plugu
 optional onOptionsActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:57](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L57)
+Defined in: [src/components/FooterLegend.ts:57](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L57)
 
 #### Inherited from
 
@@ -381,7 +381,7 @@ Defined in: [src/components/FooterLegend.ts:57](https://github.com/shdwmtr/plugu
 optional onOptionsButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:64](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L64)
+Defined in: [src/components/FooterLegend.ts:64](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L64)
 
 #### Parameters
 
@@ -405,7 +405,7 @@ Defined in: [src/components/FooterLegend.ts:64](https://github.com/shdwmtr/plugu
 optional onSecondaryActionDescription: ReactNode;
 ```
 
-Defined in: [src/components/FooterLegend.ts:56](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L56)
+Defined in: [src/components/FooterLegend.ts:56](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L56)
 
 #### Inherited from
 
@@ -419,7 +419,7 @@ Defined in: [src/components/FooterLegend.ts:56](https://github.com/shdwmtr/plugu
 optional onSecondaryButton: (evt: GamepadEvent) => void;
 ```
 
-Defined in: [src/components/FooterLegend.ts:63](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/FooterLegend.ts#L63)
+Defined in: [src/components/FooterLegend.ts:63](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/FooterLegend.ts#L63)
 
 #### Parameters
 
@@ -457,7 +457,7 @@ Defined in: node\_modules/@types/react/index.d.ts:140
 optional style: CSSProperties;
 ```
 
-Defined in: [src/components/Dialog.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L7)
+Defined in: [src/components/Dialog.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L7)
 
 #### Inherited from
 
@@ -471,7 +471,7 @@ Defined in: [src/components/Dialog.ts:7](https://github.com/shdwmtr/plugutil/blo
 optional onClick(e: MouseEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:42](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L42)
+Defined in: [src/components/Dialog.ts:42](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L42)
 
 #### Parameters
 
@@ -491,7 +491,7 @@ Defined in: [src/components/Dialog.ts:42](https://github.com/shdwmtr/plugutil/bl
 optional onMouseDown(e: MouseEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:46](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L46)
+Defined in: [src/components/Dialog.ts:46](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L46)
 
 #### Parameters
 
@@ -511,7 +511,7 @@ Defined in: [src/components/Dialog.ts:46](https://github.com/shdwmtr/plugutil/bl
 optional onMouseUp(e: MouseEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:47](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L47)
+Defined in: [src/components/Dialog.ts:47](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L47)
 
 #### Parameters
 
@@ -531,7 +531,7 @@ Defined in: [src/components/Dialog.ts:47](https://github.com/shdwmtr/plugutil/bl
 optional onPointerCancel(e: PointerEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:45](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L45)
+Defined in: [src/components/Dialog.ts:45](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L45)
 
 #### Parameters
 
@@ -551,7 +551,7 @@ Defined in: [src/components/Dialog.ts:45](https://github.com/shdwmtr/plugutil/bl
 optional onPointerDown(e: PointerEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:43](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L43)
+Defined in: [src/components/Dialog.ts:43](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L43)
 
 #### Parameters
 
@@ -571,7 +571,7 @@ Defined in: [src/components/Dialog.ts:43](https://github.com/shdwmtr/plugutil/bl
 optional onPointerUp(e: PointerEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:44](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L44)
+Defined in: [src/components/Dialog.ts:44](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L44)
 
 #### Parameters
 
@@ -591,7 +591,7 @@ Defined in: [src/components/Dialog.ts:44](https://github.com/shdwmtr/plugutil/bl
 optional onSubmit(e: SubmitEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:51](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L51)
+Defined in: [src/components/Dialog.ts:51](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L51)
 
 #### Parameters
 
@@ -611,7 +611,7 @@ Defined in: [src/components/Dialog.ts:51](https://github.com/shdwmtr/plugutil/bl
 optional onTouchCancel(e: TouchEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:50](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L50)
+Defined in: [src/components/Dialog.ts:50](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L50)
 
 #### Parameters
 
@@ -631,7 +631,7 @@ Defined in: [src/components/Dialog.ts:50](https://github.com/shdwmtr/plugutil/bl
 optional onTouchEnd(e: TouchEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:49](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L49)
+Defined in: [src/components/Dialog.ts:49](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L49)
 
 #### Parameters
 
@@ -651,7 +651,7 @@ Defined in: [src/components/Dialog.ts:49](https://github.com/shdwmtr/plugutil/bl
 optional onTouchStart(e: TouchEvent): void
 ```
 
-Defined in: [src/components/Dialog.ts:48](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Dialog.ts#L48)
+Defined in: [src/components/Dialog.ts:48](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Dialog.ts#L48)
 
 #### Parameters
 

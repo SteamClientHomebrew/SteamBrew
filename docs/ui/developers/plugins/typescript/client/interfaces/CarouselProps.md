@@ -4,7 +4,7 @@
 
 # Interface: CarouselProps
 
-Defined in: [src/components/Carousel.ts:5](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L5)
+Defined in: [src/components/Carousel.ts:5](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L5)
 
 ## Extends
 
@@ -1081,7 +1081,7 @@ HTMLAttributes.autoCorrect
 optional autoFocus: boolean;
 ```
 
-Defined in: [src/components/Carousel.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L6)
+Defined in: [src/components/Carousel.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L6)
 
 ***
 
@@ -1291,7 +1291,7 @@ HTMLAttributes.draggable
 optional enableBumperPaging: boolean;
 ```
 
-Defined in: [src/components/Carousel.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L7)
+Defined in: [src/components/Carousel.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L7)
 
 ***
 
@@ -1301,7 +1301,7 @@ Defined in: [src/components/Carousel.ts:7](https://github.com/shdwmtr/plugutil/b
 optional fnDoesItemTakeFocus: (...unknown: any[]) => boolean;
 ```
 
-Defined in: [src/components/Carousel.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L8)
+Defined in: [src/components/Carousel.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L8)
 
 #### Parameters
 
@@ -1321,7 +1321,7 @@ Defined in: [src/components/Carousel.ts:8](https://github.com/shdwmtr/plugutil/b
 optional fnGetColumnWidth: (...unknown: any[]) => number;
 ```
 
-Defined in: [src/components/Carousel.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L9)
+Defined in: [src/components/Carousel.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L9)
 
 #### Parameters
 
@@ -1341,7 +1341,7 @@ Defined in: [src/components/Carousel.ts:9](https://github.com/shdwmtr/plugutil/b
 optional fnGetId: (id: number) => number;
 ```
 
-Defined in: [src/components/Carousel.ts:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L10)
+Defined in: [src/components/Carousel.ts:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L10)
 
 #### Parameters
 
@@ -1361,7 +1361,7 @@ Defined in: [src/components/Carousel.ts:10](https://github.com/shdwmtr/plugutil/
 optional fnItemRenderer: (id: number, ...unknown: any[]) => ReactNode;
 ```
 
-Defined in: [src/components/Carousel.ts:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L11)
+Defined in: [src/components/Carousel.ts:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L11)
 
 #### Parameters
 
@@ -1385,7 +1385,7 @@ Defined in: [src/components/Carousel.ts:11](https://github.com/shdwmtr/plugutil/
 optional fnUpdateArrows: (...unknown: any[]) => any;
 ```
 
-Defined in: [src/components/Carousel.ts:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L12)
+Defined in: [src/components/Carousel.ts:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L12)
 
 #### Parameters
 
@@ -1437,7 +1437,7 @@ HTMLAttributes.id
 optional initialColumn: number;
 ```
 
-Defined in: [src/components/Carousel.ts:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L13)
+Defined in: [src/components/Carousel.ts:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L13)
 
 ***
 
@@ -1611,7 +1611,7 @@ HTMLAttributes.lang
 optional name: string;
 ```
 
-Defined in: [src/components/Carousel.ts:19](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L19)
+Defined in: [src/components/Carousel.ts:19](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L19)
 
 ***
 
@@ -1621,7 +1621,7 @@ Defined in: [src/components/Carousel.ts:19](https://github.com/shdwmtr/plugutil/
 optional nHeight: number;
 ```
 
-Defined in: [src/components/Carousel.ts:14](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L14)
+Defined in: [src/components/Carousel.ts:14](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L14)
 
 ***
 
@@ -1631,7 +1631,7 @@ Defined in: [src/components/Carousel.ts:14](https://github.com/shdwmtr/plugutil/
 optional nIndexLeftmost: number;
 ```
 
-Defined in: [src/components/Carousel.ts:15](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L15)
+Defined in: [src/components/Carousel.ts:15](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L15)
 
 ***
 
@@ -1641,7 +1641,7 @@ Defined in: [src/components/Carousel.ts:15](https://github.com/shdwmtr/plugutil/
 optional nItemHeight: number;
 ```
 
-Defined in: [src/components/Carousel.ts:16](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L16)
+Defined in: [src/components/Carousel.ts:16](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L16)
 
 ***
 
@@ -1651,7 +1651,7 @@ Defined in: [src/components/Carousel.ts:16](https://github.com/shdwmtr/plugutil/
 optional nItemMarginX: number;
 ```
 
-Defined in: [src/components/Carousel.ts:17](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L17)
+Defined in: [src/components/Carousel.ts:17](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L17)
 
 ***
 
@@ -1661,7 +1661,7 @@ Defined in: [src/components/Carousel.ts:17](https://github.com/shdwmtr/plugutil/
 optional nNumItems: number;
 ```
 
-Defined in: [src/components/Carousel.ts:18](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L18)
+Defined in: [src/components/Carousel.ts:18](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L18)
 
 ***
 
@@ -4343,7 +4343,7 @@ HTMLAttributes.role
 optional scrollToAlignment: "center";
 ```
 
-Defined in: [src/components/Carousel.ts:20](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Carousel.ts#L20)
+Defined in: [src/components/Carousel.ts:20](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Carousel.ts#L20)
 
 ***
 

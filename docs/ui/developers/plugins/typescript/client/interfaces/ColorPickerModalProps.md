@@ -4,7 +4,7 @@
 
 # Interface: ColorPickerModalProps
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L6)
+Defined in: [src/custom-components/ColorPickerModal.tsx:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L6)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:6](https://github.com/sh
 closeModal: () => void;
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L7)
+Defined in: [src/custom-components/ColorPickerModal.tsx:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L7)
 
 #### Returns
 
@@ -28,7 +28,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:7](https://github.com/sh
 optional defaultA: number;
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:13](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L13)
+Defined in: [src/custom-components/ColorPickerModal.tsx:13](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L13)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:13](https://github.com/s
 optional defaultH: number;
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:10](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L10)
+Defined in: [src/custom-components/ColorPickerModal.tsx:10](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L10)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:10](https://github.com/s
 optional defaultL: number;
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:12](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L12)
+Defined in: [src/custom-components/ColorPickerModal.tsx:12](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L12)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:12](https://github.com/s
 optional defaultS: number;
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:11](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L11)
+Defined in: [src/custom-components/ColorPickerModal.tsx:11](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L11)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:11](https://github.com/s
 optional title: string;
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L9)
+Defined in: [src/custom-components/ColorPickerModal.tsx:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L9)
 
 ## Methods
 
@@ -78,7 +78,7 @@ Defined in: [src/custom-components/ColorPickerModal.tsx:9](https://github.com/sh
 optional onConfirm(HSLString: string): any
 ```
 
-Defined in: [src/custom-components/ColorPickerModal.tsx:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/custom-components/ColorPickerModal.tsx#L8)
+Defined in: [src/custom-components/ColorPickerModal.tsx:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/custom-components/ColorPickerModal.tsx#L8)
 
 #### Parameters
 

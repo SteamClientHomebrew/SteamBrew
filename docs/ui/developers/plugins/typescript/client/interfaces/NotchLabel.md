@@ -4,7 +4,7 @@
 
 # Interface: NotchLabel
 
-Defined in: [src/components/SliderField.ts:6](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L6)
+Defined in: [src/components/SliderField.ts:6](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L6)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/components/SliderField.ts:6](https://github.com/shdwmtr/pluguti
 label: string;
 ```
 
-Defined in: [src/components/SliderField.ts:8](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L8)
+Defined in: [src/components/SliderField.ts:8](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L8)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/SliderField.ts:8](https://github.com/shdwmtr/pluguti
 notchIndex: number;
 ```
 
-Defined in: [src/components/SliderField.ts:7](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L7)
+Defined in: [src/components/SliderField.ts:7](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L7)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/components/SliderField.ts:7](https://github.com/shdwmtr/pluguti
 optional value: number;
 ```
 
-Defined in: [src/components/SliderField.ts:9](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/SliderField.ts#L9)
+Defined in: [src/components/SliderField.ts:9](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/SliderField.ts#L9)

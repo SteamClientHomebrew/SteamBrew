@@ -4,7 +4,7 @@
 
 # Interface: Tab
 
-Defined in: [src/components/Tabs.tsx:17](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L17)
+Defined in: [src/components/Tabs.tsx:17](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L17)
 
 Individual tab objects for the Tabs component
 
@@ -22,7 +22,7 @@ Individual tab objects for the Tabs component
 content: ReactNode;
 ```
 
-Defined in: [src/components/Tabs.tsx:21](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L21)
+Defined in: [src/components/Tabs.tsx:21](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L21)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/components/Tabs.tsx:21](https://github.com/shdwmtr/plugutil/blo
 optional footer: FooterLegendProps;
 ```
 
-Defined in: [src/components/Tabs.tsx:22](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L22)
+Defined in: [src/components/Tabs.tsx:22](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L22)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/components/Tabs.tsx:22](https://github.com/shdwmtr/plugutil/blo
 id: string;
 ```
 
-Defined in: [src/components/Tabs.tsx:18](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L18)
+Defined in: [src/components/Tabs.tsx:18](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L18)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [src/components/Tabs.tsx:18](https://github.com/shdwmtr/plugutil/blo
 optional renderTabAddon: () => ReactNode;
 ```
 
-Defined in: [src/components/Tabs.tsx:20](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L20)
+Defined in: [src/components/Tabs.tsx:20](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L20)
 
 #### Returns
 
@@ -66,4 +66,4 @@ Defined in: [src/components/Tabs.tsx:20](https://github.com/shdwmtr/plugutil/blo
 title: string;
 ```
 
-Defined in: [src/components/Tabs.tsx:19](https://github.com/shdwmtr/plugutil/blob/b52230e3bd417b9353d983856323dee8a90c4f70/client/src/components/Tabs.tsx#L19)
+Defined in: [src/components/Tabs.tsx:19](https://github.com/SteamClientHomebrew/SDK/blob/main/typescript-packages/client/src/components/Tabs.tsx#L19)
