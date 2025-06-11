@@ -50,6 +50,11 @@ function getFilesFromDirectory(dirPath, dirPathBase = '', baseDir = '', topLevel
 			const fileContent = fs.readFileSync(fullPath, 'utf-8');
 			const { data } = matter(fileContent);
 
+			if (data?.hide) {
+				/** Skip files that are marked as hidden. */
+				return;
+			}
+
 			if (data.component) {
 				const componentName = data.component;
 
