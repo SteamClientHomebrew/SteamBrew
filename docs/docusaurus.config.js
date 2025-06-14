@@ -54,7 +54,16 @@ const config = {
 			},
 		],
 	],
-
+	plugins: [
+		[
+			require.resolve('@cmfcmf/docusaurus-search-local'),
+			{
+				indexDocs: true,
+				indexBlog: true,
+				indexPages: true,
+			},
+		],
+	],
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
