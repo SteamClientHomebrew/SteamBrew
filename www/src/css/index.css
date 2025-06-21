@@ -4301,6 +4301,10 @@ canvas {
   fill: currentColor;
 }
 
+.markdown-body .mr-2 {
+  margin-right: 0.5rem !important;
+}
+
 .markdown-body .markdown-alert {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
@@ -4318,7 +4322,6 @@ canvas {
 
 .markdown-body .markdown-alert .markdown-alert-title {
   display: flex;
-	gap: 0.5rem;
   font-weight: 500;
   align-items: center;
   line-height: 1;
