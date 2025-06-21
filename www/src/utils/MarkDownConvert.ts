@@ -5,6 +5,7 @@ import { unified } from 'unified';
 import rehypeStringify from 'rehype-stringify';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
+import rehypeGithubAlert from 'rehype-github-alert';
 import remarkGfm from 'remark-gfm';
 import { visit } from 'unist-util-visit';
 import rehypeSanitize from 'rehype-sanitize';
@@ -55,6 +56,7 @@ export async function MarkdownToHtml(markdown, owner, repo) {
 		.use(rehypeRaw)
 		.use(rehypeSanitize, sanitizeSchema)
 		.use(addPathToImgSrc, { owner, repo })
+		.use(rehypeGithubAlert)
 		.use(rehypeStringify, { allowDangerousHtml: true })
 		.process(markdown);
 

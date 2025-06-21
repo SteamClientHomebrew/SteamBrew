@@ -68,6 +68,9 @@ importers:
       react-tooltip:
         specifier: ^5.28.0
         version: 5.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rehype-github-alert:
+        specifier: ^1.0.0
+        version: 1.0.0
       rehype-raw:
         specifier: ^7.0.0
         version: 7.0.0
@@ -2755,6 +2758,9 @@ packages:
   registry-url@5.1.0:
     resolution: {integrity: sha512-8acYXXTI0AkQv6RAOjE3vOaIXZkT9wo4LOFbBKYQEEnnMNBpKqdUrI6S4NT0KPIo/WVvJ5tE/X5LF/TQUf0ekw==}
     engines: {node: '>=8'}
+
+  rehype-github-alert@1.0.0:
+    resolution: {integrity: sha512-Ijn6RGfqQTcqEvB4C7qfpk85NhVA7tncuUH8sncM45xrtuvlEt3Z9OHwoCZ8a/8wpXwfBDn9xorCVihLHg2O1w==}
 
   rehype-raw@7.0.0:
     resolution: {integrity: sha512-/aE8hCfKlQeA8LmyeyQvQF3eBiLRGNlfBJEvWH7ivp9sBqs7TNqBL5X3v157rM4IFETqDnIOO+z5M/biZbo9Ww==}
@@ -6557,6 +6563,12 @@ snapshots:
   registry-url@5.1.0:
     dependencies:
       rc: 1.2.8
+
+  rehype-github-alert@1.0.0:
+    dependencies:
+      '@types/hast': 3.0.4
+      hast-util-whitespace: 3.0.0
+      unist-util-visit: 5.0.0
 
   rehype-raw@7.0.0:
     dependencies:

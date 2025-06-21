@@ -29,6 +29,7 @@
 		"react-select": "^5.10.1",
 		"react-toastify": "^10.0.6",
 		"react-tooltip": "^5.28.0",
+		"rehype-github-alert": "^1.0.0",
 		"rehype-raw": "^7.0.0",
 		"rehype-sanitize": "^6.0.0",
 		"rehype-stringify": "^10.0.1",
