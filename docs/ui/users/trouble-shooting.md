@@ -9,11 +9,19 @@ description: When things don't go as expected.
 
 Steam has been hardcoded to use port 8080, meaning we can't change it. This means you'll either have to close/uninstall the conflicting app, or remove Millennium.
 
-You can locate the conflicting app by running the following command in PowerShell
+You can locate the conflicting app by running the following command in PowerShell:
 
 ```powershell
 (Get-Item -Path (Get-Process -Id (Get-NetTCPConnection -LocalPort 8080 -State Listen).OwningProcess).Path).FullName
 ```
+
+Or on Linux (requires `net-tools`):
+
+```sh
+sudo netstat -tulpn | grep :8080
+```
+
+The number in the last column of output is the PID of the conflicting process.
 
 ### Installed, but Steam is crashing / Millennium's not showing or loading / or Steam's not loading.
 
