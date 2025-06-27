@@ -44,23 +44,13 @@ const config = {
 			}),
 		],
 	],
-	themes: [
+	plugins: [
 		[
 			require.resolve('@easyops-cn/docusaurus-search-local'),
 			{
 				hashed: true,
 				indexBlog: false,
 				docsRouteBasePath: '/ui',
-			},
-		],
-	],
-	plugins: [
-		[
-			require.resolve('@cmfcmf/docusaurus-search-local'),
-			{
-				indexDocs: true,
-				indexBlog: false,
-				indexPages: true,
 			},
 		],
 	],
