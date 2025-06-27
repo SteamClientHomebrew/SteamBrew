@@ -52,7 +52,7 @@ We officially offer support for Millennium on the [Arch User Repository (AUR)](h
 
 ### NixOS
 
-We officially offer nix package for millennium. Currently, it did not able in nixpkgs, but you can use flake.
+We officially offer nix package for millennium. Currently, it isn't available in nixpkgs, but you can use our flake.
 1. Add input to your flake.
 ```nix
 inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
