@@ -71,7 +71,7 @@ if you use steam NixOS module, set millennium as steam package
 ```nix
 programs.steam.package = pkgs.millennium;
 ```
-if you don't, simply replace steam with millennium in package list.
+if you don't, simply replace steam with millennium in packages list.
 
 <details>
     <summary>Other Distributions</summary>
