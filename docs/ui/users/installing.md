@@ -52,8 +52,26 @@ We officially offer support for Millennium on the [Arch User Repository (AUR)](h
 
 ### NixOS
 
-We don't currently have a package for NixOS but it's somewhat in development in [#227](https://github.com/SteamClientHomebrew/Millennium/issues/227).
-Feel free to contribute and help finish the package.
+We officially offer nix package for millennium. Currently, it isn't available in nixpkgs, but you can use our flake.
+1. Add input to your flake.
+```nix
+inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
+```
+:::note
+Don't use url `github:SteamClientHomebrew/Millennium`. It uses github api, which don't support submodules.
+
+2. import overlay.
+```nix
+nixpkgs.overlay = [
+  inputs.millennium.overlays.default
+];
+```
+3. replace steam with millennium
+if you use steam NixOS module, set millennium as steam package
+```nix
+programs.steam.package = pkgs.millennium;
+```
+if you don't, simply replace steam with millennium in packages list.
 
 <details>
     <summary>Other Distributions</summary>
