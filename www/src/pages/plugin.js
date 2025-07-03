@@ -74,7 +74,7 @@ export const getServerSideProps = async (context) => {
 			};
 		}
 
-		pluginData.readMeMarkdown = await MarkdownToHtml(pluginData?.readme, pluginData?.repoOwner, pluginData?.repoName);
+		pluginData.readMeMarkdown = await MarkdownToHtml(pluginData?.readme, pluginData?.repoOwner, pluginData?.repoName, pluginData?.commitId);
 
 		return {
 			props: { pluginData, isSteamClient, apiError: false },
