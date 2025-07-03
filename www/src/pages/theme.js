@@ -45,7 +45,7 @@ export const getServerSideProps = async (context) => {
 	const json = await res.json();
 
 	const readme = json?.read_me;
-	const markdown = await MarkdownToHtml(readme, json?.data?.github?.owner, json?.data?.github?.repo);
+	const markdown = await MarkdownToHtml(readme, json?.data?.github?.owner, json?.data?.github?.repo, json?.commit_data?.oid);
 
 	const isSteamClient = /Valve Steam Client/.test(context.req.headers['user-agent']);
 

@@ -23,7 +23,7 @@ function addPathToImgSrc(options) {
 			if (node.tagName === 'img' && node.properties && node.properties.src) {
 				// Check if the src is already a full URL
 				if (!node.properties.src.startsWith('http')) {
-					node.properties.src = `https://raw.githubusercontent.com/${options.owner}/${options.repo}/HEAD/${node.properties.src}`;
+					node.properties.src = `https://raw.githubusercontent.com/${options.owner}/${options.repo}/${options.commit}/${node.properties.src}`;
 				}
 
 				if (parent) {
@@ -48,14 +48,14 @@ function addPathToImgSrc(options) {
 	};
 }
 
-export async function MarkdownToHtml(markdown, owner, repo) {
+export async function MarkdownToHtml(markdown, owner, repo, commit) {
 	const result = await unified()
 		.use(remarkParse)
 		.use(remarkGfm)
 		.use(remarkRehype, { allowDangerousHtml: true })
 		.use(rehypeRaw)
 		.use(rehypeSanitize, sanitizeSchema)
-		.use(addPathToImgSrc, { owner, repo })
+		.use(addPathToImgSrc, { owner, repo, commit })
 		.use(rehypeGithubAlert)
 		.use(rehypeStringify, { allowDangerousHtml: true })
 		.process(markdown);
