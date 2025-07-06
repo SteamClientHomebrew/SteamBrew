@@ -528,3 +528,13 @@ details {
 ul {
 	color: var(--paragraph-color) !important;
 }
+
+summary img {
+	border: none !important;
+	height: 18px !important;
+}
+summary {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}

@@ -43,12 +43,20 @@ We also don't support any ARM based distributions as they require custom Steam i
 :::
 
 :::note
-Looking to package Millennium for your favorite distribution? It should be a relatively simple process, the filesystem hierarchy is easily change-able [here](https://github.com/SteamClientHomebrew/Millennium/blob/main/src/sys/env.cc#L111C1-L134C11). From there you can build Millennium to use any filesystem standard!
+Looking to package Millennium for your favorite distribution? It should be a relatively simple process, the filesystem hierarchy is easily change-able [here](https://github.com/SteamClientHomebrew/Millennium/blob/main/src/sys/env.cc). From there you can build Millennium to use any filesystem standard!
 :::
+
+<details>
+  <summary><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Arch_Linux_%22Crystal%22_icon.svg/480px-Arch_Linux_%22Crystal%22_icon.svg.png"/> Arch Linux</summary>
 
 ### Arch Linux (AUR)
 
 We officially offer support for Millennium on the [Arch User Repository (AUR)](https://aur.archlinux.org/packages/millennium).
+
+</details>
+
+<details>
+  <summary><img src="https://gitlab.com/uploads/-/system/project/avatar/40517887/68747470733a2f2f692e696d6775722e636f6d2f367146436c41312e706e67.png"/>NixOS</summary>
 
 ### NixOS
 
@@ -81,8 +89,10 @@ programs.steam.package = pkgs.millennium;
 
 if you don't, simply replace steam with millennium in packages list.
 
+</details>
+
 <details>
-    <summary>Other Distributions</summary>
+    <summary><img src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_1280.png"/>Other Distributions</summary>
 
 ### Automatic
 
@@ -94,13 +104,11 @@ This installer is entirely open source and we encourage the community audit the 
 curl -fsSL "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/scripts/install.sh" | sudo sh
 ```
 
-</details>
-
-&nbsp;
-
-## Post Installation
+### Post Installation
 
 Run `millennium patch`, this will patch your Steam start script to bootstrap Millennium.
 You can then start Steam as normal!
+
+</details>
 
 </details>
