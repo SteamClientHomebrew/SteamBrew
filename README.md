@@ -7,8 +7,6 @@
 
 </div>
 
-https://steambrew.app/
-
 ## Contents
 
 * [User API](./api/)
