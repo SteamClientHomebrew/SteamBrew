@@ -16,6 +16,8 @@ import { Tooltip } from 'react-tooltip';
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
+import { HiOutlineClipboardCopy } from 'react-icons/hi';
+
 function HeadProp({ json, apiError }) {
 	if (apiError) {
 		return (
@@ -59,6 +61,7 @@ function HeadProp({ json, apiError }) {
 
 export const getServerSideProps = async (context) => {
 	const isSteamClient = /Valve Steam Client/.test(context.req.headers['user-agent']);
+	const isLinux = /Linux/.test(context.req.headers['user-agent']);
 
 	try {
 		console.log(API_URL + `/api/v1/plugin/` + context.query.id);
@@ -77,13 +80,13 @@ export const getServerSideProps = async (context) => {
 		pluginData.readMeMarkdown = await MarkdownToHtml(pluginData?.readme, pluginData?.repoOwner, pluginData?.repoName, pluginData?.commitId);
 
 		return {
-			props: { pluginData, isSteamClient, apiError: false },
+			props: { pluginData, isSteamClient, apiError: false, isLinux },
 		};
 	} catch (error) {
 		console.error('An error occurred while fetching plugin data:', error);
 
 		return {
-			props: { pluginData: null, isSteamClient, apiError: true },
+			props: { pluginData: null, isSteamClient, apiError: true, isLinux },
 		};
 	}
 };
@@ -114,7 +117,7 @@ const RenderAPIError = () => {
 	);
 };
 
-export default function Home({ pluginData, isSteamClient, apiError }) {
+export default function Home({ pluginData, isSteamClient, apiError, isLinux }) {
 	const startDownload = () => {
 		window.open(API_URL + pluginData?.downloadUrl, '_blank');
 
@@ -139,6 +142,17 @@ export default function Home({ pluginData, isSteamClient, apiError }) {
 
 	if (apiError) {
 		return <RenderAPIError />;
+	}
+
+	function copyPluginId() {
+		navigator.clipboard
+			.writeText(pluginData?.id)
+			.then(() => {
+				toast.success('Successfully copied to clipboard!');
+			})
+			.catch(() => {
+				toast.error('Failed to copy plugin ID');
+			});
 	}
 
 	useEffect(() => {
@@ -188,36 +202,44 @@ export default function Home({ pluginData, isSteamClient, apiError }) {
 												<div className="title-description theme-desc">{pluginData?.description}</div>
 												<section id="addon-actions">
 													<div className="btn-container direction-column">
+														{isLinux && (
+															<a onClick={copyPluginId} className="btn btn-primary" id="download-btn">
+																<HiOutlineClipboardCopy style={{ marginRight: '10px', height: '20px', width: '20px' }} />
+																<span draggable>Copy Plugin ID</span>
+															</a>
+														)}
+
 														<div className="wrap-buttons">
-															{pluginData?.hasValidBuild ? (
-																<a onClick={(_) => startDownload()} className="btn btn-primary" id="download-btn">
-																	<img
-																		height={'16px'}
-																		width={'16px'}
-																		src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAg0lEQVR4nO2UOwqAMBBE3zWsLCxsLLSw8vYGPYSghYVgIR4hErAQ/58EQfNgIBCYIRN24U9kgBwlTATImWzAAmkr+l5F1Yrplso7ATHQnTDvgeTuKyKg3TFXdyEP8YF6xbwBAjThAsXEXP2Ph2YcIB+3qjpb9CMuDJY8kDAdkBoo4CUG+aZ0PJTVTQsAAAAASUVORK5CYII="
-																	/>
-																	<span draggable>Download</span>
-																</a>
-															) : (
-																<>
-																	<a data-tooltip-id="not-available-tooltip" className="btn btn-primary not-available" id="download-btn">
+															{!isLinux &&
+																(pluginData?.hasValidBuild ? (
+																	<a onClick={(_) => startDownload()} className="btn btn-primary" id="download-btn">
 																		<img
 																			height={'16px'}
 																			width={'16px'}
-																			src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADQUlEQVR4nO2az0tUURTHP5QVqDlW46KC+gNatKll/g+VpBLRNpXauenXojELgnJXLSQkolIqN62KrEVpP5dWtCqylAo1ikQw48J5cTi8cd6bue+9WcwXLowz95zzvtx7zz3n+4QaaqghTbQAbUAfMAI8Bl7JcJ+H5bf9QJ4qQzPQA0wAf4HliMPNHQe6gVzWBPqB+RgPX2zMyUrl0iZxEJgu8lCfgBvACeAQsA9oB44BBeCOPHiY7VegMw0CjcD1kAf4BpwHdkT0UwfsAS4DCyH+hoCGJA/ySxPwJ9BbYdAtwEVg0fh+ITG9wjl8awI9ALZ6jLELeGdiTPok0xiyEueAVSSTQGZMrOdAvQ/n9ky4rZQE1gKjRZLANR/Zya5EWiRmzN8d5TpvAr4oR4+A1fjHGuCeeej7wEZzZqZl68VGv8lOPg/2SisxKt877DbZzF2asdBsLq3eDEgEGDAVQKzbv0cZf5fMlcZ2WhcydzPwR83rihNoQhm6GzuLldC4quY+IyJaTBUbtexIioRDq5q/FLUFaFNGH8meRLAV9Zl1/UxJ9CkDV8VmTSLAXWXrquiSGFEGrhSvBhL2OrhNBDxRBq6fqAYSSD8T+HBtc0m8UQZ7SSfFRkG78vM6LpEDVUIC6TRjEdFb6yjZbieNw3G31nAFtU1SJBxOK5+3iICCMnBCQTWQcLip/J4h5oU4J0JB1iQcPivf7ryURF7KgMDIqR1Zk9hpSpRNUQ3HleGVjEk4XFD+n1JmGb9QpKlKIsWGoVF0syDGEWIgZ4o0pztlsRIOJ1WM2XJkVV08LorulDaJbcCvuNkqTHyYUk4+iCCQxnZCdLOHRhcuW+TuLCHRJLUSDpdMrHLLpf8YMg7TIHHcxBr04bRBBGW7Mhvwj7qQlZjwJZkGffykCfBedCdf2C7FoI4xmcQrurwIyssmmw1UKN6tlxT7O2QlEnvPWC+Csj0vCyLZtEaszYKyw93YP0L8DfrcTiuhw+jCesxLij4r7Wm7qB6unzglVaxO63pM+chOcZGTkr/Y+8A4Y1Yuu6a0SVhC3aIA6qq51FiSArAr69fTYchLr1AQyWZM/cPAmHxXkDmRS/EaaqiBivEPQsfo+NRUoKsAAAAASUVORK5CYII="
-																			alt="cancel-2"
+																			src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAg0lEQVR4nO2UOwqAMBBE3zWsLCxsLLSw8vYGPYSghYVgIR4hErAQ/58EQfNgIBCYIRN24U9kgBwlTATImWzAAmkr+l5F1Yrplso7ATHQnTDvgeTuKyKg3TFXdyEP8YF6xbwBAjThAsXEXP2Ph2YcIB+3qjpb9CMuDJY8kDAdkBoo4CUG+aZ0PJTVTQsAAAAASUVORK5CYII="
 																		/>
-																		<span draggable>Not Available</span>
+																		<span draggable>Download</span>
 																	</a>
-																	<Tooltip id="not-available-tooltip" effect="solid" place="bottom-start" type="error" className="tooltip">
-																		<h3>Whoops!</h3>
-																		<hr></hr>
-																		<span>It appears that Millennium doesn't have any builds for this plugin.</span>
-																		<br></br>
-																		<span>Check back later or contact the developer for more information.</span>
-																	</Tooltip>
-																</>
-															)}
+																) : (
+																	<>
+																		<a data-tooltip-id="not-available-tooltip" className="btn btn-primary not-available" id="download-btn">
+																			<img
+																				height={'16px'}
+																				width={'16px'}
+																				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADQUlEQVR4nO2az0tUURTHP5QVqDlW46KC+gNatKll/g+VpBLRNpXauenXojELgnJXLSQkolIqN62KrEVpP5dWtCqylAo1ikQw48J5cTi8cd6bue+9WcwXLowz95zzvtx7zz3n+4QaaqghTbQAbUAfMAI8Bl7JcJ+H5bf9QJ4qQzPQA0wAf4HliMPNHQe6gVzWBPqB+RgPX2zMyUrl0iZxEJgu8lCfgBvACeAQsA9oB44BBeCOPHiY7VegMw0CjcD1kAf4BpwHdkT0UwfsAS4DCyH+hoCGJA/ySxPwJ9BbYdAtwEVg0fh+ITG9wjl8awI9ALZ6jLELeGdiTPok0xiyEueAVSSTQGZMrOdAvQ/n9ky4rZQE1gKjRZLANR/Zya5EWiRmzN8d5TpvAr4oR4+A1fjHGuCeeej7wEZzZqZl68VGv8lOPg/2SisxKt877DbZzF2asdBsLq3eDEgEGDAVQKzbv0cZf5fMlcZ2WhcydzPwR83rihNoQhm6GzuLldC4quY+IyJaTBUbtexIioRDq5q/FLUFaFNGH8meRLAV9Zl1/UxJ9CkDV8VmTSLAXWXrquiSGFEGrhSvBhL2OrhNBDxRBq6fqAYSSD8T+HBtc0m8UQZ7SSfFRkG78vM6LpEDVUIC6TRjEdFb6yjZbieNw3G31nAFtU1SJBxOK5+3iICCMnBCQTWQcLip/J4h5oU4J0JB1iQcPivf7ryURF7KgMDIqR1Zk9hpSpRNUQ3HleGVjEk4XFD+n1JmGb9QpKlKIsWGoVF0syDGEWIgZ4o0pztlsRIOJ1WM2XJkVV08LorulDaJbcCvuNkqTHyYUk4+iCCQxnZCdLOHRhcuW+TuLCHRJLUSDpdMrHLLpf8YMg7TIHHcxBr04bRBBGW7Mhvwj7qQlZjwJZkGffykCfBedCdf2C7FoI4xmcQrurwIyssmmw1UKN6tlxT7O2QlEnvPWC+Csj0vCyLZtEaszYKyw93YP0L8DfrcTiuhw+jCesxLij4r7Wm7qB6unzglVaxO63pM+chOcZGTkr/Y+8A4Y1Yuu6a0SVhC3aIA6qq51FiSArAr69fTYchLr1AQyWZM/cPAmHxXkDmRS/EaaqiBivEPQsfo+NRUoKsAAAAASUVORK5CYII="
+																				alt="cancel-2"
+																			/>
+																			<span draggable>Not Available</span>
+																		</a>
+																		<Tooltip id="not-available-tooltip" effect="solid" place="bottom-start" type="error" className="tooltip">
+																			<h3>Whoops!</h3>
+																			<hr></hr>
+																			<span>It appears that Millennium doesn't have any builds for this plugin.</span>
+																			<br></br>
+																			<span>Check back later or contact the developer for more information.</span>
+																		</Tooltip>
+																	</>
+																))}
 															<a
 																rel="noreferrer noopener"
 																target="_blank"
@@ -244,12 +266,6 @@ export default function Home({ pluginData, isSteamClient, apiError }) {
 														<Tooltip id="verified-plugin-tooltip" effect="solid" place="bottom-start" type="error" className="tooltip">
 															<span>This plugin is continuously audited to ensure its safety.</span>
 														</Tooltip>
-														{pluginData?.skin_data?.funding?.kofi && (
-															<a href={`https://ko-fi.com/${pluginData?.skin_data?.funding?.kofi}`} className="btn btn-primary" id="kofi-btn">
-																<img id="kofi-icon" src={'https://raw.githubusercontent.com/DeybisMelendez/godot-kofi-button/master/addons/kofi-donation-button/logo.png'}></img>
-																<span draggable="true">Support me on Ko-fi</span>
-															</a>
-														)}
 													</div>
 												</section>
 

@@ -13,6 +13,8 @@ import { API_URL } from '@/utils/globals';
 
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
+import { HiOutlineClipboardCopy } from 'react-icons/hi';
+import { SiKofi } from 'react-icons/si';
 
 function HeadProp({ json }) {
 	return (
@@ -48,17 +50,19 @@ export const getServerSideProps = async (context) => {
 	const markdown = await MarkdownToHtml(readme, json?.data?.github?.owner, json?.data?.github?.repo, json?.commit_data?.oid);
 
 	const isSteamClient = /Valve Steam Client/.test(context.req.headers['user-agent']);
+	const isLinux = /Linux/.test(context.req.headers['user-agent']);
 
 	return {
 		props: {
 			json,
 			markdown,
 			isSteamClient,
+			isLinux,
 		},
 	};
 };
 
-export default function Home({ json, markdown, isSteamClient }) {
+export default function Home({ json, markdown, isSteamClient, isLinux }) {
 	const [isMillenniumConnected, setIsMillenniumConnected] = useState(false);
 	const [isThemeInstalled, setIsThemeInstalled] = useState(false);
 	const [millenniumIPC, setMillenniumIPC] = useState(null);
@@ -154,7 +158,7 @@ export default function Home({ json, markdown, isSteamClient }) {
 			},
 			animated: true,
 		});
-		EstablishConnection();
+		if (!isLinux) EstablishConnection();
 	}, []);
 
 	const IncrementDownloadCount = () => {
@@ -240,6 +244,17 @@ export default function Home({ json, markdown, isSteamClient }) {
 		});
 	};
 
+	function copyThemeId() {
+		navigator.clipboard
+			.writeText(json?.data?.id)
+			.then(() => {
+				toast.success('Successfully copied to clipboard!');
+			})
+			.catch(() => {
+				toast.error('Failed to copy theme ID');
+			});
+	}
+
 	return (
 		<div>
 			<HeadProp json={json} />
@@ -274,8 +289,16 @@ export default function Home({ json, markdown, isSteamClient }) {
 												<div className="title-description theme-desc">{json?.description}</div>
 												<section id="addon-actions">
 													<div className="btn-container direction-column">
+														{isLinux && (
+															<a onClick={copyThemeId} className="btn btn-primary" id="download-btn">
+																<HiOutlineClipboardCopy style={{ marginRight: '10px', height: '20px', width: '20px' }} />
+																<span draggable>Copy Theme ID</span>
+															</a>
+														)}
+
 														<div className="wrap-buttons">
-															{isMillenniumConnected &&
+															{!isLinux &&
+																isMillenniumConnected &&
 																(!isThemeInstalled ? (
 																	<a onClick={(_) => startDownload()} className="btn btn-primary" id="download-btn">
 																		<img
@@ -302,13 +325,13 @@ export default function Home({ json, markdown, isSteamClient }) {
 																</svg>
 																<span>View Source</span>
 															</a>
+															{json?.skin_data?.funding?.kofi && (
+																<a href={`https://ko-fi.com/${json?.skin_data?.funding?.kofi}`} className="btn btn-primary" id="kofi-btn">
+																	<SiKofi style={{ height: '16px', width: '16px', marginRight: '10px' }} />
+																	<span draggable="true">Donate</span>
+																</a>
+															)}
 														</div>
-														{json?.skin_data?.funding?.kofi && (
-															<a href={`https://ko-fi.com/${json?.skin_data?.funding?.kofi}`} className="btn btn-primary" id="kofi-btn">
-																<img id="kofi-icon" src={'https://raw.githubusercontent.com/DeybisMelendez/godot-kofi-button/master/addons/kofi-donation-button/logo.png'}></img>
-																<span draggable="true">Support me on Ko-fi</span>
-															</a>
-														)}
 													</div>
 												</section>
 
