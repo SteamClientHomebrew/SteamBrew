@@ -6,12 +6,12 @@ sidebar_position: 4
 
 ## Prerequisites
 
-- [Getting Started](https://github.com/SteamClientHomebrew/Millennium/wiki/Creating-Themes)
-- [Theme Template Repository](https://github.com/SteamClientHomebrew/Millennium/tree/main/examples/theme)
+-   [Getting Started](https://github.com/SteamClientHomebrew/Millennium/wiki/Creating-Themes)
+-   [Theme Template Repository](https://github.com/SteamClientHomebrew/ThemeTemplate)
 
 ## Introduction
 
-In order to publish a theme to the community store, you must have your theme in a GitHub repo where the `skin.json` is in the root directory of the repository. Copy the structure of [this template](https://github.com/SteamClientHomebrew/Millennium/tree/main/examples/theme) repository if you're confused.
+In order to publish a theme to the community store, you must have your theme in a GitHub repo where the `skin.json` is in the root directory of the repository. Copy the structure of [this template](https://github.com/SteamClientHomebrew/ThemeTemplate) repository if you're confused.
 
 ## Guidelines
 
@@ -20,15 +20,15 @@ As you've probably seen from other themes, the README.MD file in you GitHub repo
 
 **Not Permitted:**
 
-- NSFW Content
-- Political Content
-- Gifs/Images involving real people
-- Talking about anything other than your theme
-- Any fully paid services
+-   NSFW Content
+-   Political Content
+-   Gifs/Images involving real people
+-   Talking about anything other than your theme
+-   Any fully paid services
 
 **Permitted:**
 
-- Advertising Discord Servers, Support servers, donation links
+-   Advertising Discord Servers, Support servers, donation links
 
 ## Submitting
 

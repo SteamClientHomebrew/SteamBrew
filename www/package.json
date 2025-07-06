@@ -41,7 +41,8 @@
 	},
 	"pnpm": {
 		"ignoredBuiltDependencies": [
-			"esbuild"
+			"esbuild",
+			"re2"
 		],
 		"onlyBuiltDependencies": [
 			"@firebase/util",

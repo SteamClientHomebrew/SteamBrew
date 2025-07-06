@@ -81,7 +81,13 @@ function getFilesFromDirectory(dirPath, dirPathBase = '', baseDir = '', topLevel
 
 function getFilesWithComponents(dirPath) {
 	const topLevelComponents = {};
-	const items = getFilesFromDirectory(path.join(__dirname, dirPath), dirPath.split('/').slice(1).join('/'), '', topLevelComponents);
+	let items;
+
+	try {
+		items = getFilesFromDirectory(path.join(__dirname, dirPath), dirPath.split('/').slice(1).join('/'), '', topLevelComponents);
+	} catch (error) {
+		return [];
+	}
 
 	return [...Object.values(topLevelComponents), ...items];
 }
