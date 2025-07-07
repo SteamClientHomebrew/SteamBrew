@@ -78,12 +78,11 @@ export default function FluentyViewModal({ isSteamClient }) {
 												<small>← Back to Themes</small>
 											</a>
 											<a target="_blank" className="addon-author-container">
-												<img loading="lazy" src={`https://cdn.discordapp.com/icons/1102739071085846623/03b125b1961432a1a1215da140663f30.webp`} />
-												<h5>Millennium</h5>
+												<img loading="lazy" src={`https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/steambrew-logo.png`} />
+												<h5>Steam Homebrew</h5>
 											</a>
 											<h1 className="title">Fluenty</h1>
 											<div className="title-description theme-desc">{fluenty?.description}</div>
-											{/* <h3 className="addon-details-section-header">Actions</h3> */}
 											<section id="addon-actions">
 												<div className="btn-container direction-column">
 													<div className="wrap-buttons">
@@ -91,18 +90,9 @@ export default function FluentyViewModal({ isSteamClient }) {
 															<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmUlEQVR4nO2ZT4hNURzHPywMYxaisDXjz4YhIskUYzNi1pQ/CxJrigXNjClWhCWGWFFsGaWkKWPLFJN/ZcpKM/7n+TN5OnVufbuNe+85d+acl96nTq/eud/v73vfu+93z7kP6vxfbAEuAy+Ab3YMA5fsXM3SDAwA1ZzxAFhMjbEB+FggfDLGgI3UCEtS4SvAOWAdMBtoBNba9ypy3CjQEjv8NOChhBoBlmccvwJ4l7qcorIp9clnhU9oBX6Irp2IXJUg5hIpygXRXSQizyWIuc6Lsl50wwRiJdBv+/pEnaXJHvfBoRuZ8cXqZsh7X4G79nKbFLYBv3OCJLiEz9OamlvLhp9b8FOdihOo2nY7p8wJ7BWzV8CifxR0JUvbDLyW+T0l8nNajHocQuSRp+2ReZPBm+titM8xRBZ52v0yf40S3BejjtRcsjQwr67kaTukrskwKb0+3dZO2ZZnXl3J07ZK3WeU4LMYmY4UinlS95OvSZOYfCf8QrEywY3SiWViYNpaaN5I/aU+Bu1iYHZboRmQ+pt9DHaLwQ3Cc1Pq7/IxOCYGZwjPWal/1MdA1+2HCc8RqX/ex+C2GOwgPDul/i0fg8di0EZ42qT+Ix+DETEwK8TQtEj9t67i6cBPK/4DzCQ8s+QEftlMhVmQ2lTEYkxyzHcRrhbhEPEYkhyrXITbRWg287G4JznM3rwwB0XYRzyuSI4DLsKTIuwlHr0ZW9pM+kRovo1YHJIc5j+GwvSLsJN4dEqOOy7CpyI0HSkWayTHExfhqAjNPSEWCyXHexdhcheu2jtiLBolh3ks77WdOw40EJ4G4ITkeOki1idjtTK6XE7ALN4GayB01Y5BnwWlufa77ROJ8Qihx+0D5a7Iv8M6deowhfwF+BC2GOS0rI0AAAAASUVORK5CYII=" />
 															<span draggable>Purchase • $5 USD</span>
 														</a>
-														{/* <a rel="noreferrer noopener" target="_blank" href={`https://www.patreon.com/FluentyforSteam`} className="btn btn-secondary" id="view-source">
-                                    <svg className="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fillRule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    </svg>
-                                    <span>View More</span>
-                                </a> */}
 													</div>
 												</div>
 											</section>
-
-											{/* <h3 className="addon-details-section-header">About</h3> */}
-
 											<section id="about-addon">
 												<span className="addon-metadata-row">
 													<strong>Downloads: </strong> {fluenty.downloads}{' '}
@@ -114,22 +104,16 @@ export default function FluentyViewModal({ isSteamClient }) {
 													<strong>Id: </strong>fluenty-steam
 												</span>
 											</section>
-											{/* <h3 className="addon-details-section-header">Author</h3> */}
-											<section id="addon-author">
-												{/* <a target="_blank" href={`https://github.com/${json?.data?.github?.owner}`} className="addon-author-container">
-                                <img loading="lazy" src={`https://github.com/${json?.data?.github?.owner}.png`}/>
-                                <h5>{json?.data?.github?.owner}</h5>
-                            </a> */}
-											</section>
+											<section id="addon-author"></section>
 										</div>
 
 										{/* Render Discord server invite link if there is one provided */}
 										<div className="addon-details-segment" id="addon-details-column-server">
 											<section id="addon-server">
 												<div className="flex-container align-center">
-													<img loading="lazy" src={'https://cdn.discordapp.com/icons/1102739071085846623/03b125b1961432a1a1215da140663f30.webp'} />
+													<img loading="lazy" src={'https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/steambrew-logo.png'} />
 													<div className="flex-container justify-center direction-column">
-														<h5>Millennium</h5>
+														<h5>Steam Homebrew</h5>
 														<p>Support Server</p>
 													</div>
 												</div>

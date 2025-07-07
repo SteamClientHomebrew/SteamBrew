@@ -2,7 +2,7 @@ const fluenty = {
 	description: 'A theme based off of Windows 11 design principles',
 	version: '1.0.2',
 	// yes I manually have to update this as patreon doesn't have an api for it
-	downloads: '17.1K',
+	downloads: '24.3K',
 };
 
 function DisplayFluentyAd() {
@@ -18,31 +18,11 @@ function DisplayFluentyAd() {
 							<div className="card-stats">
 								<div className="card-stat" id="addon-likes">
 									<div className="pfp-name">
-										<p className="card-subtext package-author">by Millennium</p>
+										<p className="card-subtext package-author">by Steam Homebrew</p>
 
 										<a target="_blank" className="addon-author-container">
-											<img loading="lazy" src={`https://i.imgur.com/xSqPofh.png`} />
+											<img loading="lazy" src={`https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/steambrew-logo.png`} />
 										</a>
-									</div>
-									<div aria-label="View demo" className="card_demo-link__kBqwW" role="link">
-										<svg
-											className="with-icon_icon__MHUeb"
-											data-testid="geist-icon"
-											fill="none"
-											height="24"
-											shapeRendering="geometricPrecision"
-											stroke="currentColor"
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth="1.5"
-											viewBox="0 0 24 24"
-											width="24"
-											style={{ color: 'currentColor', width: '20px', height: '20px' }}
-										>
-											<path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-											<path d="M15 3h6v6"></path>
-											<path d="M10 14L21 3"></path>
-										</svg>
 									</div>
 								</div>
 							</div>
