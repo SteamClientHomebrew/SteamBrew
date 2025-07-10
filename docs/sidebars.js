@@ -107,7 +107,7 @@ module.exports = {
 				description: 'A Guide to Getting Acquainted with Millennium.',
 				slug: '/users',
 			},
-			items: ['users/installing', 'users/getting-started', 'users/trouble-shooting', 'users/faq', 'users/uninstalling'],
+			items: ['users/installing', 'users/getting-started', 'users/trouble-shooting', 'users/faq', 'users/uninstalling', 'users/finding-version', 'users/millennium-url'],
 		},
 		{
 			type: 'category',
