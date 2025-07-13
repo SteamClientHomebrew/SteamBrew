@@ -538,3 +538,37 @@ summary {
 	gap: 10px;
 	align-items: center;
 }
+
+.tabs__item {
+	padding: 5px 25px 5px 25px;
+}
+
+.tabs__item {
+	font-weight: normal;
+}
+.tabs::before {
+	background: #303030;
+	box-sizing: content-box;
+	height: 2px;
+	width: 100%;
+	content: '';
+	position: absolute;
+	top: 38px;
+	z-index: -1;
+}
+.tabs__item--active::before {
+	width: 100%;
+	background: white;
+	height: 3px;
+}
+.tabs-container {
+	position: relative;
+	display: block;
+}
+.tabs__item:hover {
+	background: unset !important;
+}
+
+.tabs__item--active {
+	border-bottom: 1px solid rgb(196, 150, 255);
+}

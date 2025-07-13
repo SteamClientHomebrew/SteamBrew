@@ -3,10 +3,13 @@ sidebar_position: 2
 description: Quick guide on removing Millennium.
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Uninstalling
 
-<details>
-  <summary>Windows</summary>
+<Tabs>
+	<TabItem value="windows" label="Windows">
 
 ### Automatic
 
@@ -27,10 +30,11 @@ You can then proceed with the removal process.
 Close Steam and navigate to your Steam directory and then look through the [assets repository](https://github.com/ShadowMonster99/millennium-steam-binaries), or find manually find the filenames associated with Millennium.
 
 The installed binaries on your system may be listed below depending on the version of Millennium.
-As of Millennium@v2.2.2 the binaries are:
+As of Millennium v2.25.1 the binaries are:
 
 -   `user32.dll`
 -   `python311.dll`
+-   `millennium.dll`
 
 If you want a deeper clean of Millennium, you can also remove all of its assets. As of Millennium@v2.2.2, the assets are found in the paths below (replacing \{steam\} with steams actual location)
 
@@ -38,16 +42,10 @@ If you want a deeper clean of Millennium, you can also remove all of its assets.
 -   `{steam}/plugins` - User Plugins
 -   `{steam}/ext` - Millennium Internal Data
 
-If you don't know where steam is installed, you can run this in powershell
+If you don't know where steam is installed, check how you can [find your steam path](../faq/finding-steam.md)
 
-```powershell
-(Get-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam" -Name "InstallPath").InstallPath
-```
-
-</details>
-
-<details>
-  <summary>Linux</summary>
+</TabItem>
+<TabItem value="linux" label="Linux">
 
 ### Manual
 
@@ -70,11 +68,7 @@ You'll need to delete your configuration and plugins manually:
 rm -rf "${XDG_CONFIG_HOME:-$HOME/.config}/millennium" "${XDG_DATA_HOME:-$HOME/.local/share}/millennium"
 ```
 
-Then, replace the patched Steam binary with the original binary:
-
-```sh
-sudo mv /usr/bin/steam.millennium.bak /usr/bin/steam
-```
+And that's it!
 
 </details>
 
@@ -88,4 +82,5 @@ Then, replace the patched Steam binary with the original binary:
 sudo mv /usr/bin/steam.millennium.bak /usr/bin/steam
 ```
 
-</details>
+</TabItem>
+</Tabs>
