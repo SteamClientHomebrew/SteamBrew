@@ -26,20 +26,6 @@ const config = {
 		format: 'detect',
 	},
 
-	themes: [
-		[
-			'@docusaurus/theme-search-algolia',
-			{
-				appId: '1H90CYBBIE',
-				apiKey: '2b499d1195c690a6e7acf4a45b244768',
-				indexName: 'docs_steambrew_app_1h90cybbie_pages',
-				contextualSearch: true,
-				searchParameters: {},
-				placeholder: 'Search the docs...',
-			},
-		],
-	],
-
 	presets: [
 		[
 			'classic',
@@ -78,6 +64,15 @@ const config = {
 				disableSwitch: true,
 				respectPrefersColorScheme: true,
 			},
+			algolia: {
+				appId: '1H90CYBBIE',
+				apiKey: '2b499d1195c690a6e7acf4a45b244768',
+				indexName: 'docs_steambrew_app_1h90cybbie_pages',
+				contextualSearch: true,
+				searchParameters: {},
+				placeholder: 'Search the docs...',
+			},
+
 			navbar: {
 				title: 'Steam Homebrew.',
 				logo: {
