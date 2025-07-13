@@ -100,14 +100,25 @@ module.exports = {
 		'about',
 		{
 			type: 'category',
-			label: 'User Documentation',
+			label: 'General Documentation',
 			collapsed: false,
 			link: {
 				type: 'generated-index',
 				description: 'A Guide to Getting Acquainted with Millennium.',
 				slug: '/users',
 			},
-			items: ['users/installing', 'users/getting-started', 'users/trouble-shooting', 'users/faq', 'users/uninstalling', 'users/finding-version', 'users/millennium-url'],
+			items: ['users/installing', 'users/getting-started', 'users/trouble-shooting', 'users/uninstalling', 'users/millennium-url'],
+		},
+		{
+			type: 'category',
+			label: 'FAQ',
+			collapsed: false,
+			link: {
+				type: 'generated-index',
+				description: 'A variety of frequently asked questions.',
+				slug: '/faq',
+			},
+			items: ['faq/antiviruses', 'faq/ban-risk', 'faq/filesystem', 'faq/finding-steam', 'faq/finding-version'],
 		},
 		{
 			type: 'category',

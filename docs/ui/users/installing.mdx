@@ -3,12 +3,15 @@ sidebar_position: 1
 description: Quick guide to getting Millennium.
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Installing
 
 A quick guide to installing Millennium.
 
-<details>
-  <summary>Windows</summary>
+<Tabs>
+	<TabItem value="windows" label="Windows">
 
 ### Automatic
 
@@ -26,16 +29,10 @@ iwr -useb "https://steambrew.app/install.ps1" | iex
 
 ### Manual
 
-Start by downloading the Millennium's Windows assets from [this repository](https://github.com/SteamClientHomebrew/Millennium/releases/latest) under the name `millennium-v0.0.0-windows-x86_64.zip`. Simply put all files into your Steam directory, which you can find by running the PowerShell command below
+Start by downloading the Millennium's Windows assets from [this repository](https://github.com/SteamClientHomebrew/Millennium/releases/latest) under the name `millennium-v0.0.0-windows-x86_64.zip`. Simply put all files into your Steam directory, which [here](../faq/finding-version.md)
 
-```powershell
-(Get-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam" -Name "InstallPath").InstallPath
-```
-
-</details>
-
-<details>
-  <summary>Linux</summary>
+</TabItem>
+<TabItem value="linux" label="Linux">
 
 :::caution
 We don't support Steam installed via [Flatpak](https://flatpak.org/) or [Snap](https://snapcraft.io/).
@@ -72,7 +69,9 @@ inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
 Don't use `github:SteamClientHomebrew/Millennium`. This does not support git submodules which are vital in the process of building Millennium.
 :::
 
-2. import overlay.
+2. import overlay
+
+    .
 
 ```nix
 nixpkgs.overlay = [
@@ -111,4 +110,5 @@ You can then start Steam as normal!
 
 </details>
 
-</details>
+</TabItem>
+</Tabs>
