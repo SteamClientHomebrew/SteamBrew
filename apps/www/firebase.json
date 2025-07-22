@@ -1,0 +1,24 @@
+{
+	"hosting": {
+		"errorPages": {
+			"500": "/public/500.html"
+		},
+		"source": ".",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"frameworksBackend": {
+			"region": "us-central1"
+		},
+		"redirects": [
+			{
+				"source": "/users/installing",
+				"destination": "/users/getting-started/installation",
+				"type": 301
+			},
+			{
+				"source": "/users/uninstalling",
+				"destination": "/users/parting-ways/uninstall",
+				"type": 301
+			}
+		]
+	}
+}

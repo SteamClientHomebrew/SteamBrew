@@ -1,0 +1,12 @@
+{
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**", ".next/**", ".vitepress/dist/**"]
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		}
+	}
+}
