@@ -55,4 +55,5 @@ jobs:
               run: |
                   cd apps/www
                   firebase use --add steam-brew
+                  firebase target:apply hosting steam-brew steam-brew
                   firebase deploy --only hosting --token $FIREBASE_TOKEN --force
