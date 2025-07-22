@@ -9,9 +9,9 @@
 
 ## Contents
 
--   [User API](./api/)
--   [Documentation](./docs/)
--   [SteamBrew App](./www/)
+-   [User API](./apps/www/src/app/api)
+-   [Documentation](./apps/docs/)
+-   [SteamBrew App](./apps/www/)
 
 ## Building
 
