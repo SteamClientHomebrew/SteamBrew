@@ -45,11 +45,11 @@ jobs:
                   FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
               run: |
                   cd apps/docs
-                  firebase deploy --only hosting --token $FIREBASE_TOKEN --force
+                  firebase deploy --only hosting --token $FIREBASE_TOKEN --force --project steam-brew
 
             - name: Deploy Main Site
               env:
                   FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
               run: |
                   cd apps/www
-                  firebase deploy --only hosting --token $FIREBASE_TOKEN --force
+                  firebase deploy --only hosting --token $FIREBASE_TOKEN --force --project steam-brew
