@@ -1,17 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-*/node_modules
+**/node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-.firebase
+**/.firebase
+**/.firebaserc
 firebase-debug.log
 # testing
 /coverage
 
 # next.js
-*/.next/
+**/.next/
 /out/
 
 # production
@@ -44,5 +45,12 @@ docs/ui/sdk/typescript/browser
 api/credentials
 api/node_modules
 
-*/.env
-*/firebase.credentials.json
+# turbo
+**/.turbo
+
+# credentials
+**/credentials.json
+**/.env
+
+# vitepress cache
+apps/docs/.vitepress/cache

@@ -1,0 +1,563 @@
+span.line .global-bdapi {
+	color: #3e82e5;
+	background-color: var(--vp-c-bg-soft);
+	border: 1px solid var(--vp-c-border);
+	padding: 1px 3px;
+	margin: -1px -3px;
+	border-radius: 4px;
+}
+
+:root {
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: linear-gradient(120deg, #3e82e5 30%, #41d1ff);
+
+	--vp-home-hero-image-background-image: linear-gradient(-45deg, #3e82e5 50%, #41d1ff 50%);
+	--vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+	:root {
+		--vp-home-hero-image-filter: blur(56px);
+	}
+}
+
+@media (min-width: 960px) {
+	:root {
+		--vp-home-hero-image-filter: blur(68px);
+	}
+}
+
+.vp-doc p {
+	text-wrap: pretty;
+}
+
+/* TODO: poll this */
+/* .vp-doc a.header-anchor {
+    position: initial;
+    margin: 0 0 0 5px;
+    opacity: 1;
+}
+
+.vp-doc a.header-anchor:hover {
+    color: var(--vp-c-brand-1);
+    text-decoration: underline;
+} */
+
+/**
+ * Colors: Palette
+ *
+ * The primitive colors used for accent colors. These colors are referenced
+ * by functional colors such as "Text", "Background", or "Brand".
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ *
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *    It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *    top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *    or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *    on top of it.
+ *
+ *    The soft color must be semi transparent alpha channel. This is crucial
+ *    because it allows adding multiple "soft" colors on top of each other
+ *    to create a accent, such as when having inline code block inside
+ *    custom containers.
+ * --------------------------------------------------------------------------*/
+
+/* :root {
+    --vp-c-gray-1: #dddde3;
+    --vp-c-gray-2: #e4e4e9;
+    --vp-c-gray-3: #ebebef;
+    --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
+  
+    --vp-c-indigo-1: #3451b2;
+    --vp-c-indigo-2: #3a5ccc;
+    --vp-c-indigo-3: #5672cd;
+    --vp-c-indigo-soft: rgba(100, 108, 255, 0.14);
+  
+    --vp-c-purple-1: #6f42c1;
+    --vp-c-purple-2: #7e4cc9;
+    --vp-c-purple-3: #8e5cd9;
+    --vp-c-purple-soft: rgba(159, 122, 234, 0.14);
+  
+    --vp-c-green-1: #18794e;
+    --vp-c-green-2: #299764;
+    --vp-c-green-3: #30a46c;
+    --vp-c-green-soft: rgba(16, 185, 129, 0.14);
+  
+    --vp-c-yellow-1: #915930;
+    --vp-c-yellow-2: #946300;
+    --vp-c-yellow-3: #9f6a00;
+    --vp-c-yellow-soft: rgba(234, 179, 8, 0.14);
+  
+    --vp-c-red-1: #b8272c;
+    --vp-c-red-2: #d5393e;
+    --vp-c-red-3: #e0575b;
+    --vp-c-red-soft: rgba(244, 63, 94, 0.14);
+  
+    --vp-c-sponsor: #db2777;
+} */
+
+.dark {
+	/* --vp-c-gray-1: #515c67; */
+	/* --vp-c-gray-2: #414853; */
+	/* --vp-c-gray-3: #32363f; */
+	/* --vp-c-gray-soft: rgba(117, 117, 133, 0.16); */
+
+	--vp-c-indigo-1: #5a88ce;
+	--vp-c-indigo-2: #3e82e5;
+	--vp-c-indigo-3: #195cbd;
+	--vp-c-indigo-soft: rgba(58, 58, 58, 0.1);
+
+	/* --vp-c-purple-1: #c8abfa; */
+	/* --vp-c-purple-2: #a879e6; */
+	/* --vp-c-purple-3: #8e5cd9; */
+	/* --vp-c-purple-soft: rgba(159, 122, 234, 0.16); */
+
+	--vp-c-green-1: #3ac172;
+	--vp-c-green-2: #30a46c;
+	--vp-c-green-3: #298459;
+	--vp-c-green-soft: rgba(58, 193, 114, 0.1);
+
+	--vp-c-yellow-1: #fbbf24;
+	--vp-c-yellow-2: #da8b17;
+	--vp-c-yellow-3: #a46a0a;
+	--vp-c-yellow-soft: rgba(251, 191, 36, 0.1);
+
+	--vp-c-red-1: #c13a3a;
+	--vp-c-red-2: #f14158;
+	--vp-c-red-3: #b62a3c;
+	--vp-c-red-soft: rgba(193, 58, 58, 0.1);
+}
+
+/**
+   * Colors: Background
+   *
+   * - `bg`: The bg color used for main screen.
+   *
+   * - `bg-alt`: The alternative bg color used in places such as "sidebar",
+   *   or "code block".
+   *
+   * - `bg-elv`: The elevated bg color. This is used at parts where it "floats",
+   *   such as "dialog".
+   *
+   * - `bg-soft`: The bg color to slightly distinguish some components from
+   *   the page. Used for things like "carbon ads" or "table".
+   * -------------------------------------------------------------------------- */
+
+:root {
+	/* --vp-c-bg: #ffffff; */
+	/* --vp-c-bg-alt: #f6f6f7; */
+	/* --vp-c-bg-elv: #ffffff; */
+	/* --vp-c-bg-soft: #f6f6f7; */
+}
+
+.dark {
+	--vp-c-bg: #141414;
+	--vp-c-bg-alt: #0c0c0c;
+	--vp-c-bg-elv: #202020;
+	--vp-c-bg-soft: #202020;
+}
+
+/**
+ * Colors: Borders
+ *
+ * - `divider`: This is used for separators. This is used to divide sections
+ *   within the same components, such as having separator on "h2" heading.
+ *
+ * - `border`: This is designed for borders on interactive components.
+ *   For example this should be used for a button outline.
+ *
+ * - `gutter`: This is used to divide components in the page. For example
+ *   the header and the lest of the page.
+ * -------------------------------------------------------------------------- */
+
+:root {
+	/* --vp-c-border: #c2c2c4; */
+	/* --vp-c-divider: #e2e2e3; */
+	/* --vp-c-gutter: #e2e2e3; */
+}
+
+.dark {
+	/* --vp-c-border: #3c3f44; */
+	/* --vp-c-divider: #2e2e32; */
+	--vp-c-gutter: transparent;
+	--vp-custom-block-details-bg: #212121;
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+	/* --vp-custom-block-font-size: 14px; */
+	/* --vp-custom-block-code-font-size: 13px; */
+
+	/* --vp-custom-block-info-border: var(--vp-c-default-1); */
+	/* --vp-custom-block-info-text: var(--vp-c-text-1); */
+	/* --vp-custom-block-info-bg: var(--vp-c-default-soft); */
+	/* --vp-custom-block-info-code-bg: var(--vp-c-default-soft); */
+
+	--vp-custom-block-note-border: var(--vp-c-default-1);
+	/* --vp-custom-block-note-text: var(--vp-c-default-1); */
+	/* --vp-custom-block-note-bg: var(--vp-c-default-soft); */
+	/* --vp-custom-block-note-code-bg: var(--vp-c-default-soft); */
+
+	--vp-custom-block-tip-border: var(--vp-c-tip-1);
+	--vp-custom-block-tip-text: var(--vp-c-tip-1);
+	/* --vp-custom-block-tip-bg: var(--vp-c-tip-soft); */
+	/* --vp-custom-block-tip-code-bg: var(--vp-c-tip-soft); */
+
+	--vp-custom-block-important-border: var(--vp-c-important-1);
+	--vp-custom-block-important-text: var(--vp-c-important-1);
+	/* --vp-custom-block-important-bg: var(--vp-c-important-soft); */
+	/* --vp-custom-block-important-code-bg: var(--vp-c-important-soft); */
+
+	--vp-custom-block-warning-border: var(--vp-c-warning-1);
+	--vp-custom-block-warning-text: var(--vp-c-warning-1);
+	/* --vp-custom-block-warning-bg: var(--vp-c-warning-soft); */
+	/* --vp-custom-block-warning-code-bg: var(--vp-c-warning-soft); */
+
+	--vp-custom-block-danger-border: var(--vp-c-danger-1);
+	--vp-custom-block-danger-text: var(--vp-c-danger-1);
+	/* --vp-custom-block-danger-bg: var(--vp-c-danger-soft); */
+	/* --vp-custom-block-danger-code-bg: var(--vp-c-danger-soft); */
+
+	--vp-custom-block-caution-border: var(--vp-c-caution-1);
+	--vp-custom-block-caution-text: var(--vp-c-caution-1);
+	/* --vp-custom-block-caution-bg: var(--vp-c-caution-soft); */
+	/* --vp-custom-block-caution-code-bg: var(--vp-c-caution-soft); */
+
+	/* --vp-custom-block-details-border: var(--vp-custom-block-info-border);
+    --vp-custom-block-details-text: var(--vp-custom-block-info-text);
+    --vp-custom-block-details-bg: var(--vp-custom-block-info-bg);
+    --vp-custom-block-details-code-bg: var(--vp-custom-block-info-code-bg); */
+}
+
+.custom-block {
+	border: 0;
+	border-left: 5px solid;
+}
+
+/* LEGACY DOCUSAURUS CSS BELOW FOR REFERENCING COLORS */
+/* :root {
+    --ifm-color-primary: #3e82e5;
+    --ifm-color-primary-dark: #2471e2;
+    --ifm-color-primary-darker: #1d6ada;
+    --ifm-color-primary-darkest: #1857b4;
+    --ifm-color-primary-light: #5893e8;
+    --ifm-color-primary-lighter: #649bea;
+    --ifm-color-primary-lightest: #8bb4ef;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+  
+html[data-theme='dark'] {
+    --ifm-color-primary: #3e82e5;
+    --ifm-color-primary-dark: #2471e2;
+    --ifm-color-primary-darker: #1d6ada;
+    --ifm-color-primary-darkest: #1857b4;
+    --ifm-color-primary-light: #5893e8;
+    --ifm-color-primary-lighter: #649bea;
+    --ifm-color-primary-lightest: #8bb4ef;
+    --ifm-background-color: #0C0D10;
+    --ifm-footer-background-color: #040405;
+    --ifm-navbar-background-color: #040405;
+    --ifm-card-background-color: #20212B;
+    --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
+  
+    --ifm-table-head-background: #191A21;
+    --ifm-table-border-color: #20212B;
+    --ifm-table-background: #14151B;
+    --ifm-table-stripe-background: #101116;
+  
+    --ifm-code-background: #20212b;
+    --ifm-navbar-search-input-background-color: #20212B;
+  
+    --ifm-code-padding-vertical: 3px;
+    --ifm-code-padding-horizontal: 3px;
+    --ifm-heading-font-family: inter, system-ui, sans-serif;
+    --ifm-h1-font-size: 2rem;
+    --ifm-h2-font-size: 1.5rem;
+}
+
+.code-tabs {
+background-color: #282A36;
+border-radius: var(--ifm-code-border-radius) var(--ifm-code-border-radius) 0 0;
+}
+
+.code-tabs + .margin-top--md {
+margin-top: 0 !important;
+}
+
+.code-tabs + .margin-top--md [class*="language-"] {
+border-radius: 0 0 var(--ifm-code-border-radius) var(--ifm-code-border-radius);
+}
+
+div[class*="codeBlockTitle"] {
+background-color: #282A36;
+border-radius: var(--ifm-code-border-radius) var(--ifm-code-border-radius) 0 0;
+box-shadow: 0 2px 4px rgba(0,0,0,.2);
+color: var(--ifm-tabs-color);
+border: 0;
+padding: var(--ifm-tabs-padding-vertical) var(--ifm-tabs-padding-horizontal);
+}
+
+
+
+html[data-theme='dark'] .footer {
+--ifm-footer-background-color: #040405;
+}
+
+html[data-theme='dark'] [class*="cardContainer"] {
+border-color: transparent;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+transition: all var(--ifm-transition-fast) ease;
+}
+
+html[data-theme='dark'] [class*="cardContainer"]:hover {
+background-color: #282A36;
+}
+
+html[data-theme='dark'] [class*="language-"] {
+--prism-background-color: #20212B;
+}
+
+.deprecated {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+color: #C13A3A;
+font-size: 10px;
+text-transform: uppercase;
+background: rgba(193, 58, 58, 0.1);
+border-radius: 50px;
+padding: 1px 8px;
+font-weight: 600;
+margin-left: 5px;
+}
+
+h3 .deprecated {
+font-size: 1rem;
+padding: 2px 8px;
+margin-left: 10px;
+}
+
+h3[id*="deprecated"] {
+display: flex;
+align-items: center;
+}
+
+.alert--secondary {
+--ifm-alert-background-color: #20212B;
+}
+
+.alert--info {
+--ifm-alert-background-color: rgba(58, 113, 193, 0.1);
+--ifm-alert-foreground-color: #5A88CE;
+--ifm-alert-border-color: #5A88CE;
+}
+
+.alert--warning {
+--ifm-alert-background-color: rgba(251, 191, 36, 0.1);
+--ifm-alert-foreground-color: #fbbf24;
+--ifm-alert-border-color: #fbbf24;
+}
+
+.alert--success {
+--ifm-alert-background-color: rgba(58, 193, 114, 0.1);
+--ifm-alert-foreground-color: #3ac172;
+--ifm-alert-border-color: #3ac172;
+}
+
+.alert--danger {
+--ifm-alert-background-color: rgba(193, 58, 58, 0.1);
+--ifm-alert-foreground-color: #c13a3a;
+--ifm-alert-border-color: #c13a3a;
+}
+
+.tabs__item {
+text-transform: capitalize;
+}
+
+.files .tabs__item {
+text-transform: none;
+}
+
+
+[class*="docItemContainer"],
+[class*="generatedIndexPage"],
+[class*="tableOfContents"] {
+background: #14151B;
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+[class*="tableOfContents"] {
+padding: 10px;
+}
+
+body {
+font-family: inter, sans-serif;
+}
+
+
+
+
+.theme-doc-sidebar-item-category {
+margin-bottom: 20px
+}
+
+.menu__link--sublist {
+text-transform: uppercase;
+color: #95989D;
+opacity: .75;
+font-size: 12px;
+font-weight: 600;
+padding: 10px 16px;
+}
+
+.menu__list-item-collapsible--active {
+background: rgba(58, 113, 193, .15);
+}
+
+.menu__list-item-collapsible--active .menu__link--sublist {
+color: #3a71c1;
+}
+
+.theme-doc-sidebar-item-category-level-2 .menu__link--sublist,
+.theme-doc-sidebar-item-link > .menu__link {
+display: block;
+margin: 2px 4px;
+padding: 10px 16px;
+color: #bfc4c9;
+font-weight: 500;
+font-size: 13px;
+border-radius: 3px;
+user-select: none;
+cursor: pointer;
+transition: 250ms ease;
+text-decoration: none;
+}
+
+.theme-doc-sidebar-item-category-level-2 .menu__link--sublist {
+opacity: 1;
+text-transform: none;
+}
+
+.theme-doc-sidebar-item-link > .menu__link:hover {
+color: #f1f1f1;
+}
+
+.theme-doc-sidebar-item-link > .menu__link.menu__link--active,
+.menu__list-item-collapsible--active > .menu__link.menu__link--active {
+background: rgba(58, 113, 193, .15);
+color: #3a71c1;
+cursor: default
+}
+
+.theme-doc-sidebar-container {
+border-width: 0!important;
+}
+
+.markdown h1, .markdown h2 {
+padding-bottom: 0.3em;
+border-bottom: 1px solid #20212B;
+}
+
+
+.theme-doc-breadcrumbs {
+margin-bottom: 1.8rem!important;
+}
+
+
+@media (min-width: 997px) {
+.theme-doc-sidebar-container {
+    display: flex!important;
+    justify-content: flex-end;
+}
+}
+
+.theme-doc-sidebar-container > div {
+width: 300px;
+}
+
+[class*="docMainContainer"] .container {
+margin: 0;
+}
+
+[class*="docMainContainerEnhanced"] .container {
+margin: 0 auto;
+}
+
+
+.pagination-nav__link--prev {
+justify-self: flex-start;
+}
+.pagination-nav__link--next {
+justify-self: flex-end;
+}
+.pagination-nav__sublabel {
+display: none;
+}
+.pagination-nav__label {
+font-size: 14px;
+font-weight: 500;
+word-break: break-word;
+}
+.pagination-nav__link {
+border-radius: 3px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+transition: 150ms ease background, 150ms ease box-shadow, 150ms ease color, 150ms ease border;
+cursor: pointer;
+padding: 8px 12px;
+user-select: none;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+
+background-color: transparent;
+border: 2px solid rgba(255, 255, 255, 0.05);
+color: #BFC4C9;
+}
+
+
+
+html[data-theme="dark"] {
+--doc-sidebar-width: 30%;
+}
+
+@media (min-width: 997px) {
+div[class*="sidebar_"] {
+    width: auto!important;
+}
+}
+
+.anchor .hash-link {
+opacity: 1;
+}
+
+pre.prism-code,
+.code-tabs {
+box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.code-tabs pre.prism-code {
+box-shadow: 0;
+}
+
+iframe {
+max-width: 100%;
+} */
