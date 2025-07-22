@@ -4,7 +4,7 @@ import { bundledLanguages, LanguageRegistration } from 'shiki';
 import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons';
 import { VitePressSidebarOptions } from 'vitepress-sidebar/types';
 
-const steamBrewIcon = localIconLoader(import.meta.url, '../src/public/branding/logo_small.svg');
+const steamBrewIcon = localIconLoader(import.meta.url, '../src/public/branding/logo.svg');
 const currentYear = new Date().getFullYear();
 
 const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
@@ -115,7 +115,7 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 		],
 
 		editLink: {
-			pattern: 'https://github.com/SteamClientHomebrew/docs/edit/main/docs/:path',
+			pattern: 'https://github.com/SteamClientHomebrew/SteamBrew/edit/main/apps/docs/:path',
 			text: 'Edit this page on GitHub',
 		},
 
@@ -231,9 +231,9 @@ const SIDEBARS: VitePressSidebarOptions | VitePressSidebarOptions[] = [
 	{
 		rootGroupText: 'UI Components',
 		documentRootPath: 'src',
-		scanStartPath: 'steam/components',
-		basePath: '/steam/components/',
-		resolvePath: '/steam/components',
+		scanStartPath: 'steam',
+		basePath: '/steam/',
+		resolvePath: '/steam/',
 		useTitleFromFileHeading: true,
 		includeRootIndexFile: true,
 		sortFolderTo: 'bottom',
