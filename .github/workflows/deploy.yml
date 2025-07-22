@@ -37,8 +37,8 @@ jobs:
                   npm install -g firebase-tools
                   firebase experiments:enable webframeworks
 
-            - name: Set up Google Application Credentials
-              run: echo "$FIREBASE_CREDENTIALS" > ./apps/www/credentials.json
+            - name: Set up Firebase Credentials
+              run: echo "$FIREBASE_CREDENTIALS" > ./apps/www/credentials.json && realpath ./apps/www/credentials.json
               env:
                   FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
 
