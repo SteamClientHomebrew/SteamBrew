@@ -3,6 +3,8 @@
 		"errorPages": {
 			"500": "/public/500.html"
 		},
+		"predeploy": "pnpm run build",
+		"target": "steam-brew",
 		"source": ".",
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
 		"frameworksBackend": {

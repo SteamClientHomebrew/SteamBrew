@@ -1,12 +1,12 @@
 name: Deploy
 
 on:
-    # push:
-    #     branches:
-    #         - main
+    push:
+        branches:
+            - main
     workflow_dispatch:
-    # repository_dispatch:
-    #     types: [on-millennium-sdk-updated]
+    repository_dispatch:
+        types: [on-millennium-sdk-updated]
 
 permissions:
     checks: write
@@ -51,14 +51,12 @@ jobs:
               env:
                   FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
               run: |
-                  cd docs
-                  pnpm run build
+                  cd apps/docs
                   firebase deploy --only hosting --token $FIREBASE_TOKEN --force
 
             - name: Deploy Main Site
               env:
                   FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
               run: |
-                  cd www
-                  pnpm run build
+                  cd apps/www
                   firebase deploy --only hosting --token $FIREBASE_TOKEN --force
