@@ -52,5 +52,6 @@ api/node_modules
 **/credentials.json
 **/.env
 
-# vitepress cache
-apps/docs/.vitepress/cache
+# vitepress cache & build
+**/apps/docs/.vitepress/dist
+**/apps/docs/.vitepress/cache

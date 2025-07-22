@@ -62,5 +62,5 @@ In your Steam folder:
 
 ::: details How do I uninstall Millennium?
 
-Refer to the [uninstaller guide](/users/uninstalling). There you will find documentation on how to uninstall Millennium's components.
+Refer to the [uninstaller guide](../parting-ways/uninstall.md). There you will find documentation on how to uninstall Millennium's components.
 :::

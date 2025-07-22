@@ -14,7 +14,7 @@ Make sure you are viewing relative documentation for your version of Millennium.
 Once Millennium is installed, you can find its related settings within the Steam user interface.
 From the **Steam** Dropdown in the top-left select **Millennium**
 
-You can also [open Millennium from the **steam** url](./millennium-url.md).
+You can also [open Millennium from the **steam** url](../guides/millennium-protocol.md)
 
 ### Installing Themes
 
@@ -42,7 +42,7 @@ You can alternatively disable the entire shield for the site.
 Once Millennium is installed, you can find its related settings within the Steam user interface.
 From the **Steam** Dropdown in the top-left select **Millennium**
 
-You can also [open Millennium from the **steam** url](./millennium-url.md):
+You can also [open Millennium from the **steam** url](../guides/millennium-protocol.md):
 
 ### Installing Themes
 

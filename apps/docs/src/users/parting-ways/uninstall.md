@@ -12,7 +12,7 @@ iwr -useb "https://steambrew.app/uninstall.ps1" | iex
 ```
 
 ::: tip
-If you receive any errors while trying to uninstall Millennium, [reinstall it](/users/installing). This will clean your installation of Millennium.
+If you receive any errors while trying to uninstall Millennium, [reinstall it](../getting-started/installation.md). This will clean your installation of Millennium.
 You can then proceed with the removal process.
 :::
 
@@ -33,7 +33,7 @@ If you want a deeper clean of Millennium, you can also remove all of its assets.
 -   `{steam}/plugins` - User Plugins
 -   `{steam}/ext` - Millennium Internal Data
 
-If you don't know where steam is installed, check how you can [find your steam path](../faq/finding-steam.md)
+If you don't know where steam is installed, check how you can [find your steam path](../guides/finding-steam.md)
 
 ## Linux
 

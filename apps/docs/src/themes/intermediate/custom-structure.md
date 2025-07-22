@@ -4,7 +4,7 @@
 This is entirely optional, and is not required. It simply provides you more granular control over the theming logic.
 :::
 
-As promised in [theme structure](../introduction/structure.md) section, we'll now go over some more advanced theme configurations.
+As promised in [theme structure](../basics/structure.md) section, we'll now go over some more advanced theme configurations.
 
 As we've discussed before, we used `UseDefaultPatches` as a placeholder for our config: we let Millennium handle all of the hard work.
 

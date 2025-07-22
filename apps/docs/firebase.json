@@ -1,0 +1,19 @@
+{
+	"hosting": {
+		"target": "steambrew-docs",
+		"public": ".vitepress/dist",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+	},
+	"redirects": [
+		{
+			"source": "/users/installing",
+			"destination": "/users/getting-started/installation",
+			"type": 301
+		},
+		{
+			"source": "/users/uninstalling",
+			"destination": "/users/parting-ways/uninstall",
+			"type": 301
+		}
+	]
+}

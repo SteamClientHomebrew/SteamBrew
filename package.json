@@ -3,8 +3,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "turbo run dev",
-		"build": "turbo run build",
-		"start": "turbo run start"
+		"build": "turbo run build"
 	},
 	"author": "SteamClientHomebrew",
 	"license": "MIT",
