@@ -29,20 +29,8 @@ jobs:
             - name: Install pnpm
               run: npm install -g pnpm
 
-            - name: Generate Auto Documentation
-              run: |
-                  git clone https://github.com/SteamClientHomebrew/SDK 
-                  cd SDK
-                  pnpm install
-                  pnpm run docs
-                  cp -r ./docs/* ../docs/ui/sdk/typescript/
-
             - name: Install dependencies and build
-              run: |
-                  cd www
-                  pnpm install
-                  cd ../docs
-                  pnpm install
+              run: pnpm install && pnpm run build
 
             - name: Install Firebase Tools
               run: |
@@ -50,16 +38,12 @@ jobs:
                   firebase experiments:enable webframeworks
 
             - name: Set up Google Application Credentials
-              run: |
-                  mkdir -p ./api/credentials
-                  echo "$FIREBASE_CREDENTIALS" | base64 -d > ./www/firebase.credentials.json
+              run: echo "$FIREBASE_CREDENTIALS" | base64 -d > ./apps/www/credentials.json
               env:
                   FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
 
             - name: Setup Environment Variables
-              run: |
-                  mkdir -p ./api
-                  echo "$BEARER" > ./www/.env
+              run: echo "$BEARER" > ./apps/www/.env
               env:
                   BEARER: ${{ secrets.BEARER }}
 

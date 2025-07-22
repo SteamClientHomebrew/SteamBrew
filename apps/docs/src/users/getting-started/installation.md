@@ -21,7 +21,7 @@ iwr -useb "https://steambrew.app/install.ps1" | iex
 
 ### Manual
 
-Start by downloading the Millennium's Windows assets from [this repository](https://github.com/SteamClientHomebrew/Millennium/releases/latest) under the name `millennium-v0.0.0-windows-x86_64.zip`. Simply put all files into your Steam directory, which [here](../faq/finding-version.md)
+Start by downloading the Millennium's Windows assets from [this repository](https://github.com/SteamClientHomebrew/Millennium/releases/latest) under the name `millennium-v0.0.0-windows-x86_64.zip`. Simply put all files into your Steam directory, which can be [here](../guides/finding-steam.md).
 
 ## Linux
 

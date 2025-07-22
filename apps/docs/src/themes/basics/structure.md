@@ -6,7 +6,7 @@ order: 1
 
 ::: tip
 
-This page only goes over the structure of the theme template. Make sure you've read up on [quick start](./quick-start.md) before reading this.
+This page only goes over the structure of the theme template. Make sure you've read up on [quick start](../introduction/quick-start.md) before reading this.
 
 :::
 

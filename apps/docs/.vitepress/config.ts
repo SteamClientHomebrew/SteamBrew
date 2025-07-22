@@ -115,7 +115,7 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 		],
 
 		editLink: {
-			pattern: 'https://github.com/SteamClientHomebrew/SteamBrew/edit/main/apps/docs/:path',
+			pattern: 'https://github.com/SteamClientHomebrew/SteamBrew/edit/main/apps/docs/src/:path',
 			text: 'Edit this page on GitHub',
 		},
 
