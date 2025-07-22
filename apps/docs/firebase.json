@@ -1,5 +1,6 @@
 {
 	"hosting": {
+		"target": "steambrew-docs",
 		"public": ".vitepress/dist",
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
 	},
