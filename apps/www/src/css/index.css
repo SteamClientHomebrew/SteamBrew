@@ -4506,3 +4506,7 @@ video {
 #kofi-btn {
 	width: 100%;
 }
+
+.Toastify__toast--error {
+	background: #450000 !important;
+}

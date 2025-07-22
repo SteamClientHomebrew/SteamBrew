@@ -15,7 +15,7 @@ export async function register() {
 
 		const admin = await import('firebase-admin');
 		admin.initializeApp({
-			credential: admin.credential.cert(require('@/../credentials.json')),
+			credential: admin.credential.cert(require('../credentials.json')),
 			storageBucket: 'millennium-d9ce0.appspot.com',
 		});
 

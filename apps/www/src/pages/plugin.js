@@ -18,6 +18,8 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
 import { HiOutlineClipboardCopy } from 'react-icons/hi';
 
+import mdOverrides from '../../md-overrides.json';
+
 function HeadProp({ json, apiError }) {
 	if (apiError) {
 		return (
@@ -76,11 +78,21 @@ export const getServerSideProps = async (context) => {
 				},
 			};
 		}
+		let warningMessage = mdOverrides?.warnings?.plugins?.[pluginData?.id];
+		let errorMessage = mdOverrides?.errors?.plugins?.[pluginData?.id];
 
-		pluginData.readMeMarkdown = await MarkdownToHtml(pluginData?.readme, pluginData?.repoOwner, pluginData?.repoName, pluginData?.commitId);
+		const message = [warningMessage ? `> [!WARNING]\n> ${warningMessage}\n\n` : '', errorMessage ? `> [!CAUTION]\n> ${errorMessage}\n\n` : ''].filter(Boolean).join('\n\n');
+
+		pluginData.readMeMarkdown = await MarkdownToHtml(pluginData?.readme, pluginData?.repoOwner, pluginData?.repoName, pluginData?.commitId, message);
 
 		return {
-			props: { pluginData, isSteamClient, apiError: false, isLinux },
+			props: {
+				pluginData,
+				isSteamClient,
+				apiError: false,
+				isLinux,
+				mdOverrides: [warningMessage ? { type: 'warning', message: warningMessage } : null, errorMessage ? { type: 'error', message: errorMessage } : null].filter(Boolean),
+			},
 		};
 	} catch (error) {
 		console.error('An error occurred while fetching plugin data:', error);
@@ -117,7 +129,7 @@ const RenderAPIError = () => {
 	);
 };
 
-export default function Home({ pluginData, isSteamClient, apiError, isLinux }) {
+export default function Home({ pluginData, isSteamClient, apiError, isLinux, mdOverrides }) {
 	const startDownload = () => {
 		window.open(API_URL + pluginData?.downloadUrl, '_blank');
 
@@ -156,6 +168,15 @@ export default function Home({ pluginData, isSteamClient, apiError, isLinux }) {
 	}
 
 	useEffect(() => {
+		mdOverrides.forEach((override) => {
+			toast[override.type](override.message, {
+				position: 'bottom-left',
+				hideProgressBar: true,
+				autoClose: Number.MAX_SAFE_INTEGER,
+				closeOnClick: false,
+			});
+		});
+
 		Fancybox.bind('[data-fancybox]', {
 			Images: {
 				Panzoom: {

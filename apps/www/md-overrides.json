@@ -1,10 +1,10 @@
 {
 	"errors": {
 		"plugins": {
-			"dc691b7d877b": "This plugin is reported broken. Once fixed, this warning will be removed."
+			"dc691b7d877b": "This plugin is reported broken, and does not work as intended. Attempting to use it may result in errors or crashes. Once fixed, this warning will be removed."
 		},
 		"themes": {
-			"Dn6O7CHFe9P5FfksaUas": "This theme is reported broken. Once fixed, this warning will be removed."
+			"Dn6O7CHFe9P5FfksaUas": "This theme is reported broken, and does not work as intended. Attempting to use it may result in errors or crashes. Once fixed, this warning will be removed."
 		}
 	}
 }

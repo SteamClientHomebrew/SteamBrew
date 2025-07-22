@@ -155,7 +155,6 @@ export default function Home({ json, markdown, isSteamClient, isLinux, mdOverrid
 	};
 
 	useEffect(() => {
-		console.log('overrides', mdOverrides);
 		mdOverrides.forEach((override) => {
 			toast[override.type](override.message, {
 				position: 'bottom-left',
