@@ -83,11 +83,11 @@ canvas {
 }
 .landscape .landscapeItem.mountains.midground {
 	z-index: 2;
-	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/www/public/mountain4.svg);
+	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/mountain4.svg);
 }
 .landscape .landscapeItem.mountains.foreground {
 	z-index: 3;
-	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/www/public/mountain3.svg);
+	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/mountain3.svg);
 }
 .landscape .landscapeItem.mountains:last-child {
 	transition-delay: 0.6s;
@@ -121,15 +121,15 @@ canvas {
 }
 .landscape .landscapeItem.trees.background {
 	z-index: 4;
-	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/www/public/mountain2.svg);
+	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/mountain2.svg);
 }
 .landscape .landscapeItem.trees.midground {
 	z-index: 5;
-	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/www/public/mountain1.svg);
+	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/mountain1.svg);
 }
 .landscape .landscapeItem.trees.foreground {
 	z-index: 6;
-	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/www/public/mountain.svg);
+	background-image: url(https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/mountain.svg);
 }
 .landscape .landscapeItem.trees:last-child {
 	transition-delay: 0.1s;
