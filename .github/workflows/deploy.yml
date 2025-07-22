@@ -26,21 +26,14 @@ jobs:
               with:
                   node-version: '20'
 
-            - name: Set up Firebase Credentials
-              run: echo "$FIREBASE_CREDENTIALS" > ./apps/www/credentials.json
+            - name: Authenticate SteamBrew
+              run: echo "$FIREBASE_CREDENTIALS" | base64 -d > ./apps/www/credentials.json && echo "$BEARER" > ./apps/www/.env
               env:
                   FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
-
-            - name: Setup Environment Variables
-              run: echo "$BEARER" > ./apps/www/.env
-              env:
                   BEARER: ${{ secrets.BEARER }}
 
             - name: Install pnpm
-              run: npm install -g pnpm
-
-            - name: Install dependencies and build
-              run: pnpm install && pnpm run build
+              run: npm install -g pnpm && pnpm install && pnpm run build
 
             - name: Install Firebase Tools
               run: |
