@@ -3,7 +3,8 @@
 		"target": "steambrew-docs",
 		"public": ".vitepress/dist",
 		"predeploy": "pnpm run build",
-		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"ignore": [],
+		"cleanUrls": true,
 		"redirects": [
 			{
 				"source": "/users/installing",

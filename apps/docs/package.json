@@ -16,9 +16,9 @@
 		"globals": "^15.12.0",
 		"typescript": "^5.7.2",
 		"typescript-eslint": "^8.15.0",
-		"vitepress": "^1.5.0",
-		"vitepress-plugin-group-icons": "^1.3.0",
-		"vitepress-sidebar": "^1.29.0"
+		"vitepress": "^1.6.3",
+		"vitepress-plugin-group-icons": "^1.6.1",
+		"vitepress-sidebar": "^1.32.1"
 	},
 	"browserslist": {
 		"production": [
@@ -37,6 +37,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"react": "17",
+		"react-dom": "17",
 		"shiki": "^3.7.0"
 	}
 }

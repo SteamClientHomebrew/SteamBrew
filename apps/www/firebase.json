@@ -6,7 +6,7 @@
 		"predeploy": "pnpm run build",
 		"target": "steam-brew",
 		"source": ".",
-		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"ignore": [],
 		"frameworksBackend": {
 			"region": "us-central1"
 		}
