@@ -14,6 +14,11 @@ If you need help beyond what these docs provide, please contact us in `#millenni
 ## Getting Millennium Logs
 
 The Millennium logs will likely show lots of useful information to help debug your issue. We'll take a look at how to properly parse this below.
+
+::: warning
+Make sure Steam is fully closed before running the following command.
+:::
+
 ::: code-group
 
 ```powershell [Windows]
