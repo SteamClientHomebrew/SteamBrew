@@ -57,8 +57,15 @@ async function parseDocs(snap: any): Promise<any[]> {
 	const tuples = Object.values((await GithubGraphQL.Post(handler.get())).data)
 		.map((repository: Repository) => repository)
 		.filter((repository) => repository.file?.text)
-		.map((repo) => ({ skin_info: JSON.parse(repo?.file?.text ?? '{}'), repo }))
-
+		.map((repo) => {
+			try {
+				const parsed = JSON.parse(repo?.file?.text ?? '{}');
+				return { skin_info: parsed, repo };
+			} catch (e) {
+				return null; // failed to parse, will be filtered out
+			}
+		})
+		.filter((data): data is { skin_info: any; repo: Repository } => data !== null)
 		.map((data, i) => ({
 			header_image: data.skin_info?.header_image ?? '[NO-IMAGE]',
 			splash_image: data.skin_info?.splash_image ?? '[NO-IMAGE]',
