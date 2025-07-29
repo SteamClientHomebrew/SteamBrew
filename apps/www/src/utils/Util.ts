@@ -1,5 +1,13 @@
 'use client';
 
+import { API_URL } from './globals';
+
+declare global {
+	interface Window {
+		cachedStatistics?: StatisticProps;
+	}
+}
+
 export interface StatisticProps {
 	version: string;
 	download_count: number;
@@ -8,22 +16,22 @@ export interface StatisticProps {
 }
 
 export const GetStatisticsSync = async (): Promise<StatisticProps> => {
+	if (window.cachedStatistics) {
+		return window.cachedStatistics;
+	}
+
 	const discord = await fetch('https://discord.com/api/v9/invites/NcNMP6r2Cw?with_counts=true&with_expiration=true').then((response) => response.json());
-	const github = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium/releases').then((response) => response.json());
+	const github = await fetch(`${API_URL}/api/millennium/stats`).then((response) => response.json());
 	const contributors = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium/contributors').then((response) => response.json());
 
-	// add download count from old cdn as well: https://api.github.com/repos/ShadowMonster99/millennium-steam-binaries/releases
-	const totalDownloads =
-		github.reduce((acc, release) => {
-			return acc + release.assets.reduce((sum, asset) => sum + asset.download_count, 0);
-		}, 0) + 174452;
-
-	return {
-		version: github[0].tag_name,
-		download_count: totalDownloads,
+	window.cachedStatistics = {
+		version: github.latestVersion,
+		download_count: github.downloadCount,
 		server_members: discord.approximate_member_count,
 		contributors: contributors,
 	};
+
+	return window.cachedStatistics;
 };
 
 export const FormatNumber = (number) => {

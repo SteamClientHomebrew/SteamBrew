@@ -17,7 +17,7 @@ function RenderHome() {
 	const [stat, setStat] = useState<StatisticProps>();
 	const [scrolled, setIsFloating] = useState(false);
 
-	useLayoutEffect(() => {
+	useEffect(() => {
 		GetStatisticsSync().then((stats) => setStat(stats));
 	}, []);
 
