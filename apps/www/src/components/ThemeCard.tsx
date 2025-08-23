@@ -73,8 +73,6 @@ function CreateCard(item) {
 		};
 	}, [contextMenu.visible, instanceId]);
 
-	console.log(contextMenu.visible);
-
 	return (
 		<>
 			<a className="card-wrap" onClick={openPopup} onContextMenu={handleContextMenu} ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
@@ -139,7 +137,7 @@ function CreateCard(item) {
 							className="custom-context-menu-option"
 							onClick={(e) => {
 								e.stopPropagation();
-								window.open(`https://github.com/${data?.data?.github?.owner}/${data?.data?.github?.repo}/tree/${data?.data?.github?.commit}`, '_blank');
+								window.open(`https://github.com/${data?.data?.github?.owner}/${data?.data?.github?.repo}`, '_blank');
 								setContextMenu({ ...contextMenu, visible: false });
 							}}
 						>
