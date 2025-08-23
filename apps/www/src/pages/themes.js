@@ -189,7 +189,7 @@ function ThemeLibrary({ isSteamClient }) {
 									</div>
 								) : (
 									<div className="card-container">
-										{DisplayFluentyAd()}
+										<DisplayFluentyAd />
 										{cards.map((tag, index) => (
 											<React.Fragment key={index}>{tag}</React.Fragment>
 										))}

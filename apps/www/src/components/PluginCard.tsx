@@ -1,7 +1,14 @@
 'use client';
 
+import React, { useRef, useState, useEffect } from 'react';
+
+const GLOBAL_CONTEXT_MENU_EVENT = '__STEAMBREW_CONTEXT_MENU__';
+
 function CreateCard(item) {
 	const data = item.data;
+	const [contextMenu, setContextMenu] = useState({ visible: false, x: 0, y: 0 });
+	const cardRef = useRef(null);
+	const [instanceId] = useState(() => Math.random().toString(36).slice(2));
 
 	function formatNumber(number) {
 		if (number >= 1000) {
@@ -16,9 +23,83 @@ function CreateCard(item) {
 		window.location.href = `/plugin?id=${data.id}`;
 	};
 
+	const openInNewTab = (e) => {
+		window.open(`/plugin?id=${data.id}`, '_blank');
+		setContextMenu({ ...contextMenu, visible: false });
+	};
+
+	const copyId = async (e) => {
+		try {
+			await navigator.clipboard.writeText(data.id);
+		} catch (err) {
+			// fallback for older browsers
+			const textarea = document.createElement('textarea');
+			textarea.value = data.id;
+			document.body.appendChild(textarea);
+			textarea.select();
+			document.execCommand('copy');
+			document.body.removeChild(textarea);
+		}
+		setContextMenu({ ...contextMenu, visible: false });
+	};
+
+	const copyUrl = async (e) => {
+		const pluginUrl = `${window.location.origin}/plugin?id=${data.id}`;
+
+		try {
+			await navigator.clipboard.writeText(pluginUrl);
+		} catch (err) {
+			// fallback for older browsers
+			const textarea = document.createElement('textarea');
+			textarea.value = pluginUrl;
+			document.body.appendChild(textarea);
+			textarea.select();
+			document.execCommand('copy');
+			document.body.removeChild(textarea);
+		}
+		setContextMenu({ ...contextMenu, visible: false });
+	};
+
+	const openSourceUrl = (e) => {
+		e.stopPropagation();
+		window.open(`https://github.com/${data?.repoOwner}/${data?.repoName}/tree/${data?.commitId}`, '_blank');
+		setContextMenu({ ...contextMenu, visible: false });
+	};
+
+	const handleContextMenu = (e) => {
+		e.preventDefault();
+		window.dispatchEvent(new CustomEvent(GLOBAL_CONTEXT_MENU_EVENT, { detail: { instanceId } }));
+		setTimeout(() => {
+			setContextMenu({ visible: true, x: e.clientX, y: e.clientY });
+		}, 0);
+	};
+
+	const handleClick = () => {
+		if (contextMenu.visible) setContextMenu({ ...contextMenu, visible: false });
+	};
+
+	useEffect(() => {
+		const onGlobalContextMenu = (e) => {
+			if (e.detail && e.detail.instanceId !== instanceId) {
+				setContextMenu((ctx) => (ctx.visible ? { ...ctx, visible: false } : ctx));
+			}
+		};
+		window.addEventListener(GLOBAL_CONTEXT_MENU_EVENT, onGlobalContextMenu);
+
+		if (contextMenu.visible) {
+			document.addEventListener('click', handleClick);
+		} else {
+			document.removeEventListener('click', handleClick);
+		}
+		return () => {
+			window.removeEventListener(GLOBAL_CONTEXT_MENU_EVENT, onGlobalContextMenu);
+			document.removeEventListener('click', handleClick);
+		};
+	}, [contextMenu.visible, instanceId]);
+
 	return (
 		<>
-			<a className="card-wrap" onClick={openPopup}>
+			<a className="card-wrap" onClick={openPopup} onContextMenu={handleContextMenu} ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
 				<div className="card">
 					<div className="card-body">
 						<h3 className="card-title">{data?.pluginJson?.common_name}</h3>
@@ -28,7 +109,6 @@ function CreateCard(item) {
 								<div className="card-stat" id="addon-likes">
 									<div className="pfp-name">
 										<p className="card-subtext package-author">by {data?.repoOwner}</p>
-
 										<a target="_blank" className="addon-author-container">
 											<img loading="lazy" src={`https://github.com/${data?.repoOwner}.png`} />
 										</a>
@@ -47,6 +127,54 @@ function CreateCard(item) {
 						</div>
 					</div>
 				</div>
+				{contextMenu.visible && (
+					<ul
+						className="custom-context-menu"
+						style={{
+							top: contextMenu.y,
+							left: contextMenu.x,
+						}}
+						onClick={(e) => e.stopPropagation()}
+						onMouseDown={(e) => e.stopPropagation()}
+					>
+						<li
+							className="custom-context-menu-option"
+							onClick={(e) => {
+								e.stopPropagation();
+								openInNewTab(e);
+							}}
+						>
+							Open in new tab
+						</li>
+						<li
+							className="custom-context-menu-option"
+							onClick={(e) => {
+								e.stopPropagation();
+								openSourceUrl(e);
+							}}
+						>
+							View source code
+						</li>
+						<li
+							className="custom-context-menu-option"
+							onClick={(e) => {
+								e.stopPropagation();
+								copyId(e);
+							}}
+						>
+							Copy Plugin ID
+						</li>
+						<li
+							className="custom-context-menu-option"
+							onClick={(e) => {
+								e.stopPropagation();
+								copyUrl(e);
+							}}
+						>
+							Copy URL
+						</li>
+					</ul>
+				)}
 			</a>
 		</>
 	);
