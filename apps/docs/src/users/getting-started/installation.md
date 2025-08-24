@@ -65,7 +65,7 @@ nixpkgs.overlay = [
 1. If you're using the NixOS Steam module, set millennium as the Steam package:
 
 ```nix
-programs.steam.package = pkgs.millennium;
+programs.steam.package = pkgs.steam-millennium;
 ```
 
 If you're not using the Steam module, just replace steam with millennium in your list of packages.
