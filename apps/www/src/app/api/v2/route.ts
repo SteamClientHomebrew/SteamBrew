@@ -54,7 +54,8 @@ async function parseDocs(snap: any): Promise<any[]> {
 		}
 	});
 
-	const tuples = Object.values((await GithubGraphQL.Post(handler.get())).data)
+	const result = await GithubGraphQL.Post(handler.get());
+	const tuples = Object.values(result.data)
 		.map((repository: Repository) => repository)
 		.filter((repository) => repository.file?.text)
 		.map((repo) => {
