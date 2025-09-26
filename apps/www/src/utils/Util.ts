@@ -22,7 +22,7 @@ export const GetStatisticsSync = async (): Promise<StatisticProps> => {
 
 	const discord = await fetch('https://discord.com/api/v9/invites/NcNMP6r2Cw?with_counts=true&with_expiration=true').then((response) => response.json());
 	const github = await fetch(`${API_URL}/api/millennium/stats`).then((response) => response.json());
-	const contributors = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium/contributors').then((response) => response.json());
+	const contributors = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium/contributors?per_page=100&page=1').then((response) => response.json());
 
 	window.cachedStatistics = {
 		version: github.latestVersion,
