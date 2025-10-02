@@ -1,6 +1,30 @@
-export const firebaseAdmin = global.firebaseAdmin;
-export const Database = global.Database;
-export const StorageBucket = global.StorageBucket;
+// Initialize Firebase Admin if not already initialized
+let firebaseAdmin: typeof import('firebase-admin');
+let Database: FirebaseFirestore.Firestore;
+let StorageBucket: any;
+
+if (global.firebaseAdmin && global.Database && global.StorageBucket) {
+	// Use existing global instances
+	firebaseAdmin = global.firebaseAdmin;
+	Database = global.Database;
+	StorageBucket = global.StorageBucket;
+} else {
+	// Initialize Firebase Admin for build time
+	const admin = require('firebase-admin');
+
+	if (!admin.apps.length) {
+		admin.initializeApp({
+			credential: admin.credential.cert(require('../../../credentials.json')),
+			storageBucket: 'millennium-d9ce0.appspot.com',
+		});
+	}
+
+	firebaseAdmin = admin;
+	Database = admin.firestore();
+	StorageBucket = admin.storage().bucket();
+}
+
+export { firebaseAdmin, Database, StorageBucket };
 
 export const Firebase = {
 	Get: () => {

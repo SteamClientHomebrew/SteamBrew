@@ -1,4 +1,4 @@
-import { Database } from '../../Firebase';
+import { Database, StorageBucket } from '../../Firebase';
 import { GetPluginData, PluginDataProps } from './GetPluginData';
 import { GetPluginMetadata } from './GetPluginMetadata';
 import { RetrievePluginList } from './GetPluginList';
