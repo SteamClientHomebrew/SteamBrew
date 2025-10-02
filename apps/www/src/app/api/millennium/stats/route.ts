@@ -1,3 +1,5 @@
+export const revalidate = 1800;
+
 async function getDownloadCountAndLatestVersion() {
 	const baseUrl = 'https://api.github.com/repos/SteamClientHomebrew/Millennium/releases';
 	const perPage = 100;

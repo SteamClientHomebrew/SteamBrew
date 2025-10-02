@@ -1,5 +1,7 @@
 import { FieldValue } from 'firebase-admin/firestore';
 
+export const revalidate = 1800;
+
 function withCORS(response: Response): Response {
 	response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');
 	response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');

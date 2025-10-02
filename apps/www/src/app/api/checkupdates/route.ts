@@ -4,6 +4,8 @@ import { GraphQLUpdates } from '../v2/GraphQLHandler';
 import { GithubGraphQL } from '../v2/GraphQLInterop';
 import { GetPluginMetadata } from '../v1/plugins/GetPluginMetadata';
 
+export const revalidate = 1800;
+
 interface PluginUpdateCheck {
 	id: string;
 	commit: string;

@@ -1,6 +1,8 @@
 import { Firebase } from '../../Firebase';
 import { GithubGraphQL } from '../GraphQLInterop';
 
+export const revalidate = 1800;
+
 async function GetThemeUpdate(requestBody: any) {
 	const message = {
 		query: `query { repository(owner: "${requestBody.owner}", name: "${requestBody.repo}") {
