@@ -1,7 +1,6 @@
 import { Firebase } from '../../../Firebase';
 import { GithubGraphQL } from '../../GraphQLInterop';
 import { GraphQLRepository } from '../../GraphQLHandler';
-import { CacheMiddleware } from '@/app/api/CacheHandler';
 
 interface DiscordInfo {
 	name?: string;
