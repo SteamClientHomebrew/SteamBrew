@@ -1,4 +1,3 @@
-import { CacheMiddleware } from '../../CacheHandler';
 import { Firebase } from '../../Firebase';
 
 const IncrementDownload = async (requestBody) => {

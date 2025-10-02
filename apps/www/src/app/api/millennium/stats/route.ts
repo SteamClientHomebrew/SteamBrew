@@ -1,5 +1,3 @@
-import { CacheMiddleware } from '../../CacheHandler';
-
 async function getDownloadCountAndLatestVersion() {
 	const baseUrl = 'https://api.github.com/repos/SteamClientHomebrew/Millennium/releases';
 	const perPage = 100;
@@ -80,10 +78,6 @@ async function getDownloadCountAndLatestVersionWithRetry(maxRetries = 3) {
 }
 
 export async function GET(request: Request) {
-	const onRequest = async () => {
-		const data = await getDownloadCountAndLatestVersionWithRetry();
-		return Response.json(data);
-	};
-
-	return await CacheMiddleware(request, onRequest);
+	const data = await getDownloadCountAndLatestVersionWithRetry();
+	return Response.json(data);
 }

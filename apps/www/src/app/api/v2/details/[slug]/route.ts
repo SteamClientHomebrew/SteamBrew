@@ -119,32 +119,29 @@ async function getDetails(id: string): Promise<RepositoryData> {
 }
 
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
-	const onRequest = async () => {
-		const { slug } = await params;
+	const { slug } = await params;
 
-		try {
-			const response = Response.json(await getDetails(slug), {
-				status: 200,
-			});
+	try {
+		const response = Response.json(await getDetails(slug), {
+			status: 200,
+		});
 
-			response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');
-			response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-			response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
+		response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');
+		response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+		response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
 
-			return response;
-		} catch (error) {
-			const response = new Response(error.message, {
-				status: 404,
-			});
+		return response;
+	} catch (error) {
+		const response = new Response(error.message, {
+			status: 404,
+		});
 
-			response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');
-			response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-			response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
+		response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');
+		response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+		response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
 
-			return response;
-		}
-	};
-	return await CacheMiddleware(request, onRequest);
+		return response;
+	}
 }
 
 export async function OPTIONS() {
