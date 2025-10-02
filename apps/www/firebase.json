@@ -9,6 +9,17 @@
 		"ignore": [],
 		"frameworksBackend": {
 			"region": "us-central1"
-		}
+		},
+		"headers": [
+			{
+				"source": "**",
+				"headers": [
+					{
+						"key": "Cache-Control",
+						"value": "public, max-age=1800, s-maxage=1800"
+					}
+				]
+			}
+		]
 	}
 }
