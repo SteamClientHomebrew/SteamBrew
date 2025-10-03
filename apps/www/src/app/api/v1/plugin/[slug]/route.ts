@@ -4,7 +4,7 @@ import { FetchPlugins } from '../../plugins/GetPlugins';
 export const revalidate = 1800;
 
 const FindPlugin = async (id: string) => {
-	const plugin = (await FetchPlugins()).find((plugin) => plugin.id === id);
+	const plugin = (await FetchPlugins()).pluginData.find((plugin) => plugin.id === id);
 
 	if (!plugin) {
 		throw new Error('Plugin not found');

@@ -72,51 +72,6 @@ const setCachedRepositoryData = async (owner: string, repo: string, data: Cached
 	}
 };
 
-const getCachedPluginData = async (type: 'allPlugins'): Promise<any | null> => {
-	try {
-		const docRef = Database.collection('PluginCache').doc(type);
-		const doc = await docRef.get();
-
-		if (!doc.exists) {
-			return null;
-		}
-
-		const data = doc.data() as PluginCacheEntry;
-		if (data && isCacheValid(data.timestamp)) {
-			console.log(`Found valid cached ${type} data`);
-			return data.data;
-		} else if (data) {
-			// Remove expired entry
-			await docRef.delete();
-			console.log(`Removed expired ${type} cache entry`);
-		}
-
-		return null;
-	} catch (error) {
-		console.error(`Error retrieving cached ${type} data:`, error);
-		return null;
-	}
-};
-
-const setCachedPluginData = async (type: 'allPlugins', data: any): Promise<void> => {
-	try {
-		const docRef = Database.collection('PluginCache').doc(type);
-		const now = new Date();
-
-		const cacheEntry: PluginCacheEntry = {
-			type,
-			data,
-			timestamp: firebaseAdmin.firestore.Timestamp.fromDate(now),
-			expiresAt: firebaseAdmin.firestore.Timestamp.fromDate(new Date(now.getTime() + CACHE_DURATION_MS)),
-		};
-
-		await docRef.set(cacheEntry);
-		console.log(`Cached ${type} data for ${CACHE_DURATION_MS / (1000 * 60)} minutes`);
-	} catch (error) {
-		console.error(`Error caching ${type} data:`, error);
-	}
-};
-
 interface PluginUpdateCheck {
 	id: string;
 	commit: string;
@@ -156,13 +111,6 @@ interface UpdateCacheEntry {
 interface ThemeUpdateRequest {
 	owner: string;
 	repo: string;
-}
-
-interface PluginCacheEntry {
-	type: 'allPlugins';
-	data: any;
-	timestamp: FirebaseFirestore.Timestamp;
-	expiresAt: FirebaseFirestore.Timestamp;
 }
 
 async function CheckForThemeUpdates(requestBody: ThemeUpdateRequest[]) {
@@ -243,22 +191,10 @@ async function CheckForPluginUpdates(plugins: PluginUpdateCheck[]) {
 		return [];
 	}
 
-	let cachedData = await getCachedPluginData('allPlugins');
-	let allPlugins: any;
-	let metadata: any;
-
-	if (!cachedData) {
-		const fetchResult = await FetchPlugins();
-		allPlugins = fetchResult.pluginData;
-		metadata = fetchResult.metadata;
-
-		setCachedPluginData('allPlugins', fetchResult).catch((error) => {
-			console.error('Error caching plugin data:', error);
-		});
-	} else {
-		allPlugins = cachedData.pluginData;
-		metadata = cachedData.metadata;
-	}
+	// FetchPlugins() will handle its own caching internally
+	const fetchResult = await FetchPlugins();
+	const allPlugins = fetchResult.pluginData;
+	const metadata = fetchResult.metadata;
 
 	const pluginStatuses: PluginUpdateStatus[] = plugins.map((plugin) => {
 		const metadataEntry = metadata.find((m) => m.id === plugin.id);

@@ -1,4 +1,4 @@
-import { Database, StorageBucket } from '../../Firebase';
+import { Database, StorageBucket, firebaseAdmin } from '../../Firebase';
 import { GetPluginData, PluginDataProps, PluginDataTable } from './GetPluginData';
 import { GetPluginMetadata } from './GetPluginMetadata';
 import { RetrievePluginList } from './GetPluginList';
@@ -10,9 +10,82 @@ const FormatBytes = (bytes: number, decimals = 2) => {
 	return `${(bytes / Math.pow(1024, i)).toFixed(decimals)} ${sizes[i]}`;
 };
 
+// Cache duration: 30 minutes (in milliseconds)
+const CACHE_DURATION_MS = 30 * 60 * 1000;
+
+// Helper function to check if a cache entry is still valid
+const isCacheValid = (timestamp: FirebaseFirestore.Timestamp): boolean => {
+	const now = new Date();
+	const cacheTime = timestamp.toDate();
+	return now.getTime() - cacheTime.getTime() < CACHE_DURATION_MS;
+};
+
+// Interface for plugin cache entry
+interface PluginCacheEntry {
+	data: PluginDataTable;
+	timestamp: FirebaseFirestore.Timestamp;
+	expiresAt: FirebaseFirestore.Timestamp;
+}
+
+// Function to get cached plugin data
+const getCachedPluginData = async (): Promise<PluginDataTable | null> => {
+	try {
+		const docRef = Database.collection('PluginCache').doc('allPlugins');
+		const doc = await docRef.get();
+
+		if (!doc.exists) {
+			return null;
+		}
+
+		const data = doc.data() as PluginCacheEntry;
+		if (data && isCacheValid(data.timestamp)) {
+			console.log('Found valid cached plugin data');
+			return data.data;
+		} else if (data) {
+			// Remove expired entry
+			await docRef.delete();
+			console.log('Removed expired plugin cache entry');
+		}
+
+		return null;
+	} catch (error) {
+		console.error('Error retrieving cached plugin data:', error);
+		return null;
+	}
+};
+
+// Function to cache plugin data
+const setCachedPluginData = async (data: PluginDataTable): Promise<void> => {
+	try {
+		const docRef = Database.collection('PluginCache').doc('allPlugins');
+		const now = new Date();
+
+		const cacheEntry: PluginCacheEntry = {
+			data,
+			timestamp: firebaseAdmin.firestore.Timestamp.fromDate(now),
+			expiresAt: firebaseAdmin.firestore.Timestamp.fromDate(new Date(now.getTime() + CACHE_DURATION_MS)),
+		};
+
+		await docRef.set(cacheEntry);
+		console.log(`Cached plugin data for ${CACHE_DURATION_MS / (1000 * 60)} minutes`);
+	} catch (error) {
+		console.error('Error caching plugin data:', error);
+	}
+};
+
 export const FetchPlugins = async () => {
 	return new Promise<PluginDataTable>(async (resolve, reject) => {
 		try {
+			// Try to get cached data first
+			const cachedData = await getCachedPluginData();
+			if (cachedData) {
+				resolve(cachedData);
+				return;
+			}
+
+			// Cache miss - fetch fresh data
+			console.log('Cache miss - fetching fresh plugin data');
+
 			const pluginList = await RetrievePluginList();
 
 			const [metadata, pluginData] = await Promise.all([GetPluginMetadata(), GetPluginData(pluginList)]);
@@ -51,7 +124,14 @@ export const FetchPlugins = async () => {
 				}
 			}
 
-			resolve({ pluginData, metadata });
+			const result: PluginDataTable = { pluginData, metadata };
+
+			// Cache the result (fire and forget)
+			setCachedPluginData(result).catch((error) => {
+				console.error('Failed to cache plugin data:', error);
+			});
+
+			resolve(result);
 		} catch (error) {
 			console.error('An error occurred while processing plugins:', error);
 			reject(error);
