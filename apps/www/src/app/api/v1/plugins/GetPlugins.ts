@@ -1,5 +1,5 @@
 import { Database, StorageBucket } from '../../Firebase';
-import { GetPluginData, PluginDataProps } from './GetPluginData';
+import { GetPluginData, PluginDataProps, PluginDataTable } from './GetPluginData';
 import { GetPluginMetadata } from './GetPluginMetadata';
 import { RetrievePluginList } from './GetPluginList';
 
@@ -11,7 +11,7 @@ const FormatBytes = (bytes: number, decimals = 2) => {
 };
 
 export const FetchPlugins = async () => {
-	return new Promise<PluginDataProps[]>(async (resolve, reject) => {
+	return new Promise<PluginDataTable>(async (resolve, reject) => {
 		try {
 			const pluginList = await RetrievePluginList();
 
@@ -51,7 +51,7 @@ export const FetchPlugins = async () => {
 				}
 			}
 
-			resolve(pluginData);
+			resolve({ pluginData, metadata });
 		} catch (error) {
 			console.error('An error occurred while processing plugins:', error);
 			reject(error);

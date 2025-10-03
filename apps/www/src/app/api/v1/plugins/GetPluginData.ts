@@ -36,6 +36,11 @@ export interface PluginDataProps {
 	downloadUrl?: string;
 }
 
+export interface PluginDataTable {
+	pluginData: PluginDataProps[];
+	metadata: { id: string; commitId: string }[];
+}
+
 const GetPluginData = (pluginList) => {
 	return new Promise<PluginDataProps[]>(async (resolve, reject) => {
 		const query = `
