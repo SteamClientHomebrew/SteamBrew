@@ -27,7 +27,6 @@ export async function POST(request: Request) {
 
 	try {
 		const response = await IncrementDownload(json);
-		global.requestCache.set(request.url, response);
 
 		return Response.json(response, {
 			status: 200,

@@ -1,4 +1,5 @@
 import { Firebase } from '../../Firebase';
+import { GithubGraphQL } from '../../v2/GraphQLInterop';
 
 const FormatSize = (kilobytes) => {
 	const units = ['KB', 'MB', 'GB', 'TB', 'PB'];
@@ -82,22 +83,13 @@ const GetPluginData = (pluginList) => {
             }
         `;
 
-		const response = await fetch('https://api.github.com/graphql', {
-			method: 'POST',
-			headers: {
-				Authorization: process.env.BEARER!,
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ query }),
-			next: { revalidate: 1800 },
-		});
-
+		const responseJson = await GithubGraphQL.Post(query);
 		const pluginData = await Firebase.GetPluginData();
 
 		const initialPluginData = pluginData.data();
 		let mutablePluginData = structuredClone(initialPluginData);
 
-		const jsonResponse = Object.values((await response.json()).data)
+		const jsonResponse = Object.values(responseJson.data)
 			.map((repository) => repository)
 			.map((repo: any): PluginDataProps => {
 				const pluginJson = JSON.parse(repo.pluginJson.text);
