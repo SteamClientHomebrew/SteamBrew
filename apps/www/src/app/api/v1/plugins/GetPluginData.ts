@@ -89,6 +89,7 @@ const GetPluginData = (pluginList) => {
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({ query }),
+			next: { revalidate: 1800 },
 		});
 
 		const pluginData = await Firebase.GetPluginData();

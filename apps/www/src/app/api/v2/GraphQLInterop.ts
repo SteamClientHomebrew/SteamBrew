@@ -8,6 +8,7 @@ const GithubGraphQL = {
 					...(process.env.BEARER ? { Authorization: process.env.BEARER } : {}),
 				},
 				body: JSON.stringify({ query: body }),
+				next: { revalidate: 1800 },
 			})
 				.then((response) => response.json())
 				.then((json) => {

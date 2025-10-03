@@ -5,6 +5,8 @@ import { GraphQLFeatured } from './GraphQLHandler';
 import { GithubGraphQL } from './GraphQLInterop';
 import { Firebase } from '../Firebase';
 
+export const revalidate = 1800;
+
 function getDate(unixTime: number): string {
 	const d = new Date(unixTime * 1000);
 	return `${d.toISOString().slice(0, 19)}Z`;

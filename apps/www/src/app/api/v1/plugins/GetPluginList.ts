@@ -7,6 +7,7 @@ const RetrievePluginList = async () => {
 				Authorization: process.env.BEARER!,
 				'Content-Type': 'application/json',
 			},
+			next: { revalidate: 1800 },
 		})
 			.then((text) => text.json())
 			.then((data) => {

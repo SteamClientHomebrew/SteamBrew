@@ -45,7 +45,7 @@ async function getDiscordInfo(token: string): Promise<DiscordInfo> {
 	const apiUrl = `https://discord.com/api/v9/invites/${cleanToken}?with_counts=true&with_expiration=true`;
 
 	try {
-		const response = await fetch(apiUrl);
+		const response = await fetch(apiUrl, { next: { revalidate: 1800 } });
 
 		if (!response.ok) {
 			if (response.status === 404) {

@@ -20,7 +20,7 @@ async function getDownloadCountAndLatestVersion() {
 	while (true) {
 		try {
 			const url = `${baseUrl}?per_page=${perPage}&page=${page}`;
-			const res = await fetch(url, { headers });
+			const res = await fetch(url, { headers, next: { revalidate: 1800 } });
 
 			if (!res.ok) {
 				throw new Error(`GitHub API request failed: ${res.status} ${res.statusText}`);
