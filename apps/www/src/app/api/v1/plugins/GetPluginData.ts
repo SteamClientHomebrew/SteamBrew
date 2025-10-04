@@ -89,33 +89,29 @@ const GetPluginData = (pluginList) => {
         `;
 
 		const responseJson = await GithubGraphQL.Post(query);
-		const pluginData = await Firebase.GetPluginData();
-
-		const initialPluginData = pluginData.data();
-		let mutablePluginData = structuredClone(initialPluginData);
 
 		const jsonResponse = Object.values(responseJson.data)
 			.map((repository) => repository)
-			.map((repo: any): PluginDataProps => {
-				const pluginJson = JSON.parse(repo.pluginJson.text);
-
-				return {
-					pluginJson: pluginJson,
-					usesBackend: pluginJson?.useBackend === true || pluginJson?.useBackend === undefined,
-					readme: repo?.pluginReadme?.text || repo.readme.text,
-					stargazerCount: repo.stargazerCount,
-					diskUsage: FormatSize(repo.diskUsage),
-					commitDate: repo.commit.committedDate,
-					commitMessage: repo.commit.message,
-					repoName: repo.repoName,
-					repoOwner: repo.repoOwner.login,
-					id: repo.commitId.oid,
-				};
-			});
-
-		if (initialPluginData !== mutablePluginData) {
-			Firebase.SetPluginData(mutablePluginData);
-		}
+			.map((repo: any): PluginDataProps | null => {
+				try {
+					const pluginJson = JSON.parse(repo.pluginJson.text);
+					return {
+						pluginJson: pluginJson,
+						usesBackend: pluginJson?.useBackend === true || pluginJson?.useBackend === undefined,
+						readme: repo?.pluginReadme?.text || repo.readme.text,
+						stargazerCount: repo.stargazerCount,
+						diskUsage: FormatSize(repo.diskUsage),
+						commitDate: repo.commit.committedDate,
+						commitMessage: repo.commit.message,
+						repoName: repo.repoName,
+						repoOwner: repo.repoOwner.login,
+						id: repo.commitId.oid,
+					};
+				} catch {
+					return null;
+				}
+			})
+			.filter((item): item is PluginDataProps => item !== null);
 
 		resolve(jsonResponse);
 	});

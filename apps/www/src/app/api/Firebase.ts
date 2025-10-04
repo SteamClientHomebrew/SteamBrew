@@ -36,31 +36,6 @@ export const Firebase = {
 				});
 		});
 	},
-	GetPluginData: () => {
-		return new Promise<FirebaseFirestore.DocumentSnapshot>((resolve, reject) => {
-			Database.collection('Plugins')
-				.doc('PluginData')
-				.get()
-				.then((snap) => {
-					if (snap.exists) {
-						resolve(snap);
-					} else {
-						reject(new Error('Document not found'));
-					}
-				})
-				.catch((error) => reject(error));
-		});
-	},
-	SetPluginData: (data) => {
-		return new Promise((resolve) => {
-			Database.collection('Plugins')
-				.doc('PluginData')
-				.set(data)
-				.then(() => {
-					resolve(true);
-				});
-		});
-	},
 	FromID: (id) => {
 		return new Promise<FirebaseFirestore.DocumentSnapshot>((resolve, reject) => {
 			Database.collection('V2')
