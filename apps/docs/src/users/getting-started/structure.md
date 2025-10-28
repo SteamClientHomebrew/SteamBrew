@@ -3,7 +3,7 @@
 Here's where to find everything! Use this handy reference when you need to locate specific files and folders.
 
 ::: tip
-The abbreviation `%STEAM%` is just a placeholder for your actual Steam path. If you're unsure where Steam is installed, checkou [how to find your steam path](../guides/finding-steam.md)
+The abbreviation `%STEAM%` is just a placeholder for your actual Steam path. If you're unsure where Steam is installed, checkout [how to find your steam path](../guides/finding-steam.md)
 :::
 
 ## Windows
