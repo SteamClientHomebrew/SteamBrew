@@ -47,6 +47,8 @@ After installing Millennium through the AUR, simply launch steam.
 ::: details NixOS
 
 We officially offer nix package for millennium. Currently, it isn't available in nixpkgs, but you can use our flake.
+Step 1 is done in flake.nix file.
+Steps 2, 3.a, 3.b are done in configuration.nix file.
 
 1. Add input to your flake.
 
@@ -54,21 +56,28 @@ We officially offer nix package for millennium. Currently, it isn't available in
 inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
 ```
 
-1. import overlay
+2. Import millennium overlay:
 
 ```nix
-nixpkgs.overlay = [
-  inputs.millennium.overlays.default
+nixpkgs.overlay = [ inputs.millennium.overlays.default ];
+```
+
+3.a If you're using a NixOS Steam module, set millennium as the Steam package:
+
+```nix
+programs.steam = {
+  enable = true;
+  package = pkgs.steam-millennium;
+};
+```
+
+3.b If you're not using the Steam module, just replace steam with millennium in your list of packages:
+```nix
+environment.systemPackages = with pkgs; [
+# Your other packages...
+steam-millennium
 ];
 ```
-
-1. If you're using the NixOS Steam module, set millennium as the Steam package:
-
-```nix
-programs.steam.package = pkgs.steam-millennium;
-```
-
-If you're not using the Steam module, just replace steam with millennium in your list of packages.
 
 :::
 
