@@ -50,7 +50,7 @@ We officially offer nix package for millennium. Currently, it isn't available in
 Step 1 is done in flake.nix file.
 Steps 2, 3.a, 3.b are done in configuration.nix file.
 
-1. Add input to your flake.
+1. Add input to your flake:
 
 ```nix
 inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
