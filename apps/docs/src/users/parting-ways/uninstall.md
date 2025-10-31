@@ -59,6 +59,48 @@ And that's it!
 
 :::
 
+::: details NixOS
+
+Step 1 is done in flake.nix file.
+Steps 2, 3.a, 3.b are done in configuration.nix file.
+
+1. Remove input from your flake:
+
+```nix
+inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
+```
+
+2. Remove millennium overlay:
+
+```nix
+nixpkgs.overlays = [ inputs.millennium.overlays.default ];
+```
+
+3.a If you're using a NixOS Steam module, remove millennium as the Steam package:
+
+```nix
+programs.steam = {
+  enable = true;
+  package = pkgs.steam-millennium; // [!code --]
+};
+```
+
+3.b If you're not using the Steam module, just remove millennium from your list of packages:
+
+```nix
+environment.systemPackages = with pkgs; [
+# Your other packages...
+steam-millennium // [!code --]
+];
+```
+
+4. You may need to manually delete Themes, Config and Plugins. (replacing {steam}, {$HOME} with actual locations)
+-   `{steam}/steamui/skins` - User Themes
+-   `{$HOME}/.config/millennium` - Config
+-   `{$HOME}/.local/share/millennium` - Plugins
+
+:::
+
 ::: details Other Distributions
 
 ```sh
