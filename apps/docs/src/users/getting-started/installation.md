@@ -72,6 +72,7 @@ programs.steam = {
 ```
 
 3.b If you're not using the Steam module, just replace steam with millennium in your list of packages:
+
 ```nix
 environment.systemPackages = with pkgs; [
 # Your other packages...
