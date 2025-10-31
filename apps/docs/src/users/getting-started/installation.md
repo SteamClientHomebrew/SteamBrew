@@ -59,7 +59,7 @@ inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
 2. Import millennium overlay:
 
 ```nix
-nixpkgs.overlay = [ inputs.millennium.overlays.default ];
+nixpkgs.overlays = [ inputs.millennium.overlays.default ];
 ```
 
 3.a If you're using a NixOS Steam module, set millennium as the Steam package:
