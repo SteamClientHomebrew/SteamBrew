@@ -81,7 +81,7 @@ nixpkgs.overlays = [ inputs.millennium.overlays.default ];
 ```nix
 programs.steam = {
   enable = true;
-  package = pkgs.steam-millennium; // [!code --]
+  package = pkgs.steam-millennium; # [!code --]
 };
 ```
 
@@ -90,7 +90,7 @@ programs.steam = {
 ```nix
 environment.systemPackages = with pkgs; [
 # Your other packages...
-steam-millennium // [!code --]
+steam-millennium # [!code --]
 ];
 ```
 
