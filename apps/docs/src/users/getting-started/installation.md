@@ -80,6 +80,8 @@ steam-millennium
 ];
 ```
 
+::: tip 
+If on rebuild you get hash related errors, you should run `nix flake update millennium` command in terminal to download newest git commits for millennium.
 :::
 
 ::: details Other Distributions
