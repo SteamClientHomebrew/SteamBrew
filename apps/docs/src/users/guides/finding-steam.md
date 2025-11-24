@@ -1,4 +1,4 @@
----
+(gp "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam").InstallPath---
 order: 3
 ---
 
