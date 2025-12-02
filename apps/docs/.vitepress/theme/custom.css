@@ -84,3 +84,11 @@ span.line .global-bdapi {
 	border: 0;
 	border-left: 5px solid;
 }
+
+.VPNav .VPImage.logo {
+	filter: none;
+}
+
+html:not(.dark) .VPNav .VPImage.logo {
+	filter: brightness(0.1);
+}
