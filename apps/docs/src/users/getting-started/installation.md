@@ -7,21 +7,9 @@ description: Quick guide to installing Millennium.
 
 ## Windows
 
-### Automatic
+To install Millennium on windows, we use an installer module. This installer is [cryptographically signed](https://signpath.org/) and [open source](https://github.com/SteamClientHomebrew/Installer), we encourage the community audit the source code!
 
-To install Millennium on windows, we use a PowerShell installer script. To run the script, open PowerShell, paste the following command, and press enter.
-
-**Millennium is entirely portable, and the following script doesn't change any system configuration.**
-
-```powershell
-iwr -useb "https://steambrew.app/install.ps1" | iex
-```
-
-<!-- ![Installing Millennium Preview](https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/static/install.gif) -->
-
-### Manual
-
-Start by downloading the Millennium's Windows assets from [this repository](https://github.com/SteamClientHomebrew/Millennium/releases/latest) under the name `millennium-v0.0.0-windows-x86_64.zip`. Simply put all files into your Steam directory, which can be [here](../guides/finding-steam.md).
+[📥 MillenniumInstaller-Windows.exe](https://github.com/SteamClientHomebrew/Installer/releases/latest/download/MillenniumInstaller-Windows.exe)
 
 ## Linux
 
@@ -47,8 +35,9 @@ After installing Millennium through the AUR, simply launch steam.
 ::: details NixOS
 
 We officially offer nix package for millennium. Currently, it isn't available in nixpkgs, but you can use our flake.
-- Step 1 is done in flake.nix file.
-- Steps 2, 3.a, 3.b are done in configuration.nix file.
+
+-   Step 1 is done in flake.nix file.
+-   Steps 2, 3.a, 3.b are done in configuration.nix file.
 
 1. Add input to your flake:
 
@@ -80,7 +69,7 @@ steam-millennium
 ];
 ```
 
-::: tip 
+::: tip
 If on rebuild you get hash related errors, you should run `nix flake update millennium` command in terminal to download newest git commits for millennium.
 :::
 
