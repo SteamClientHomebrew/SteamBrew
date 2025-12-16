@@ -85,9 +85,4 @@ This installer is entirely open source and we encourage the community audit the 
 curl -fsSL "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/scripts/install.sh" | sh
 ```
 
-### Post Installation
-
-Run `millennium patch`, this will patch your Steam start script to bootstrap Millennium.
-You can then start Steam as normal!
-
 :::
