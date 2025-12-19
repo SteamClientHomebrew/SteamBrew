@@ -279,3 +279,20 @@ canvas {
 .landscape .landscapeItem.topographic.animateOut {
 	opacity: 0;
 }
+.information-container {
+	background: #4a21035c;
+	margin-top: 10px;
+	width: 525px;
+	border-radius: 10px;
+	padding: 12px;
+	backdrop-filter: blur(53px);
+	border: 1px solid #333;
+}
+.information-container-body {
+	color: rgb(136, 136, 136);
+	font-size: 13px;
+	margin-top: 10px;
+}
+.information-container-header {
+	font-size: 10px;
+}

@@ -92,6 +92,17 @@ function RenderHome() {
 									</button>
 								</a>
 							</div>
+							<div className="information-container">
+								<div className="information-container-header">INFO</div>
+								<div className="information-container-body">
+									On December 19th, 2025, Valve updated the architecture of the Steam Client from 32bit to 64bit. As a result, some older versions of Millennium will no longer work, and won't be able to auto update. If Millennium is
+									not loading, a manual re-install is required. The latest fixed version is 2.31.0. If this is your first time installing, or Millennium is working as intended, you can ignore this message.
+									<br />
+									<br />
+									Thanks for your understanding, and thanks for using Millennium ❤️
+								</div>
+							</div>
+
 							<div className="downloads-container">
 								<strong id="downloads-count">
 									<CountUp start={0} end={Number(stat?.download_count ?? 0)} />
