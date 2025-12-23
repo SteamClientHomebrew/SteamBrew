@@ -82,7 +82,7 @@ If on rebuild you get hash related errors, you should run `nix flake update mill
 This installer is entirely open source and we encourage the community audit the [source code](https://github.com/SteamClientHomebrew/Millennium/blob/main/scripts/install.sh).
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/scripts/install.sh" | sh
+curl -fsSL "https://steambrew.app/install.sh" | sh
 ```
 
 :::
