@@ -128,7 +128,7 @@ function collectComponentItems(items: DefaultTheme.SidebarItem[], componentGroup
 	return ungroupedItems;
 }
 
-function addBasePathToLinks(items: DefaultTheme.SidebarItem[], basePath): DefaultTheme.SidebarItem[] {
+function addBasePathToLinks(items: DefaultTheme.SidebarItem[], basePath: string): DefaultTheme.SidebarItem[] {
 	const prefixesToRemove = ['Variable: ', 'Type Alias: ', 'Function: ', 'Class: ', 'Interface: ', 'Enumeration: ', 'Namespace: '];
 	const componentGroups: Map<string, DefaultTheme.SidebarItem[]> = new Map();
 
@@ -404,6 +404,15 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 	},
 	vite: {
 		plugins: [
+			{
+				name: 'escape-generic-types',
+				enforce: 'pre',
+				transform(code: string, id: string) {
+					if (id.endsWith('.md')) {
+						return code.replace(/<([A-Z][A-Za-z0-9]*?)>/g, '&lt;$1&gt;');
+					}
+				},
+			},
 			groupIconVitePlugin({
 				customIcon: {
 					'.babelrc': 'vscode-icons:file-type-babel',
