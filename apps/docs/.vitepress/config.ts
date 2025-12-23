@@ -1,11 +1,179 @@
 import { DefaultTheme, defineConfig, UserConfig } from 'vitepress';
-import { withSidebar } from 'vitepress-sidebar';
+import { generateSidebar } from 'vitepress-sidebar';
 import { bundledLanguages, LanguageRegistration } from 'shiki';
 import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons';
 import { VitePressSidebarOptions } from 'vitepress-sidebar/types';
+import * as fs from 'fs';
+import * as path from 'path';
 
 const steamBrewIcon = localIconLoader(import.meta.url, '../src/public/branding/logo.svg');
 const currentYear = new Date().getFullYear();
+
+const SIDEBARS: VitePressSidebarOptions | VitePressSidebarOptions[] = [
+	{
+		documentRootPath: 'src',
+		scanStartPath: 'users',
+		basePath: '/users/',
+		resolvePath: '/users/',
+		useTitleFromFileHeading: true,
+		includeRootIndexFile: true,
+		capitalizeEachWords: true,
+		collapsed: false,
+		sortFolderTo: 'bottom',
+		sortMenusByFrontmatterOrder: true,
+		frontmatterOrderDefaultValue: 1,
+		manualSortFileNameByPriority: ['getting-started', 'guides'],
+	},
+	{
+		documentRootPath: 'src',
+		scanStartPath: 'developers',
+		basePath: '/developers/',
+		resolvePath: '/developers/',
+		useTitleFromFileHeading: true,
+		includeRootIndexFile: true,
+		sortFolderTo: 'bottom',
+		sortMenusByFrontmatterOrder: true,
+		frontmatterOrderDefaultValue: 1,
+	},
+	{
+		documentRootPath: 'src',
+		scanStartPath: 'themes',
+		basePath: '/themes/',
+		resolvePath: '/themes/',
+		useTitleFromFileHeading: true,
+		includeRootIndexFile: true,
+		capitalizeEachWords: true,
+		collapsed: false,
+		sortFolderTo: 'bottom',
+		sortMenusByFrontmatterOrder: true,
+		frontmatterOrderDefaultValue: 1,
+		manualSortFileNameByPriority: ['introduction', 'basics', 'intermediate', 'advanced'],
+	},
+];
+
+const srcDir = path.resolve(import.meta.dirname, '../src');
+
+function parseFrontmatter(filePath: string): Record<string, string> | null {
+	try {
+		const content = fs.readFileSync(filePath, 'utf-8');
+		const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
+		if (!frontmatterMatch) return null;
+
+		const frontmatter: Record<string, string> = {};
+		const lines = frontmatterMatch[1].split('\n');
+		for (const line of lines) {
+			const colonIndex = line.indexOf(':');
+			if (colonIndex !== -1) {
+				const key = line.slice(0, colonIndex).trim();
+				const value = line.slice(colonIndex + 1).trim();
+				frontmatter[key] = value;
+			}
+		}
+		return frontmatter;
+	} catch {
+		return null;
+	}
+}
+
+function getComponentFromLink(link: string): string | null {
+	if (!link) return null;
+	const relativePath = link.replace(/^\//, '').replace(/\/$/, '');
+	const mdFilePath = path.join(srcDir, relativePath + '.md');
+
+	const frontmatter = parseFrontmatter(mdFilePath);
+	return frontmatter?.component || null;
+}
+
+function collectComponentItems(items: DefaultTheme.SidebarItem[], componentGroups: Map<string, DefaultTheme.SidebarItem[]>, prefixesToRemove: string[], basePath: string): DefaultTheme.SidebarItem[] {
+	const ungroupedItems: DefaultTheme.SidebarItem[] = [];
+
+	for (let item of items) {
+		const text = 'text' in item ? item.text?.toLowerCase() : '';
+		const link = 'link' in item ? item.link?.toLowerCase() : '';
+		if (text === 'readme' || text?.includes('readme') || link?.includes('readme')) {
+			continue;
+		}
+		if ('link' in item && item.link) {
+			item.link = `${basePath}${item.link.replace(/^\//, '')}`;
+		}
+		if ('text' in item && item.text) {
+			for (const prefix of prefixesToRemove) {
+				if (item.text.startsWith(prefix)) {
+					item.text = item.text.slice(prefix.length);
+					break;
+				}
+			}
+			item.text = item.text.replace(/\\/g, '');
+		}
+		if ('link' in item && item.link) {
+			const component = getComponentFromLink(item.link);
+			if (component) {
+				if (!componentGroups.has(component)) {
+					componentGroups.set(component, []);
+				}
+				componentGroups.get(component)!.push(item);
+			} else {
+				ungroupedItems.push(item);
+			}
+		} else if ('items' in item && item.items) {
+			item.items = collectComponentItems(item.items, componentGroups, prefixesToRemove, basePath);
+			if (item.items.length > 0) {
+				ungroupedItems.push(item);
+			}
+		} else {
+			ungroupedItems.push(item);
+		}
+	}
+
+	return ungroupedItems;
+}
+
+function addBasePathToLinks(items: DefaultTheme.SidebarItem[], basePath): DefaultTheme.SidebarItem[] {
+	const prefixesToRemove = ['Variable: ', 'Type Alias: ', 'Function: ', 'Class: ', 'Interface: ', 'Enumeration: ', 'Namespace: '];
+	const componentGroups: Map<string, DefaultTheme.SidebarItem[]> = new Map();
+
+	const ungroupedItems = collectComponentItems(items, componentGroups, prefixesToRemove, basePath);
+	const result: DefaultTheme.SidebarItem[] = [];
+
+	for (const [componentName, groupItems] of componentGroups) {
+		result.push({
+			text: componentName,
+			collapsed: true,
+			items: groupItems,
+		});
+	}
+
+	result.push(...ungroupedItems);
+	return result;
+}
+
+let steambrewClient = addBasePathToLinks(
+	generateSidebar({
+		documentRootPath: 'src',
+		scanStartPath: 'plugins/ts/client/src',
+		basePath: '/plugins/ts/client/src/',
+		resolvePath: '/plugins/ts/client/src/',
+		useTitleFromFileHeading: true,
+		includeRootIndexFile: false,
+		collapsed: true,
+		sortFolderTo: 'bottom',
+	}) as any,
+	'/plugins/ts/client/src/',
+);
+
+let steambrewBrowser = addBasePathToLinks(
+	generateSidebar({
+		documentRootPath: 'src',
+		scanStartPath: 'plugins/ts/browser/src',
+		basePath: '/plugins/ts/browser/src/',
+		resolvePath: '/plugins/ts/browser/src/',
+		useTitleFromFileHeading: true,
+		includeRootIndexFile: false,
+		collapsed: true,
+		sortFolderTo: 'bottom',
+	}) as any,
+	'/plugins/ts/browser/src/',
+);
 
 const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 	srcDir: './src',
@@ -90,14 +258,6 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 				],
 				activeMatch: '/(?:developers|plugins|themes)/',
 			},
-			// {
-			// 	text: 'Reference',
-			// 	items: [
-			// 		{ text: 'API', link: '/api/', activeMatch: '/api/' },
-			// 		{ text: 'UI Components', link: '/steam/components/', activeMatch: '/steam/components/' },
-			// 	],
-			// 	activeMatch: '/(?:api|steam/components)/',
-			// },
 		],
 
 		socialLinks: [
@@ -137,6 +297,49 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 		},
 
 		outline: 'deep',
+
+		sidebar: {
+			...generateSidebar(SIDEBARS),
+			'/plugins/': [
+				{
+					items: [{ text: 'Overview', link: '/plugins/' }],
+				},
+				{
+					text: 'Introduction',
+					items: [
+						{ text: 'Quick Start', link: '/plugins/' },
+						{ text: '', link: '/plugins/setup' },
+					],
+				},
+				{
+					text: 'Lua API Modules',
+					collapsed: false,
+					items: [
+						{ text: 'millennium', link: '/plugins/lua/millennium' },
+						{ text: 'cjson', link: '/plugins/lua/cjson' },
+						{ text: 'http', link: '/plugins/lua/http' },
+						{ text: 'logger', link: '/plugins/lua/logger' },
+						{ text: 'utils', link: '/plugins/lua/utils' },
+					],
+				},
+				{
+					text: 'Typescript API',
+					collapsed: false,
+					items: [
+						{
+							text: '@steambrew/client',
+							collapsed: true,
+							items: steambrewClient,
+						},
+						{
+							text: '@steambrew/browser',
+							collapsed: true,
+							items: steambrewBrowser,
+						},
+					],
+				},
+			],
+		},
 	},
 
 	sitemap: {
@@ -209,96 +412,10 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 					json: 'vscode-icons:file-type-json',
 					'.plugin.js': steamBrewIcon,
 					'.theme.css': steamBrewIcon,
-					// TODO: consider adding platform icons
 				},
 			}),
 		],
 	},
 };
 
-const SIDEBARS: VitePressSidebarOptions | VitePressSidebarOptions[] = [
-	// {
-	// 	documentRootPath: 'src',
-	// 	scanStartPath: 'api',
-	// 	basePath: '/api/',
-	// 	resolvePath: '/api/',
-	// 	useTitleFromFileHeading: true,
-	// 	includeRootIndexFile: true,
-	// 	sortFolderTo: 'bottom',
-	// 	sortMenusByFrontmatterOrder: true,
-	// 	frontmatterOrderDefaultValue: 1,
-	// },
-	// {
-	// 	rootGroupText: 'UI Components',
-	// 	documentRootPath: 'src',
-	// 	scanStartPath: 'steam',
-	// 	basePath: '/steam/',
-	// 	resolvePath: '/steam/',
-	// 	useTitleFromFileHeading: true,
-	// 	includeRootIndexFile: true,
-	// 	sortFolderTo: 'bottom',
-	// 	sortMenusByFrontmatterOrder: true,
-	// 	frontmatterOrderDefaultValue: 1,
-	// 	hyphenToSpace: true,
-	// 	capitalizeEachWords: true,
-	// 	useFolderLinkFromIndexFile: true,
-	// 	useFolderTitleFromIndexFile: true,
-	// 	collapsed: true,
-	// 	collapseDepth: 1,
-	// },
-	{
-		documentRootPath: 'src',
-		scanStartPath: 'users',
-		basePath: '/users/',
-		resolvePath: '/users/',
-		useTitleFromFileHeading: true,
-		includeRootIndexFile: true,
-		capitalizeEachWords: true,
-		collapsed: false,
-		sortFolderTo: 'bottom',
-		sortMenusByFrontmatterOrder: true,
-		frontmatterOrderDefaultValue: 1,
-		manualSortFileNameByPriority: ['getting-started', 'guides'],
-	},
-	{
-		documentRootPath: 'src',
-		scanStartPath: 'developers',
-		basePath: '/developers/',
-		resolvePath: '/developers/',
-		useTitleFromFileHeading: true,
-		includeRootIndexFile: true,
-		sortFolderTo: 'bottom',
-		sortMenusByFrontmatterOrder: true,
-		frontmatterOrderDefaultValue: 1,
-	},
-	{
-		documentRootPath: 'src',
-		scanStartPath: 'plugins',
-		basePath: '/plugins/',
-		resolvePath: '/plugins/',
-		useTitleFromFileHeading: true,
-		includeRootIndexFile: true,
-		capitalizeEachWords: true,
-		collapsed: false,
-		sortFolderTo: 'bottom',
-		sortMenusByFrontmatterOrder: true,
-		frontmatterOrderDefaultValue: 1,
-		manualSortFileNameByPriority: ['introduction', 'basics', 'intermediate', 'advanced'],
-	},
-	{
-		documentRootPath: 'src',
-		scanStartPath: 'themes',
-		basePath: '/themes/',
-		resolvePath: '/themes/',
-		useTitleFromFileHeading: true,
-		includeRootIndexFile: true,
-		capitalizeEachWords: true,
-		collapsed: false,
-		sortFolderTo: 'bottom',
-		sortMenusByFrontmatterOrder: true,
-		frontmatterOrderDefaultValue: 1,
-		manualSortFileNameByPriority: ['introduction', 'basics', 'intermediate', 'advanced'],
-	},
-];
-
-export default defineConfig(withSidebar(VITEPRESS_CONFIG, SIDEBARS));
+export default defineConfig(VITEPRESS_CONFIG);

@@ -1,0 +1,19 @@
+[**@steambrew/docs v1.1.1**](../../../README.md)
+
+***
+
+[@steambrew/docs](../../../modules.md) / [client/src](../README.md) / EBroadcastPermission
+
+# Enumeration: EBroadcastPermission
+
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:625](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L625)
+
+## Enumeration Members
+
+| Enumeration Member | Value | Defined in |
+| ------ | ------ | ------ |
+| <a id="disabled"></a> `Disabled` | `0` | [packages/client/src/globals/steam-client/Settings.ts:626](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L626) |
+| <a id="friendsallowed"></a> `FriendsAllowed` | `2` | [packages/client/src/globals/steam-client/Settings.ts:628](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L628) |
+| <a id="friendsapprove"></a> `FriendsApprove` | `1` | [packages/client/src/globals/steam-client/Settings.ts:627](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L627) |
+| <a id="public"></a> `Public` | `3` | [packages/client/src/globals/steam-client/Settings.ts:629](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L629) |
+| <a id="subscribers"></a> `Subscribers` | `4` | [packages/client/src/globals/steam-client/Settings.ts:630](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L630) |

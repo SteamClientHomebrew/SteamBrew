@@ -11,7 +11,7 @@ Make sure you are viewing relative documentation for your version of Millennium.
 If you don't know what version you're on, see [how to find your Millennium version](../guides/finding-millennium-version.md)
 :::
 
-## Millennium ≥ v2.6.0
+## Millennium ≥ v2.26.0
 
 Once Millennium is installed, you can find its related settings within the Steam user interface.
 From the **Steam** Dropdown in the top-left select **Millennium**
