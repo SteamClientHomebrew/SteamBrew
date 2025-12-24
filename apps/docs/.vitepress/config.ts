@@ -307,8 +307,8 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 				{
 					text: 'Introduction',
 					items: [
-						{ text: 'Quick Start', link: '/plugins/' },
-						{ text: '', link: '/plugins/setup' },
+						{ text: 'Quick Start', link: '/plugins/introduction/quick-start' },
+						{ text: 'Environment', link: '/plugins/introduction/environment' },
 					],
 				},
 				{
