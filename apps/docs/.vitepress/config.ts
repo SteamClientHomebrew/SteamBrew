@@ -312,6 +312,13 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 					],
 				},
 				{
+					text: 'Basic',
+					items: [
+						{ text: 'File Structure', link: '/plugins/structure/file-structure' },
+						{ text: 'Configuring A Plugin', link: '/plugins/structure/config' },
+					],
+				},
+				{
 					text: 'Lua API Modules',
 					collapsed: false,
 					items: [
