@@ -7,7 +7,7 @@ The cjson module is embedded directly into Millennium. Although Millennium's for
 The cjson module can be imported directly into any lua file in your backend.
 
 ```lua
-local cjson = require("cjson")
+local cjson = require("json")
 ```
 
 ## Functions
