@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WindowStore
 
-Defined in: [packages/client/src/modules/Router.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L45)
+Defined in: [packages/client/src/modules/Router.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L45)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/modules/Router.ts:45](https://github.com/SteamC
 
 > `optional` **GamepadUIMainWindowInstance**: [`WindowRouter`](WindowRouter.md)
 
-Defined in: [packages/client/src/modules/Router.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L46)
+Defined in: [packages/client/src/modules/Router.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L46)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/modules/Router.ts:46](https://github.com/SteamC
 
 > **OverlayWindows**: [`WindowRouter`](WindowRouter.md)[]
 
-Defined in: [packages/client/src/modules/Router.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L48)
+Defined in: [packages/client/src/modules/Router.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L48)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/client/src/modules/Router.ts:48](https://github.com/SteamC
 
 > **SteamUIWindows**: [`WindowRouter`](WindowRouter.md)[]
 
-Defined in: [packages/client/src/modules/Router.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L47)
+Defined in: [packages/client/src/modules/Router.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L47)

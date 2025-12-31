@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AppInfo
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L137)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L137)
 
 Represents information about an installed application.
 
@@ -16,7 +16,7 @@ Represents information about an installed application.
 
 > **nAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L139)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L139)
 
 ID of the application.
 
@@ -26,7 +26,7 @@ ID of the application.
 
 > **rtLastPlayed**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:145](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L145)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:145](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L145)
 
 Last played time in Unix Epoch time format.
 
@@ -36,7 +36,7 @@ Last played time in Unix Epoch time format.
 
 > **strAppName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:141](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L141)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:141](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L141)
 
 Name of the application.
 
@@ -46,7 +46,7 @@ Name of the application.
 
 > **strDLCSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L149)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L149)
 
 Size of DLC storage used by the application.
 
@@ -56,7 +56,7 @@ Size of DLC storage used by the application.
 
 > **strSortAs**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:143](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L143)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:143](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L143)
 
 Sorting information for the application.
 
@@ -66,7 +66,7 @@ Sorting information for the application.
 
 > **strStagedSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:153](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L153)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:153](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L153)
 
 Size of staged storage used by the application.
 
@@ -76,7 +76,7 @@ Size of staged storage used by the application.
 
 > **strUsedSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:147](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L147)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:147](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L147)
 
 Size of used storage by the application.
 
@@ -86,6 +86,6 @@ Size of used storage by the application.
 
 > **strWorkshopSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:151](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L151)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:151](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L151)
 
 Size of workshop storage used by the application.

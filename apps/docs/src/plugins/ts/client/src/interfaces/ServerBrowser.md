@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ServerBrowser
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L6)
 
 Represents functionality for the server browser.
 
@@ -16,7 +16,7 @@ Represents functionality for the server browser.
 
 > **AddFavoriteServer**(`server`: [`GameServer`](GameServer.md)): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L12)
 
 Adds a favorite server.
 
@@ -40,7 +40,7 @@ an empty string if successful, `Invalid/missing IPv4?` if failed.
 
 > **AddFavoriteServersByIP**(`ip`: `string`): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L19)
 
 Adds a favorite server by IP.
 
@@ -64,7 +64,7 @@ an empty string if successful, localization string if failed.
 
 > **CancelServerQuery**(`dialogId`: `number`, `queryServer`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L21)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:21](https
 
 > **ConnectToServer**(`dialogId`: `number`, `password`: `string`): `Promise`\<[`EJoinServerError`](../enumerations/EJoinServerError.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L29)
 
 Connects to a server from a given dialog.
 
@@ -116,7 +116,7 @@ a connection status.
 
 > **CreateFriendGameInfoDialog**(`pid`: `number`, `steamId`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L36)
 
 Creates a server info dialog for the server your friend is currently playing on.
 
@@ -144,7 +144,7 @@ A Steam64 ID of a friend.
 
 > **CreateServerGameInfoDialog**(`ip`: `string`, `port`: `number`, `queryPort`: `number`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L45)
 
 Creates a server info dialog.
 
@@ -178,7 +178,7 @@ the created dialog ID.
 
 > **CreateServerListRequest**(`appId`: `number`, `queryType`: [`ServerBrowserTab_t`](../type-aliases/ServerBrowserTab_t.md), `filters`: `string`[], `serverCallback`: (`server`: [`GameServer`](GameServer.md)) => `void`, `requestCompletedCallback`: (`response`: `number`) => `void`): `Promise`\<`number` \| [`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:98](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L98)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:98](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L98)
 
 Retrieves the server list.
 
@@ -248,7 +248,7 @@ Filter examples, may be combined:
 
 > **DestroyGameInfoDialog**(`dialogId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L111)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L111)
 
 Destroys the game info dialog functions (but not the window).
 
@@ -274,7 +274,7 @@ ServerBrowser.CancelServerQuery may throw if it tries to ping the server.
 
 > **DestroyServerListRequest**(`activeServerListRequestId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L117)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L117)
 
 Stops retrieving the server list.
 
@@ -296,7 +296,7 @@ The active server request ID to use.
 
 > **GetMultiplayerGames**(): `Promise`\<[`ServerBrowserGame`](ServerBrowserGame.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L123)
 
 Gets a list of games that support the server browser feature.
 
@@ -312,7 +312,7 @@ a list of games.
 
 > **GetServerListPreferences**(): `Promise`\<[`ServerBrowserPreferences`](ServerBrowserPreferences.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L129)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L129)
 
 Gets the server browser preferences.
 
@@ -328,7 +328,7 @@ server browser preferences.
 
 > **PingServer**(`dialogId`: `number`): `Promise`\<`number` \| [`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L135)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L135)
 
 Pings the server of a specified dialog ID.
 
@@ -350,7 +350,7 @@ The dialog ID to use.
 
 > **RegisterForFavorites**(`callback`: (`list`: [`ServerBrowserFavoritesAndHistory`](ServerBrowserFavoritesAndHistory.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:142](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L142)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:142](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L142)
 
 Registers a callback function to be called when a server gets added to favorite servers.
 
@@ -374,7 +374,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForFriendGamePlayed**(`dialogId`: `number`, `callback`: (`server`: [`ServerBrowserFriendServer`](ServerBrowserFriendServer.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L150)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L150)
 
 Registers a callback function to be called when idk
 
@@ -404,7 +404,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForGameInfoDialogs**(`callback`: (`dialogs`: [`ServerBrowserDialog`](ServerBrowserDialog.md)[]) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:160](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L160)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:160](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L160)
 
 Registers a callback function to be called when a server info dialog opens.
 
@@ -428,7 +428,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForPlayerDetails**(`dialogId`: `number`, `callback`: (`player`: [`PlayerDetails`](PlayerDetails.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:168](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L168)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:168](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L168)
 
 Registers a callback function to be called when player details get requested.
 
@@ -458,7 +458,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForServerInfo**(`dialogId`: `number`, `callback`: (`server`: [`GameServer`](GameServer.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:179](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L179)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:179](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L179)
 
 Registers a callback function to be called when a server gets pinged.
 
@@ -488,7 +488,7 @@ an object that can be used to unregister the callback.
 
 > **RemoveFavoriteServer**(`server`: [`GameServer`](GameServer.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:185](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L185)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:185](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L185)
 
 Removes a server from favorite servers.
 
@@ -510,7 +510,7 @@ The server to remove.
 
 > **RemoveHistoryServer**(`server`: [`GameServer`](GameServer.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:191](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L191)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:191](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L191)
 
 Removes a server from history of played servers.
 
@@ -532,7 +532,7 @@ The server to remove.
 
 > **RequestPlayerDetails**(`dialogId`: `number`): `Promise`\<`number` \| [`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:197](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L197)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:197](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L197)
 
 Requests player details for a specific dialog.
 
@@ -554,7 +554,7 @@ The dialog ID to use.
 
 > **SetServerListPreferences**(`prefs`: [`ServerBrowserPreferences`](ServerBrowserPreferences.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:203](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L203)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:203](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L203)
 
 Sets the server browser preferences.
 

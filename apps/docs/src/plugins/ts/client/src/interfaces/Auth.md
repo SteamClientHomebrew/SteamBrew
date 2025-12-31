@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Auth
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L4)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:4](https://github.
 
 > **ClearCachedSignInPin**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L8)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L8)
 
 #### Returns
 
@@ -28,7 +28,7 @@ a boolean indicating if the operation succeeded.
 
 > **CurrentUserHasCachedSignInPin**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L10)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L10)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:10](https://github
 
 > **GetLocalHostname**(): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L12)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:12](https://github
 
 > **GetMachineID**(): `Promise`\<`ArrayBuffer`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L17)
 
 #### Returns
 
@@ -66,7 +66,7 @@ a ProtoBuf message. If deserialized, returns [CAuthentication\_DeviceDetails](CA
 
 > **GetRefreshInfo**(): `Promise`\<[`AuthRefreshInfo`](AuthRefreshInfo.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L19)
 
 #### Returns
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:19](https://github
 
 > **GetSteamGuardData**(`param0`: `string`): `Promise`\<[`SteamGuardData`](SteamGuardData.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L21)
 
 #### Parameters
 
@@ -96,7 +96,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:21](https://github
 
 > **IsSecureComputer**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L26)
 
 "Secured" refers to unshared.
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:26](https://github
 
 > **SetCachedSignInPin**(`pin`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L28)
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:28](https://github
 
 > **SetLoginToken**(`refreshToken`: `string`, `accountName`: `string`): `Promise`\<[`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L30)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L30)
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:30](https://github
 
 > **SetSteamGuardData**(`accountName`: `string`, `newGuardData`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L32)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L32)
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:32](https://github
 
 > **StartSignInFromCache**(`accountName`: `string`, `offlineMode`: `boolean`): `Promise`\<`void` \| [`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L34)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L34)
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:34](https://github
 
 > **UserHasCachedSignInPin**(`accountName`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L36)
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:36](https://github
 
 > **ValidateCachedSignInPin**(`accountName`: `string`, `pin`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L38)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L38)
 
 #### Parameters
 

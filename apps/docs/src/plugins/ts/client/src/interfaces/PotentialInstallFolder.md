@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PotentialInstallFolder
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L119)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L119)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:119](http
 
 > **bIsFixed**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:131](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L131)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:131](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L131)
 
 Indicates if the folder is on a fixed drive.
 
@@ -28,7 +28,7 @@ Indicates if the folder is on a fixed drive.
 
 > **strCapacity**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L127)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L127)
 
 Total capacity of the folder.
 
@@ -38,7 +38,7 @@ Total capacity of the folder.
 
 > **strDriveName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L125)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L125)
 
 Name of the drive where the folder is located.
 
@@ -48,7 +48,7 @@ Name of the drive where the folder is located.
 
 > **strFolderPath**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L121)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L121)
 
 Path of the folder.
 
@@ -58,7 +58,7 @@ Path of the folder.
 
 > **strFreeSpace**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L129)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L129)
 
 Available free space in the folder.
 
@@ -68,6 +68,6 @@ Available free space in the folder.
 
 > **strUserLabel**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L123)
 
 User label for the folder.

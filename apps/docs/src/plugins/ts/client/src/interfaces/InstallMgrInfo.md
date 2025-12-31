@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: InstallMgrInfo
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L83)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L83)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:83](https://gi
 
 > **bCanChangeInstallFolder**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:90](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L90)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:90](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L90)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:90](https://gi
 
 > **bDesktopShortcut**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L100)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L100)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:100](https://g
 
 > **bIsBackupInstall**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L101)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L101)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:101](https://g
 
 > **bPeerContentServerAvailable**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L105)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L105)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:105](https://g
 
 > **bPeerContentServerOnline**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L104)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L104)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:104](https://g
 
 > **bSystemMenuShortcut**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L99)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L99)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:99](https://gi
 
 > **currentAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L96)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L96)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:96](https://gi
 
 > **eAppError**: [`EAppUpdateError`](../enumerations/EAppUpdateError.md)
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:97](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L97)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:97](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L97)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:97](https://gi
 
 > **eInstallState**: [`EInstallMgrState`](../enumerations/EInstallMgrState.md)
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L85)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:85](https://gi
 
 > **errorDetail**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:98](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L98)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:98](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L98)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:98](https://gi
 
 > **iInstallFolder**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L94)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L94)
 
 Index of the install folder. -1 if not installed.
 
@@ -104,7 +104,7 @@ Index of the install folder. -1 if not installed.
 
 > **iUnmountedFolder**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L95)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L95)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:95](https://gi
 
 > **nCurrentDisk**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L88)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L88)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:88](https://gi
 
 > **nDiskSpaceAvailable**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L87)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L87)
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:87](https://gi
 
 > **nDiskSpaceRequired**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L86)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L86)
 
 ***
 
@@ -136,7 +136,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:86](https://gi
 
 > **nTotalDisks**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L89)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L89)
 
 ***
 
@@ -144,7 +144,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:89](https://gi
 
 > **rgAppIDs**: [`InstallInfoApps`](InstallInfoApps.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L84)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L84)
 
 ***
 
@@ -152,4 +152,4 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:84](https://gi
 
 > **strPeerContentServer**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L103)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L103)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Parental
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L6)
 
 Interface for managing parental control settings.
 
@@ -16,7 +16,7 @@ Interface for managing parental control settings.
 
 > **LockParentalLock**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L10)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L10)
 
 Locks the parental control settings.
 
@@ -30,7 +30,7 @@ Locks the parental control settings.
 
 > **RegisterForParentalPlaytimeWarnings**(`callback`: (`time`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L12)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:12](https://gi
 
 > **RegisterForParentalSettingsChanges**(`callback`: (`settings`: [`ParentalSettings`](ParentalSettings.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L19)
 
 Registers a callback function to be invoked when parental settings change.
 
@@ -72,7 +72,7 @@ an object that can be used to unregister the callback.
 
 > **UnlockParentalLock**(`pin`: `string`, `param1`: `boolean`): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L26)
 
 Unlocks the parental lock with the provided PIN.
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Customization
 
-Defined in: [packages/client/src/globals/steam-client/Customization.ts:1](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L1)
+Defined in: [packages/client/src/globals/steam-client/Customization.ts:1](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L1)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Customization.ts:1](https:
 
 > **GenerateLocalStartupMoviesThumbnails**(`param0`: `number`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Customization.ts:2](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L2)
+Defined in: [packages/client/src/globals/steam-client/Customization.ts:2](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L2)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/Customization.ts:2](https:
 
 > **GetDownloadedStartupMovies**(`param0`: `string`): `Promise`\<[`StartupMovie`](StartupMovie.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Customization.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L5)
+Defined in: [packages/client/src/globals/steam-client/Customization.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L5)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/globals/steam-client/Customization.ts:5](https:
 
 > **GetLocalStartupMovies**(): `Promise`\<[`StartupMovie`](StartupMovie.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Customization.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Customization.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L7)
 
 #### Returns
 

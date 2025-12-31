@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ClientNotifications
 
-Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L3)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:3](
 
 > **DisplayClientNotification**(`notification`: [`EClientUINotificationType`](../enumerations/EClientUINotificationType.md), `options`: `string`, `callback`: (`context`: [`BrowserContext`](BrowserContext.md)) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L10)
+Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L10)
 
 Displays a Steam notification.
 
@@ -46,7 +46,7 @@ Stringified object of [SteamNotificationOptions](SteamNotificationOptions.md).
 
 > **OnRespondToClientNotification**(`notificationId`: `number`, `handleAction`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L20)
 
 #### Parameters
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Friends
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L6)
 
 Represents functions related to managing friends in Steam.
 
@@ -16,7 +16,7 @@ Represents functions related to managing friends in Steam.
 
 > **AddFriend**(`steamId`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L12)
 
 Adds a user to the friend list.
 
@@ -40,7 +40,7 @@ The Steam ID of the user to add as a friend.
 
 > **GetCoplayData**(): `Promise`\<[`CoplayData`](CoplayData.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L17)
 
 #### Returns
 
@@ -54,7 +54,7 @@ a list of players you recently played with.
 
 > **InviteUserToCurrentGame**(`steam64Id`: `string`, `steamIdTarget`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L19)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [packages/client/src/globals/steam-client/Friends.ts:19](https://git
 
 > **InviteUserToGame**(`steamId`: `string`, `appId`: `number`, `connectString`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L28)
 
 Invites a user to a specific game.
 
@@ -112,7 +112,7 @@ Additional parameters for the invitation.
 
 > **InviteUserToLobby**(`steam64Id`: `string`, `steamIdTarget`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L34)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L34)
 
 Invites a user to a specific lobby.
 
@@ -138,7 +138,7 @@ Invites a user to a specific lobby.
 
 > **InviteUserToRemotePlayTogetherCurrentGame**(`steam64Id`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L36)
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: [packages/client/src/globals/steam-client/Friends.ts:36](https://git
 
 > **RegisterForMultiplayerSessionShareURLChanged**(`appId`: `number`, `callback`: (`param0`: `string`, `param1`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L38)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L38)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: [packages/client/src/globals/steam-client/Friends.ts:38](https://git
 
 > **RegisterForVoiceChatStatus**(`callback`: (`status`: [`VoiceChatStatus`](VoiceChatStatus.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L43)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L43)
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: [packages/client/src/globals/steam-client/Friends.ts:43](https://git
 
 > **RemoveFriend**(`steamId`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L50)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L50)
 
 Removes a user from the friend list.
 
@@ -220,7 +220,7 @@ The Steam ID of the user to remove from the friend list.
 
 > **ShowRemotePlayTogetherUI**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L52)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L52)
 
 #### Returns
 

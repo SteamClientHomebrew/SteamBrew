@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CCloud\_PendingRemoteOperation
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1590](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1590)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1590](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1590)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1590](https://githu
 
 > **client\_id**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1593](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1593)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1593](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1593)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1593](https://githu
 
 > **device\_type**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1596](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1596)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1596](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1596)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1596](https://githu
 
 > **machine\_name**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1592](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1592)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1592](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1592)
 
 #### Returns
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1592](https://githu
 
 > **operation**(): [`ECloudPendingRemoteOperation`](../enumerations/ECloudPendingRemoteOperation.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1591](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1591)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1591](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1591)
 
 #### Returns
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1591](https://githu
 
 > **os\_type**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1595](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1595)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1595](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1595)
 
 #### Returns
 
@@ -74,7 +74,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1595](https://githu
 
 > **time\_last\_updated**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1594](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1594)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1594](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1594)
 
 #### Returns
 

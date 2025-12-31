@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **createPropListRegex**(`propList`: `string`[], `fromStart`: `boolean`): `RegExp`
 
-Defined in: [packages/client/src/utils/react/react.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/utils/react/react.ts#L20)
+Defined in: [packages/client/src/utils/react/react.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/utils/react/react.ts#L20)
 
 Create a Regular Expression to search for a React component that uses certain props in order.
 

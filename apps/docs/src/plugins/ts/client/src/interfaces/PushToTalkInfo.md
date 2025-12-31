@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PushToTalkInfo
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:152](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L152)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:152](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L152)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:152](https://gi
 
 > **bEnabled**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:154](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L154)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:154](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L154)
 
 Indicates whether push-to-talk is enabled.
 
@@ -24,7 +24,7 @@ Indicates whether push-to-talk is enabled.
 
 > **bPushToMute**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:156](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L156)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:156](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L156)
 
 Indicates whether push-to-mute is in use instead.
 
@@ -34,7 +34,7 @@ Indicates whether push-to-mute is in use instead.
 
 > **strKeyName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:163](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L163)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:163](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L163)
 
 Push-to-talk hotkey name.
 
@@ -44,7 +44,7 @@ Push-to-talk hotkey name.
 
 > **vkHotKey**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:161](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L161)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:161](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L161)
 
 Push-to-talk hotkey.
 

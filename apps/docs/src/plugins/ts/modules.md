@@ -1,8 +1,8 @@
-[**@steambrew/docs v1.1.1**](README.md)
+[**@steambrew/docs v1.1.2**](README.md)
 
 ***
 
-# @steambrew/docs v1.1.1
+# @steambrew/docs v1.1.2
 
 ## Modules
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ButtonItemProps
 
-Defined in: [packages/client/src/components/ButtonItem.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ButtonItem.ts#L7)
+Defined in: [packages/client/src/components/ButtonItem.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ButtonItem.ts#L7)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/components/ButtonItem.ts:7](https://github.com/
 
 > `optional` **bottomSeparator**: `"standard"` \| `"thick"` \| `"none"`
 
-Defined in: [packages/client/src/components/Item.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L9)
+Defined in: [packages/client/src/components/Item.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L9)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/Item.ts:9](https://github.com/SteamC
 
 > `optional` **children**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L6)
+Defined in: [packages/client/src/components/Item.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/components/Item.ts:6](https://github.com/SteamC
 
 > `optional` **description**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L5)
+Defined in: [packages/client/src/components/Item.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L5)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/components/Item.ts:5](https://github.com/SteamC
 
 > `optional` **disabled**: `boolean`
 
-Defined in: [packages/client/src/components/ButtonItem.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ButtonItem.ts#L9)
+Defined in: [packages/client/src/components/ButtonItem.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ButtonItem.ts#L9)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/components/ButtonItem.ts:9](https://github.com/
 
 > `optional` **highlightOnFocus**: `boolean`
 
-Defined in: [packages/client/src/components/Item.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L12)
+Defined in: [packages/client/src/components/Item.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L12)
 
 #### Inherited from
 
@@ -74,7 +74,7 @@ Defined in: [packages/client/src/components/Item.ts:12](https://github.com/Steam
 
 > `optional` **icon**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L8)
+Defined in: [packages/client/src/components/Item.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L8)
 
 #### Inherited from
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/components/Item.ts:8](https://github.com/SteamC
 
 > `optional` **indentLevel**: `number`
 
-Defined in: [packages/client/src/components/Item.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L10)
+Defined in: [packages/client/src/components/Item.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L10)
 
 #### Inherited from
 
@@ -98,7 +98,7 @@ Defined in: [packages/client/src/components/Item.ts:10](https://github.com/Steam
 
 > `optional` **label**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L4)
+Defined in: [packages/client/src/components/Item.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L4)
 
 #### Inherited from
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/components/Item.ts:4](https://github.com/SteamC
 
 > `optional` **layout**: `"below"` \| `"inline"`
 
-Defined in: [packages/client/src/components/Item.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L7)
+Defined in: [packages/client/src/components/Item.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L7)
 
 #### Inherited from
 
@@ -122,7 +122,7 @@ Defined in: [packages/client/src/components/Item.ts:7](https://github.com/SteamC
 
 > `optional` **tooltip**: `string`
 
-Defined in: [packages/client/src/components/Item.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L11)
+Defined in: [packages/client/src/components/Item.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L11)
 
 #### Inherited from
 
@@ -134,7 +134,7 @@ Defined in: [packages/client/src/components/Item.ts:11](https://github.com/Steam
 
 > `optional` **onClick**(`e`: `MouseEvent`): `void`
 
-Defined in: [packages/client/src/components/ButtonItem.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ButtonItem.ts#L8)
+Defined in: [packages/client/src/components/ButtonItem.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ButtonItem.ts#L8)
 
 #### Parameters
 

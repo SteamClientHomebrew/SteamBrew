@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: GameServer
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:286](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L286)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:286](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L286)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:286](http
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:288](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L288)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:288](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L288)
 
 The ID of the game.
 
@@ -24,7 +24,7 @@ The ID of the game.
 
 > `optional` **bDoNotRefresh**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:290](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L290)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:290](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L290)
 
 Do not refresh if had unsuccessful response?
 
@@ -34,7 +34,7 @@ Do not refresh if had unsuccessful response?
 
 > **bHadSuccessfulResponse**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:292](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L292)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:292](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L292)
 
 Found the server?
 
@@ -44,7 +44,7 @@ Found the server?
 
 > **botPlayers**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:298](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L298)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:298](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L298)
 
 How many bot players there currently are.
 
@@ -54,7 +54,7 @@ How many bot players there currently are.
 
 > **bPassword**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:294](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L294)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:294](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L294)
 
 Has password?
 
@@ -64,7 +64,7 @@ Has password?
 
 > **bSecure**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:296](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L296)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:296](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L296)
 
 Is VAC secured?
 
@@ -74,7 +74,7 @@ Is VAC secured?
 
 > **gameDesc**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:300](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L300)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:300](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L300)
 
 The server's game name/description.
 
@@ -84,7 +84,7 @@ The server's game name/description.
 
 > **gameDir**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:302](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L302)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:302](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L302)
 
 The game folder.
 
@@ -94,7 +94,7 @@ The game folder.
 
 > **gameTags**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:304](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L304)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:304](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L304)
 
 Server tags, separated by a comma.
 
@@ -104,7 +104,7 @@ Server tags, separated by a comma.
 
 > **ip**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:306](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L306)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:306](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L306)
 
 The server IP.
 
@@ -114,7 +114,7 @@ The server IP.
 
 > **lastPlayed**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:308](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L308)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:308](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L308)
 
 Last time played as a UNIX timestamp.
 
@@ -124,7 +124,7 @@ Last time played as a UNIX timestamp.
 
 > **map**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:310](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L310)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:310](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L310)
 
 Current server map.
 
@@ -134,7 +134,7 @@ Current server map.
 
 > **maxPlayers**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:312](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L312)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:312](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L312)
 
 Max players on the server.
 
@@ -144,7 +144,7 @@ Max players on the server.
 
 > **name**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:314](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L314)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:314](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L314)
 
 The server name.
 
@@ -154,7 +154,7 @@ The server name.
 
 > **ping**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:316](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L316)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:316](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L316)
 
 The latency to the server.
 
@@ -164,7 +164,7 @@ The latency to the server.
 
 > **players**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:318](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L318)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:318](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L318)
 
 How many players there currently are.
 
@@ -174,7 +174,7 @@ How many players there currently are.
 
 > **port**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:320](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L320)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:320](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L320)
 
 The server port.
 
@@ -184,7 +184,7 @@ The server port.
 
 > **queryPort**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:321](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L321)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:321](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L321)
 
 ***
 
@@ -192,7 +192,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:321](http
 
 > **serverVersion**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:323](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L323)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:323](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L323)
 
 The server's game version it is running on.
 
@@ -202,6 +202,6 @@ The server's game version it is running on.
 
 > **steamID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:325](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L325)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:325](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L325)
 
 Game server account ID.

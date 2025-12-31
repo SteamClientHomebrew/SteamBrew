@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ScreenshotUploadsDetails
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:878](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L878)
+Defined in: [packages/client/src/globals/steam-client/App.ts:878](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L878)
 
 Represents details about multiple screenshot uploads.
 
@@ -16,7 +16,7 @@ Represents details about multiple screenshot uploads.
 
 > **strCloudAvailable**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:887](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L887)
+Defined in: [packages/client/src/globals/steam-client/App.ts:887](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L887)
 
 The amount of cloud storage available.
 
@@ -26,7 +26,7 @@ The amount of cloud storage available.
 
 > **strCloudTotal**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:892](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L892)
+Defined in: [packages/client/src/globals/steam-client/App.ts:892](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L892)
 
 The total cloud storage.
 
@@ -36,6 +36,6 @@ The total cloud storage.
 
 > **unSizeOnDisk**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:882](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L882)
+Defined in: [packages/client/src/globals/steam-client/App.ts:882](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L882)
 
 The total size of all screenshot uploads on disk (sum of sizes including thumbnails).

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SteamAppOverviewRemoteClientData
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1708](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1708)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1708](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1708)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1708](https://githu
 
 > `optional` **active\_beta**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1713](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1713)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1713](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1713)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1713](https://githu
 
 > **bytes\_downloaded**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1715](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1715)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1715](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1715)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1715](https://githu
 
 > **bytes\_total**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1716](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1716)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1716](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1716)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1716](https://githu
 
 > **client\_name**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1710](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1710)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1710](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1710)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1710](https://githu
 
 > **clientid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1709](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1709)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1709](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1709)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1709](https://githu
 
 > **cloud\_status**: [`EAppCloudStatus`](../enumerations/EAppCloudStatus.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1721](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1721)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1721](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1721)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1721](https://githu
 
 > **display\_status**: [`EDisplayStatus`](../enumerations/EDisplayStatus.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1711](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1711)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1711](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1711)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1711](https://githu
 
 > `optional` **installed**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1714](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1714)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1714](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1714)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1714](https://githu
 
 > **is\_available\_on\_current\_platform**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1718](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1718)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1718](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1718)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1718](https://githu
 
 > `optional` **is\_invalid\_os\_type**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1719](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1719)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1719](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1719)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1719](https://githu
 
 > `optional` **playtime\_left**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1720](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1720)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1720](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1720)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1720](https://githu
 
 > **status\_percentage**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1712](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1712)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1712](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1712)
 
 ***
 
@@ -110,4 +110,4 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1712](https://githu
 
 > `optional` **streaming\_to\_local\_client**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1717](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1717)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1717](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1717)

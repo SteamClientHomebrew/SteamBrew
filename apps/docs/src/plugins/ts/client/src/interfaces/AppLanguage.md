@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AppLanguage
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1422](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1422)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1422](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1422)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1422](https://githu
 
 > **strDisplayName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1423](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1423)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1423](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1423)
 
 ***
 
@@ -22,6 +22,6 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1423](https://githu
 
 > **strShortName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1425](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1425)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1425](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1425)
 
 A localization string for the language.

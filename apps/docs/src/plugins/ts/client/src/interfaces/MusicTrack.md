@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MusicTrack
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L77)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L77)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:77](https://githu
 
 > **bShuffle**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L81)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:81](https://githu
 
 > **ePlaybackStatus**: [`EAudioPlayback`](../enumerations/EAudioPlayback.md)
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L79)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L79)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:79](https://githu
 
 > **eRepeatStatus**: [`EMusicPlayingRepeatStatus`](../enumerations/EMusicPlayingRepeatStatus.md)
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L80)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:80](https://githu
 
 > **nActiveTrack**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L83)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L83)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:83](https://githu
 
 > **nLengthInMsec**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L84)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L84)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:84](https://githu
 
 > **nVolume**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L82)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L82)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [packages/client/src/globals/steam-client/Music.ts:82](https://githu
 
 > **uSoundtrackAppId**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L78)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L78)

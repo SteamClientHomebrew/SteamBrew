@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Cloud
 
-Defined in: [packages/client/src/globals/steam-client/Cloud.ts:1](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Cloud.ts#L1)
+Defined in: [packages/client/src/globals/steam-client/Cloud.ts:1](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Cloud.ts#L1)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Cloud.ts:1](https://github
 
 > **ResolveAppSyncConflict**(`appId`: `number`, `keepLocal`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Cloud.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Cloud.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Cloud.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Cloud.ts#L7)
 
 Resolves a synchronization conflict for an app in the cloud.
 
@@ -42,7 +42,7 @@ Whether to keep the local version during conflict resolution.
 
 > **RetryAppSync**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Cloud.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Cloud.ts#L13)
+Defined in: [packages/client/src/globals/steam-client/Cloud.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Cloud.ts#L13)
 
 Retries syncing an app with the cloud.
 

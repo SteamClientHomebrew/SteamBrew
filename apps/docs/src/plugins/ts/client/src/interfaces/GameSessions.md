@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: GameSessions
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L8)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L8)
 
 Represents functions related to Steam Game Sessions.
 
@@ -16,7 +16,7 @@ Represents functions related to Steam Game Sessions.
 
 > **RegisterForAchievementNotification**(`callback`: (`notification`: [`AchievementNotification`](AchievementNotification.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L14)
 
 Registers a callback function to be called when an achievement notification is received.
 
@@ -40,7 +40,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForAppLifetimeNotifications**(`callback`: (`notification`: [`AppLifetimeNotification`](AppLifetimeNotification.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L23)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L23)
 
 Registers a callback function to be called when an app lifetime notification is received.
 
@@ -64,7 +64,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForScreenshotNotification**(`callback`: (`notification`: [`ScreenshotNotification`](ScreenshotNotification.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L32)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L32)
 
 Registers a callback function to be called when a screenshot notification is received.
 

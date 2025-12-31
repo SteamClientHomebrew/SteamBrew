@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ClientNotificationGroupChatMessage
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:90](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L90)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:90](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L90)
 
 Deserialized ProtoBuf message.
 
@@ -22,7 +22,7 @@ Deserialized ProtoBuf message.
 
 > **body**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L102)
 
 ##### Returns
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:102](http
 
 > **body**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:202](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L202)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:202](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L202)
 
 ##### Returns
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:202](http
 
 > **chat\_group\_id**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L96)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L96)
 
 ##### Returns
 
@@ -56,7 +56,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:96](https
 
 > **chat\_group\_id**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:199](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L199)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:199](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L199)
 
 ##### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:199](http
 
 > **chat\_id**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:98](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L98)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:98](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L98)
 
 ##### Returns
 
@@ -80,7 +80,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:98](https
 
 > **chat\_id**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:200](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L200)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:200](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L200)
 
 ##### Returns
 
@@ -92,7 +92,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:200](http
 
 > **getClassName**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
 
 #### Returns
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://git
 
 > **icon**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L106)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L106)
 
 ##### Returns
 
@@ -120,7 +120,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:106](http
 
 > **icon**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:204](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L204)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:204](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L204)
 
 ##### Returns
 
@@ -134,7 +134,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:204](http
 
 > **notificationid**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L108)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L108)
 
 ##### Returns
 
@@ -144,7 +144,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:108](http
 
 > **notificationid**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:205](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L205)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:205](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L205)
 
 ##### Returns
 
@@ -158,7 +158,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:205](http
 
 > **rawbody**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L104)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L104)
 
 ##### Returns
 
@@ -168,7 +168,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:104](http
 
 > **rawbody**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:203](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L203)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:203](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L203)
 
 ##### Returns
 
@@ -180,7 +180,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:203](http
 
 > **serializeBase64String**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
 
 #### Returns
 
@@ -196,7 +196,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://git
 
 > **serializeBinary**(): `Uint8Array`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
 
 #### Returns
 
@@ -214,7 +214,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://git
 
 > **steamid\_sender**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L94)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L94)
 
 A Steam64 ID.
 
@@ -226,7 +226,7 @@ A Steam64 ID.
 
 > **steamid\_sender**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:198](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L198)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:198](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L198)
 
 ##### Returns
 
@@ -240,7 +240,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:198](http
 
 > **tag**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:91](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L91)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:91](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L91)
 
 ##### Returns
 
@@ -250,7 +250,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:91](https
 
 > **tag**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:197](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L197)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:197](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L197)
 
 ##### Returns
 
@@ -264,7 +264,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:197](http
 
 > **title**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L100)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L100)
 
 ##### Returns
 
@@ -274,7 +274,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:100](http
 
 > **title**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:201](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L201)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:201](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L201)
 
 ##### Returns
 
@@ -286,7 +286,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:201](http
 
 > **toObject**(`includeJsPbInstance`: `boolean`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
 
 Converts the message to an object.
 

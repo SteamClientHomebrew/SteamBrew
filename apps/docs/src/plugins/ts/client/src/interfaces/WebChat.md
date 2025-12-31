@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WebChat
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L4)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:4](https://gith
 
 > **BSuppressPopupsInRestore**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L5)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L5)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:5](https://gith
 
 > **GetCurrentUserAccountID**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L11)
 
 Gets your Steam3 ID.
 
@@ -42,7 +42,7 @@ a Steam3 ID.
 
 > **GetLocalAvatarBase64**(): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L17)
 
 Gets the current user's 64x64 avatar as a data URL.
 
@@ -58,7 +58,7 @@ the data URL.
 
 > **GetLocalPersonaName**(): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L23)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L23)
 
 Gets the current user's nickname.
 
@@ -74,7 +74,7 @@ the nickname.
 
 > **GetOverlayChatBrowserInfo**(): `Promise`\<[`OverlayBrowserInfo`](OverlayBrowserInfo.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L25)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L25)
 
 #### Returns
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:25](https://git
 
 > **GetPrivateConnectString**(`param0`: `number`): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L28)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:28](https://git
 
 > **GetPushToTalkEnabled**(): `Promise`\<[`PushToTalkInfo`](PushToTalkInfo.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L34)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L34)
 
 Gets information about push-to-Talk.
 
@@ -118,7 +118,7 @@ Gets information about push-to-Talk.
 
 > **GetSignIntoFriendsOnStart**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L40)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L40)
 
 Gets the "Sign in to friends when Steam starts" option value.
 
@@ -134,7 +134,7 @@ a boolean indicating whether the option is enabled or not.
 
 > **GetUIMode**(): `Promise`\<[`EUIMode`](../enumerations/EUIMode.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L46)
 
 Retrieves the current UI mode.
 
@@ -150,7 +150,7 @@ the current UI mode.
 
 > **OnGroupChatUserStateChange**(`chatGroupId`: `number`, `accountId`: `number`, `action`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L48)
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:48](https://git
 
 > **OnNewGroupChatMsgAdded**(`groupId`: `string`, `chatId`: `string`, `accountId`: `number`, `timestamp`: `number`, `param4`: `number`, `message`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L50)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L50)
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:50](https://git
 
 > **OpenURLInClient**(`url`: `string`, `pid`: `number`, `forceExternal`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L64)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L64)
 
 Opens a provided URL in the Steam client. Does NOT work on desktop mode -
 will open in default web browser instead!
@@ -245,7 +245,7 @@ The URL to open.
 
 > **RegisterForComputerActiveStateChange**(`callback`: (`state`: [`EComputerActiveState`](../enumerations/EComputerActiveState.md), `time`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L73)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L73)
 
 Registers a callback function to be called when the computer's active state changes.
 
@@ -277,7 +277,7 @@ Does not affect the keyboard?
 
 > **RegisterForFriendPostMessage**(`callback`: (`data`: [`FriendChatDialogData`](FriendChatDialogData.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L80)
 
 #### Parameters
 
@@ -299,7 +299,7 @@ WebChat.ShowFriendChatDialog does this.
 
 > **RegisterForMouseXButtonDown**(`callback`: (`param0`: `number`) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L85)
 
 To unregister, use [UnregisterForMouseXButtonDown](#unregisterformousexbuttondown).
 
@@ -319,7 +319,7 @@ To unregister, use [UnregisterForMouseXButtonDown](#unregisterformousexbuttondow
 
 > **RegisterForPushToTalkStateChange**(`callback`: (`state`: `boolean`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L92)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L92)
 
 Registers a callback function to be called when the push-to-talk state changes.
 
@@ -343,7 +343,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForUIModeChange**(`callback`: (`mode`: [`EUIMode`](../enumerations/EUIMode.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L99)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L99)
 
 Registers a callback function to be called when the UI mode is changed.
 
@@ -367,7 +367,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterOverlayChatBrowserInfoChanged**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L101)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L101)
 
 #### Parameters
 
@@ -385,7 +385,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:101](https://gi
 
 > **SetActiveClanChatIDs**(`clanChatIds`: `number`[]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L103)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L103)
 
 #### Parameters
 
@@ -403,7 +403,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:103](https://gi
 
 > **SetNumChatsWithUnreadPriorityMessages**(`size`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L105)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L105)
 
 #### Parameters
 
@@ -421,7 +421,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:105](https://gi
 
 > **SetPersonaName**(`value`: `string`): `Promise`\<`SetPersonaNameResult`\>
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:107](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L107)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:107](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L107)
 
 #### Parameters
 
@@ -439,7 +439,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:107](https://gi
 
 > **SetPushToMuteEnabled**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:109](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L109)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:109](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L109)
 
 #### Parameters
 
@@ -457,7 +457,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:109](https://gi
 
 > **SetPushToTalkEnabled**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L111)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L111)
 
 #### Parameters
 
@@ -475,7 +475,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:111](https://gi
 
 > **SetPushToTalkHotKey**(`param0`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:113](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L113)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:113](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L113)
 
 #### Parameters
 
@@ -493,7 +493,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:113](https://gi
 
 > **SetPushToTalkMouseButton**(`param0`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L115)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L115)
 
 #### Parameters
 
@@ -511,7 +511,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:115](https://gi
 
 > **SetVoiceChatActive**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L117)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L117)
 
 #### Parameters
 
@@ -529,7 +529,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:117](https://gi
 
 > **SetVoiceChatStatus**(`muted`: `boolean`, `deafened`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L118)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L118)
 
 #### Parameters
 
@@ -551,7 +551,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:118](https://gi
 
 > **ShowChatRoomGroupDialog**(`param0`: `number`, `param1`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L119)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L119)
 
 #### Parameters
 
@@ -573,7 +573,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:119](https://gi
 
 > **ShowFriendChatDialog**(`steamid64`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L121)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L121)
 
 #### Parameters
 
@@ -591,7 +591,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:121](https://gi
 
 > **UnregisterForMouseXButtonDown**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L123)
 
 #### Returns
 

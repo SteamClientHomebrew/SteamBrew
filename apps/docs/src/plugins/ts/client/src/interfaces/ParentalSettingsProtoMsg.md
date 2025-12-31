@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ParentalSettingsProtoMsg
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L44)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L44)
 
 Represents the parental settings and restrictions.
 
@@ -21,7 +21,7 @@ stuff and things
 
 > **applist\_base**: `ParentalApp`[]
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L51)
 
 Base list.
 
@@ -31,7 +31,7 @@ Base list.
 
 > `optional` **applist\_base\_description**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L47)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L47)
 
 ***
 
@@ -39,7 +39,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:47](https://gi
 
 > `optional` **applist\_base\_id**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L46)
 
 ***
 
@@ -47,7 +47,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:46](https://gi
 
 > **applist\_custom**: `ParentalApp`[]
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L55)
 
 Custom list of allowed applications.
 
@@ -57,7 +57,7 @@ Custom list of allowed applications.
 
 > `optional` **enabled\_features**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L77)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L77)
 
 Bitmask representing enabled features.
 - Bit 0: Unknown (@todo Please provide more details if known)
@@ -78,7 +78,7 @@ Bitmask representing enabled features.
 
 > **excluded\_community\_content\_descriptors**: `number`[]
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L88)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L88)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:88](https://gi
 
 > **excluded\_store\_content\_descriptors**: `number`[]
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L87)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L87)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:87](https://gi
 
 > `optional` **is\_enabled**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L65)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L65)
 
 Indicates whether parental settings are enabled.
 
@@ -104,7 +104,7 @@ Indicates whether parental settings are enabled.
 
 > `optional` **is\_site\_license\_lock**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L82)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L82)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:82](https://gi
 
 > `optional` **passwordhash**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L61)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L61)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:61](https://gi
 
 > `optional` **passwordhashtype**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L59)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L59)
 
 #### Todo
 
@@ -132,7 +132,7 @@ enum ?
 
 > `optional` **playtime\_restrictions**: `ParentalPlaytimeRestrictions`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L85)
 
 ***
 
@@ -140,7 +140,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:85](https://gi
 
 > `optional` **recovery\_email**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L81)
 
 Email for recovery (if applicable).
 
@@ -150,7 +150,7 @@ Email for recovery (if applicable).
 
 > `optional` **rtime\_temporary\_feature\_expiration**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L84)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L84)
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:84](https://gi
 
 > `optional` **salt**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L60)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L60)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:60](https://gi
 
 > `optional` **steamid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L45)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:45](https://gi
 
 > `optional` **temporary\_enabled\_features**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L83)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L83)
 
 ***
 
@@ -182,7 +182,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:83](https://gi
 
 > `optional` **temporary\_playtime\_restrictions**: `ParentalTemporaryPlaytimeRestrictions`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L86)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L86)
 
 ***
 
@@ -190,4 +190,4 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:86](https://gi
 
 > **utility\_appids**: `number`[]
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L89)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L89)

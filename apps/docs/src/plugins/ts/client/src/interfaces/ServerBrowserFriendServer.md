@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ServerBrowserFriendServer
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:268](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L268)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:268](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L268)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:268](http
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:270](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L270)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:270](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L270)
 
 The ID of the game.
 
@@ -24,7 +24,7 @@ The ID of the game.
 
 > **bNonSteamServer**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:272](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L272)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:272](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L272)
 
 Non-Steam server?
 
@@ -34,7 +34,7 @@ Non-Steam server?
 
 > **gameid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:275](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L275)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:275](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L275)
 
 The ID of the game.
 
@@ -44,7 +44,7 @@ The ID of the game.
 
 > **gameText**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:273](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L273)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:273](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L273)
 
 ***
 
@@ -52,4 +52,4 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:273](http
 
 > **steamIDLobby**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:276](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L276)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:276](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L276)

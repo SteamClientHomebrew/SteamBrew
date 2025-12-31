@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: VRDevice
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L44)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L44)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:44](https://gith
 
 > **BIsConnected**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L45)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:45](https://gith
 
 > **RegisterForDeviceConnectivityChange**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L46)
 
 ## Methods
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:46](https://gith
 
 > **RegisterForVRDeviceSeenRecently**(`callback`: (`m_bVRDeviceSeenRecently`: `any`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L48)
 
 #### Parameters
 

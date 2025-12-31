@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TabsProps
 
-Defined in: [packages/client/src/components/Tabs.tsx:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L61)
+Defined in: [packages/client/src/components/Tabs.tsx:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L61)
 
 Props for the [Tabs](../variables/Tabs.md)
 
@@ -52,7 +52,7 @@ return (
 
 > **activeTab**: `string`
 
-Defined in: [packages/client/src/components/Tabs.tsx:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L63)
+Defined in: [packages/client/src/components/Tabs.tsx:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L63)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [packages/client/src/components/Tabs.tsx:63](https://github.com/Stea
 
 > `optional` **autoFocusContents**: `boolean`
 
-Defined in: [packages/client/src/components/Tabs.tsx:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L65)
+Defined in: [packages/client/src/components/Tabs.tsx:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L65)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [packages/client/src/components/Tabs.tsx:65](https://github.com/Stea
 
 > **onShowTab**: (`tab`: `string`) => `void`
 
-Defined in: [packages/client/src/components/Tabs.tsx:64](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L64)
+Defined in: [packages/client/src/components/Tabs.tsx:64](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L64)
 
 #### Parameters
 
@@ -86,4 +86,4 @@ Defined in: [packages/client/src/components/Tabs.tsx:64](https://github.com/Stea
 
 > **tabs**: [`Tab`](Tab.md)[]
 
-Defined in: [packages/client/src/components/Tabs.tsx:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L62)
+Defined in: [packages/client/src/components/Tabs.tsx:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L62)

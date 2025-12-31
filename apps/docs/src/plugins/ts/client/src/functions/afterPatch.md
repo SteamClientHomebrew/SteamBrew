@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **afterPatch**\<`Object`, `Property`, `Target`\>(`object`: `Object`, `property`: `Property`, `handler`: (`args`: `Parameters`\<`Target`\>, `ret`: `ReturnType`\<`Target`\>) => `ReturnType`\<`Target`\>, `options`: [`PatchOptions`](../interfaces/PatchOptions.md)): [`Patch`](../interfaces/Patch.md)\<`Object`, `Property`, `Target`\>
 
-Defined in: [packages/client/src/utils/patcher.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/utils/patcher.ts#L53)
+Defined in: [packages/client/src/utils/patcher.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/utils/patcher.ts#L53)
 
 ## Type Parameters
 

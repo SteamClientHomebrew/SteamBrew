@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OverlayBrowserInfo
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:142](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L142)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:142](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L142)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:142](https://gi
 
 > **appID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:143](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L143)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:143](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L143)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:143](https://gi
 
 > **eBrowserType**: [`EBrowserType`](../enumerations/EBrowserType.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:144](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L144)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:144](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L144)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:144](https://gi
 
 > **eUIMode**: [`EUIMode`](../enumerations/EUIMode.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:145](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L145)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:145](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L145)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:145](https://gi
 
 > `optional` **flDisplayScale**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:146](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L146)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:146](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L146)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:146](https://gi
 
 > **gameID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:147](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L147)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:147](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L147)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:147](https://gi
 
 > **nBrowserID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:148](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L148)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:148](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L148)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:148](https://gi
 
 > **nScreenHeight**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L149)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L149)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:149](https://gi
 
 > **nScreenWidth**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L150)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L150)
 
 ***
 
@@ -78,6 +78,6 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:150](https://gi
 
 > **unPID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:154](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L154)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:154](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L154)
 
 The PID of the overlay process.

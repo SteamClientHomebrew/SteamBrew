@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MenuGroupProps
 
-Defined in: [packages/client/src/components/Menu.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L136)
+Defined in: [packages/client/src/components/Menu.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L136)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/Menu.ts:136](https://github.com/Stea
 
 > `optional` **children**: `ReactNode`
 
-Defined in: [packages/client/src/components/Menu.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L139)
+Defined in: [packages/client/src/components/Menu.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L139)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/components/Menu.ts:139](https://github.com/Stea
 
 > `optional` **disabled**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:138](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L138)
+Defined in: [packages/client/src/components/Menu.ts:138](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L138)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/client/src/components/Menu.ts:138](https://github.com/Stea
 
 > **label**: `string`
 
-Defined in: [packages/client/src/components/Menu.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L137)
+Defined in: [packages/client/src/components/Menu.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L137)

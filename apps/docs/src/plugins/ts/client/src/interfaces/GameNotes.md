@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: GameNotes
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:3](https://gi
 
 > **GetQuota**: `Promise`\<`NotesQuota`\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L18)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L18)
 
 ## Methods
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:18](https://g
 
 > **DeleteImage**(`param0`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L7)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ a boolean indicating whether the operation was successful.
 
 > **DeleteNotes**(`param0`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L12)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ a boolean indicating whether the operation was successful.
 
 > **GetNotes**(`filenameForNotes`: `string`, `directoryForNoteImages`: `string`): `Promise`\<`Notes`\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L14)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:14](https://g
 
 > **GetNotesMetadata**(`note`: `string`): `Promise`\<`NoteMetadata`\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L16)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L16)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:16](https://g
 
 > **GetNumNotes**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L17)
 
 #### Returns
 
@@ -114,7 +114,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:17](https://g
 
 > **IterateNotes**(`appId`: `number`, `length`: `number`): `Promise`\<`NoteMetadata`[]\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L20)
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:20](https://g
 
 > **ResolveSyncConflicts**(`param0`: `boolean`): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L21)
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:21](https://g
 
 > **SaveNotes**(`filenameForNotes`: `string`, `notes`: `string`): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L26)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Escaped JSON array of [Note](Note.md).
 
 > **SyncToClient**(): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L27)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L27)
 
 #### Returns
 
@@ -190,7 +190,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:27](https://g
 
 > **SyncToServer**(): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L29)
 
 #### Returns
 
@@ -202,7 +202,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:29](https://g
 
 > **UploadImage**(`imageFileNamePrefix`: `string`, `mimeType`: `string`, `base64`: `string`): `Promise`\<[`OperationResponse`](OperationResponse.md) \| [`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L37)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L37)
 
 #### Parameters
 

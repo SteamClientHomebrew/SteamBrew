@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SteamGuardData
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L47)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L47)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:47](https://github
 
 > **data**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L48)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:48](https://github
 
 > **eresult**: [`EResult`](../enumerations/EResult.md)
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L49)

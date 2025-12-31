@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: VROverlay
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L94)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L94)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:94](https://gith
 
 > **HideDashboard**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L95)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L95)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:95](https://gith
 
 > **RegisterForButtonPress**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L99)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L99)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:99](https://gith
 
 > **RegisterForCursorMovement**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L100)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L100)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:100](https://git
 
 > **RegisterForThumbnailChanged**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L101)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L101)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:101](https://git
 
 > **RegisterForVisibilityChanged**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L102)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:102](https://git
 
 > **ShowDashboard**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L103)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L103)
 
 ## Methods
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:103](https://git
 
 > **IsDashboardVisible**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:97](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L97)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:97](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L97)
 
 #### Returns
 
@@ -74,7 +74,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:97](https://gith
 
 > **SwitchToDashboardOverlay**(`param0`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L105)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L105)
 
 #### Parameters
 

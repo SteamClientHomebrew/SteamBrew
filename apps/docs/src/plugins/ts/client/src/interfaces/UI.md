@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: UI
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L4)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:4](https://github.co
 
 > **EnsureMainWindowCreated**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L5)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L5)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:5](https://github.co
 
 > **ExitBigPictureMode**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L7)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:7](https://github.co
 
 > **GetDesiredSteamUIWindows**(): `Promise`\<[`SteamWindow`](SteamWindow.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L9)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L9)
 
 #### Returns
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:9](https://github.co
 
 > **GetOSEndOfLifeInfo**(): `Promise`\<[`OSEndOfLifeInfo`](OSEndOfLifeInfo.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L14)
 
 Gets information about whether your OS will be unsupported in the future or not.
 
@@ -64,7 +64,7 @@ Gets information about whether your OS will be unsupported in the future or not.
 
 > **GetUIMode**(): `Promise`\<[`EUIMode`](../enumerations/EUIMode.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L20)
 
 Retrieves the current UI mode.
 
@@ -80,7 +80,7 @@ the current UI mode.
 
 > **NotifyAppInitialized**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L22)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L22)
 
 #### Returns
 
@@ -92,7 +92,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:22](https://github.c
 
 > **RegisterDesiredSteamUIWindowsChanged**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L24)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:24](https://github.c
 
 > **RegisterForClientConVar**(`convar`: `string`, `callback`: (`value`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L34)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L34)
 
 Registers a callback function to be called when a convar's value gets changed.
 
@@ -140,7 +140,7 @@ The callback function to be called.
 
 > **RegisterForErrorCondition**(`callback`: (`param0`: `number`, `param1`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L39)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L39)
 
 #### Parameters
 
@@ -162,7 +162,7 @@ param{0,1} are enums
 
 > **RegisterForKioskModeResetSignal**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L41)
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:41](https://github.c
 
 > **RegisterForStartupFinished**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L46)
 
 #### Parameters
 
@@ -202,7 +202,7 @@ This fires multiple times.
 
 > **RegisterForUIModeChanged**(`callback`: (`mode`: [`EUIMode`](../enumerations/EUIMode.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L48)
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:48](https://github.c
 
 > **ResetErrorCondition**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L50)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L50)
 
 #### Returns
 
@@ -232,7 +232,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:50](https://github.c
 
 > **SetUIMode**(`mode`: [`EUIMode`](../enumerations/EUIMode.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L56)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L56)
 
 Sets the UI mode to the specified value.
 

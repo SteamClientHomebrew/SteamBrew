@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ControllerCommandMessage
 
-Defined in: [packages/client/src/globals/steam-client/Input.ts:501](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Input.ts#L501)
+Defined in: [packages/client/src/globals/steam-client/Input.ts:501](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Input.ts#L501)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Input.ts:501](https://gith
 
 > **eAction**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Input.ts:505](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Input.ts#L505)
+Defined in: [packages/client/src/globals/steam-client/Input.ts:505](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Input.ts#L505)
 
 #### Todo
 
@@ -26,4 +26,4 @@ enum
 
 > **nControllerIndex**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Input.ts:506](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Input.ts#L506)
+Defined in: [packages/client/src/globals/steam-client/Input.ts:506](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Input.ts#L506)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: StartupMovie
 
-Defined in: [packages/client/src/globals/steam-client/Customization.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L10)
+Defined in: [packages/client/src/globals/steam-client/Customization.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L10)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [packages/client/src/globals/steam-client/Customization.ts:10](https
 
 > **strMovieURL**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Customization.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/Customization.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Customization.ts#L11)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: UpdateTypeInfo
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L166)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L166)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Downloads.ts:166](https://
 
 > **completed\_update**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:168](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L168)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:168](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L168)
 
 True if this content type had an update and it has completed
 
@@ -24,7 +24,7 @@ True if this content type had an update and it has completed
 
 > **downloaded\_bytes**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:170](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L170)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:170](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L170)
 
 Bytes already downloaded for this content type
 
@@ -34,7 +34,7 @@ Bytes already downloaded for this content type
 
 > **has\_update**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:172](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L172)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:172](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L172)
 
 True if this content type has or had an update
 
@@ -44,6 +44,6 @@ True if this content type has or had an update
 
 > **total\_bytes**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:174](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L174)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:174](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L174)
 
 Total bytes to download for this content type

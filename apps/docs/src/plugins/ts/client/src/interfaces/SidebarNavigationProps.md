@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SidebarNavigationProps
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L18)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L18)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/SidebarNavigation.ts:18](https://git
 
 > `optional` **disableRouteReporting**: `boolean`
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L22)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L22)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/components/SidebarNavigation.ts:22](https://git
 
 > `optional` **onPageRequested**: (`page`: `string`) => `void`
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L24)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L24)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/components/SidebarNavigation.ts:24](https://git
 
 > `optional` **page**: `string`
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L23)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L23)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/client/src/components/SidebarNavigation.ts:23](https://git
 
 > **pages**: ([`SidebarNavigationPage`](SidebarNavigationPage.md) \| `"separator"`)[]
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L20)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L20)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [packages/client/src/components/SidebarNavigation.ts:20](https://git
 
 > `optional` **showTitle**: `boolean`
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L21)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L21)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: [packages/client/src/components/SidebarNavigation.ts:21](https://git
 
 > `optional` **title**: `string`
 
-Defined in: [packages/client/src/components/SidebarNavigation.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SidebarNavigation.ts#L19)
+Defined in: [packages/client/src/components/SidebarNavigation.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SidebarNavigation.ts#L19)

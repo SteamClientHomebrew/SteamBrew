@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AppAchievementResponse
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:911](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L911)
+Defined in: [packages/client/src/globals/steam-client/App.ts:911](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L911)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:911](https://github
 
 > **data**: [`AppAchievementData`](AppAchievementData.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:913](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L913)
+Defined in: [packages/client/src/globals/steam-client/App.ts:913](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L913)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:913](https://github
 
 > **result**: [`EResult`](../enumerations/EResult.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:912](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L912)
+Defined in: [packages/client/src/globals/steam-client/App.ts:912](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L912)

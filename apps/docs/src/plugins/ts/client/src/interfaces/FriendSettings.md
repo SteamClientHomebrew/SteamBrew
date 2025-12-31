@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FriendSettings
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L6)
 
 Represents friend settings and configuration.
 
@@ -16,7 +16,7 @@ Represents friend settings and configuration.
 
 > **GetEnabledFeatures**(): `Promise`\<[`FriendSettingsFeatureObject`](FriendSettingsFeatureObject.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L11)
 
 Retrieves a list of enabled friend settings features.
 
@@ -32,7 +32,7 @@ an array of enabled friend settings features.
 
 > **RegisterForSettingsChanges**(`callback`: (`settings`: `string`) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L18)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L18)
 
 Registers a callback function to be notified of friend settings changes.
 
@@ -58,7 +58,7 @@ The callback receives a JSON object string which may be parsed into [FriendSetti
 
 > **SetFriendSettings**(`details`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L23)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L23)
 
 #### Parameters
 

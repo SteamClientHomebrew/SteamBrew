@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Messaging
 
-Defined in: [packages/client/src/globals/steam-client/Messaging.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Messaging.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/Messaging.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Messaging.ts#L3)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Messaging.ts:3](https://gi
 
 > **PostMessage**(`message`: `string`, `section`: `string`, `args`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Messaging.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Messaging.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/Messaging.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Messaging.ts#L19)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/globals/steam-client/Messaging.ts:19](https://g
 
 > **RegisterForMessages**\<`T`\>(`message`: `T`, `callback`: (`message`: `T`, `section`: `string`, `args`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Messaging.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Messaging.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/Messaging.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Messaging.ts#L6)
 
 #### Type Parameters
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: UpdateCheckResult
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L67)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L67)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:67](https://git
 
 > **available**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L71)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L71)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:71](https://git
 
 > **eresult**: [`EResult`](../enumerations/EResult.md)
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L69)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L69)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:69](https://git
 
 > **rtime\_checked**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L70)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L70)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:70](https://git
 
 > **type**: [`EUpdaterType`](../enumerations/EUpdaterType.md)
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:68](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L68)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:68](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L68)

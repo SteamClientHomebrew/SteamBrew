@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BrowserView
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L5)
+Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L5)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:5](h
 
 > **Create**(`options?`: [`BrowserViewCreateOptions`](BrowserViewCreateOptions.md)): [`BrowserViewPopup`](BrowserViewPopup.md)
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L9)
+Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L9)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Not available on a created BrowserView.
 
 > **CreatePopup**(`options?`: [`BrowserViewCreateOptions`](BrowserViewCreateOptions.md)): \{ `browserView`: [`BrowserViewPopup`](BrowserViewPopup.md); `strCreateURL`: `string`; \}
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L20)
 
 Like [Create](#create), but:
 
@@ -72,7 +72,7 @@ Not available on a created BrowserView.
 
 > **Destroy**(`browserView`: [`BrowserViewPopup`](BrowserViewPopup.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L31)
+Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L31)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Not available on a created BrowserView.
 
 > **PostMessageToParent**(`message`: `string`, `args`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L36)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Only works on a created BrowserView.
 
 > **RegisterForMessageFromParent**(`callback`: (`message`: `string`, `args`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L44)
+Defined in: [packages/client/src/globals/steam-client/browser-view/index.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/index.ts#L44)
 
 Register a callback to be called when a message gets sent with
 [BrowserViewPopup.PostMessage](BrowserViewPopup.md#postmessage).

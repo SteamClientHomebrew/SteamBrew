@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Note
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L40)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L40)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:40](https://g
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L41)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:41](https://g
 
 > **content**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L46)
 
 Note contents in BB code.
 
@@ -32,7 +32,7 @@ Note contents in BB code.
 
 > **id**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L42)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L42)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:42](https://g
 
 > **ordinal**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L47)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L47)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:47](https://g
 
 > **time\_created**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L48)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:48](https://g
 
 > **time\_modified**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L49)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:49](https://g
 
 > **title**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L50)
+Defined in: [packages/client/src/globals/steam-client/GameNotes.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameNotes.ts#L50)

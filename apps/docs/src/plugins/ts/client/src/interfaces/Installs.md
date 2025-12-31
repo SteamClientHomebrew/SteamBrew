@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Installs
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L7)
 
 Represents functions related to managing installs and installation wizards in Steam.
 
@@ -16,7 +16,7 @@ Represents functions related to managing installs and installation wizards in St
 
 > **RegisterForShowConfirmUninstall**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L42)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L42)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:42](https://gi
 
 > **RegisterForShowRegisterCDKey**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L58)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L58)
 
 ## Methods
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/Installs.ts:58](https://gi
 
 > **CancelInstall**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L11)
 
 Cancels the installation wizard if it is open.
 
@@ -46,7 +46,7 @@ Cancels the installation wizard if it is open.
 
 > **ContinueInstall**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L16)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L16)
 
 Continues and starts the installation if the wizard is still open.
 
@@ -60,7 +60,7 @@ Continues and starts the installation if the wizard is still open.
 
 > **GetInstallManagerInfo**(): `Promise`\<[`InstallMgrInfo`](InstallMgrInfo.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L21)
 
 Retrieves information from the last opened or currently opened installation wizard.
 
@@ -74,7 +74,7 @@ Retrieves information from the last opened or currently opened installation wiza
 
 > **OpenInstallBackup**(`appBackupPath`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L27)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L27)
 
 Opens the restore from backup installer wizard for a specific app.
 
@@ -96,7 +96,7 @@ The backup path of the app.
 
 > **OpenInstallWizard**(`appIds`: `number`[]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L33)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L33)
 
 Opens the installation wizard for specified app IDs.
 
@@ -118,7 +118,7 @@ An array of app IDs to install.
 
 > **OpenUninstallWizard**(`appIds`: `number`[], `dontPrompt`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L40)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L40)
 
 Opens the uninstall wizard for specified app IDs.
 
@@ -146,7 +146,7 @@ Whether to *not* prompt the user to uninstall.
 
 > **RegisterForShowFailedUninstall**(`callback`: (`appId`: `number`, `reason`: [`EAppUpdateError`](../enumerations/EAppUpdateError.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L49)
 
 Registers a callback function to be called when the "Failed Uninstall" dialog is shown.
 
@@ -170,7 +170,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForShowInstallWizard**(`callback`: (`data`: [`InstallMgrInfo`](InstallMgrInfo.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L56)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L56)
 
 Registers a callback function to be called when the installation wizard is shown.
 
@@ -194,7 +194,7 @@ an object that can be used to unregister the callback.
 
 > **SetAppList**(`appIds`: `number`[]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L65)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L65)
 
 Sets a list of app identifiers for downloads in the installation wizard.
 
@@ -220,7 +220,7 @@ The wizard will not reflect this change immediately, but changing another option
 
 > **SetCreateShortcuts**(`bDesktopShortcut`: `boolean`, `bSystemMenuShortcut`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L73)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L73)
 
 Sets the options for creating shortcuts in the installation wizard.
 
@@ -252,7 +252,7 @@ The wizard will not reflect this change immediately, but changing another option
 
 > **SetInstallFolder**(`folderIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Installs.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/Installs.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Installs.ts#L80)
 
 Sets the install folder for the installation wizard using an install folder index.
 

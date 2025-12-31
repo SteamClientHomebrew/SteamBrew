@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BroadcastStatus
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L44)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L44)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:44](https://g
 
 > **bBroadcastCapable**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:51](https://g
 
 > **bIsBroadcasting**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L48)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:48](https://g
 
 > **bIsRecordingDesktop**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L49)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:49](https://g
 
 > **bMicrophoneActive**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L53)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L53)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:53](https://g
 
 > **bMicrophoneEnabled**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L52)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L52)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:52](https://g
 
 > **broadcastid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L45)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:45](https://g
 
 > **eBroadcastReady**: [`EResult`](../enumerations/EResult.md)
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L50)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L50)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:50](https://g
 
 > **nCurrentFPS**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L54)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L54)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:54](https://g
 
 > **nRequests**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L47)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L47)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:47](https://g
 
 > **nUploadKbps**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L55)
 
 ***
 
@@ -94,4 +94,4 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:55](https://g
 
 > **nViewers**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L46)

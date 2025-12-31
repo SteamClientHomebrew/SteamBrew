@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **ReorderableEntry**\<`T`\> = \{ `data?`: `T`; `label`: `ReactNode`; `position`: `number`; \}
 
-Defined in: [packages/client/src/custom-components/ReorderableList.tsx:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L11)
+Defined in: [packages/client/src/custom-components/ReorderableList.tsx:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L11)
 
 A ReorderableList entry of type <T>.
 
@@ -36,7 +36,7 @@ The position of this entry in the list.
 
 > `optional` **data**: `T`
 
-Defined in: [packages/client/src/custom-components/ReorderableList.tsx:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L13)
+Defined in: [packages/client/src/custom-components/ReorderableList.tsx:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L13)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [packages/client/src/custom-components/ReorderableList.tsx:13](https
 
 > **label**: `ReactNode`
 
-Defined in: [packages/client/src/custom-components/ReorderableList.tsx:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L12)
+Defined in: [packages/client/src/custom-components/ReorderableList.tsx:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L12)
 
 ***
 
@@ -52,4 +52,4 @@ Defined in: [packages/client/src/custom-components/ReorderableList.tsx:12](https
 
 > **position**: `number`
 
-Defined in: [packages/client/src/custom-components/ReorderableList.tsx:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L14)
+Defined in: [packages/client/src/custom-components/ReorderableList.tsx:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/custom-components/ReorderableList.tsx#L14)

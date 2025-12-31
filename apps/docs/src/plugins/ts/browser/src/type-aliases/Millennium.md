@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **Millennium** = \{ `callServerMethod`: (`methodName`: `string`, `kwargs?`: `object`) => `Promise`\<`any`\>; `findElement`: (`privateDocument`: `Document`, `querySelector`: `string`, `timeOut?`: `number`) => `Promise`\<`NodeListOf`\<`Element`\>\>; \}
 
-Defined in: [packages/browser/src/index.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/browser/src/index.ts#L14)
+Defined in: [packages/browser/src/index.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/browser/src/index.ts#L14)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [packages/browser/src/index.ts:14](https://github.com/SteamClientHom
 
 > **callServerMethod**: (`methodName`: `string`, `kwargs?`: `object`) => `Promise`\<`any`\>
 
-Defined in: [packages/browser/src/index.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/browser/src/index.ts#L29)
+Defined in: [packages/browser/src/index.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/browser/src/index.ts#L29)
 
 Call a method on the backend
 
@@ -54,7 +54,7 @@ const result2 = await method({ arg1: 'value2' });
 
 > **findElement**: (`privateDocument`: `Document`, `querySelector`: `string`, `timeOut?`: `number`) => `Promise`\<`NodeListOf`\<`Element`\>\>
 
-Defined in: [packages/browser/src/index.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/browser/src/index.ts#L30)
+Defined in: [packages/browser/src/index.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/browser/src/index.ts#L30)
 
 #### Parameters
 

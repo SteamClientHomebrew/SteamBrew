@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: KeyCaptureEvent
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:134](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L134)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:134](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L134)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:134](https://g
 
 > **alt\_key**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L135)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L135)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:135](https://g
 
 > **ctrl\_key**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L136)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L136)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:136](https://g
 
 > **display\_name**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L137)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L137)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:137](https://g
 
 > **meta\_key**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:138](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L138)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:138](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L138)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:138](https://g
 
 > **shift\_key**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L139)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L139)

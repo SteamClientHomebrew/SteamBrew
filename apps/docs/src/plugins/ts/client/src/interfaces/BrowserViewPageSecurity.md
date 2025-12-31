@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BrowserViewPageSecurity
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:385](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L385)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:385](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L385)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **bHasCertError**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:386](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L386)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:386](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L386)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **bIsEVCert**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:387](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L387)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:387](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L387)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **bIsSecure**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:388](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L388)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:388](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L388)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **certExpiry**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:389](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L389)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:389](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L389)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **certName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:390](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L390)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:390](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L390)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **issuerName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:391](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L391)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:391](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L391)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **nCertBits**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:392](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L392)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:392](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L392)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ClientNotificationGameRecordingUserMarkerAdded
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:325](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L325)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:325](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L325)
 
 Deserialized ProtoBuf message.
 
@@ -20,7 +20,7 @@ Deserialized ProtoBuf message.
 
 > **game\_id**(): `number`
 
-Defined in: [packages/client/src/globals/steam-client/Notifications.ts:326](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L326)
+Defined in: [packages/client/src/globals/steam-client/Notifications.ts:326](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Notifications.ts#L326)
 
 #### Returns
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/Notifications.ts:326](http
 
 > **getClassName**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
 
 #### Returns
 
@@ -48,7 +48,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://git
 
 > **serializeBase64String**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
 
 #### Returns
 
@@ -64,7 +64,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://git
 
 > **serializeBinary**(): `Uint8Array`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
 
 #### Returns
 
@@ -80,7 +80,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://git
 
 > **toObject**(`includeJsPbInstance`: `boolean`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
 
 Converts the message to an object.
 

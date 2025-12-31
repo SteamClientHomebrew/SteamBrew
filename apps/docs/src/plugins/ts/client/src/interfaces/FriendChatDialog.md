@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FriendChatDialog
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:132](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L132)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:132](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L132)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:132](https://gi
 
 > **browserid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:133](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L133)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:133](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L133)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:133](https://gi
 
 > **btakefocus**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:134](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L134)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:134](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L134)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:134](https://gi
 
 > **command**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L135)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L135)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:135](https://gi
 
 > **pid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L136)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L136)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/client/src/globals/steam-client/WebChat.ts:136](https://gi
 
 > **steamid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/WebChat.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L137)
+Defined in: [packages/client/src/globals/steam-client/WebChat.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebChat.ts#L137)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ActivateOverlayRequest
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L106)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L106)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:106](https://gi
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:110](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L110)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:110](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L110)
 
 The app ID that just had an overlay request.
 
@@ -24,7 +24,7 @@ The app ID that just had an overlay request.
 
 > **bWebPage**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L115)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L115)
 
 `true` if webpage, and so [strDialog](#strdialog) will start with `https://`.
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:115](https://gi
 
 > **eFlag**: [`EOverlayToStoreFlag`](../enumerations/EOverlayToStoreFlag.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L117)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L117)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:117](https://gi
 
 > **eWebPageMode**: [`EActivateGameOverlayToWebPageMode`](../enumerations/EActivateGameOverlayToWebPageMode.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L119)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L119)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:119](https://gi
 
 > **steamidTarget**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:124](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L124)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:124](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L124)
 
 Steam64 ID.
 
@@ -60,7 +60,7 @@ Steam64 ID.
 
 > **strConnectString**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L129)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L129)
 
 Game invites string for `Friends.InviteUserToGame`.
 
@@ -70,7 +70,7 @@ Game invites string for `Friends.InviteUserToGame`.
 
 > **strDialog**: `OverlayRequestDialog_t`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:134](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L134)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:134](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L134)
 
 Web page URL if starts with `https://`, so cast the type to `string` if it is.
 
@@ -80,6 +80,6 @@ Web page URL if starts with `https://`, so cast the type to `string` if it is.
 
 > **unRequestingAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L139)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L139)
 
 App ID of the requesting game.

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Monitor
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:267](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L267)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:267](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L267)
 
 ## Todo
 
@@ -18,7 +18,7 @@ Doesn't work on Linux ?
 
 > **monitor\_device\_name**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:268](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L268)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:268](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L268)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:268](https://g
 
 > **monitor\_display\_name**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:269](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L269)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:269](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L269)

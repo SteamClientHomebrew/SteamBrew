@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FriendSettingsChange
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L51)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:51](http
 
 > **b24HourClock**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:72](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L72)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:72](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L72)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:72](http
 
 > **bAlwaysNewChatWindow**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L60)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L60)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:60](http
 
 > **bAnimatedAvatars**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L78)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L78)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:78](http
 
 > **bCategorizeInGameFriendsByGame**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L70)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L70)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:70](http
 
 > **bCompactFriendsList**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L65)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L65)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:65](http
 
 > **bCompactQuickAccess**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L64)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L64)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:64](http
 
 > **bDisableEmbedInlining**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L74)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L74)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:74](http
 
 > **bDisableRoomEffects**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L77)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L77)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:77](http
 
 > **bDisableSpellcheck**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:76](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L76)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:76](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L76)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:76](http
 
 > **bDoNotDisturbMode**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L73)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L73)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:73](http
 
 > **bForceAlphabeticFriendSorting**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L61)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L61)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:61](http
 
 > **bHideCategorizedFriends**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L69)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L69)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:69](http
 
 > **bHideOfflineFriendsInTagGroups**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:68](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L68)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:68](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L68)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:68](http
 
 > **bNotifications\_EventsAndAnnouncements**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L55)
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:55](http
 
 > **bNotifications\_ShowChatRoomNotification**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:66](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L66)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:66](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L66)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:66](http
 
 > **bNotifications\_ShowIngame**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L52)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L52)
 
 ***
 
@@ -142,7 +142,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:52](http
 
 > **bNotifications\_ShowMessage**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L54)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L54)
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:54](http
 
 > **bNotifications\_ShowOnline**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L53)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L53)
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:53](http
 
 > **bRememberOpenChats**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L63)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L63)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:63](http
 
 > **bSignIntoFriends**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L75)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:75](http
 
 > **bSounds\_EventsAndAnnouncements**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L59)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L59)
 
 ***
 
@@ -182,7 +182,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:59](http
 
 > **bSounds\_PlayChatRoomNotification**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L67)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L67)
 
 ***
 
@@ -190,7 +190,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:67](http
 
 > **bSounds\_PlayIngame**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L56)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L56)
 
 ***
 
@@ -198,7 +198,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:56](http
 
 > **bSounds\_PlayMessage**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L58)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L58)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:58](http
 
 > **bSounds\_PlayOnline**: [`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L57)
 
 ***
 
@@ -214,7 +214,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:57](http
 
 > **featuresEnabled**: [`FriendSettingsEnabledFeatures`](../type-aliases/FriendSettingsEnabledFeatures.md)\<[`VDFBoolean_t`](../type-aliases/VDFBoolean_t.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L79)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L79)
 
 ***
 
@@ -222,7 +222,7 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:79](http
 
 > **nChatFlashMode**: [`EChatFlashMode`](../enumerations/EChatFlashMode.md)
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L62)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L62)
 
 ***
 
@@ -230,4 +230,4 @@ Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:62](http
 
 > **nChatFontSize**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L71)
+Defined in: [packages/client/src/globals/steam-client/FriendSettings.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FriendSettings.ts#L71)

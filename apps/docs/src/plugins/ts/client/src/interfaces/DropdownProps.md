@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: DropdownProps
 
-Defined in: [packages/client/src/components/Dropdown.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L28)
+Defined in: [packages/client/src/components/Dropdown.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L28)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:28](https://github.com/S
 
 > `optional` **contextMenuPositionOptions**: [`DropdownMenuPositionOptions`](DropdownMenuPositionOptions.md)
 
-Defined in: [packages/client/src/components/Dropdown.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L35)
+Defined in: [packages/client/src/components/Dropdown.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L35)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:35](https://github.com/S
 
 > `optional` **disabled**: `boolean`
 
-Defined in: [packages/client/src/components/Dropdown.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L31)
+Defined in: [packages/client/src/components/Dropdown.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L31)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:31](https://github.com/S
 
 > `optional` **focusable**: `boolean`
 
-Defined in: [packages/client/src/components/Dropdown.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L39)
+Defined in: [packages/client/src/components/Dropdown.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L39)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:39](https://github.com/S
 
 > `optional` **menuLabel**: `string`
 
-Defined in: [packages/client/src/components/Dropdown.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L36)
+Defined in: [packages/client/src/components/Dropdown.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L36)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:36](https://github.com/S
 
 > **rgOptions**: [`DropdownOption`](../type-aliases/DropdownOption.md)[]
 
-Defined in: [packages/client/src/components/Dropdown.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L29)
+Defined in: [packages/client/src/components/Dropdown.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L29)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:29](https://github.com/S
 
 > **selectedOption**: `any`
 
-Defined in: [packages/client/src/components/Dropdown.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L30)
+Defined in: [packages/client/src/components/Dropdown.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L30)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:30](https://github.com/S
 
 > `optional` **strDefaultLabel**: `string`
 
-Defined in: [packages/client/src/components/Dropdown.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L37)
+Defined in: [packages/client/src/components/Dropdown.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L37)
 
 ## Methods
 
@@ -74,7 +74,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:37](https://github.com/S
 
 > `optional` **onChange**(`data`: [`SingleDropdownOption`](SingleDropdownOption.md)): `void`
 
-Defined in: [packages/client/src/components/Dropdown.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L34)
+Defined in: [packages/client/src/components/Dropdown.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L34)
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:34](https://github.com/S
 
 > `optional` **onMenuOpened**(): `void`
 
-Defined in: [packages/client/src/components/Dropdown.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L33)
+Defined in: [packages/client/src/components/Dropdown.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L33)
 
 #### Returns
 
@@ -104,7 +104,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:33](https://github.com/S
 
 > `optional` **onMenuWillOpen**(`showMenu`: () => `void`): `void`
 
-Defined in: [packages/client/src/components/Dropdown.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L32)
+Defined in: [packages/client/src/components/Dropdown.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L32)
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:32](https://github.com/S
 
 > `optional` **renderButtonValue**(`element`: `ReactNode`): `ReactNode`
 
-Defined in: [packages/client/src/components/Dropdown.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L38)
+Defined in: [packages/client/src/components/Dropdown.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L38)
 
 #### Parameters
 

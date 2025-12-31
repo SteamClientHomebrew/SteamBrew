@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OverlayBrowserProtocols
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:157](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L157)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:157](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L157)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:157](https://gi
 
 > **bAdded**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:160](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L160)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:160](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L160)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:160](https://gi
 
 > **strScheme**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:159](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L159)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:159](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L159)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:159](https://gi
 
 > **unAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:158](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L158)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:158](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L158)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WindowDetails
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:225](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L225)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:225](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L225)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:225](https://git
 
 > **bGPUEnabled**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:226](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L226)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:226](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L226)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:226](https://git
 
 > **bUnderlaySupported**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:227](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L227)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:227](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L227)

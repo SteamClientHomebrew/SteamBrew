@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Downloads
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L7)
 
 Represents functions related to managing downloads in Steam.
 
@@ -16,7 +16,7 @@ Represents functions related to managing downloads in Steam.
 
 > **EnableAllDownloads**(`enable`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L12)
 
 Enables or disables all downloads in Steam.
 
@@ -38,7 +38,7 @@ True to enable downloads, false to disable.
 
 > **MoveAppUpdateDown**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L18)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L18)
 
 Moves the update for a specific app down the download queue.
 
@@ -60,7 +60,7 @@ The ID of the application to move.
 
 > **MoveAppUpdateUp**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L24)
 
 Moves the update for a specific app up the download queue.
 
@@ -82,7 +82,7 @@ The ID of the application to move.
 
 > **PauseAppUpdate**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L26)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [packages/client/src/globals/steam-client/Downloads.ts:26](https://g
 
 > **QueueAppUpdate**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L32)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L32)
 
 Adds the update for a specific app to the download queue.
 
@@ -122,7 +122,7 @@ The ID of the application to queue.
 
 > **RegisterForDownloadItems**(`callback`: (`isDownloading`: `boolean`, `downloadItems`: [`DownloadItem`](DownloadItem.md)[]) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L39)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L39)
 
 Registers a callback function to be called when download items change.
 
@@ -146,7 +146,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForDownloadOverview**(`callback`: (`overview`: [`DownloadOverview`](DownloadOverview.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L48)
 
 Registers a callback function to be called when download overview changes.
 
@@ -170,7 +170,7 @@ an object that can be used to unregister the callback.
 
 > **RemoveFromDownloadList**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L54)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L54)
 
 Removes the update for a specific app from the download list and places it in the unscheduled list.
 
@@ -192,7 +192,7 @@ The ID of the application to remove.
 
 > **ResumeAppUpdate**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L60)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L60)
 
 Resumes the update for a specific app in the queue.
 
@@ -214,7 +214,7 @@ The ID of the application to resume.
 
 > **SetLaunchOnUpdateComplete**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:66](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L66)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:66](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L66)
 
 Sets an app to launch when its download is complete.
 
@@ -236,7 +236,7 @@ The ID of the application to set.
 
 > **SetQueueIndex**(`appId`: `number`, `index`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L74)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L74)
 
 Sets the queue index for an app in the download queue.
 
@@ -268,7 +268,7 @@ Index of 0 is the current download in progress.
 
 > **SuspendDownloadThrottling**(`suspend`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L80)
 
 Suspends or resumes download throttling.
 
@@ -290,7 +290,7 @@ Whether to suspend or resume download throttling.
 
 > **SuspendLanPeerContent**(`suspend`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L86)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L86)
 
 Suspends or resumes local transfers.
 

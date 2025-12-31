@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BrowserViewPopup
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L4)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **AddGlass**(`enabled`: `boolean`, `useBackgroundColor`: `boolean`, `blur`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L11)
 
 Blur the popup contents.
 
@@ -44,7 +44,7 @@ Is the blur enabled?
 
 > **CanGoBackward**(): `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L16)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L16)
 
 #### Returns
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **CanGoForward**(): `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L21)
 
 #### Returns
 
@@ -72,7 +72,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **DialogResponse**(`param0`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L24)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **EnableSteamInput**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L26)
 
 #### Returns
 
@@ -102,7 +102,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **FindInPage**(`input`: `string`, `param1`: `boolean`, `previous`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L34)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L34)
 
 Find a string in the page.
 
@@ -134,7 +134,7 @@ The string to find.
 
 > **GetBounds**(): [`BrowserViewBounds`](BrowserViewBounds.md)
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L40)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L40)
 
 Get the current popup position. Only updates when using [SetBounds](#setbounds)!
 
@@ -150,7 +150,7 @@ the window position.
 
 > **GoBack**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L45)
 
 Go back in history.
 
@@ -164,7 +164,7 @@ Go back in history.
 
 > **GoForward**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L50)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L50)
 
 Go forward in history.
 
@@ -178,7 +178,7 @@ Go forward in history.
 
 > **HandleContextMenuCommand**(`command`: `number`, `param2`: [`BrowserViewContextMenu`](BrowserViewContextMenu.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L55)
 
 #### Parameters
 
@@ -202,7 +202,7 @@ See [BrowserViewContextMenu.custom\_commands](BrowserViewContextMenu.md#custom_c
 
 > **LoadURL**(`url`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L61)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L61)
 
 Load the specified URL.
 
@@ -224,7 +224,7 @@ The URL to go to.
 
 > **NotifyUserActivation**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L63)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L63)
 
 #### Returns
 
@@ -236,7 +236,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **off**\<`K`\>(`event`: `K`, `callback`: `BrowserViewEventMap`\[`K`\]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:143](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L143)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:143](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L143)
 
 Stop listening for an event.
 
@@ -270,7 +270,7 @@ The callback function to be called.
 
 > **on**\<`K`\>(`event`: `K`, `callback`: `BrowserViewEventMap`\[`K`\]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L150)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L150)
 
 Start listening for an event.
 
@@ -304,7 +304,7 @@ The callback function to be called.
 
 > **Paste**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:68](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L68)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:68](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L68)
 
 Paste the current clipboard selection.
 
@@ -318,7 +318,7 @@ Paste the current clipboard selection.
 
 > **PostMessage**(`message`: `string`, `args`: `string`): `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L75)
 
 #### Parameters
 
@@ -344,7 +344,7 @@ always be `false` if there are no listeners created by
 
 > **Reload**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L80)
 
 Reload the page.
 
@@ -358,7 +358,7 @@ Reload the page.
 
 > **ReplaceURL**(`url`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L86)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L86)
 
 Load the specified URL, but don't save history.
 
@@ -380,7 +380,7 @@ The URL to go to.
 
 > **SetBlockedProtocols**(`protocols`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L92)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L92)
 
 Define blocked protocols, like https, etc.
 
@@ -402,7 +402,7 @@ The protocols to block, separated by a semicolon.
 
 > **SetBounds**(`x`: `number`, `y`: `number`, `width`: `number`, `height`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L101)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L101)
 
 Sets the browser window position.
 
@@ -442,7 +442,7 @@ Browser window height.
 
 > **SetFocus**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:107](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L107)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:107](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L107)
 
 Sets the browser window focus state.
 
@@ -464,7 +464,7 @@ Is the window focused?
 
 > **SetName**(`browserName`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:109](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L109)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:109](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L109)
 
 #### Parameters
 
@@ -482,7 +482,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **SetShowContextMenuCallback**(`callback`: (`data`: [`BrowserViewContextMenu`](BrowserViewContextMenu.md)) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L115)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L115)
 
 Registers a callback to be called when a context menu is shown.
 
@@ -504,7 +504,7 @@ The callback function to be called.
 
 > **SetSteamURLCallback**(`callback`: (`url`: `string`) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L120)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L120)
 
 Registers a callback to be called when a steam:// URL is loaded.
 
@@ -524,7 +524,7 @@ Registers a callback to be called when a steam:// URL is loaded.
 
 > **SetTouchGesturesToCancel**(`gestures`: [`ETouchGesture`](../enumerations/ETouchGesture.md)[]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L125)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L125)
 
 #### Parameters
 
@@ -546,7 +546,7 @@ unconfirmed
 
 > **SetVisible**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L129)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L129)
 
 #### Parameters
 
@@ -564,7 +564,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **SetVRKeyboardVisibility**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L127)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L127)
 
 #### Parameters
 
@@ -582,7 +582,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **SetWindowStackingOrder**(`value`: [`EWindowStackingOrder`](../enumerations/EWindowStackingOrder.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:131](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L131)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:131](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L131)
 
 #### Parameters
 
@@ -600,7 +600,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **StopFindInPage**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L136)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:136](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L136)
 
 Stop the 'find in page' function.
 

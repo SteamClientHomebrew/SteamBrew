@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MultiDropdownOption
 
-Defined in: [packages/client/src/components/Dropdown.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L14)
+Defined in: [packages/client/src/components/Dropdown.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L14)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:14](https://github.com/S
 
 > `optional` **data**: `undefined`
 
-Defined in: [packages/client/src/components/Dropdown.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L18)
+Defined in: [packages/client/src/components/Dropdown.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L18)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/components/Dropdown.ts:18](https://github.com/S
 
 > **label**: `ReactNode`
 
-Defined in: [packages/client/src/components/Dropdown.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L15)
+Defined in: [packages/client/src/components/Dropdown.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L15)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/client/src/components/Dropdown.ts:15](https://github.com/S
 
 > **options**: [`DropdownOption`](../type-aliases/DropdownOption.md)[]
 
-Defined in: [packages/client/src/components/Dropdown.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Dropdown.ts#L16)
+Defined in: [packages/client/src/components/Dropdown.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Dropdown.ts#L16)

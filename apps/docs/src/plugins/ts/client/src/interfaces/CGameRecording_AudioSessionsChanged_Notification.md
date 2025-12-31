@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CGameRecording\_AudioSessionsChanged\_Notification
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L27)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L27)
 
 ## Note
 
@@ -22,7 +22,7 @@ Taken from https://github.com/SteamDatabase/SteamTracking/blob/master/Protobufs/
 
 > **getClassName**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://git
 
 > **serializeBase64String**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
 
 #### Returns
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://git
 
 > **serializeBinary**(): `Uint8Array`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://git
 
 > **sessions**(): [`AudioSession`](AudioSession.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L28)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:28](https
 
 > **toObject**(`includeJsPbInstance`: `boolean`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
 
 Converts the message to an object.
 

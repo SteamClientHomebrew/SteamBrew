@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,13 +6,13 @@
 
 # Enumeration: ENotificationPosition
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L99)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L99)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="bottomleft"></a> `BottomLeft` | `2` | [packages/client/src/globals/steam-client/Overlay.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L102) |
-| <a id="bottomright"></a> `BottomRight` | `3` | [packages/client/src/globals/steam-client/Overlay.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L103) |
-| <a id="topleft"></a> `TopLeft` | `0` | [packages/client/src/globals/steam-client/Overlay.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L100) |
-| <a id="topright"></a> `TopRight` | `1` | [packages/client/src/globals/steam-client/Overlay.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L101) |
+| <a id="bottomleft"></a> `BottomLeft` | `2` | [packages/client/src/globals/steam-client/Overlay.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L102) |
+| <a id="bottomright"></a> `BottomRight` | `3` | [packages/client/src/globals/steam-client/Overlay.ts:103](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L103) |
+| <a id="topleft"></a> `TopLeft` | `0` | [packages/client/src/globals/steam-client/Overlay.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L100) |
+| <a id="topright"></a> `TopRight` | `1` | [packages/client/src/globals/steam-client/Overlay.ts:101](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L101) |

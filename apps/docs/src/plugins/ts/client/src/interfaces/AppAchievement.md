@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AppAchievement
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:761](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L761)
+Defined in: [packages/client/src/globals/steam-client/App.ts:761](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L761)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:761](https://github
 
 > **bAchieved**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:762](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L762)
+Defined in: [packages/client/src/globals/steam-client/App.ts:762](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L762)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:762](https://github
 
 > **bHidden**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:764](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L764)
+Defined in: [packages/client/src/globals/steam-client/App.ts:764](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L764)
 
 Is it a hidden achievement before unlocking it?
 
@@ -32,7 +32,7 @@ Is it a hidden achievement before unlocking it?
 
 > **flAchieved**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:769](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L769)
+Defined in: [packages/client/src/globals/steam-client/App.ts:769](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L769)
 
 How many players have this achievement, in 0-100 range.
 
@@ -42,7 +42,7 @@ How many players have this achievement, in 0-100 range.
 
 > **flCurrentProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:766](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L766)
+Defined in: [packages/client/src/globals/steam-client/App.ts:766](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L766)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:766](https://github
 
 > **flMaxProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:767](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L767)
+Defined in: [packages/client/src/globals/steam-client/App.ts:767](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L767)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:767](https://github
 
 > **flMinProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:765](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L765)
+Defined in: [packages/client/src/globals/steam-client/App.ts:765](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L765)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:765](https://github
 
 > **rtUnlocked**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:771](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L771)
+Defined in: [packages/client/src/globals/steam-client/App.ts:771](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L771)
 
 When this achievement was unlocked.
 
@@ -76,7 +76,7 @@ When this achievement was unlocked.
 
 > **strDescription**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:773](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L773)
+Defined in: [packages/client/src/globals/steam-client/App.ts:773](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L773)
 
 Localized achievement description.
 
@@ -86,7 +86,7 @@ Localized achievement description.
 
 > **strID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:775](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L775)
+Defined in: [packages/client/src/globals/steam-client/App.ts:775](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L775)
 
 Achievement ID.
 
@@ -96,7 +96,7 @@ Achievement ID.
 
 > **strImage**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:777](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L777)
+Defined in: [packages/client/src/globals/steam-client/App.ts:777](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L777)
 
 Achievement icon.
 
@@ -106,6 +106,6 @@ Achievement icon.
 
 > **strName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:779](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L779)
+Defined in: [packages/client/src/globals/steam-client/App.ts:779](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L779)
 
 Localized achievement name.

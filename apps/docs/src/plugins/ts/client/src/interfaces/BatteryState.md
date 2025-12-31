@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BatteryState
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:138](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L138)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:138](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L138)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:138](https
 
 > **bHasBattery**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L139)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L139)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:139](https
 
 > **bShutdownRequested**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L150)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L150)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:150](https
 
 > **eACState**: [`EACState`](../enumerations/EACState.md)
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:140](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L140)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:140](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L140)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:140](https
 
 > **eBatteryState**: [`EBatteryState`](../enumerations/EBatteryState.md)
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:141](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L141)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:141](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L141)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:141](https
 
 > **flLevel**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:145](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L145)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:145](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L145)
 
 Battery Percentage in floating point 0-1.
 
@@ -56,6 +56,6 @@ Battery Percentage in floating point 0-1.
 
 > **nSecondsRemaining**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L149)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L149)
 
 Appears to be charge time remaining or time remaining on battery.

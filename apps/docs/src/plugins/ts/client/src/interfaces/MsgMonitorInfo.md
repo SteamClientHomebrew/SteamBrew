@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MsgMonitorInfo
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L252)
 
 CMsgMonitorInfo
 
@@ -20,7 +20,7 @@ CMsgMonitorInfo
 
 > **add\_monitors**(`param0`: `any`, `param1`: `any`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:257](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L257)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:257](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L257)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:257](https://g
 
 > **getClassName**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
 
 #### Returns
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://git
 
 > **monitors**(): [`Monitor`](Monitor.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:253](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L253)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:253](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L253)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:253](https://g
 
 > **selected\_display\_name**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:255](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L255)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:255](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L255)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:255](https://g
 
 > **serializeBase64String**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
 
 #### Returns
 
@@ -98,7 +98,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://git
 
 > **serializeBinary**(): `Uint8Array`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
 
 #### Returns
 
@@ -114,7 +114,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://git
 
 > **set\_monitors**(`param0`: `any`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:259](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L259)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:259](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L259)
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:259](https://g
 
 > **set\_selected\_display\_name**(`param0`: `any`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L261)
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:261](https://g
 
 > **toObject**(`includeJsPbInstance`: `boolean`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
 
 Converts the message to an object.
 

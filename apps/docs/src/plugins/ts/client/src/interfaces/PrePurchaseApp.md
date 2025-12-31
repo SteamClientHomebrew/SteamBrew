@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PrePurchaseApp
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:940](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L940)
+Defined in: [packages/client/src/globals/steam-client/App.ts:940](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L940)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:940](https://github
 
 > **eState**: [`EAppReleaseState`](../enumerations/EAppReleaseState.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:942](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L942)
+Defined in: [packages/client/src/globals/steam-client/App.ts:942](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L942)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:942](https://github
 
 > **nAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:941](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L941)
+Defined in: [packages/client/src/globals/steam-client/App.ts:941](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L941)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FormatStorageProgress
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:153](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L153)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:153](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L153)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:153](https
 
 > **eStage**: [`EStorageFormatStage`](../enumerations/EStorageFormatStage.md)
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:156](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L156)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:156](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L156)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:156](https
 
 > **flProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:154](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L154)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:154](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L154)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:154](https
 
 > **rtEstimatedCompletionTime**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:155](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L155)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:155](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L155)

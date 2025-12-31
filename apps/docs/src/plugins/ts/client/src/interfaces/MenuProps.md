@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MenuProps
 
-Defined in: [packages/client/src/components/Menu.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L123)
+Defined in: [packages/client/src/components/Menu.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L123)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/components/Menu.ts:123](https://github.com/Stea
 
 > `optional` **actionDescriptionMap**: [`ActionDescriptionMap`](../type-aliases/ActionDescriptionMap.md)
 
-Defined in: [packages/client/src/components/FooterLegend.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L51)
+Defined in: [packages/client/src/components/FooterLegend.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L51)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:51](https://github.c
 
 > `optional` **cancelText**: `string`
 
-Defined in: [packages/client/src/components/Menu.ts:126](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L126)
+Defined in: [packages/client/src/components/Menu.ts:126](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L126)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/components/Menu.ts:126](https://github.com/Stea
 
 > `optional` **children**: `ReactNode`
 
-Defined in: [packages/client/src/components/Menu.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L127)
+Defined in: [packages/client/src/components/Menu.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L127)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/components/Menu.ts:127](https://github.com/Stea
 
 > **label**: `string`
 
-Defined in: [packages/client/src/components/Menu.ts:124](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L124)
+Defined in: [packages/client/src/components/Menu.ts:124](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L124)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/components/Menu.ts:124](https://github.com/Stea
 
 > `optional` **onButtonDown**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L57)
+Defined in: [packages/client/src/components/FooterLegend.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L57)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:57](https://github.c
 
 > `optional` **onButtonUp**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L58)
+Defined in: [packages/client/src/components/FooterLegend.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L58)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:58](https://github.c
 
 > `optional` **onCancelActionDescription**: `ReactNode`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L53)
+Defined in: [packages/client/src/components/FooterLegend.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L53)
 
 #### Inherited from
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:53](https://github.c
 
 > `optional` **onCancelButton**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L60)
+Defined in: [packages/client/src/components/FooterLegend.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L60)
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:60](https://github.c
 
 > `optional` **onGamepadBlur**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L65)
+Defined in: [packages/client/src/components/FooterLegend.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L65)
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:65](https://github.c
 
 > `optional` **onGamepadDirection**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L63)
+Defined in: [packages/client/src/components/FooterLegend.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L63)
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:63](https://github.c
 
 > `optional` **onGamepadFocus**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L64)
+Defined in: [packages/client/src/components/FooterLegend.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L64)
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:64](https://github.c
 
 > `optional` **onMenuActionDescription**: `ReactNode`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L56)
+Defined in: [packages/client/src/components/FooterLegend.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L56)
 
 #### Inherited from
 
@@ -210,7 +210,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:56](https://github.c
 
 > `optional` **onMenuButton**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:66](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L66)
+Defined in: [packages/client/src/components/FooterLegend.ts:66](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L66)
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:66](https://github.c
 
 > `optional` **onOKActionDescription**: `ReactNode`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L52)
+Defined in: [packages/client/src/components/FooterLegend.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L52)
 
 #### Inherited from
 
@@ -244,7 +244,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:52](https://github.c
 
 > `optional` **onOKButton**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L59)
+Defined in: [packages/client/src/components/FooterLegend.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L59)
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:59](https://github.c
 
 > `optional` **onOptionsActionDescription**: `ReactNode`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L55)
+Defined in: [packages/client/src/components/FooterLegend.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L55)
 
 #### Inherited from
 
@@ -278,7 +278,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:55](https://github.c
 
 > `optional` **onOptionsButton**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L62)
+Defined in: [packages/client/src/components/FooterLegend.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L62)
 
 #### Parameters
 
@@ -300,7 +300,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:62](https://github.c
 
 > `optional` **onSecondaryActionDescription**: `ReactNode`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L54)
+Defined in: [packages/client/src/components/FooterLegend.ts:54](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L54)
 
 #### Inherited from
 
@@ -312,7 +312,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:54](https://github.c
 
 > `optional` **onSecondaryButton**: (`evt`: [`GamepadEvent`](../type-aliases/GamepadEvent.md)) => `void`
 
-Defined in: [packages/client/src/components/FooterLegend.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/FooterLegend.ts#L61)
+Defined in: [packages/client/src/components/FooterLegend.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/FooterLegend.ts#L61)
 
 #### Parameters
 
@@ -334,7 +334,7 @@ Defined in: [packages/client/src/components/FooterLegend.ts:61](https://github.c
 
 > `optional` **onCancel**(): `void`
 
-Defined in: [packages/client/src/components/Menu.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L125)
+Defined in: [packages/client/src/components/Menu.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L125)
 
 #### Returns
 

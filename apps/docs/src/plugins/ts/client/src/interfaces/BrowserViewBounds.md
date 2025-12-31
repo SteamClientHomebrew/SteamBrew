@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BrowserViewBounds
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:276](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L276)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:276](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L276)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **height**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:280](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L280)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:280](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L280)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **width**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:279](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L279)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:279](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L279)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **x**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:277](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L277)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:277](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L277)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **y**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:278](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L278)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:278](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L278)

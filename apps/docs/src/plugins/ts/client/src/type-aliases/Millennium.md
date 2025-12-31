@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **Millennium** = \{ `AddWindowCreateHook?`: (`callback`: (`context`: `object`) => `void`) => `void`; `callServerMethod`: (`methodName`: `string`, `kwargs?`: `object`) => `Promise`\<`any`\>; `exposeObj?`: \<`T`\>(`obj`: `T`) => `any`; `findElement`: (`privateDocument`: `Document`, `querySelector`: `string`, `timeOut?`: `number`) => `Promise`\<`NodeListOf`\<`Element`\>\>; \}
 
-Defined in: [packages/client/src/millennium-api.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/millennium-api.ts#L9)
+Defined in: [packages/client/src/millennium-api.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/millennium-api.ts#L9)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [packages/client/src/millennium-api.ts:9](https://github.com/SteamCl
 
 > `optional` **AddWindowCreateHook**: (`callback`: (`context`: `object`) => `void`) => `void`
 
-Defined in: [packages/client/src/millennium-api.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/millennium-api.ts#L27)
+Defined in: [packages/client/src/millennium-api.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/millennium-api.ts#L27)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/millennium-api.ts:27](https://github.com/SteamC
 
 > **callServerMethod**: (`methodName`: `string`, `kwargs?`: `object`) => `Promise`\<`any`\>
 
-Defined in: [packages/client/src/millennium-api.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/millennium-api.ts#L24)
+Defined in: [packages/client/src/millennium-api.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/millennium-api.ts#L24)
 
 Call a method on the backend
 
@@ -72,7 +72,7 @@ const result2 = await method({ arg1: 'value2' });
 
 > `optional` **exposeObj**: \<`T`\>(`obj`: `T`) => `any`
 
-Defined in: [packages/client/src/millennium-api.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/millennium-api.ts#L26)
+Defined in: [packages/client/src/millennium-api.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/millennium-api.ts#L26)
 
 #### Type Parameters
 
@@ -96,7 +96,7 @@ Defined in: [packages/client/src/millennium-api.ts:26](https://github.com/SteamC
 
 > **findElement**: (`privateDocument`: `Document`, `querySelector`: `string`, `timeOut?`: `number`) => `Promise`\<`NodeListOf`\<`Element`\>\>
 
-Defined in: [packages/client/src/millennium-api.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/millennium-api.ts#L25)
+Defined in: [packages/client/src/millennium-api.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/millennium-api.ts#L25)
 
 #### Parameters
 

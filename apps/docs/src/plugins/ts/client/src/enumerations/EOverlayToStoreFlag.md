@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,12 +6,12 @@
 
 # Enumeration: EOverlayToStoreFlag
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:168](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L168)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:168](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L168)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="addtocart"></a> `AddToCart` | `1` | [packages/client/src/globals/steam-client/Overlay.ts:170](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L170) |
-| <a id="addtocartandshow"></a> `AddToCartAndShow` | `2` | [packages/client/src/globals/steam-client/Overlay.ts:171](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L171) |
-| <a id="none"></a> `None` | `0` | [packages/client/src/globals/steam-client/Overlay.ts:169](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L169) |
+| <a id="addtocart"></a> `AddToCart` | `1` | [packages/client/src/globals/steam-client/Overlay.ts:170](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L170) |
+| <a id="addtocartandshow"></a> `AddToCartAndShow` | `2` | [packages/client/src/globals/steam-client/Overlay.ts:171](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L171) |
+| <a id="none"></a> `None` | `0` | [packages/client/src/globals/steam-client/Overlay.ts:169](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L169) |

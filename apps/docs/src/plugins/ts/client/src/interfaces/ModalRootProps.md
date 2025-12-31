@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ModalRootProps
 
-Defined in: [packages/client/src/components/Modal.tsx:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L56)
+Defined in: [packages/client/src/components/Modal.tsx:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L56)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/components/Modal.tsx:56](https://github.com/Ste
 
 > `optional` **bAllowFullSize**: `boolean`
 
-Defined in: [packages/client/src/components/Modal.tsx:64](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L64)
+Defined in: [packages/client/src/components/Modal.tsx:64](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L64)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/components/Modal.tsx:64](https://github.com/Ste
 
 > `optional` **bCancelDisabled**: `boolean`
 
-Defined in: [packages/client/src/components/Modal.tsx:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L69)
+Defined in: [packages/client/src/components/Modal.tsx:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L69)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/components/Modal.tsx:69](https://github.com/Ste
 
 > `optional` **bDestructiveWarning**: `boolean`
 
-Defined in: [packages/client/src/components/Modal.tsx:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L65)
+Defined in: [packages/client/src/components/Modal.tsx:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L65)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/components/Modal.tsx:65](https://github.com/Ste
 
 > `optional` **bDisableBackgroundDismiss**: `boolean`
 
-Defined in: [packages/client/src/components/Modal.tsx:66](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L66)
+Defined in: [packages/client/src/components/Modal.tsx:66](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L66)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/components/Modal.tsx:66](https://github.com/Ste
 
 > `optional` **bHideCloseIcon**: `boolean`
 
-Defined in: [packages/client/src/components/Modal.tsx:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L67)
+Defined in: [packages/client/src/components/Modal.tsx:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L67)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/components/Modal.tsx:67](https://github.com/Ste
 
 > `optional` **bOKDisabled**: `boolean`
 
-Defined in: [packages/client/src/components/Modal.tsx:68](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L68)
+Defined in: [packages/client/src/components/Modal.tsx:68](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L68)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [packages/client/src/components/Modal.tsx:68](https://github.com/Ste
 
 > `optional` **children**: `ReactNode`
 
-Defined in: [packages/client/src/components/Modal.tsx:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L57)
+Defined in: [packages/client/src/components/Modal.tsx:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L57)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [packages/client/src/components/Modal.tsx:57](https://github.com/Ste
 
 > `optional` **className**: `string`
 
-Defined in: [packages/client/src/components/Modal.tsx:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L62)
+Defined in: [packages/client/src/components/Modal.tsx:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L62)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [packages/client/src/components/Modal.tsx:62](https://github.com/Ste
 
 > `optional` **modalClassName**: `string`
 
-Defined in: [packages/client/src/components/Modal.tsx:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L63)
+Defined in: [packages/client/src/components/Modal.tsx:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L63)
 
 ## Methods
 
@@ -90,7 +90,7 @@ Defined in: [packages/client/src/components/Modal.tsx:63](https://github.com/Ste
 
 > `optional` **closeModal**(): `void`
 
-Defined in: [packages/client/src/components/Modal.tsx:59](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L59)
+Defined in: [packages/client/src/components/Modal.tsx:59](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L59)
 
 #### Returns
 
@@ -102,7 +102,7 @@ Defined in: [packages/client/src/components/Modal.tsx:59](https://github.com/Ste
 
 > `optional` **onCancel**(): `void`
 
-Defined in: [packages/client/src/components/Modal.tsx:58](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L58)
+Defined in: [packages/client/src/components/Modal.tsx:58](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L58)
 
 #### Returns
 
@@ -114,7 +114,7 @@ Defined in: [packages/client/src/components/Modal.tsx:58](https://github.com/Ste
 
 > `optional` **onEscKeypress**(): `void`
 
-Defined in: [packages/client/src/components/Modal.tsx:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L61)
+Defined in: [packages/client/src/components/Modal.tsx:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L61)
 
 #### Returns
 
@@ -126,7 +126,7 @@ Defined in: [packages/client/src/components/Modal.tsx:61](https://github.com/Ste
 
 > `optional` **onOK**(): `void`
 
-Defined in: [packages/client/src/components/Modal.tsx:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L60)
+Defined in: [packages/client/src/components/Modal.tsx:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L60)
 
 #### Returns
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SurveyEntry
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:258](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L258)
+Defined in: [packages/client/src/globals/steam-client/User.ts:258](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L258)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:258](https://githu
 
 > **strName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:259](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L259)
+Defined in: [packages/client/src/globals/steam-client/User.ts:259](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L259)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:259](https://githu
 
 > **vecArgs**: `string`[]
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:260](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L260)
+Defined in: [packages/client/src/globals/steam-client/User.ts:260](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L260)

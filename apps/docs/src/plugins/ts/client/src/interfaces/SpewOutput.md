@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SpewOutput
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L33)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L33)
 
 Represents spew output information.
 
@@ -16,7 +16,7 @@ Represents spew output information.
 
 > **spew**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L37)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L37)
 
 The content of the spew output.
 
@@ -26,6 +26,6 @@ The content of the spew output.
 
 > **spew\_type**: [`SpewType_t`](../type-aliases/SpewType_t.md)
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L42)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L42)
 
 The type or category of the spew output.

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MarqueeProps
 
-Defined in: [packages/client/src/components/Marquee.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L5)
+Defined in: [packages/client/src/components/Marquee.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L5)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/Marquee.ts:5](https://github.com/Ste
 
 > `optional` **center**: `boolean`
 
-Defined in: [packages/client/src/components/Marquee.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L11)
+Defined in: [packages/client/src/components/Marquee.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L11)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/components/Marquee.ts:11](https://github.com/St
 
 > **children**: `ReactNode`
 
-Defined in: [packages/client/src/components/Marquee.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L15)
+Defined in: [packages/client/src/components/Marquee.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L15)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/Marquee.ts:15](https://github.com/St
 
 > `optional` **className**: `string`
 
-Defined in: [packages/client/src/components/Marquee.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L14)
+Defined in: [packages/client/src/components/Marquee.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L14)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/components/Marquee.ts:14](https://github.com/St
 
 > `optional` **delay**: `number`
 
-Defined in: [packages/client/src/components/Marquee.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L9)
+Defined in: [packages/client/src/components/Marquee.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L9)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/components/Marquee.ts:9](https://github.com/Ste
 
 > `optional` **direction**: `"left"` \| `"right"`
 
-Defined in: [packages/client/src/components/Marquee.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L7)
+Defined in: [packages/client/src/components/Marquee.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L7)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/components/Marquee.ts:7](https://github.com/Ste
 
 > `optional` **fadeLength**: `number`
 
-Defined in: [packages/client/src/components/Marquee.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L10)
+Defined in: [packages/client/src/components/Marquee.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L10)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/components/Marquee.ts:10](https://github.com/St
 
 > `optional` **play**: `boolean`
 
-Defined in: [packages/client/src/components/Marquee.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L6)
+Defined in: [packages/client/src/components/Marquee.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L6)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/components/Marquee.ts:6](https://github.com/Ste
 
 > `optional` **resetOnPause**: `boolean`
 
-Defined in: [packages/client/src/components/Marquee.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L12)
+Defined in: [packages/client/src/components/Marquee.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L12)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/components/Marquee.ts:12](https://github.com/St
 
 > `optional` **speed**: `number`
 
-Defined in: [packages/client/src/components/Marquee.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L8)
+Defined in: [packages/client/src/components/Marquee.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L8)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: [packages/client/src/components/Marquee.ts:8](https://github.com/Ste
 
 > `optional` **style**: `CSSProperties`
 
-Defined in: [packages/client/src/components/Marquee.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Marquee.ts#L13)
+Defined in: [packages/client/src/components/Marquee.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Marquee.ts#L13)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OSBranch
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L28)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:28](https://git
 
 > **eBranch**: [`EOSBranch`](../enumerations/EOSBranch.md)
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L29)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:29](https://git
 
 > **sRawName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L30)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L30)

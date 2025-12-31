@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Screenshot
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L118)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L118)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:118](https:
 
 > **bSpoilers**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L127)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L127)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:127](https:
 
 > **bUploaded**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L129)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L129)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:129](https:
 
 > **ePrivacy**: [`EUCMFilePrivacyState`](../enumerations/EUCMFilePrivacyState.md)
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L125)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L125)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:125](https:
 
 > **hHandle**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L121)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L121)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:121](https:
 
 > **nAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L119)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L119)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:119](https:
 
 > **nCreated**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:124](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L124)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:124](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L124)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:124](https:
 
 > **nHeight**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L123)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:123](https:
 
 > **nWidth**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:122](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L122)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:122](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L122)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:122](https:
 
 > **strCaption**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:126](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L126)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:126](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L126)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:126](https:
 
 > **strGameID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L120)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L120)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:120](https:
 
 > **strUrl**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:128](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L128)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:128](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L128)
 
 ***
 
@@ -102,4 +102,4 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:128](https:
 
 > **ugcHandle**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:130](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L130)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:130](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L130)

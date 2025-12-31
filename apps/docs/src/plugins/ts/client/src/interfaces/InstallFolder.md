@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: InstallFolder
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L7)
 
 Represents functions related to Steam Install Folders.
 
@@ -16,7 +16,7 @@ Represents functions related to Steam Install Folders.
 
 > **AddInstallFolder**(`path`: `string`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L13)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L13)
 
 Adds a Steam Library folder to the Steam client.
 
@@ -40,7 +40,7 @@ the index of the added folder.
 
 > **BrowseFilesInFolder**(`folderIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L19)
 
 Opens the file explorer to browse files in a specific Steam Library folder.
 
@@ -62,7 +62,7 @@ The index of the folder to be opened.
 
 > **CancelMove**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L24)
 
 Cancels the current move operation for moving game content.
 
@@ -76,7 +76,7 @@ Cancels the current move operation for moving game content.
 
 > **GetInstallFolders**(): `Promise`\<[`SteamInstallFolder`](SteamInstallFolder.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L30)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L30)
 
 Retrieves a list of installed Steam Library folders.
 
@@ -92,7 +92,7 @@ an array of SteamInstallFolder objects.
 
 > **GetPotentialFolders**(): `Promise`\<[`PotentialInstallFolder`](PotentialInstallFolder.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L36)
 
 Retrieves a list of potential Steam Library folders that can be added.
 
@@ -108,7 +108,7 @@ an array of PotentialInstallFolder objects.
 
 > **MoveInstallFolderForApp**(`appId`: `number`, `folderIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L43)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L43)
 
 Moves the installation folder for a specific app to another Steam Library folder.
 
@@ -136,7 +136,7 @@ The index of the target Steam Library folder.
 
 > **RefreshFolders**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L48)
 
 Refreshes the list of installed Steam Library folders.
 
@@ -150,7 +150,7 @@ Refreshes the list of installed Steam Library folders.
 
 > **RegisterForInstallFolderChanges**(`callback`: (`change`: [`FolderChange`](FolderChange.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L55)
 
 Registers a callback function to be called when changes occur in Steam Install Folders.
 
@@ -174,7 +174,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForMoveContentProgress**(`callback`: (`progress`: [`MoveContentProgress`](MoveContentProgress.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L62)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L62)
 
 Registers a callback function to be called when moving game content progresses.
 
@@ -198,7 +198,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForRepairFolderFinished**(`callback`: (`change`: [`FolderChange`](FolderChange.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L69)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L69)
 
 Registers a callback function to be called when repairing an install folder is finished.
 
@@ -222,7 +222,7 @@ an object that can be used to unregister the callback.
 
 > **RemoveInstallFolder**(`folderIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L75)
 
 Removes a Steam Library folder from the Steam client.
 
@@ -244,7 +244,7 @@ The index of the folder to be removed.
 
 > **RepairInstallFolder**(`folderIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L81)
 
 Repairs an installed Steam Library folder.
 
@@ -266,7 +266,7 @@ The index of the folder to be repaired.
 
 > **SetDefaultInstallFolder**(`folderIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L87)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L87)
 
 Sets a specific Steam Library folder as the default install folder.
 
@@ -288,7 +288,7 @@ The index of the folder to be set as default.
 
 > **SetFolderLabel**(`folderIndex`: `number`, `label`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L94)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L94)
 
 Sets a user-defined label for a specific Steam Library folder.
 

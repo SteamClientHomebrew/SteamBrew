@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TransportInfo
 
-Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L16)
+Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L16)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:16](http
 
 > **authKeyClientdll**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L17)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:17](http
 
 > **authKeySteamUI**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L18)
+Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L18)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:18](http
 
 > **portClientdll**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L19)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:19](http
 
 > **portSteamUI**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/WebUITransport.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/WebUITransport.ts#L20)

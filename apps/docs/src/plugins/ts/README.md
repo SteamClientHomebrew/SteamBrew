@@ -1,4 +1,4 @@
-**@steambrew/docs v1.1.1**
+**@steambrew/docs v1.1.2**
 
 ***
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: DownloadItem
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L89)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L89)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Downloads.ts:89](https://g
 
 > **active**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:91](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L91)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:91](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L91)
 
 True if this app is currently downloading
 
@@ -24,7 +24,7 @@ True if this app is currently downloading
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:93](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L93)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:93](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L93)
 
 Appid of app
 
@@ -34,7 +34,7 @@ Appid of app
 
 > **buildid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L95)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L95)
 
 Current build ID for the installed app, zero if the app isn't installed yet
 
@@ -44,7 +44,7 @@ Current build ID for the installed app, zero if the app isn't installed yet
 
 > **completed**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:97](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L97)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:97](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L97)
 
 True if this update has been completed
 
@@ -54,7 +54,7 @@ True if this update has been completed
 
 > **completed\_time**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L99)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:99](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L99)
 
 For completed downloads, time of completion, 0 if not completed
 
@@ -64,7 +64,7 @@ For completed downloads, time of completion, 0 if not completed
 
 > **deferred\_time**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L100)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L100)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [packages/client/src/globals/steam-client/Downloads.ts:100](https://
 
 > **downloaded\_bytes**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L102)
 
 Bytes already downloaded, sum across all content types
 
@@ -82,7 +82,7 @@ Bytes already downloaded, sum across all content types
 
 > **launch\_on\_completion**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L104)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L104)
 
 If true, game will launch when its download completes successfully
 
@@ -92,7 +92,7 @@ If true, game will launch when its download completes successfully
 
 > **paused**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L106)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L106)
 
 True if this app has been paused by the user or the system
 
@@ -102,7 +102,7 @@ True if this app has been paused by the user or the system
 
 > **queue\_index**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L108)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L108)
 
 Queue index, -1 if the item is unqueued
 
@@ -112,7 +112,7 @@ Queue index, -1 if the item is unqueued
 
 > **target\_buildid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:110](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L110)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:110](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L110)
 
 Build ID that this download is moving towards. This can be the same as buildid.
 
@@ -122,7 +122,7 @@ Build ID that this download is moving towards. This can be the same as buildid.
 
 > **total\_bytes**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:112](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L112)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:112](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L112)
 
 Total bytes to download, sum across all content types
 
@@ -132,7 +132,7 @@ Total bytes to download, sum across all content types
 
 > **update\_error**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L117)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L117)
 
 Update error description, when paused and there has been an error.
 Unlocalized and shouldn't be displayed to the user.
@@ -143,7 +143,7 @@ Unlocalized and shouldn't be displayed to the user.
 
 > **update\_result**: [`EAppUpdateError`](../enumerations/EAppUpdateError.md)
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L118)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L118)
 
 ***
 
@@ -151,4 +151,4 @@ Defined in: [packages/client/src/globals/steam-client/Downloads.ts:118](https://
 
 > **update\_type\_info**: [`UpdateTypeInfo`](UpdateTypeInfo.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Downloads.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L119)
+Defined in: [packages/client/src/globals/steam-client/Downloads.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Downloads.ts#L119)

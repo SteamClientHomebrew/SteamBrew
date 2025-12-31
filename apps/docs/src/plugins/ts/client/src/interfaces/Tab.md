@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Tab
 
-Defined in: [packages/client/src/components/Tabs.tsx:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L17)
+Defined in: [packages/client/src/components/Tabs.tsx:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L17)
 
 Individual tab objects for the Tabs component
 
@@ -22,7 +22,7 @@ Individual tab objects for the Tabs component
 
 > **content**: `ReactNode`
 
-Defined in: [packages/client/src/components/Tabs.tsx:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L21)
+Defined in: [packages/client/src/components/Tabs.tsx:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L21)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/Tabs.tsx:21](https://github.com/Stea
 
 > `optional` **footer**: [`FooterLegendProps`](FooterLegendProps.md)
 
-Defined in: [packages/client/src/components/Tabs.tsx:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L22)
+Defined in: [packages/client/src/components/Tabs.tsx:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L22)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/components/Tabs.tsx:22](https://github.com/Stea
 
 > **id**: `string`
 
-Defined in: [packages/client/src/components/Tabs.tsx:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L18)
+Defined in: [packages/client/src/components/Tabs.tsx:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/components/Tabs.tsx:18](https://github.com/Stea
 
 > `optional` **renderTabAddon**: () => `ReactNode`
 
-Defined in: [packages/client/src/components/Tabs.tsx:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L20)
+Defined in: [packages/client/src/components/Tabs.tsx:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L20)
 
 #### Returns
 
@@ -58,4 +58,4 @@ Defined in: [packages/client/src/components/Tabs.tsx:20](https://github.com/Stea
 
 > **title**: `string`
 
-Defined in: [packages/client/src/components/Tabs.tsx:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Tabs.tsx#L19)
+Defined in: [packages/client/src/components/Tabs.tsx:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Tabs.tsx#L19)

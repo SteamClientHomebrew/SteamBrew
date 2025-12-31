@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MonitorDimensions
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:212](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L212)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:212](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L212)
 
 "Usable" here refers to space that is not taken by the taskbar.
 
@@ -16,7 +16,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:212](https://git
 
 > **flHorizontalScale**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:213](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L213)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:213](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L213)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:213](https://git
 
 > **flVerticalScale**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:214](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L214)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:214](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L214)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:214](https://git
 
 > **nFullHeight**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:215](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L215)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:215](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L215)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:215](https://git
 
 > **nFullLeft**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:216](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L216)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:216](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L216)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:216](https://git
 
 > **nFullTop**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:217](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L217)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:217](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L217)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:217](https://git
 
 > **nFullWidth**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:218](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L218)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:218](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L218)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:218](https://git
 
 > **nUsableHeight**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:219](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L219)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:219](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L219)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:219](https://git
 
 > **nUsableLeft**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:220](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L220)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:220](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L220)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:220](https://git
 
 > **nUsableTop**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:221](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L221)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:221](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L221)
 
 ***
 
@@ -88,4 +88,4 @@ Defined in: [packages/client/src/globals/steam-client/Window.ts:221](https://git
 
 > **nUsableWidth**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Window.ts:222](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Window.ts#L222)
+Defined in: [packages/client/src/globals/steam-client/Window.ts:222](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Window.ts#L222)

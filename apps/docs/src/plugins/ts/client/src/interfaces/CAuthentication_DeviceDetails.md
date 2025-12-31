@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CAuthentication\_DeviceDetails
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L62)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L62)
 
 `deserializeBinary` argument:
 ```
@@ -27,7 +27,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:62](https://github
 
 > **client\_count**(): `number` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L63)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L63)
 
 #### Returns
 
@@ -39,7 +39,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:63](https://github
 
 > **device\_friendly\_name**(): `string` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L65)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L65)
 
 #### Returns
 
@@ -51,7 +51,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:65](https://github
 
 > **gaming\_device\_type**(): [`EGamingDeviceType`](../enumerations/EGamingDeviceType.md) \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L67)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L67)
 
 #### Returns
 
@@ -63,7 +63,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:67](https://github
 
 > **getClassName**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
 
 #### Returns
 
@@ -79,7 +79,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://git
 
 > **machine\_id**(): `string` \| `Uint8Array`\<`ArrayBufferLike`\>
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L69)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L69)
 
 #### Returns
 
@@ -91,7 +91,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:69](https://github
 
 > **os\_type**(): [`EOSType`](../enumerations/EOSType.md) \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L71)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L71)
 
 #### Returns
 
@@ -103,7 +103,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:71](https://github
 
 > **platform\_type**(): [`EAuthTokenPlatformType`](../enumerations/EAuthTokenPlatformType.md) \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L73)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:73](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L73)
 
 #### Returns
 
@@ -115,7 +115,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:73](https://github
 
 > **serializeBase64String**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
 
 #### Returns
 
@@ -131,7 +131,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://git
 
 > **serializeBinary**(): `Uint8Array`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
 
 #### Returns
 
@@ -147,7 +147,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://git
 
 > **set\_client\_count**(): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L75)
 
 #### Returns
 
@@ -159,7 +159,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:75](https://github
 
 > **set\_device\_friendly\_name**(): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L77)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L77)
 
 #### Returns
 
@@ -171,7 +171,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:77](https://github
 
 > **set\_gaming\_device\_type**(): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L79)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L79)
 
 #### Returns
 
@@ -183,7 +183,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:79](https://github
 
 > **set\_machine\_id**(): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L81)
 
 #### Returns
 
@@ -195,7 +195,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:81](https://github
 
 > **set\_os\_type**(): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L83)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L83)
 
 #### Returns
 
@@ -207,7 +207,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:83](https://github
 
 > **set\_platform\_type**(): `any`
 
-Defined in: [packages/client/src/globals/steam-client/Auth.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/Auth.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Auth.ts#L85)
 
 #### Returns
 
@@ -219,7 +219,7 @@ Defined in: [packages/client/src/globals/steam-client/Auth.ts:85](https://github
 
 > **toObject**(`includeJsPbInstance`: `boolean`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
 
 Converts the message to an object.
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Broadcast
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L3)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:3](https://gi
 
 > **ApproveViewerRequest**(`steamId64`: `string`, `param1`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L8)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L8)
 
 Approves a viewer request for the broadcast.
 
@@ -40,7 +40,7 @@ The SteamID64 of the user whose request is to be approved.
 
 > **InviteToWatch**(`steamId64`: `string`): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L14)
 
 Invites a user identified by their SteamID64 to watch the broadcast.
 
@@ -62,7 +62,7 @@ The SteamID64 of the user to invite.
 
 > **RegisterForBroadcastStatus**(`callback`: (`status`: [`BroadcastStatus`](BroadcastStatus.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L21)
 
 Registers a callback to be called when the broadcast status changes.
 
@@ -86,7 +86,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForViewerRequests**(`callback`: (`viewerFriendCode`: `number`, `param1`: `number`, `param2`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L28)
 
 Registers a callback to be called when viewer requests are received.
 
@@ -110,7 +110,7 @@ an object that can be used to unregister the callback.
 
 > **RejectViewerRequest**(`steamId64`: `string`, `param1`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L36)
 
 Rejects a viewer request for the broadcast.
 
@@ -136,7 +136,7 @@ The SteamID64 of the user whose request is to be rejected.
 
 > **StopBroadcasting**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/Broadcast.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Broadcast.ts#L41)
 
 Stops the broadcast.
 

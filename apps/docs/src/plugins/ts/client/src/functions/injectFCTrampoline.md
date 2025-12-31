@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **injectFCTrampoline**(`component`: `FC`, `customHooks?`: `any`): [`FCTrampoline`](../interfaces/FCTrampoline.md)
 
-Defined in: [packages/client/src/utils/react/fc.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/utils/react/fc.ts#L32)
+Defined in: [packages/client/src/utils/react/fc.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/utils/react/fc.ts#L32)
 
 Directly hooks a function component from its reference, redirecting it to a user-patchable wrapper in its returned object.
 This only works if the original component when called directly returns either nothing, null, or another child element.

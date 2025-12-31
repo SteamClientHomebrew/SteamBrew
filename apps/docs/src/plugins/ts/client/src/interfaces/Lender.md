@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Lender
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L21)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:21](https
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L26)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:26](https
 
 > **bPreferred**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L28)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:28](https
 
 > **numDlc**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L27)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L27)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:27](https
 
 > **steamid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L25)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L25)
 
 A Steam64 ID.
 
@@ -48,4 +48,4 @@ A Steam64 ID.
 
 > **vecDLC**: `LenderDLC`[]
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L29)

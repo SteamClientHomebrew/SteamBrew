@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BrowserViewContextMenu
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:283](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L283)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:283](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L283)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > **coord\_x**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:287](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L287)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:287](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L287)
 
 Mouse X position inside the browser view.
 
@@ -24,7 +24,7 @@ Mouse X position inside the browser view.
 
 > **coord\_y**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:292](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L292)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:292](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L292)
 
 Mouse Y position inside the browser view.
 
@@ -34,7 +34,7 @@ Mouse Y position inside the browser view.
 
 > **custom\_commands**: [`BrowserViewContextMenuCustomCommand`](BrowserViewContextMenuCustomCommand.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:294](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L294)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:294](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L294)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPo
 
 > `optional` **edit\_state\_flags**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:300](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L300)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:300](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L300)
 
 Bitmask representing edit state. Appears on editable elements like `<input>`, etc.
 
@@ -56,7 +56,7 @@ Bitmask representing edit state. Appears on editable elements like `<input>`, et
 
 > `optional` **link\_url**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:311](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L311)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:311](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L311)
 
 Browser page URL.
 
@@ -70,7 +70,7 @@ Appears when there is selected text?
 
 > `optional` **misspelled\_word**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:305](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L305)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:305](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L305)
 
 The misspelled word the cursor is on. Appears on an editable element with text.
 
@@ -80,7 +80,7 @@ The misspelled word the cursor is on. Appears on an editable element with text.
 
 > **page\_url**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:316](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L316)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:316](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L316)
 
 Browser page URL.
 
@@ -90,7 +90,7 @@ Browser page URL.
 
 > `optional` **selection\_text**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:321](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L321)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:321](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L321)
 
 Selected text. Appears when there is selected text.
 
@@ -100,7 +100,7 @@ Selected text. Appears when there is selected text.
 
 > **type\_flags**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:327](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L327)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:327](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L327)
 
 Bitmask representing context menu type.
 
@@ -114,7 +114,7 @@ Bitmask representing context menu type.
 
 > `optional` **unfiltered\_link\_url**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:333](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L333)
+Defined in: [packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts:333](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/browser-view/BrowserViewPopup.ts#L333)
 
 Browser page URL.
 

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,12 +6,12 @@
 
 # Enumeration: EClientUINotificationType
 
-Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L35)
+Defined in: [packages/client/src/globals/steam-client/ClientNotifications.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L35)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="friendchatmessage"></a> `FriendChatMessage` | `2` | [packages/client/src/globals/steam-client/ClientNotifications.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L37) |
-| <a id="friendpersonastate"></a> `FriendPersonaState` | `3` | [packages/client/src/globals/steam-client/ClientNotifications.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L38) |
-| <a id="groupchatmessage"></a> `GroupChatMessage` | `1` | [packages/client/src/globals/steam-client/ClientNotifications.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L36) |
+| <a id="friendchatmessage"></a> `FriendChatMessage` | `2` | [packages/client/src/globals/steam-client/ClientNotifications.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L37) |
+| <a id="friendpersonastate"></a> `FriendPersonaState` | `3` | [packages/client/src/globals/steam-client/ClientNotifications.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L38) |
+| <a id="groupchatmessage"></a> `GroupChatMessage` | `1` | [packages/client/src/globals/steam-client/ClientNotifications.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ClientNotifications.ts#L36) |

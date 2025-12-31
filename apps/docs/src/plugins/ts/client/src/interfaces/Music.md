@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Music
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L6)
 
 Represents functions related to controlling music playback in the Steam client.
 
@@ -16,7 +16,7 @@ Represents functions related to controlling music playback in the Steam client.
 
 > **DecreaseVolume**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L10)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L10)
 
 Decreases the music volume by 10%.
 
@@ -30,7 +30,7 @@ Decreases the music volume by 10%.
 
 > **IncreaseVolume**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L15)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L15)
 
 Increases the music volume by 10%.
 
@@ -44,7 +44,7 @@ Increases the music volume by 10%.
 
 > **PlayNext**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L20)
 
 Plays the next track in the music playlist.
 
@@ -58,7 +58,7 @@ Plays the next track in the music playlist.
 
 > **PlayPrevious**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L25)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L25)
 
 Plays the previous track in the music playlist.
 
@@ -72,7 +72,7 @@ Plays the previous track in the music playlist.
 
 > **RegisterForMusicPlaybackChanges**(`callback`: (`param0`: `boolean` \| [`MusicTrack`](MusicTrack.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L32)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L32)
 
 Registers a callback function to be called when music playback changes.
 
@@ -96,7 +96,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForMusicPlaybackPosition**(`callback`: (`position`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L39)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L39)
 
 Registers a callback function to be called when the music playback position changes.
 
@@ -120,7 +120,7 @@ an object that can be used to unregister the callback.
 
 > **SetPlaybackPosition**(`position`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L45)
 
 Sets the playback position of the music track.
 
@@ -142,7 +142,7 @@ The position to set in seconds.
 
 > **SetPlayingRepeatStatus**(`status`: [`EMusicPlayingRepeatStatus`](../enumerations/EMusicPlayingRepeatStatus.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L51)
 
 Sets the repeat status for music playback.
 
@@ -164,7 +164,7 @@ The repeat status.
 
 > **SetPlayingShuffled**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L57)
 
 Sets the shuffle status for music playback.
 
@@ -186,7 +186,7 @@ True to enable shuffle, false to disable shuffle.
 
 > **SetVolume**(`volume`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L64)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:64](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L64)
 
 Sets the volume for music playback.
 
@@ -212,7 +212,7 @@ Ranges from 0 to 100.
 
 > **ToggleMuteVolume**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L69)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L69)
 
 Toggles the mute state of the music volume.
 
@@ -226,7 +226,7 @@ Toggles the mute state of the music volume.
 
 > **TogglePlayPause**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Music.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Music.ts#L74)
+Defined in: [packages/client/src/globals/steam-client/Music.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Music.ts#L74)
 
 Toggles between play and pause for music playback.
 

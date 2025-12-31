@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AudioSession
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L11)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:11](https
 
 > **id**(): `string` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L12)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:12](https
 
 > **is\_active**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L16)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L16)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:16](https
 
 > **is\_captured**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L17)
 
 #### Returns
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:17](https
 
 > **is\_game**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L19)
 
 #### Returns
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:19](https
 
 > **is\_muted**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L15)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L15)
 
 #### Returns
 
@@ -74,7 +74,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:15](https
 
 > **is\_saved**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L21)
 
 #### Returns
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:21](https
 
 > **is\_steam**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L20)
 
 #### Returns
 
@@ -98,7 +98,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:20](https
 
 > **is\_system**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L14)
 
 #### Returns
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:14](https
 
 > **name**(): `string` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L13)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L13)
 
 #### Returns
 
@@ -122,7 +122,7 @@ Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:13](https
 
 > **recent\_peak**(): `number` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L18)
+Defined in: [packages/client/src/globals/steam-client/GameRecording.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameRecording.ts#L18)
 
 #### Returns
 

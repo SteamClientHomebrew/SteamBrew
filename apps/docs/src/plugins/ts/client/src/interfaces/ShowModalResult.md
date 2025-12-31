@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ShowModalResult
 
-Defined in: [packages/client/src/components/Modal.tsx:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L20)
+Defined in: [packages/client/src/components/Modal.tsx:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L20)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/Modal.tsx:20](https://github.com/Ste
 
 > **Close**: () => `void`
 
-Defined in: [packages/client/src/components/Modal.tsx:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L22)
+Defined in: [packages/client/src/components/Modal.tsx:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L22)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/components/Modal.tsx:22](https://github.com/Ste
 
 > **Update**: (`modal`: `ReactNode`) => `void`
 
-Defined in: [packages/client/src/components/Modal.tsx:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Modal.tsx#L29)
+Defined in: [packages/client/src/components/Modal.tsx:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Modal.tsx#L29)
 
 #### Parameters
 

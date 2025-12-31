@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SharedConnection
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L6)
 
 `hSharedConnection` is the number from [AllocateSharedConnection](#allocatesharedconnection).
 
@@ -16,7 +16,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:6](htt
 
 > **SendMsg**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L19)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:19](ht
 
 > **SendMsgAndAwaitBinaryResponse**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L20)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L20)
 
 ## Methods
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:20](ht
 
 > **AllocateSharedConnection**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L7)
 
 #### Returns
 
@@ -44,7 +44,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:7](htt
 
 > **Close**(`hSharedConnection`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L11)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:11](ht
 
 > **RegisterOnBinaryMessageReceived**(`hSharedConnection`: `number`, `callback`: (`data`: `ArrayBuffer`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L13)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L13)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:13](ht
 
 > **RegisterOnLogonInfoChanged**(`hSharedConnection`: `number`, `callback`: (`info`: [`LogonInfo`](LogonInfo.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L15)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L15)
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:15](ht
 
 > **RegisterOnMessageReceived**(`hSharedConnection`: `number`, `callback`: (`param0`: `any`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L17)
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:17](ht
 
 > **SendMsgAndAwaitResponse**(`hSharedConnection`: `number`, `msg`: `string`): `Promise`\<`any`\>
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L22)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L22)
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:22](ht
 
 > **SubscribeToClientServiceMethod**(`hSharedConnection`: `number`, `param1`: `any`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L24)
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:24](ht
 
 > **SubscribeToEMsg**(`hSharedConnection`: `number`, `param1`: `any`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L26)
 
 #### Parameters
 

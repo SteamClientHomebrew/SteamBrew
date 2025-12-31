@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WorkshopItem
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:902](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L902)
+Defined in: [packages/client/src/globals/steam-client/App.ts:902](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L902)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:902](https://github
 
 > **children**: `string`[]
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1008](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1008)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1008](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1008)
 
 Required items' IDs.
 
@@ -24,7 +24,7 @@ Required items' IDs.
 
 > **eresult**: [`EResult`](../enumerations/EResult.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1009](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1009)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1009](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1009)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1009](https://githu
 
 > **file\_size**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1013](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1013)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1013](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1013)
 
 Item size, in byts.
 
@@ -42,7 +42,7 @@ Item size, in byts.
 
 > **file\_type**: [`EWorkshopFileType`](../enumerations/EWorkshopFileType.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1017](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1017)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1017](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1017)
 
 Workshop file type.
 
@@ -52,7 +52,7 @@ Workshop file type.
 
 > **preview\_url**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1021](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1021)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1021](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1021)
 
 Item preview image URL.
 
@@ -62,7 +62,7 @@ Item preview image URL.
 
 > **publishedfileid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1025](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1025)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1025](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1025)
 
 Item ID.
 
@@ -72,7 +72,7 @@ Item ID.
 
 > **short\_description**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1029](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1029)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1029](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1029)
 
 Item description.
 
@@ -82,7 +82,7 @@ Item description.
 
 > **tags**: `string`[]
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1033](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1033)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1033](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1033)
 
 Item tags.
 
@@ -92,7 +92,7 @@ Item tags.
 
 > **title**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1037](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1037)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1037](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1037)
 
 Item title.
 
@@ -102,7 +102,7 @@ Item title.
 
 > **ulPublishedFileID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:904](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L904)
+Defined in: [packages/client/src/globals/steam-client/App.ts:904](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L904)
 
 ***
 
@@ -110,4 +110,4 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:904](https://github
 
 > **unAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:903](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L903)
+Defined in: [packages/client/src/globals/steam-client/App.ts:903](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L903)

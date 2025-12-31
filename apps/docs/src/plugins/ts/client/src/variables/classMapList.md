@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -8,4 +8,4 @@
 
 > `const` **classMapList**: [`ClassModule`](../interfaces/ClassModule.md)[]
 
-Defined in: [packages/client/src/class-mapper.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/class-mapper.ts#L7)
+Defined in: [packages/client/src/class-mapper.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/class-mapper.ts#L7)

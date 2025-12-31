@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ProgressBarProps
 
-Defined in: [packages/client/src/components/ProgressBar.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ProgressBar.ts#L14)
+Defined in: [packages/client/src/components/ProgressBar.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ProgressBar.ts#L14)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/ProgressBar.ts:14](https://github.co
 
 > `optional` **focusable**: `boolean`
 
-Defined in: [packages/client/src/components/ProgressBar.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ProgressBar.ts#L18)
+Defined in: [packages/client/src/components/ProgressBar.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ProgressBar.ts#L18)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/components/ProgressBar.ts:18](https://github.co
 
 > `optional` **indeterminate**: `boolean`
 
-Defined in: [packages/client/src/components/ProgressBar.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ProgressBar.ts#L15)
+Defined in: [packages/client/src/components/ProgressBar.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ProgressBar.ts#L15)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/ProgressBar.ts:15](https://github.co
 
 > `optional` **nProgress**: `number`
 
-Defined in: [packages/client/src/components/ProgressBar.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ProgressBar.ts#L17)
+Defined in: [packages/client/src/components/ProgressBar.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ProgressBar.ts#L17)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/client/src/components/ProgressBar.ts:17](https://github.co
 
 > `optional` **nTransitionSec**: `number`
 
-Defined in: [packages/client/src/components/ProgressBar.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/ProgressBar.ts#L16)
+Defined in: [packages/client/src/components/ProgressBar.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/ProgressBar.ts#L16)

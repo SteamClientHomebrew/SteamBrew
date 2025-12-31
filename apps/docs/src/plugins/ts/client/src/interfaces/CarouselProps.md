@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CarouselProps
 
-Defined in: [packages/client/src/components/Carousel.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L5)
+Defined in: [packages/client/src/components/Carousel.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L5)
 
 ## Extends
 
@@ -943,7 +943,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **autoFocus**: `boolean`
 
-Defined in: [packages/client/src/components/Carousel.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L6)
+Defined in: [packages/client/src/components/Carousel.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L6)
 
 #### Overrides
 
@@ -1115,7 +1115,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **enableBumperPaging**: `boolean`
 
-Defined in: [packages/client/src/components/Carousel.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L7)
+Defined in: [packages/client/src/components/Carousel.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L7)
 
 ***
 
@@ -1151,7 +1151,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **fnDoesItemTakeFocus**: (...`unknown`: `any`[]) => `boolean`
 
-Defined in: [packages/client/src/components/Carousel.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L8)
+Defined in: [packages/client/src/components/Carousel.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L8)
 
 #### Parameters
 
@@ -1169,7 +1169,7 @@ Defined in: [packages/client/src/components/Carousel.ts:8](https://github.com/St
 
 > `optional` **fnGetColumnWidth**: (...`unknown`: `any`[]) => `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L9)
+Defined in: [packages/client/src/components/Carousel.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L9)
 
 #### Parameters
 
@@ -1187,7 +1187,7 @@ Defined in: [packages/client/src/components/Carousel.ts:9](https://github.com/St
 
 > `optional` **fnGetId**: (`id`: `number`) => `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L10)
+Defined in: [packages/client/src/components/Carousel.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L10)
 
 #### Parameters
 
@@ -1205,7 +1205,7 @@ Defined in: [packages/client/src/components/Carousel.ts:10](https://github.com/S
 
 > `optional` **fnItemRenderer**: (`id`: `number`, ...`unknown`: `any`[]) => `ReactNode`
 
-Defined in: [packages/client/src/components/Carousel.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L11)
+Defined in: [packages/client/src/components/Carousel.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L11)
 
 #### Parameters
 
@@ -1227,7 +1227,7 @@ Defined in: [packages/client/src/components/Carousel.ts:11](https://github.com/S
 
 > `optional` **fnUpdateArrows**: (...`unknown`: `any`[]) => `any`
 
-Defined in: [packages/client/src/components/Carousel.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L12)
+Defined in: [packages/client/src/components/Carousel.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L12)
 
 #### Parameters
 
@@ -1285,7 +1285,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/inert
 
 > `optional` **initialColumn**: `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L13)
+Defined in: [packages/client/src/components/Carousel.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L13)
 
 ***
 
@@ -1413,7 +1413,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **name**: `string`
 
-Defined in: [packages/client/src/components/Carousel.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L19)
+Defined in: [packages/client/src/components/Carousel.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L19)
 
 ***
 
@@ -1421,7 +1421,7 @@ Defined in: [packages/client/src/components/Carousel.ts:19](https://github.com/S
 
 > `optional` **nHeight**: `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L14)
+Defined in: [packages/client/src/components/Carousel.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L14)
 
 ***
 
@@ -1429,7 +1429,7 @@ Defined in: [packages/client/src/components/Carousel.ts:14](https://github.com/S
 
 > `optional` **nIndexLeftmost**: `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L15)
+Defined in: [packages/client/src/components/Carousel.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L15)
 
 ***
 
@@ -1437,7 +1437,7 @@ Defined in: [packages/client/src/components/Carousel.ts:15](https://github.com/S
 
 > `optional` **nItemHeight**: `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L16)
+Defined in: [packages/client/src/components/Carousel.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L16)
 
 ***
 
@@ -1445,7 +1445,7 @@ Defined in: [packages/client/src/components/Carousel.ts:16](https://github.com/S
 
 > `optional` **nItemMarginX**: `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L17)
+Defined in: [packages/client/src/components/Carousel.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L17)
 
 ***
 
@@ -1453,7 +1453,7 @@ Defined in: [packages/client/src/components/Carousel.ts:17](https://github.com/S
 
 > `optional` **nNumItems**: `number`
 
-Defined in: [packages/client/src/components/Carousel.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L18)
+Defined in: [packages/client/src/components/Carousel.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L18)
 
 ***
 
@@ -3669,7 +3669,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **scrollToAlignment**: `"center"`
 
-Defined in: [packages/client/src/components/Carousel.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Carousel.ts#L20)
+Defined in: [packages/client/src/components/Carousel.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Carousel.ts#L20)
 
 ***
 

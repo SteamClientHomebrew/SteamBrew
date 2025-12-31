@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: LogonInfo
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L29)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:29](ht
 
 > **bLoggedOn**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L31)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L31)
 
 `true` if logged on.
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:31](ht
 
 > **eUniverse**: [`ESteamRealm`](../enumerations/ESteamRealm.md)
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L32)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L32)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:32](ht
 
 > **strAccountName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L34)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:34](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L34)
 
 Account username. Empty if not logged on.
 
@@ -42,7 +42,7 @@ Account username. Empty if not logged on.
 
 > **strCommunityImagesURL**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L36)
 
 URL for community content.
 
@@ -52,7 +52,7 @@ URL for community content.
 
 > **strPersonaName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L38)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L38)
 
 Account nickname. Empty if not logged on.
 
@@ -62,7 +62,7 @@ Account nickname. Empty if not logged on.
 
 > **strSteamid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L40)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L40)
 
 Steam64 ID.
 
@@ -72,6 +72,6 @@ Steam64 ID.
 
 > **strUserCountry**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L42)
+Defined in: [packages/client/src/globals/steam-client/SharedConnection.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/SharedConnection.ts#L42)
 
 Country code.

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,12 +6,12 @@
 
 # Enumeration: EGRAudio
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:639](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L639)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:639](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L639)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="game"></a> `Game` | `0` | [packages/client/src/globals/steam-client/Settings.ts:640](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L640) |
-| <a id="select"></a> `Select` | `2` | [packages/client/src/globals/steam-client/Settings.ts:642](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L642) |
-| <a id="system"></a> `System` | `1` | [packages/client/src/globals/steam-client/Settings.ts:641](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L641) |
+| <a id="game"></a> `Game` | `0` | [packages/client/src/globals/steam-client/Settings.ts:640](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L640) |
+| <a id="select"></a> `Select` | `2` | [packages/client/src/globals/steam-client/Settings.ts:642](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L642) |
+| <a id="system"></a> `System` | `1` | [packages/client/src/globals/steam-client/Settings.ts:641](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L641) |

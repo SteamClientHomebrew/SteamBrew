@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MoveContentProgress
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:160](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L160)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:160](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L160)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:160](http
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:161](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L161)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:161](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L161)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:161](http
 
 > **eError**: [`EAppUpdateError`](../enumerations/EAppUpdateError.md)
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:162](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L162)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:162](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L162)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:162](http
 
 > **flProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:163](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L163)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:163](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L163)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:163](http
 
 > **nFilesMoved**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L166)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L166)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:166](http
 
 > **strBytesMoved**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:164](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L164)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:164](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L164)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:164](http
 
 > **strTotalBytesToMove**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:165](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L165)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:165](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L165)

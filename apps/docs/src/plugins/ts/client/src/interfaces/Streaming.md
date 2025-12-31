@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Streaming
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L4)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Streaming.ts:4](https://gi
 
 > **AcceptStreamingEULA**(`appId`: `number`, `id`: `string`, `version`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L5)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L5)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/globals/steam-client/Streaming.ts:5](https://gi
 
 > **CancelStreamGame**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L7)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Defined in: [packages/client/src/globals/steam-client/Streaming.ts:7](https://gi
 
 > **RegisterForStreamingClientFinished**(`callback`: (`code`: [`EResult`](../enumerations/EResult.md), `result`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L14)
 
 Registers a callback function to be called when the streaming client finishes.
 
@@ -76,7 +76,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForStreamingClientLaunchProgress**(`callback`: (`actionType`: `string`, `taskDetails`: `string`, `done`: `number`, `total`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L21)
 
 Registers a callback function to be called when there is progress in the launch of the streaming client.
 
@@ -100,7 +100,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForStreamingClientStarted**(`callback`: (`appId`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L30)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L30)
 
 Registers a callback function to be called when the streaming client is started (e.g., when clicking the stream button).
 
@@ -124,7 +124,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForStreamingLaunchComplete**(`callback`: (`code`: [`EResult`](../enumerations/EResult.md), `result`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L37)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L37)
 
 Registers a callback function to be called when the streaming launch is complete.
 
@@ -148,7 +148,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForStreamingShowEula**(`callback`: (`appId`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L39)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L39)
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: [packages/client/src/globals/steam-client/Streaming.ts:39](https://g
 
 > **RegisterForStreamingShowIntro**(`callback`: (`appId`: `number`, `param`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L41)
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: [packages/client/src/globals/steam-client/Streaming.ts:41](https://g
 
 > **RegisterForStreamingShowLaunchOptions**(`callback`: (`appId`: `number`, `launchOptions`: [`LaunchOption`](LaunchOption.md)[]) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L48)
 
 Registers a callback function to be called when the streaming client receives launch options from the host.
 
@@ -208,7 +208,7 @@ an object that can be used to unregister the callback.
 
 > **StreamingContinueStreamGame**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L52)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L52)
 
 #### Returns
 
@@ -220,7 +220,7 @@ Defined in: [packages/client/src/globals/steam-client/Streaming.ts:52](https://g
 
 > **StreamingSetLaunchOption**(`index`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Streaming.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L58)
+Defined in: [packages/client/src/globals/steam-client/Streaming.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Streaming.ts#L58)
 
 Chooses the launch option for the streamed app by its index
 and restarts the stream.

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FamilySharing
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L6)
 
 Represents functions related to Steam Family Sharing.
 
@@ -16,7 +16,7 @@ Represents functions related to Steam Family Sharing.
 
 > **RegisterForKickedBorrower**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L9)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L9)
 
 ## Methods
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:9](https:
 
 > **GetAvailableLenders**(`appId`: `number`): `Promise`\<[`Lender`](Lender.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L7)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:7](https:
 
 > **SetPreferredLender**(`appId`: `number`, `param1`: `number`): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/FamilySharing.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/FamilySharing.ts#L11)
 
 #### Parameters
 

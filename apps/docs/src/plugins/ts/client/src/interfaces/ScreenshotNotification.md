@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ScreenshotNotification
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L55)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:55](https:
 
 > **details**: [`Screenshot`](Screenshot.md)
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L56)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L56)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:56](https:
 
 > **hScreenshot**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L57)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:57](https:
 
 > **strOperation**: `"deleted"` \| `"written"`
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L58)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:58](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L58)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:58](https:
 
 > **unAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L41)
 
 #### Inherited from
 

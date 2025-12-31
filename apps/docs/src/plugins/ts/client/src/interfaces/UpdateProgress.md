@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: UpdateProgress
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L74)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L74)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:74](https://git
 
 > **rtime\_estimated\_completion**: `number` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L77)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L77)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:77](https://git
 
 > **stage\_progress**: `number` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L75)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:75](https://git
 
 > **stage\_size\_bytes**: `number` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:76](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L76)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:76](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L76)

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Browser
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:3](https://gith
 
 > **RegisterForOpenNewTab**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L46)
 
 #### Note
 
@@ -26,7 +26,7 @@ Not available on a created BrowserView.
 
 > **AddWordToDictionary**(`word`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L4)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:4](https://gith
 
 > **ClearAllBrowsingData**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L6)
 
 #### Returns
 
@@ -56,7 +56,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:6](https://gith
 
 > **ClearHistory**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L8)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L8)
 
 #### Returns
 
@@ -68,7 +68,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:8](https://gith
 
 > **CloseDevTools**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L10)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L10)
 
 #### Returns
 
@@ -80,7 +80,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:10](https://git
 
 > **GetBrowserID**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L12)
 
 #### Returns
 
@@ -92,7 +92,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:12](https://git
 
 > **GetSpellingSuggestions**(`word`: `string`): `string`[]
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L14)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:14](https://git
 
 > **GetSteamBrowserID**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L16)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L16)
 
 #### Returns
 
@@ -122,7 +122,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:16](https://git
 
 > **HideCursorUntilMouseEvent**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L21)
 
 Hides the mouse cursor until input.
 
@@ -136,7 +136,7 @@ Hides the mouse cursor until input.
 
 > **InspectElement**(`clientY`: `number`, `clientX`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L26)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L26)
 
 yup that's right, clientY and clientX are reversed
 
@@ -160,7 +160,7 @@ yup that's right, clientY and clientX are reversed
 
 > **NotifyUserActivation**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L28)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L28)
 
 #### Returns
 
@@ -172,7 +172,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:28](https://git
 
 > **OpenDevTools**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L30)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L30)
 
 #### Returns
 
@@ -184,7 +184,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:30](https://git
 
 > **Paste**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L35)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L35)
 
 Pastes the clipboard contents.
 
@@ -198,7 +198,7 @@ Pastes the clipboard contents.
 
 > **RegisterForGestureEvents**(`callback`: (`gesture`: [`TouchGesture`](TouchGesture.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L41)
 
 #### Parameters
 
@@ -224,7 +224,7 @@ unconfirmed
 
 > **ReplaceMisspelling**(`param0`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L48)
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:48](https://git
 
 > **RestartJSContext**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L53)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L53)
 
 Restarts the Steam JS context.
 
@@ -256,7 +256,7 @@ Restarts the Steam JS context.
 
 > **SetBackgroundThrottlingDisabled**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L55)
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:55](https://git
 
 > **SetPendingFilePath**(`path`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L57)
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:57](https://git
 
 > **SetShouldExitSteamOnBrowserClosed**(`value`: `boolean`): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L59)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:59](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L59)
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:59](https://git
 
 > **SetTouchGesturesToCancel**(`gestures`: [`ETouchGesture`](../enumerations/ETouchGesture.md)[]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L61)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L61)
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: [packages/client/src/globals/steam-client/Browser.ts:61](https://git
 
 > **StartDownload**(`url`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Browser.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L67)
+Defined in: [packages/client/src/globals/steam-client/Browser.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Browser.ts#L67)
 
 Prompts and downloads a file.
 

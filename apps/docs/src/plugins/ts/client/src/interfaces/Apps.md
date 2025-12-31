@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Apps
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L8)
+Defined in: [packages/client/src/globals/steam-client/App.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L8)
 
 Represents various functions related to Steam applications.
 
@@ -16,7 +16,7 @@ Represents various functions related to Steam applications.
 
 > **RegisterForShowMarketingMessageDialog**: [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:447](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L447)
+Defined in: [packages/client/src/globals/steam-client/App.ts:447](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L447)
 
 ## Methods
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:447](https://github
 
 > **AddShortcut**(`appName`: `string`, `executablePath`: `string`, `directory`: `string`, `launchOptions`: `string`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/App.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L17)
 
 Adds a non-Steam application shortcut to the local Steam library.
 
@@ -66,7 +66,7 @@ a unique AppID assigned to the added non-Steam application shortcut.
 
 > **BackupFilesForApp**(`appId`: `number`, `backupPath`: `string`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L25)
+Defined in: [packages/client/src/globals/steam-client/App.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L25)
 
 Backups an app to the specified path.
 
@@ -96,7 +96,7 @@ a number. This value may be "20" for backup busy and "0" for success.
 
 > **BrowseScreenshotForApp**(`appId`: `string`, `handle`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L32)
+Defined in: [packages/client/src/globals/steam-client/App.ts:32](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L32)
 
 Opens the screenshot folder for a specific app.
 
@@ -124,7 +124,7 @@ The screenshot handle to use.
 
 > **BrowseScreenshotsForApp**(`appId`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L38)
+Defined in: [packages/client/src/globals/steam-client/App.ts:38](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L38)
 
 Opens the screenshot folder for a specific app.
 
@@ -146,7 +146,7 @@ The ID of the app to browse screenshots for.
 
 > **CancelBackup**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L43)
+Defined in: [packages/client/src/globals/steam-client/App.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L43)
 
 Cancels the current backup process.
 
@@ -160,7 +160,7 @@ Cancels the current backup process.
 
 > **CancelGameAction**(`gameActionId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/App.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L49)
 
 Cancels a specific game action.
 
@@ -182,7 +182,7 @@ The ID of the game action to cancel.
 
 > **CancelLaunch**(`appId`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/App.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L55)
 
 Cancels the launch of an application with the specified ID.
 
@@ -204,7 +204,7 @@ The ID of the application whose launch is to be canceled.
 
 > **ClearCustomArtworkForApp**(`appId`: `number`, `assetType`: [`ELibraryAssetType`](../enumerations/ELibraryAssetType.md)): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L62)
+Defined in: [packages/client/src/globals/steam-client/App.ts:62](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L62)
 
 Clears the custom artwork for a given application.
 
@@ -232,7 +232,7 @@ The type of artwork to clear.
 
 > **ClearCustomLogoPositionForApp**(`appId`: `number`): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L69)
+Defined in: [packages/client/src/globals/steam-client/App.ts:69](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L69)
 
 Clears the custom logo position for a specific application.
 
@@ -256,7 +256,7 @@ A Promise that resolves once the custom logo position is cleared.
 
 > **ClearProton**(`appId`: `number`): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L71)
+Defined in: [packages/client/src/globals/steam-client/App.ts:71](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L71)
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:71](https://github.
 
 > **ContinueGameAction**(`gameActionId`: `number`, `actionType`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L79)
+Defined in: [packages/client/src/globals/steam-client/App.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L79)
 
 Continues a specific game action.
 
@@ -306,7 +306,7 @@ actionType - "SkipShaders", "skip", "ShowDurationControl" todo:
 
 > **CreateDesktopShortcutForApp**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/App.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L85)
 
 Creates a Steam application shortcut on the desktop.
 
@@ -328,7 +328,7 @@ The ID of the application for which to create a desktop shortcut.
 
 > **DownloadWorkshopItem**(`appId`: `number`, `itemId`: `string`, `param1`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L92)
+Defined in: [packages/client/src/globals/steam-client/App.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L92)
 
 Download a workshop item.
 
@@ -360,7 +360,7 @@ The ID of the workshop item.
 
 > **GetAchievementsInTimeRange**(`appId`: `number`, `start`: `number`, `end`: `number`): `Promise`\<[`AppAchievement`](AppAchievement.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/App.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L102)
 
 Retrieves achievements within a specified time range for a given app.
 
@@ -400,7 +400,7 @@ OperationResponse
 
 > **GetActiveGameActions**(): `Promise`\<[`GameAction`](GameAction.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L108)
+Defined in: [packages/client/src/globals/steam-client/App.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L108)
 
 Retrieves a list of active game actions, such as launching an application.
 
@@ -416,7 +416,7 @@ an array of active game actions.
 
 > **GetAvailableCompatTools**(`appId`: `number`): `Promise`\<[`CompatibilityTool`](CompatibilityTool.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L115)
+Defined in: [packages/client/src/globals/steam-client/App.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L115)
 
 Retrieves a list of available compatibility tools for a specific application.
 
@@ -440,7 +440,7 @@ an array of CompatibilityToolInfo objects.
 
 > **GetBackupsInFolder**(`appBackupPath`: `string`): `Promise`\<`string` \| `undefined`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/App.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L123)
 
 Represents a function to retrieve the name of the application in a backup folder.
 
@@ -468,7 +468,7 @@ This function checks for the "sku.sis" file in that path.
 
 > **GetCachedAppDetails**(`appId`: `number`): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:130](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L130)
+Defined in: [packages/client/src/globals/steam-client/App.ts:130](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L130)
 
 Retrieves cached details for a specific application.
 
@@ -492,7 +492,7 @@ a stringified object. Returns [CachedAppDetails](../type-aliases/CachedAppDetail
 
 > **GetCloudPendingRemoteOperations**(`appId`: `number`): `Promise`\<\{ `PendingOperations`: `ArrayBuffer`; \}\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L135)
+Defined in: [packages/client/src/globals/steam-client/App.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L135)
 
 #### Parameters
 
@@ -512,7 +512,7 @@ a ProtoBuf message. If deserialized, returns [CMsgCloudPendingRemoteOperations](
 
 > **GetCompatExperiment**(`param0`: `number`): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L139)
+Defined in: [packages/client/src/globals/steam-client/App.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L139)
 
 #### Parameters
 
@@ -530,7 +530,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:139](https://github
 
 > **GetConflictingFileTimestamps**(`appId`: `number`): `Promise`\<[`ConflictingFileTimestamp`](ConflictingFileTimestamp.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:141](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L141)
+Defined in: [packages/client/src/globals/steam-client/App.ts:141](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L141)
 
 #### Parameters
 
@@ -548,7 +548,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:141](https://github
 
 > **GetDetailsForScreenshotUpload**(`appId`: `string`, `hHandle`: `number`): `Promise`\<[`ScreenshotUploadDetails`](ScreenshotUploadDetails.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L149)
+Defined in: [packages/client/src/globals/steam-client/App.ts:149](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L149)
 
 Retrieves details for a specific screenshot upload.
 
@@ -578,7 +578,7 @@ details about the screenshot upload.
 
 > **GetDetailsForScreenshotUploads**(`appId`: `string`, `hHandles`: `number`[]): `Promise`\<[`ScreenshotUploadsDetails`](ScreenshotUploadsDetails.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:157](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L157)
+Defined in: [packages/client/src/globals/steam-client/App.ts:157](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L157)
 
 Retrieves details for multiple screenshot uploads.
 
@@ -608,7 +608,7 @@ details about the screenshot uploads.
 
 > **GetDownloadedWorkshopItems**(`appId`: `number`): `Promise`\<[`WorkshopItem`](WorkshopItem.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:164](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L164)
+Defined in: [packages/client/src/globals/steam-client/App.ts:164](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L164)
 
 Retrieves a list of downloaded workshop items for a specific application.
 
@@ -632,7 +632,7 @@ an array of downloaded workshop items for the specified application.
 
 > **GetDurationControlInfo**(`appId`: `number`): `Promise`\<\{ `bApplicable`: `boolean`; \}\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L166)
+Defined in: [packages/client/src/globals/steam-client/App.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L166)
 
 #### Parameters
 
@@ -650,7 +650,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:166](https://github
 
 > **GetFriendAchievementsForApp**(`appId`: `string`, `friendSteam64Id`: `string`): `Promise`\<[`AppAchievementResponse`](AppAchievementResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:174](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L174)
+Defined in: [packages/client/src/globals/steam-client/App.ts:174](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L174)
 
 Retrieves achievement information for a specific application for a given friend.
 
@@ -680,7 +680,7 @@ an object containing achievement information for the specified friend and applic
 
 > **GetFriendsWhoPlay**(`appId`: `number`): `Promise`\<`string`[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:181](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L181)
+Defined in: [packages/client/src/globals/steam-client/App.ts:181](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L181)
 
 Retrieves a list of friends who play the specified application.
 
@@ -704,7 +704,7 @@ an array of Steam64 IDs representing friends who play the application.
 
 > **GetGameActionDetails**(`appId`: `number`, `callback`: (`gameAction`: [`GameAction`](GameAction.md)) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:190](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L190)
+Defined in: [packages/client/src/globals/steam-client/App.ts:190](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L190)
 
 Retrieves details of a game action.
 
@@ -732,7 +732,7 @@ The callback function to handle the retrieved game action details and state.
 
 > **GetGameActionForApp**(`appId`: `string`, `callback`: (`gameActionId`: `number`, `appId`: `string` \| `0`, `taskName`: [`AppAction_t`](../type-aliases/AppAction_t.md)) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:192](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L192)
+Defined in: [packages/client/src/globals/steam-client/App.ts:192](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L192)
 
 #### Parameters
 
@@ -754,7 +754,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:192](https://github
 
 > **GetLaunchOptionsForApp**(`appId`: `number`): `Promise`\<[`LaunchOption`](LaunchOption.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:208](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L208)
+Defined in: [packages/client/src/globals/steam-client/App.ts:208](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L208)
 
 Retrieves launch options for a specified application.
 These options may include different configurations or settings for launching the application, such as DirectX, Vulkan, OpenGL, 32-bit, 64-bit, etc.
@@ -780,7 +780,7 @@ an array of launch options for the specified application.
 
 > **GetLibraryBootstrapData**(): `Promise`\<`ArrayBuffer`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:213](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L213)
+Defined in: [packages/client/src/globals/steam-client/App.ts:213](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L213)
 
 #### Returns
 
@@ -794,7 +794,7 @@ a ProtoBuf message. If deserialized, returns [CLibraryBootstrapData](CLibraryBoo
 
 > **GetMyAchievementsForApp**(`appId`: `string`): `Promise`\<[`AppAchievementResponse`](AppAchievementResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:220](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L220)
+Defined in: [packages/client/src/globals/steam-client/App.ts:220](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L220)
 
 Retrieves achievement information for the authenticated user in a specific Steam application.
 
@@ -818,7 +818,7 @@ an AppAchievementResponse object containing the achievement information for the 
 
 > **GetPlaytime**(`appId`: `number`): `Promise`\<[`Playtime`](Playtime.md) \| `undefined`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:227](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L227)
+Defined in: [packages/client/src/globals/steam-client/App.ts:227](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L227)
 
 Retrieves the playtime information for a specific application.
 
@@ -842,7 +842,7 @@ playtime information or undefined if not available.
 
 > **GetPrePurchasedApps**(`appIds`: `number`[]): `Promise`\<[`PrePurchaseInfo`](PrePurchaseInfo.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:229](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L229)
+Defined in: [packages/client/src/globals/steam-client/App.ts:229](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L229)
 
 #### Parameters
 
@@ -860,7 +860,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:229](https://github
 
 > **GetResolutionOverrideForApp**(`appId`: `number`): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:236](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L236)
+Defined in: [packages/client/src/globals/steam-client/App.ts:236](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L236)
 
 Retrieves the resolution override for a specific application.
 
@@ -884,7 +884,7 @@ a string of the resolution override.
 
 > **GetScreenshotInfo**(`appId`: `string`, `hHandle`: `number`): `Promise`\<[`Screenshot`](Screenshot.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:244](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L244)
+Defined in: [packages/client/src/globals/steam-client/App.ts:244](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L244)
 
 Represents a function to retrieve detailed information about a specific screenshot.
 
@@ -914,7 +914,7 @@ detailed information about the specified screenshot.
 
 > **GetScreenshotsInTimeRange**(`appId`: `number`, `start`: `number`, `end`: `number`): `Promise`\<[`Screenshot`](Screenshot.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:253](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L253)
+Defined in: [packages/client/src/globals/steam-client/App.ts:253](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L253)
 
 Represents a function to retrieve screenshots within a specified time range.
 
@@ -950,7 +950,7 @@ an array of screenshots taken within the specified time range.
 
 > **GetShortcutDataForPath**(`pathToShortcut`: `string`): `Promise`\<[`Shortcut`](Shortcut.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:260](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L260)
+Defined in: [packages/client/src/globals/steam-client/App.ts:260](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L260)
 
 Retrieves shortcut data for a given shortcut file path.
 
@@ -974,7 +974,7 @@ the shortcut data.
 
 > **GetSoundtrackDetails**(`appId`: `number`): `Promise`\<[`SoundtrackDetails`](SoundtrackDetails.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:268](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L268)
+Defined in: [packages/client/src/globals/steam-client/App.ts:268](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L268)
 
 Represents a function to retrieve details about a soundtrack associated with a soundtrack application.
 The soundtrack has to be installed.
@@ -999,7 +999,7 @@ the details of the soundtrack associated with the specified soundtrack applicati
 
 > **GetStoreTagLocalization**(`tags`: `number`[]): `Promise`\<[`StoreTagLocalization`](StoreTagLocalization.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:271](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L271)
+Defined in: [packages/client/src/globals/steam-client/App.ts:271](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L271)
 
 #### Parameters
 
@@ -1017,7 +1017,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:271](https://github
 
 > **GetSubscribedWorkshopItemDetails**(`appId`: `number`, `itemIds`: `string`[]): `Promise`\<[`OperationResponse`](OperationResponse.md) \| [`WorkshopItem`](WorkshopItem.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:280](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L280)
+Defined in: [packages/client/src/globals/steam-client/App.ts:280](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L280)
 
 Retrieves a list of subscribed workshop item details for a specific application.
 
@@ -1051,7 +1051,7 @@ Throws if the query failed.
 
 > **GetSubscribedWorkshopItems**(`appId`: `number`): `Promise`\<[`WorkshopItem`](WorkshopItem.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:287](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L287)
+Defined in: [packages/client/src/globals/steam-client/App.ts:287](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L287)
 
 Retrieves a list of subscribed workshop items for a specific application.
 
@@ -1075,7 +1075,7 @@ an array of subscribed workshop items for the specified application.
 
 > **InstallFlatpakAppAndCreateShortcut**(`appName`: `string`, `appCommandLineOptions`: `string`): `Promise`\<\{ `appid`: `number`; `strInstallOutput`: `string`; \}\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:289](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L289)
+Defined in: [packages/client/src/globals/steam-client/App.ts:289](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L289)
 
 #### Parameters
 
@@ -1097,7 +1097,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:289](https://github
 
 > **JoinAppContentBeta**(`appId`: `number`, `name`: `string`): `Promise`\<[`EResult`](../enumerations/EResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:300](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L300)
+Defined in: [packages/client/src/globals/steam-client/App.ts:300](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L300)
 
 Join an app beta.
 
@@ -1129,7 +1129,7 @@ EResult if no beta found.
 
 > **JoinAppContentBetaByPassword**(`appId`: `number`, `accessCode`: `string`): `Promise`\<`any`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:306](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L306)
+Defined in: [packages/client/src/globals/steam-client/App.ts:306](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L306)
 
 Join an app beta by password.
 
@@ -1157,7 +1157,7 @@ EResult if no beta found.
 
 > **ListFlatpakApps**(): `Promise`\<`any`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:308](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L308)
+Defined in: [packages/client/src/globals/steam-client/App.ts:308](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L308)
 
 #### Returns
 
@@ -1169,7 +1169,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:308](https://github
 
 > **LoadEula**(`appId`: `number`): `Promise`\<[`EndUserLicenseAgreement`](EndUserLicenseAgreement.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:313](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L313)
+Defined in: [packages/client/src/globals/steam-client/App.ts:313](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L313)
 
 #### Parameters
 
@@ -1191,7 +1191,7 @@ if the user does not own the app or no EULA.
 
 > **MarkEulaAccepted**(`appId`: `number`, `id`: `string`, `version`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:314](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L314)
+Defined in: [packages/client/src/globals/steam-client/App.ts:314](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L314)
 
 #### Parameters
 
@@ -1217,7 +1217,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:314](https://github
 
 > **MarkEulaRejected**(`appId`: `number`, `id`: `string`, `version`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:316](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L316)
+Defined in: [packages/client/src/globals/steam-client/App.ts:316](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L316)
 
 #### Parameters
 
@@ -1243,7 +1243,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:316](https://github
 
 > **MoveWorkshopItemLoadOrder**(`appId`: `number`, `oldOrder`: `number`, `newOrder`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:325](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L325)
+Defined in: [packages/client/src/globals/steam-client/App.ts:325](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L325)
 
 Move specified workshop item load order.
 
@@ -1281,7 +1281,7 @@ Orders are zero-indexed.
 
 > **OpenAppSettingsDialog**(`appId`: `number`, `section`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:332](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L332)
+Defined in: [packages/client/src/globals/steam-client/App.ts:332](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L332)
 
 Opens the settings dialog for a specific application.
 
@@ -1309,7 +1309,7 @@ The section (tab) to switch to.
 
 > **RaiseWindowForGame**(`appId`: `number`): `Promise`\<[`ERaiseGameWindowResult`](../enumerations/ERaiseGameWindowResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:338](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L338)
+Defined in: [packages/client/src/globals/steam-client/App.ts:338](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L338)
 
 Raises the window for a given application.
 
@@ -1331,7 +1331,7 @@ The ID of the application to raise the window of.
 
 > **RegisterForAchievementChanges**(`callback`: (`data`: `ArrayBuffer`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:358](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L358)
+Defined in: [packages/client/src/globals/steam-client/App.ts:358](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L358)
 
 Registers a callback function to be called when achievement changes occur.
 
@@ -1355,7 +1355,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForAppBackupStatus**(`callback`: (`status`: [`AppBackupStatus`](AppBackupStatus.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:360](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L360)
+Defined in: [packages/client/src/globals/steam-client/App.ts:360](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L360)
 
 #### Parameters
 
@@ -1373,7 +1373,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:360](https://github
 
 > **RegisterForAppDetails**(`appId`: `number`, `callback`: (`data`: [`AppDetails`](AppDetails.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:368](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L368)
+Defined in: [packages/client/src/globals/steam-client/App.ts:368](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L368)
 
 Registers a callback function to be called when app details change.
 
@@ -1403,7 +1403,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForAppOverviewChanges**(`callback`: (`data`: `ArrayBuffer`) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:374](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L374)
+Defined in: [packages/client/src/globals/steam-client/App.ts:374](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L374)
 
 If `data` is deserialized, returns [CAppOverview\_Change](CAppOverview_Change.md).
 
@@ -1427,7 +1427,7 @@ This is not a mistake, it doesn't return anything.
 
 > **RegisterForDRMFailureResponse**(`callback`: (`appid`: `number`, `eResult`: [`EResult`](../enumerations/EResult.md), `errorCode`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:376](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L376)
+Defined in: [packages/client/src/globals/steam-client/App.ts:376](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L376)
 
 #### Parameters
 
@@ -1445,7 +1445,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:376](https://github
 
 > **RegisterForGameActionEnd**(`callback`: (`gameActionId`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:385](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L385)
+Defined in: [packages/client/src/globals/steam-client/App.ts:385](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L385)
 
 Registers a callback function to be called when a game action ends.
 
@@ -1469,7 +1469,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForGameActionShowError**(`callback`: (`gameActionId`: `number`, `appId`: `string`, `actionName`: `string`, `error`: `string`, `param4`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:387](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L387)
+Defined in: [packages/client/src/globals/steam-client/App.ts:387](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L387)
 
 #### Parameters
 
@@ -1487,7 +1487,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:387](https://github
 
 > **RegisterForGameActionShowUI**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:405](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L405)
+Defined in: [packages/client/src/globals/steam-client/App.ts:405](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L405)
 
 Registers a callback function to be called when a game action UI is shown.
 
@@ -1511,7 +1511,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForGameActionStart**(`callback`: (`gameActionId`: `number`, `appId`: `string`, `action`: `string`, `param3`: [`ELaunchSource`](../enumerations/ELaunchSource.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:412](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L412)
+Defined in: [packages/client/src/globals/steam-client/App.ts:412](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L412)
 
 Registers a callback function to be called when a game action starts.
 
@@ -1535,7 +1535,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForGameActionTaskChange**(`callback`: (`gameActionId`: `number`, `appId`: `string`, `action`: `string`, `requestedAction`: `string`, `param4`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:421](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L421)
+Defined in: [packages/client/src/globals/steam-client/App.ts:421](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L421)
 
 Registers a callback function to be called when a game action task changes.
 
@@ -1559,7 +1559,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForGameActionUserRequest**(`callback`: (`gameActionId`: `number`, `appId`: `string`, `action`: `string`, `requestedAction`: `string`, `appId2`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:436](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L436)
+Defined in: [packages/client/src/globals/steam-client/App.ts:436](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L436)
 
 Registers a callback function to be called when a user requests a game action.
 
@@ -1583,7 +1583,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForPrePurchasedAppChanges**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:446](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L446)
+Defined in: [packages/client/src/globals/steam-client/App.ts:446](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L446)
 
 #### Parameters
 
@@ -1601,7 +1601,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:446](https://github
 
 > **RegisterForWorkshopChanges**(`callback`: (`appId`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:454](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L454)
+Defined in: [packages/client/src/globals/steam-client/App.ts:454](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L454)
 
 Registers a callback function to be notified when workshop items are added or removed from a Steam application.
 
@@ -1625,7 +1625,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForWorkshopItemDownloads**(`appId`: `number`, `callback`: (`appId`: `number`, `publishedFileId`: `string`, `param2`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:456](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L456)
+Defined in: [packages/client/src/globals/steam-client/App.ts:456](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L456)
 
 #### Parameters
 
@@ -1647,7 +1647,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:456](https://github
 
 > **RegisterForWorkshopItemInstalled**(`callback`: (`item`: `InstalledWorkshopItem`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:461](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L461)
+Defined in: [packages/client/src/globals/steam-client/App.ts:461](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L461)
 
 #### Parameters
 
@@ -1665,7 +1665,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:461](https://github
 
 > **RemoveShortcut**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:467](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L467)
+Defined in: [packages/client/src/globals/steam-client/App.ts:467](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L467)
 
 Removes a non-Steam application shortcut from the Steam library.
 
@@ -1687,7 +1687,7 @@ The ID of the application for which to remove the shortcut.
 
 > **ReportLibraryAssetCacheMiss**(`appId`: `number`, `assetType`: [`ELibraryAssetType`](../enumerations/ELibraryAssetType.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:469](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L469)
+Defined in: [packages/client/src/globals/steam-client/App.ts:469](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L469)
 
 #### Parameters
 
@@ -1709,7 +1709,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:469](https://github
 
 > **ReportMarketingMessageDialogShown**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:471](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L471)
+Defined in: [packages/client/src/globals/steam-client/App.ts:471](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L471)
 
 #### Returns
 
@@ -1721,7 +1721,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:471](https://github
 
 > **RequestIconDataForApp**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:473](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L473)
+Defined in: [packages/client/src/globals/steam-client/App.ts:473](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L473)
 
 #### Parameters
 
@@ -1739,7 +1739,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:473](https://github
 
 > **RequestLegacyCDKeysForApp**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:475](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L475)
+Defined in: [packages/client/src/globals/steam-client/App.ts:475](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L475)
 
 #### Parameters
 
@@ -1757,7 +1757,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:475](https://github
 
 > **RunGame**(`appId`: `string`, `launchOptions`: `string`, `param2`: `number`, `launchSource`: [`ELaunchSource`](../enumerations/ELaunchSource.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:485](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L485)
+Defined in: [packages/client/src/globals/steam-client/App.ts:485](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L485)
 
 Runs a game with specified parameters. Focuses the game if already launched.
 
@@ -1799,7 +1799,7 @@ Additional parameter (exact usage may vary).
 
 > **SaveAchievementProgressCache**(`progress`: `string`): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:495](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L495)
+Defined in: [packages/client/src/globals/steam-client/App.ts:495](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L495)
 
 #### Parameters
 
@@ -1817,7 +1817,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:495](https://github
 
 > **ScanForInstalledNonSteamApps**(): `Promise`\<[`NonSteamApp`](NonSteamApp.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:504](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L504)
+Defined in: [packages/client/src/globals/steam-client/App.ts:504](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L504)
 
 Scans the system for installed non-Steam applications.
 
@@ -1839,7 +1839,7 @@ On Linux, it scans inside /usr/share/applications and $XDG_DATA_HOME/application
 
 > **SetAppAutoUpdateBehavior**(`appId`: `number`, `mode`: [`EAppAutoUpdateBehavior`](../enumerations/EAppAutoUpdateBehavior.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:512](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L512)
+Defined in: [packages/client/src/globals/steam-client/App.ts:512](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L512)
 
 Sets the automatic update behavior for a Steam application.
 
@@ -1871,7 +1871,7 @@ This function only works with installed Steam applications.
 
 > **SetAppBackgroundDownloadsBehavior**(`appId`: `number`, `mode`: [`EAppAllowDownloadsWhileRunningBehavior`](../enumerations/EAppAllowDownloadsWhileRunningBehavior.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:520](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L520)
+Defined in: [packages/client/src/globals/steam-client/App.ts:520](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L520)
 
 Sets the background downloads behavior for a specific Steam application.
 
@@ -1903,7 +1903,7 @@ This function only works with installed Steam applications.
 
 > **SetAppCurrentLanguage**(`appId`: `number`, `language`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:527](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L527)
+Defined in: [packages/client/src/globals/steam-client/App.ts:527](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L527)
 
 Sets the current language for a specific Steam application.
 
@@ -1931,7 +1931,7 @@ The language to set, represented as a language (e.g., "english", "spanish", "tch
 
 > **SetAppFamilyBlockedState**(`appIds`: `number`[], `state`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:534](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L534)
+Defined in: [packages/client/src/globals/steam-client/App.ts:534](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L534)
 
 Sets the blocked state for apps.
 
@@ -1959,7 +1959,7 @@ The state to set (true for blocked, false for unblocked).
 
 > **SetAppLaunchOptions**(`appId`: `number`, `launchOptions`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:541](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L541)
+Defined in: [packages/client/src/globals/steam-client/App.ts:541](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L541)
 
 Sets launch options for a Steam application.
 
@@ -1987,7 +1987,7 @@ The launch options to be set for the application.
 
 > **SetAppResolutionOverride**(`appId`: `number`, `resolution`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:548](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L548)
+Defined in: [packages/client/src/globals/steam-client/App.ts:548](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L548)
 
 Sets a resolution override for a Steam application.
 
@@ -2015,7 +2015,7 @@ The resolution to be set for the application. It can be "Default", "Native", or 
 
 > **SetCachedAppDetails**(`appId`: `number`, `details`: `string`): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:556](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L556)
+Defined in: [packages/client/src/globals/steam-client/App.ts:556](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L556)
 
 Sets cached details for a specific application.
 
@@ -2045,7 +2045,7 @@ A Promise that resolves when the details are successfully cached.
 
 > **SetControllerRumblePreference**(`appId`: `number`, `value`: [`EControllerRumbleSetting`](../enumerations/EControllerRumbleSetting.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:558](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L558)
+Defined in: [packages/client/src/globals/steam-client/App.ts:558](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L558)
 
 #### Parameters
 
@@ -2067,7 +2067,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:558](https://github
 
 > **SetCustomArtworkForApp**(`appId`: `number`, `base64`: `string`, `imageType`: `"jpg"` \| `"png"`, `assetType`: [`ELibraryAssetType`](../enumerations/ELibraryAssetType.md)): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:567](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L567)
+Defined in: [packages/client/src/globals/steam-client/App.ts:567](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L567)
 
 Sets the custom artwork for a given application.
 
@@ -2107,7 +2107,7 @@ A Promise that resolves after the custom artwork is set.
 
 > **SetCustomLogoPositionForApp**(`appId`: `number`, `details`: `string`): `Promise`\<`void`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:575](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L575)
+Defined in: [packages/client/src/globals/steam-client/App.ts:575](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L575)
 
 Sets a custom logo position for a specific app.
 
@@ -2137,7 +2137,7 @@ A Promise that resolves when the custom logo position is successfully set.
 
 > **SetDLCEnabled**(`appId`: `number`, `appDLCId`: `number`, `value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:583](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L583)
+Defined in: [packages/client/src/globals/steam-client/App.ts:583](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L583)
 
 Sets the enabled state for downloadable content (DLC) of a specific app.
 
@@ -2171,7 +2171,7 @@ The value to set (true for enabled, false for disabled).
 
 > **SetLocalScreenshotCaption**(`appId`: `string`, `hHandle`: `number`, `caption`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:591](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L591)
+Defined in: [packages/client/src/globals/steam-client/App.ts:591](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L591)
 
 Set a local screenshot's caption.
 
@@ -2203,7 +2203,7 @@ The handle of the screenshot.
 
 > **SetLocalScreenshotPrivacy**(`appId`: `string`, `hHandle`: `number`, `privacy`: [`EUCMFilePrivacyState`](../enumerations/EUCMFilePrivacyState.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:599](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L599)
+Defined in: [packages/client/src/globals/steam-client/App.ts:599](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L599)
 
 Set a local screenshot's privacy state.
 
@@ -2237,7 +2237,7 @@ Screenshot privacy state.
 
 > **SetLocalScreenshotSpoiler**(`appId`: `string`, `hHandle`: `number`, `spoilered`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:607](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L607)
+Defined in: [packages/client/src/globals/steam-client/App.ts:607](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L607)
 
 Set a local screenshot's spoiler state.
 
@@ -2271,7 +2271,7 @@ Is the screenshot spoilered?
 
 > **SetShortcutExe**(`appId`: `number`, `path`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:614](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L614)
+Defined in: [packages/client/src/globals/steam-client/App.ts:614](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L614)
 
 Sets the executable path for a non-Steam application shortcut.
 
@@ -2299,7 +2299,7 @@ The path to the executable.
 
 > **SetShortcutIcon**(`appId`: `number`, `path`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:621](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L621)
+Defined in: [packages/client/src/globals/steam-client/App.ts:621](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L621)
 
 Sets the icon for a non-Steam application shortcut.
 
@@ -2327,7 +2327,7 @@ The path to the icon image (can be png or tga format).
 
 > **SetShortcutIsVR**(`appId`: `number`, `value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:628](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L628)
+Defined in: [packages/client/src/globals/steam-client/App.ts:628](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L628)
 
 Sets whether a non-Steam application shortcut should be included in the VR library.
 
@@ -2355,7 +2355,7 @@ A boolean indicating whether the application should be included in the VR librar
 
 > **SetShortcutLaunchOptions**(`appId`: `number`, `options`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:635](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L635)
+Defined in: [packages/client/src/globals/steam-client/App.ts:635](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L635)
 
 Sets launch options for a non-Steam application shortcut.
 
@@ -2383,7 +2383,7 @@ The launch options to be used when starting the application.
 
 > **SetShortcutName**(`appId`: `number`, `name`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:642](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L642)
+Defined in: [packages/client/src/globals/steam-client/App.ts:642](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L642)
 
 Sets the name for a non-Steam application shortcut.
 
@@ -2411,7 +2411,7 @@ The name to be displayed for the application shortcut.
 
 > **SetShortcutStartDir**(`appId`: `number`, `directory`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:649](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L649)
+Defined in: [packages/client/src/globals/steam-client/App.ts:649](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L649)
 
 Sets the starting directory for a non-Steam application shortcut.
 
@@ -2439,7 +2439,7 @@ The directory from which the application should be launched.
 
 > **SetStreamingClientForApp**(`appId`: `number`, `clientId`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:656](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L656)
+Defined in: [packages/client/src/globals/steam-client/App.ts:656](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L656)
 
 Sets the client ID for streaming for a specific application.
 
@@ -2467,7 +2467,7 @@ The client ID for streaming.
 
 > **SetThirdPartyControllerConfiguration**(`appId`: `number`, `value`: [`EThirdPartyControllerConfiguration`](../enumerations/EThirdPartyControllerConfiguration.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:658](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L658)
+Defined in: [packages/client/src/globals/steam-client/App.ts:658](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L658)
 
 #### Parameters
 
@@ -2489,7 +2489,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:658](https://github
 
 > **SetWorkshopItemsDisabledLocally**(`appId`: `number`, `itemIds`: `string`[], `value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:666](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L666)
+Defined in: [packages/client/src/globals/steam-client/App.ts:666](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L666)
 
 Sets the workshop items disabled state.
 
@@ -2523,7 +2523,7 @@ Workshop item IDs to change the state for.
 
 > **SetWorkshopItemsLoadOrder**(`appId`: `number`, `itemIds`: `string`[]): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:673](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L673)
+Defined in: [packages/client/src/globals/steam-client/App.ts:673](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L673)
 
 Sets the workshop items load order for a specified application.
 
@@ -2551,7 +2551,7 @@ Workshop item IDs. Has to be the full list of subscribed items, otherwise the sp
 
 > **ShowControllerConfigurator**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:679](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L679)
+Defined in: [packages/client/src/globals/steam-client/App.ts:679](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L679)
 
 Opens the controller configurator for a specific application.
 
@@ -2573,7 +2573,7 @@ The ID of the application for which to open the controller configurator.
 
 > **ShowStore**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:685](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L685)
+Defined in: [packages/client/src/globals/steam-client/App.ts:685](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L685)
 
 Opens the Steam store page for a specific application.
 
@@ -2595,7 +2595,7 @@ The ID of the application.
 
 > **SpecifyCompatExperiment**(`appId`: `number`, `param1`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:687](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L687)
+Defined in: [packages/client/src/globals/steam-client/App.ts:687](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L687)
 
 #### Parameters
 
@@ -2617,7 +2617,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:687](https://github
 
 > **SpecifyCompatTool**(`appId`: `number`, `strToolName`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:694](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L694)
+Defined in: [packages/client/src/globals/steam-client/App.ts:694](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L694)
 
 Specifies a compatibility tool by its name for a given application. If strToolName is an empty string, the specified application will no longer use a compatibility tool.
 
@@ -2645,7 +2645,7 @@ The name of the compatibility tool to specify.
 
 > **StreamGame**(`appId`: `number`, `clientId`: `string`, `param2`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:696](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L696)
+Defined in: [packages/client/src/globals/steam-client/App.ts:696](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L696)
 
 #### Parameters
 
@@ -2671,7 +2671,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:696](https://github
 
 > **SubscribeWorkshopItem**(`appId`: `number`, `workshopId`: `string`, `subscribed`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:704](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L704)
+Defined in: [packages/client/src/globals/steam-client/App.ts:704](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L704)
 
 Subscribes or unsubscribes from a workshop item for a specific app.
 
@@ -2705,7 +2705,7 @@ True to subscribe, false to unsubscribe.
 
 > **TerminateApp**(`appId`: `string`, `param1`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:711](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L711)
+Defined in: [packages/client/src/globals/steam-client/App.ts:711](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L711)
 
 Terminates a running application.
 
@@ -2733,7 +2733,7 @@ Additional parameter. Exact usage may vary.
 
 > **ToggleAllowDesktopConfiguration**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:714](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L714)
+Defined in: [packages/client/src/globals/steam-client/App.ts:714](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L714)
 
 #### Parameters
 
@@ -2751,7 +2751,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:714](https://github
 
 > **ToggleAppSteamCloudEnabled**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:721](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L721)
+Defined in: [packages/client/src/globals/steam-client/App.ts:721](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L721)
 
 Toggles the Steam Cloud synchronization for game saves for a specific application.
 
@@ -2777,7 +2777,7 @@ This function modifies the "<STEAMPATH>/userdata/<STEAMID3>/7/remote/sharedconfi
 
 > **ToggleAppSteamCloudSyncOnSuspendEnabled**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:724](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L724)
+Defined in: [packages/client/src/globals/steam-client/App.ts:724](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L724)
 
 #### Parameters
 
@@ -2795,7 +2795,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:724](https://github
 
 > **ToggleEnableSteamOverlayForApp**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:730](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L730)
+Defined in: [packages/client/src/globals/steam-client/App.ts:730](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L730)
 
 Toggles the Steam Overlay setting for a specific application.
 
@@ -2817,7 +2817,7 @@ The ID of the application.
 
 > **ToggleOverrideResolutionForInternalDisplay**(`appId`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:733](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L733)
+Defined in: [packages/client/src/globals/steam-client/App.ts:733](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L733)
 
 #### Parameters
 
@@ -2835,7 +2835,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:733](https://github
 
 > **UninstallFlatpakApp**(`app`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:735](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L735)
+Defined in: [packages/client/src/globals/steam-client/App.ts:735](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L735)
 
 #### Parameters
 
@@ -2853,7 +2853,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:735](https://github
 
 > **VerifyApp**(`appId`: `number`): `Promise`\<\{ `nGameActionID`: `number`; \}\>
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:741](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L741)
+Defined in: [packages/client/src/globals/steam-client/App.ts:741](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L741)
 
 Verifies the integrity of an app's files.
 

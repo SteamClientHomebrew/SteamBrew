@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ToggleProps
 
-Defined in: [packages/client/src/components/Toggle.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Toggle.ts#L5)
+Defined in: [packages/client/src/components/Toggle.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Toggle.ts#L5)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/components/Toggle.ts:5](https://github.com/Stea
 
 > `optional` **disabled**: `boolean`
 
-Defined in: [packages/client/src/components/Toggle.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Toggle.ts#L7)
+Defined in: [packages/client/src/components/Toggle.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Toggle.ts#L7)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/components/Toggle.ts:7](https://github.com/Stea
 
 > `optional` **navRef**: `any`
 
-Defined in: [packages/client/src/components/Toggle.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Toggle.ts#L9)
+Defined in: [packages/client/src/components/Toggle.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Toggle.ts#L9)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/Toggle.ts:9](https://github.com/Stea
 
 > **value**: `boolean`
 
-Defined in: [packages/client/src/components/Toggle.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Toggle.ts#L6)
+Defined in: [packages/client/src/components/Toggle.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Toggle.ts#L6)
 
 ## Methods
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/components/Toggle.ts:6](https://github.com/Stea
 
 > `optional` **onChange**(`checked`: `boolean`): `void`
 
-Defined in: [packages/client/src/components/Toggle.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Toggle.ts#L8)
+Defined in: [packages/client/src/components/Toggle.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Toggle.ts#L8)
 
 #### Parameters
 

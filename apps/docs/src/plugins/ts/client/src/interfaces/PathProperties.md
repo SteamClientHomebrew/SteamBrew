@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PathProperties
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L74)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:74](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L74)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:74](https://gith
 
 > **GetBoolPathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L75)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:75](https://gith
 
 > **GetDoublePathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:76](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L76)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:76](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L76)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:76](https://gith
 
 > **GetFloatPathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L77)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L77)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:77](https://gith
 
 > **GetInt32PathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L78)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L78)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:78](https://gith
 
 > **GetStringPathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L79)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L79)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:79](https://gith
 
 > **RegisterForPathPropertyChange**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L80)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:80](https://gith
 
 > **SetBoolPathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L81)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:81](https://gith
 
 > **SetDoublePathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L82)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L82)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:82](https://gith
 
 > **SetFloatPathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L83)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L83)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:83](https://gith
 
 > **SetInt32PathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L84)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L84)
 
 ***
 
@@ -94,4 +94,4 @@ Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:84](https://gith
 
 > **SetStringPathProperty**: `any`
 
-Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/OpenVR.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/OpenVR.ts#L85)

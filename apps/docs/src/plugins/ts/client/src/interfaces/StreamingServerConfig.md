@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: StreamingServerConfig
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L252)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:252](https:/
 
 > `optional` **change\_desktop\_resolution**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:253](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L253)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:253](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L253)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:253](https:/
 
 > `optional` **dynamically\_adjust\_resolution\_OBSOLETE**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L254)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:254](https:/
 
 > `optional` **enable\_capture\_nvfbc**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:255](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L255)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:255](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L255)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:255](https:/
 
 > `optional` **enable\_hardware\_encoding**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:262](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L262)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:262](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L262)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:262](https:/
 
 > `optional` **enable\_hardware\_encoding\_amd\_OBSOLETE**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:257](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L257)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:257](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L257)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:257](https:/
 
 > `optional` **enable\_hardware\_encoding\_intel\_OBSOLETE**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:258](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L258)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:258](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L258)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:258](https:/
 
 > `optional` **enable\_hardware\_encoding\_nvidia\_OBSOLETE**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L256)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:256](https:/
 
 > `optional` **enable\_traffic\_priority**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:260](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L260)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:260](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L260)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:260](https:/
 
 > `optional` **host\_play\_audio**: [`EStreamHostPlayAudioPreference`](../enumerations/EStreamHostPlayAudioPreference.md)
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L261)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:261](https:/
 
 > `optional` **software\_encoding\_threads**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:259](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L259)
+Defined in: [packages/client/src/globals/steam-client/RemotePlay.ts:259](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/RemotePlay.ts#L259)

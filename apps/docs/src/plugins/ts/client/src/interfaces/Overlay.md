@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Overlay
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L3)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:3](https://gith
 
 > **DestroyGamePadUIDesktopConfiguratorWindow**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L7)
 
 Destroys the gamepad UI desktop configurator window if open.
 
@@ -28,7 +28,7 @@ Destroys the gamepad UI desktop configurator window if open.
 
 > **GetOverlayBrowserInfo**(): `Promise`\<[`OverlayBrowserInfo`](OverlayBrowserInfo.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L9)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L9)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:9](https://gith
 
 > **HandleGameWebCallback**(`url`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L12)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L12)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:12](https://git
 
 > **HandleProtocolForOverlayBrowser**(`appId`: `number`, `protocol`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L17)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L17)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Something like [OverlayBrowserProtocols.strScheme](OverlayBrowserProtocols.md#st
 
 > **RegisterForActivateOverlayRequests**(`callback`: (`request`: [`ActivateOverlayRequest`](ActivateOverlayRequest.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L24)
 
 Registers a callback function to be called when an overlay is activated from an app.
 
@@ -106,7 +106,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForMicroTxnAuth**(`callback`: (`appId`: `number`, `microTxnId`: `string`, `realm`: [`ESteamRealm`](../enumerations/ESteamRealm.md), `microTxnUrl`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L31)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L31)
 
 Registers a callback function to be called when a microtransaction authorization is requested.
 
@@ -130,7 +130,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForMicroTxnAuthDismiss**(`callback`: (`appId`: `number`, `microTxnId`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L40)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:40](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L40)
 
 Registers a callback function to be called when a microtransaction authorization is dismissed by the user in Steam's authorization page.
 
@@ -154,7 +154,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForNotificationPositionChanged**(`callback`: (`appId`: `number`, `position`: [`ENotificationPosition`](../enumerations/ENotificationPosition.md), `horizontalInset`: `number`, `verticalInset`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L42)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L42)
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: [packages/client/src/globals/steam-client/Overlay.ts:42](https://git
 
 > **RegisterForOverlayActivated**(`callback`: (`overlayProcessPid`: `number`, `appId`: `number`, `active`: `boolean`, `param3`: `boolean`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L51)
 
 Registers a callback function to be called when an overlay is activated or closed.
 
@@ -196,7 +196,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterForOverlayBrowserProtocols**(`callback`: (`browseProtocols`: [`OverlayBrowserProtocols`](OverlayBrowserProtocols.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L60)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L60)
 
 Registers a callback function to be called when the overlay browser protocols change.
 
@@ -220,7 +220,7 @@ an object that can be used to unregister the callback.
 
 > **RegisterOverlayBrowserInfoChanged**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L70)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L70)
 
 Registers **the** callback function to be called when the overlay browser information changes.
 
@@ -248,7 +248,7 @@ Do Not Use, this will break the overlay unless you know what you are doing.
 
 > **SetOverlayState**(`appId`: `string`, `state`: [`EUIComposition`](../enumerations/EUIComposition.md)): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Overlay.ts:72](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L72)
+Defined in: [packages/client/src/globals/steam-client/Overlay.ts:72](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Overlay.ts#L72)
 
 #### Parameters
 

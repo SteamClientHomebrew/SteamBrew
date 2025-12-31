@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SteamWindow
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L80)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L80)
 
 The following might have more correct information:
 https://github.com/SteamDatabase/SteamTracking/blob/master/Protobufs/webuimessages_sharedjscontext.proto
@@ -17,7 +17,7 @@ https://github.com/SteamDatabase/SteamTracking/blob/master/Protobufs/webuimessag
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L81)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:81](https://github.c
 
 > **hwndParent**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L82)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L82)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:82](https://github.c
 
 > **nBrowserID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L83)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L83)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:83](https://github.c
 
 > **strAppName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L84)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L84)
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:84](https://github.c
 
 > **unID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L85)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L85)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:85](https://github.c
 
 > **unPID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L86)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L86)
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:86](https://github.c
 
 > **windowType**: [`EWindowType`](../enumerations/EWindowType.md)
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L87)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L87)
 
 ***
 
@@ -73,7 +73,7 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:87](https://github.c
 
 > **x**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L88)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L88)
 
 ***
 
@@ -81,4 +81,4 @@ Defined in: [packages/client/src/globals/steam-client/UI.ts:88](https://github.c
 
 > **y**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/UI.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/UI.ts#L89)
+Defined in: [packages/client/src/globals/steam-client/UI.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/UI.ts#L89)

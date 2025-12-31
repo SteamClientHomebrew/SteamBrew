@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AppDLC
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1441](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1441)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1441](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1441)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1441](https://githu
 
 > **bAvailableOnStore**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1443](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1443)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1443](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1443)
 
 Is the DLC availble on the store?
 
@@ -24,7 +24,7 @@ Is the DLC availble on the store?
 
 > **bEnabled**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1444](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1444)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1444](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1444)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1444](https://githu
 
 > **lDiskUsageBytes**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1446](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1446)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1446](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1446)
 
 Disk usage, in bytes.
 
@@ -42,7 +42,7 @@ Disk usage, in bytes.
 
 > **rtPurchaseDate**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1448](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1448)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1448](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1448)
 
 Purchase date.
 
@@ -52,7 +52,7 @@ Purchase date.
 
 > **rtStoreAssetModifyType**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1449](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1449)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1449](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1449)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1449](https://githu
 
 > **strHeaderFilename**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1451](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1451)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1451](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1451)
 
 Store header image filename.
 
@@ -70,7 +70,7 @@ Store header image filename.
 
 > **strName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1453](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1453)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1453](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1453)
 
 Display name.
 
@@ -80,7 +80,7 @@ Display name.
 
 > **strState**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1455](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1455)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1455](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1455)
 
 State (installed/notinstalled).
 
@@ -90,6 +90,6 @@ State (installed/notinstalled).
 
 > **unAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1457](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1457)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1457](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1457)
 
 App ID.

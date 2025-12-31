@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Navigation
 
-Defined in: [packages/client/src/modules/Router.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L77)
+Defined in: [packages/client/src/modules/Router.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L77)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/modules/Router.ts:77](https://github.com/SteamC
 
 > **CloseSideMenus**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L92)
+Defined in: [packages/client/src/modules/Router.ts:92](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L92)
 
 if calling this to perform navigation, call it after Navigate to prevent a race condition in desktop Big Picture mode that hides the overlay unintentionally
 
@@ -28,7 +28,7 @@ if calling this to perform navigation, call it after Navigate to prevent a race 
 
 > **Navigate**(`path`: `string`): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L78)
+Defined in: [packages/client/src/modules/Router.ts:78](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L78)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/modules/Router.ts:78](https://github.com/SteamC
 
 > **NavigateBack**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L79)
+Defined in: [packages/client/src/modules/Router.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L79)
 
 #### Returns
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/modules/Router.ts:79](https://github.com/SteamC
 
 > **NavigateToAppProperties**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L80)
+Defined in: [packages/client/src/modules/Router.ts:80](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L80)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/modules/Router.ts:80](https://github.com/SteamC
 
 > **NavigateToChat**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L83)
+Defined in: [packages/client/src/modules/Router.ts:83](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L83)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Defined in: [packages/client/src/modules/Router.ts:83](https://github.com/SteamC
 
 > **NavigateToExternalWeb**(`url`: `string`): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L81)
+Defined in: [packages/client/src/modules/Router.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L81)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [packages/client/src/modules/Router.ts:81](https://github.com/SteamC
 
 > **NavigateToInvites**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L82)
+Defined in: [packages/client/src/modules/Router.ts:82](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L82)
 
 #### Returns
 
@@ -112,7 +112,7 @@ Defined in: [packages/client/src/modules/Router.ts:82](https://github.com/SteamC
 
 > **NavigateToLayoutPreview**(`e`: `unknown`): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L85)
+Defined in: [packages/client/src/modules/Router.ts:85](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L85)
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: [packages/client/src/modules/Router.ts:85](https://github.com/SteamC
 
 > **NavigateToLibraryTab**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L84)
+Defined in: [packages/client/src/modules/Router.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L84)
 
 #### Returns
 
@@ -142,7 +142,7 @@ Defined in: [packages/client/src/modules/Router.ts:84](https://github.com/SteamC
 
 > **NavigateToSteamWeb**(`url`: `string`): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L86)
+Defined in: [packages/client/src/modules/Router.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L86)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [packages/client/src/modules/Router.ts:86](https://github.com/SteamC
 
 > **OpenMainMenu**(): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L89)
+Defined in: [packages/client/src/modules/Router.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L89)
 
 #### Returns
 
@@ -172,7 +172,7 @@ Defined in: [packages/client/src/modules/Router.ts:89](https://github.com/SteamC
 
 > **OpenPowerMenu**(`unknown?`: `any`): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:90](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L90)
+Defined in: [packages/client/src/modules/Router.ts:90](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L90)
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: [packages/client/src/modules/Router.ts:90](https://github.com/SteamC
 
 > **OpenQuickAccessMenu**(`quickAccessTab?`: [`QuickAccessTab`](../enumerations/QuickAccessTab.md)): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L88)
+Defined in: [packages/client/src/modules/Router.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L88)
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [packages/client/src/modules/Router.ts:88](https://github.com/SteamC
 
 > **OpenSideMenu**(`sideMenu`: [`SideMenu`](../enumerations/SideMenu.md)): `void`
 
-Defined in: [packages/client/src/modules/Router.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/modules/Router.ts#L87)
+Defined in: [packages/client/src/modules/Router.ts:87](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/modules/Router.ts#L87)
 
 #### Parameters
 

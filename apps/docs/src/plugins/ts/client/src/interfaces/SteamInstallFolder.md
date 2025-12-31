@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SteamInstallFolder
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L100)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L100)
 
 Represents information about an installation folder.
 
@@ -20,7 +20,7 @@ Represents information about an installation folder.
 
 > **bIsDefaultFolder**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:112](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L112)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:112](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L112)
 
 Indicates if the folder is set as the default installation folder.
 
@@ -30,7 +30,7 @@ Indicates if the folder is set as the default installation folder.
 
 > **bIsFixed**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:131](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L131)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:131](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L131)
 
 Indicates if the folder is on a fixed drive.
 
@@ -44,7 +44,7 @@ Indicates if the folder is on a fixed drive.
 
 > **bIsMounted**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:114](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L114)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:114](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L114)
 
 Indicates if the folder is currently mounted.
 
@@ -54,7 +54,7 @@ Indicates if the folder is currently mounted.
 
 > **nFolderIndex**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L102)
 
 Index of the folder.
 
@@ -64,7 +64,7 @@ Index of the folder.
 
 > **strCapacity**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L127)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L127)
 
 Total capacity of the folder.
 
@@ -78,7 +78,7 @@ Total capacity of the folder.
 
 > **strDLCSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L106)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:106](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L106)
 
 Size of DLC storage used in the folder.
 
@@ -88,7 +88,7 @@ Size of DLC storage used in the folder.
 
 > **strDriveName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L125)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L125)
 
 Name of the drive where the folder is located.
 
@@ -102,7 +102,7 @@ Name of the drive where the folder is located.
 
 > **strFolderPath**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L121)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:121](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L121)
 
 Path of the folder.
 
@@ -116,7 +116,7 @@ Path of the folder.
 
 > **strFreeSpace**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L129)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:129](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L129)
 
 Available free space in the folder.
 
@@ -130,7 +130,7 @@ Available free space in the folder.
 
 > **strStagedSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:110](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L110)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:110](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L110)
 
 Size of staged storage used in the folder.
 
@@ -140,7 +140,7 @@ Size of staged storage used in the folder.
 
 > **strUsedSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L104)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:104](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L104)
 
 Used space in the folder.
 
@@ -150,7 +150,7 @@ Used space in the folder.
 
 > **strUserLabel**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L123)
 
 User label for the folder.
 
@@ -164,7 +164,7 @@ User label for the folder.
 
 > **strWorkshopSize**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L108)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L108)
 
 Size of workshop storage used in the folder.
 
@@ -174,6 +174,6 @@ Size of workshop storage used in the folder.
 
 > **vecApps**: [`AppInfo`](AppInfo.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:116](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L116)
+Defined in: [packages/client/src/globals/steam-client/InstallFolder.ts:116](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/InstallFolder.ts#L116)
 
 List of applications installed in the folder.

@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ServerBrowserPreferences
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:221](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L221)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:221](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L221)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:221](http
 
 > **filters**: [`ServerBrowserTabFilters`](../type-aliases/ServerBrowserTabFilters.md)
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:223](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L223)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:223](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L223)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:223](http
 
 > **GameList**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:222](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L222)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:222](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L222)

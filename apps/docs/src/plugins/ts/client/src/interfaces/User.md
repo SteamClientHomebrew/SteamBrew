@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: User
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/User.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L3)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:3](https://github.
 
 > **AuthorizeMicrotxn**(`txnId`: `string` \| `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/User.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L4)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:4](https://github.
 
 > **CancelLogin**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/User.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L6)
 
 #### Returns
 
@@ -44,7 +44,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:6](https://github.
 
 > **CancelMicrotxn**(`txnId`: `string` \| `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L8)
+Defined in: [packages/client/src/globals/steam-client/User.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L8)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:8](https://github.
 
 > **CancelShutdown**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L14)
+Defined in: [packages/client/src/globals/steam-client/User.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L14)
 
 Tries to cancel Steam shutdown.
 
@@ -80,7 +80,7 @@ Used in the "Shutting down" dialog.
 
 > **ChangeUser**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/User.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L19)
 
 Opens the "Change Account" dialog.
 
@@ -94,7 +94,7 @@ Opens the "Change Account" dialog.
 
 > **Connect**(): `Promise`\<[`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L21)
+Defined in: [packages/client/src/globals/steam-client/User.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L21)
 
 #### Returns
 
@@ -106,7 +106,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:21](https://github
 
 > **FlipToLogin**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L23)
+Defined in: [packages/client/src/globals/steam-client/User.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L23)
 
 #### Returns
 
@@ -118,7 +118,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:23](https://github
 
 > **ForceShutdown**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/User.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L29)
 
 Forces a shutdown while shutting down.
 
@@ -136,7 +136,7 @@ Used in the "Shutting down" dialog.
 
 > **ForgetPassword**(`accountName`: `string`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/User.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L36)
 
 Forgets an account's password.
 
@@ -160,7 +160,7 @@ a boolean indicating whether the operation succeeded or not.
 
 > **GetIPCountry**(): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L42)
+Defined in: [packages/client/src/globals/steam-client/User.ts:42](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L42)
 
 Gets your country code.
 
@@ -176,7 +176,7 @@ a string containing your country code.
 
 > **GetLoginProgress**(`callback`: (`param0`: `number`, `param1`: `number`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L47)
+Defined in: [packages/client/src/globals/steam-client/User.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L47)
 
 #### Parameters
 
@@ -198,7 +198,7 @@ param0 mirrors param3 of [RegisterForLoginStateChange](#registerforloginstatecha
 
 > **GetLoginUsers**(): `Promise`\<[`LoginUser`](LoginUser.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/User.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L49)
 
 #### Returns
 
@@ -210,7 +210,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:49](https://github
 
 > **GoOffline**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/User.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L51)
 
 #### Returns
 
@@ -222,7 +222,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:51](https://github
 
 > **GoOnline**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L53)
+Defined in: [packages/client/src/globals/steam-client/User.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L53)
 
 #### Returns
 
@@ -234,7 +234,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:53](https://github
 
 > **OptOutOfSurvey**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/User.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L55)
 
 #### Returns
 
@@ -246,7 +246,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:55](https://github
 
 > **PrepareForSystemSuspend**(): `Promise`\<\{ `result`: [`EResult`](../enumerations/EResult.md); \}\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/User.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L57)
 
 #### Returns
 
@@ -258,7 +258,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:57](https://github
 
 > **Reconnect**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L61)
+Defined in: [packages/client/src/globals/steam-client/User.ts:61](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L61)
 
 #### Returns
 
@@ -270,7 +270,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:61](https://github
 
 > **RegisterForConnectionAttemptsThrottled**(`callback`: (`data`: [`ConnectionAttempt`](ConnectionAttempt.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L63)
+Defined in: [packages/client/src/globals/steam-client/User.ts:63](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L63)
 
 #### Parameters
 
@@ -288,7 +288,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:63](https://github
 
 > **RegisterForCurrentUserChanges**(`callback`: (`user`: [`CurrentUser`](CurrentUser.md)) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L65)
+Defined in: [packages/client/src/globals/steam-client/User.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L65)
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:65](https://github
 
 > **RegisterForLoginStateChange**(`callback`: (`accountName`: `string`, `state`: [`ELoginState`](../enumerations/ELoginState.md), `result`: [`EResult`](../enumerations/EResult.md), `param3`: `number`, `percentage`: `number`, `emailDomain`: `string`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L67)
+Defined in: [packages/client/src/globals/steam-client/User.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L67)
 
 #### Parameters
 
@@ -324,7 +324,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:67](https://github
 
 > **RegisterForPrepareForSystemSuspendProgress**(`callback`: (`progress`: [`SuspendProgress`](SuspendProgress.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L84)
+Defined in: [packages/client/src/globals/steam-client/User.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L84)
 
 #### Parameters
 
@@ -342,7 +342,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:84](https://github
 
 > **RegisterForResumeSuspendedGamesProgress**(`callback`: (`progress`: [`SuspendProgress`](SuspendProgress.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L86)
+Defined in: [packages/client/src/globals/steam-client/User.ts:86](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L86)
 
 #### Parameters
 
@@ -360,7 +360,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:86](https://github
 
 > **RegisterForShowHardwareSurvey**(`callback`: () => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L88)
+Defined in: [packages/client/src/globals/steam-client/User.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L88)
 
 #### Parameters
 
@@ -378,7 +378,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:88](https://github
 
 > **RegisterForShutdownDone**(`callback`: (`state`: [`EShutdownStep`](../enumerations/EShutdownStep.md), `appid`: `number`, `param2`: `boolean`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L94)
+Defined in: [packages/client/src/globals/steam-client/User.ts:94](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L94)
 
 Register a function to be executed when shutdown completes.
 
@@ -400,7 +400,7 @@ The function to be executed on completion.
 
 > **RegisterForShutdownFailed**(`callback`: (`state`: [`EShutdownStep`](../enumerations/EShutdownStep.md), `appid`: `number`, `success`: `boolean`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L96)
+Defined in: [packages/client/src/globals/steam-client/User.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L96)
 
 #### Parameters
 
@@ -418,7 +418,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:96](https://github
 
 > **RegisterForShutdownStart**(`callback`: (`param0`: `boolean`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/User.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L102)
 
 Register a function to be executed when Steam starts shutting down.
 
@@ -440,7 +440,7 @@ The function to be executed on shutdown start.
 
 > **RegisterForShutdownState**(`callback`: (`state`: [`EShutdownStep`](../enumerations/EShutdownStep.md), `appid`: `number`, `allowForceQuit`: `boolean`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L108)
+Defined in: [packages/client/src/globals/steam-client/User.ts:108](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L108)
 
 Register a function to be executed when shutdown state changes.
 
@@ -462,7 +462,7 @@ The function to be executed on change.
 
 > **RemoveUser**(`accountName`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:114](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L114)
+Defined in: [packages/client/src/globals/steam-client/User.ts:114](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L114)
 
 Removes an account from remembered users.
 
@@ -484,7 +484,7 @@ The account to remove.
 
 > **RequestSupportSystemReport**(`reportId`: `string`): `Promise`\<\{ `bSuccess`: `boolean`; \}\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:116](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L116)
+Defined in: [packages/client/src/globals/steam-client/User.ts:116](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L116)
 
 #### Parameters
 
@@ -502,7 +502,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:116](https://githu
 
 > **ResumeSuspendedGames**(`param0`: `boolean`): `Promise`\<[`ResumeSuspendedGamesResult`](ResumeSuspendedGamesResult.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L120)
+Defined in: [packages/client/src/globals/steam-client/User.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L120)
 
 #### Parameters
 
@@ -520,7 +520,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:120](https://githu
 
 > **RunSurvey**(`callback`: (`surveySections`: [`SurveySection`](SurveySection.md)[]) => `void`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L123)
+Defined in: [packages/client/src/globals/steam-client/User.ts:123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L123)
 
 #### Parameters
 
@@ -538,7 +538,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:123](https://githu
 
 > **SendSurvey**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L125)
+Defined in: [packages/client/src/globals/steam-client/User.ts:125](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L125)
 
 #### Returns
 
@@ -550,7 +550,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:125](https://githu
 
 > **SetAsyncNotificationEnabled**(`appId`: `number`, `enable`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L127)
+Defined in: [packages/client/src/globals/steam-client/User.ts:127](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L127)
 
 #### Parameters
 
@@ -572,7 +572,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:127](https://githu
 
 > **SetLoginCredentials**(`accountName`: `string`, `password`: `string`, `rememberMe`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L135)
+Defined in: [packages/client/src/globals/steam-client/User.ts:135](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L135)
 
 Sets given login credentials, but don't log in to that account.
 
@@ -606,7 +606,7 @@ Whether to remember that account.
 
 > **SetOOBEComplete**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L137)
+Defined in: [packages/client/src/globals/steam-client/User.ts:137](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L137)
 
 #### Returns
 
@@ -618,7 +618,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:137](https://githu
 
 > **ShouldShowUserChooser**(): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L139)
+Defined in: [packages/client/src/globals/steam-client/User.ts:139](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L139)
 
 #### Returns
 
@@ -630,7 +630,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:139](https://githu
 
 > **SignOutAndRestart**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:144](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L144)
+Defined in: [packages/client/src/globals/steam-client/User.ts:144](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L144)
 
 Signs out and restarts Steam.
 
@@ -644,7 +644,7 @@ Signs out and restarts Steam.
 
 > **StartLogin**(): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L150)
+Defined in: [packages/client/src/globals/steam-client/User.ts:150](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L150)
 
 Relogin after disabling offline mode. Not sure what else it's useful for,
 there isn't even a single mention of it in steam's js, lol
@@ -659,7 +659,7 @@ there isn't even a single mention of it in steam's js, lol
 
 > **StartOffline**(`value`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:158](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L158)
+Defined in: [packages/client/src/globals/steam-client/User.ts:158](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L158)
 
 Toggles offline mode.
 
@@ -682,7 +682,7 @@ Note that after disabling offline mode, you have to relogin with
 
 > **StartRestart**(`force`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L166)
+Defined in: [packages/client/src/globals/steam-client/User.ts:166](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L166)
 
 Restarts the Steam client.
 
@@ -707,7 +707,7 @@ some ldd check or whatever, really it's only noticeable on slow PCs.
 
 > **StartShutdown**(`force`: `boolean`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:172](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L172)
+Defined in: [packages/client/src/globals/steam-client/User.ts:172](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L172)
 
 #### Parameters
 

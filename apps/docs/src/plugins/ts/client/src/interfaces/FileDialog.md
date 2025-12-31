@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FileDialog
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:183](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L183)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:183](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L183)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:183](https
 
 > `optional` **bChooseDirectory**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:185](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L185)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:185](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L185)
 
 Whether to choose a directory instead.
 
@@ -24,7 +24,7 @@ Whether to choose a directory instead.
 
 > `optional` **rgFilters**: [`FileDialogFilter`](FileDialogFilter.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:204](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L204)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:204](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L204)
 
 Array of file filters.
 
@@ -51,7 +51,7 @@ Example from the "Add a Non-Steam Game" dialog:
 
 > `optional` **strInitialFile**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:206](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L206)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:206](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L206)
 
 Initially selected file.
 
@@ -61,6 +61,6 @@ Initially selected file.
 
 > `optional` **strTitle**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:208](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L208)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:208](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L208)
 
 Window title.

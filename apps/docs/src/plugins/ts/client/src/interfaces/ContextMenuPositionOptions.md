@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ContextMenuPositionOptions
 
-Defined in: [packages/client/src/components/Menu.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L33)
+Defined in: [packages/client/src/components/Menu.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L33)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/components/Menu.ts:33](https://github.com/Steam
 
 > `optional` **bAlwaysOnTop**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L37)
+Defined in: [packages/client/src/components/Menu.ts:37](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L37)
 
 When [bForcePopup](#bforcepopup) is true, makes the window appear above everything else.
 
@@ -28,7 +28,7 @@ When [bForcePopup](#bforcepopup) is true, makes the window appear above everythi
 
 > `optional` **bCreateHidden**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L10)
+Defined in: [packages/client/src/components/Menu.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L10)
 
 Initially hidden, make it appear with [ContextMenuInstance.Show](ContextMenuInstance.md#show).
 
@@ -42,7 +42,7 @@ Initially hidden, make it appear with [ContextMenuInstance.Show](ContextMenuInst
 
 > `optional` **bDisableMouseOverlay**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L43)
+Defined in: [packages/client/src/components/Menu.ts:43](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L43)
 
 Disables the mouse overlay, granting the ability to click anywhere while
 the menu's active.
@@ -53,7 +53,7 @@ the menu's active.
 
 > `optional` **bDisablePopTop**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L48)
+Defined in: [packages/client/src/components/Menu.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L48)
 
 Disables the [bPreferPopTop](#bpreferpoptop) behavior.
 
@@ -63,7 +63,7 @@ Disables the [bPreferPopTop](#bpreferpoptop) behavior.
 
 > `optional` **bFitToWindow**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L50)
+Defined in: [packages/client/src/components/Menu.ts:50](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L50)
 
 ***
 
@@ -71,7 +71,7 @@ Defined in: [packages/client/src/components/Menu.ts:50](https://github.com/Steam
 
 > `optional` **bForcePopup**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L55)
+Defined in: [packages/client/src/components/Menu.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L55)
 
 Forces the menu to open in a separate window instead of inside the parent.
 
@@ -81,7 +81,7 @@ Forces the menu to open in a separate window instead of inside the parent.
 
 > `optional` **bGrowToElementWidth**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L60)
+Defined in: [packages/client/src/components/Menu.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L60)
 
 Like [bMatchWidth](#bmatchwidth), but don't shrink below the menu's minimum width.
 
@@ -91,7 +91,7 @@ Like [bMatchWidth](#bmatchwidth), but don't shrink below the menu's minimum widt
 
 > `optional` **bMatchHeight**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L65)
+Defined in: [packages/client/src/components/Menu.ts:65](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L65)
 
 Match the parent's exact height.
 
@@ -101,7 +101,7 @@ Match the parent's exact height.
 
 > `optional` **bMatchWidth**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L70)
+Defined in: [packages/client/src/components/Menu.ts:70](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L70)
 
 Match the parent's exact width.
 
@@ -111,7 +111,7 @@ Match the parent's exact width.
 
 > `optional` **bModal**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L12)
+Defined in: [packages/client/src/components/Menu.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L12)
 
 #### Inherited from
 
@@ -123,7 +123,7 @@ Defined in: [packages/client/src/components/Menu.ts:12](https://github.com/Steam
 
 > `optional` **bNoFocusWhenShown**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:72](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L72)
+Defined in: [packages/client/src/components/Menu.ts:72](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L72)
 
 ***
 
@@ -131,7 +131,7 @@ Defined in: [packages/client/src/components/Menu.ts:72](https://github.com/Steam
 
 > `optional` **bOverlapHorizontal**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L84)
+Defined in: [packages/client/src/components/Menu.ts:84](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L84)
 
 Set to `true` to not account for the parent's width.
 
@@ -141,7 +141,7 @@ Set to `true` to not account for the parent's width.
 
 > `optional` **bOverlapVertical**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L89)
+Defined in: [packages/client/src/components/Menu.ts:89](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L89)
 
 Set to `true` to not account for the parent's height.
 
@@ -151,7 +151,7 @@ Set to `true` to not account for the parent's height.
 
 > `optional` **bPreferPopLeft**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L95)
+Defined in: [packages/client/src/components/Menu.ts:95](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L95)
 
 Set to `true` to make the entire menu try to appear on the left side from
 the parent.
@@ -162,7 +162,7 @@ the parent.
 
 > `optional` **bPreferPopTop**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L100)
+Defined in: [packages/client/src/components/Menu.ts:100](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L100)
 
 Set to `true` to make the entire menu try to appear above the parent.
 
@@ -172,7 +172,7 @@ Set to `true` to make the entire menu try to appear above the parent.
 
 > `optional` **bRetainOnHide**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L77)
+Defined in: [packages/client/src/components/Menu.ts:77](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L77)
 
 Makes the menu **invisible**, instead of getting removed from the DOM.
 
@@ -182,7 +182,7 @@ Makes the menu **invisible**, instead of getting removed from the DOM.
 
 > `optional` **bScreenCoordinates**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L79)
+Defined in: [packages/client/src/components/Menu.ts:79](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L79)
 
 ***
 
@@ -190,7 +190,7 @@ Defined in: [packages/client/src/components/Menu.ts:79](https://github.com/Steam
 
 > `optional` **bShiftToFitWindow**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L102)
+Defined in: [packages/client/src/components/Menu.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L102)
 
 ***
 
@@ -198,7 +198,7 @@ Defined in: [packages/client/src/components/Menu.ts:102](https://github.com/Stea
 
 > `optional` **bStandalone**: `boolean`
 
-Defined in: [packages/client/src/components/Menu.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L105)
+Defined in: [packages/client/src/components/Menu.ts:105](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L105)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [packages/client/src/components/Menu.ts:105](https://github.com/Stea
 
 > `optional` **flGamepadScale**: `number`
 
-Defined in: [packages/client/src/components/Menu.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L30)
+Defined in: [packages/client/src/components/Menu.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L30)
 
 #### Inherited from
 
@@ -218,7 +218,7 @@ Defined in: [packages/client/src/components/Menu.ts:30](https://github.com/Steam
 
 > `optional` **strClassName**: `string`
 
-Defined in: [packages/client/src/components/Menu.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L111)
+Defined in: [packages/client/src/components/Menu.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L111)
 
 Class name **replacement** for the container element, i.e. it replaces the
 default class.
@@ -229,7 +229,7 @@ default class.
 
 > `optional` **targetMonitor**: \{ `flMonitorScale`: `number`; `nScreenHeight`: `number`; `nScreenLeft`: `number`; `nScreenTop`: `number`; `nScreenWidth`: `number`; \}
 
-Defined in: [packages/client/src/components/Menu.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L23)
+Defined in: [packages/client/src/components/Menu.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L23)
 
 #### flMonitorScale
 
@@ -261,7 +261,7 @@ Defined in: [packages/client/src/components/Menu.ts:23](https://github.com/Steam
 
 > `optional` **title**: `string`
 
-Defined in: [packages/client/src/components/Menu.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Menu.ts#L17)
+Defined in: [packages/client/src/components/Menu.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Menu.ts#L17)
 
 Document title.
 

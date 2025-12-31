@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SliderFieldProps
 
-Defined in: [packages/client/src/components/SliderField.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L12)
+Defined in: [packages/client/src/components/SliderField.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L12)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/components/SliderField.ts:12](https://github.co
 
 > `optional` **bottomSeparator**: `"standard"` \| `"thick"` \| `"none"`
 
-Defined in: [packages/client/src/components/Item.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L9)
+Defined in: [packages/client/src/components/Item.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L9)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/components/Item.ts:9](https://github.com/SteamC
 
 > `optional` **children**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L6)
+Defined in: [packages/client/src/components/Item.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/components/Item.ts:6](https://github.com/SteamC
 
 > `optional` **className**: `string`
 
-Defined in: [packages/client/src/components/SliderField.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L28)
+Defined in: [packages/client/src/components/SliderField.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L28)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/client/src/components/SliderField.ts:28](https://github.co
 
 > `optional` **description**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L5)
+Defined in: [packages/client/src/components/Item.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L5)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/components/Item.ts:5](https://github.com/SteamC
 
 > `optional` **disabled**: `boolean`
 
-Defined in: [packages/client/src/components/SliderField.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L22)
+Defined in: [packages/client/src/components/SliderField.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L22)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/components/SliderField.ts:22](https://github.co
 
 > `optional` **editableValue**: `boolean`
 
-Defined in: [packages/client/src/components/SliderField.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L23)
+Defined in: [packages/client/src/components/SliderField.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L23)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/components/SliderField.ts:23](https://github.co
 
 > `optional` **highlightOnFocus**: `boolean`
 
-Defined in: [packages/client/src/components/Item.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L12)
+Defined in: [packages/client/src/components/Item.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L12)
 
 #### Inherited from
 
@@ -90,7 +90,7 @@ Defined in: [packages/client/src/components/Item.ts:12](https://github.com/Steam
 
 > `optional` **icon**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L8)
+Defined in: [packages/client/src/components/Item.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L8)
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: [packages/client/src/components/Item.ts:8](https://github.com/SteamC
 
 > `optional` **indentLevel**: `number`
 
-Defined in: [packages/client/src/components/Item.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L10)
+Defined in: [packages/client/src/components/Item.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L10)
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: [packages/client/src/components/Item.ts:10](https://github.com/Steam
 
 > `optional` **label**: `ReactNode`
 
-Defined in: [packages/client/src/components/Item.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L4)
+Defined in: [packages/client/src/components/Item.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L4)
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ Defined in: [packages/client/src/components/Item.ts:4](https://github.com/SteamC
 
 > `optional` **layout**: `"below"` \| `"inline"`
 
-Defined in: [packages/client/src/components/Item.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L7)
+Defined in: [packages/client/src/components/Item.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L7)
 
 #### Inherited from
 
@@ -138,7 +138,7 @@ Defined in: [packages/client/src/components/Item.ts:7](https://github.com/SteamC
 
 > `optional` **max**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L15)
+Defined in: [packages/client/src/components/SliderField.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L15)
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: [packages/client/src/components/SliderField.ts:15](https://github.co
 
 > `optional` **min**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L14)
+Defined in: [packages/client/src/components/SliderField.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L14)
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: [packages/client/src/components/SliderField.ts:14](https://github.co
 
 > `optional` **minimumDpadGranularity**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L26)
+Defined in: [packages/client/src/components/SliderField.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L26)
 
 ***
 
@@ -162,7 +162,7 @@ Defined in: [packages/client/src/components/SliderField.ts:26](https://github.co
 
 > `optional` **notchCount**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L17)
+Defined in: [packages/client/src/components/SliderField.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L17)
 
 ***
 
@@ -170,7 +170,7 @@ Defined in: [packages/client/src/components/SliderField.ts:17](https://github.co
 
 > `optional` **notchLabels**: [`NotchLabel`](NotchLabel.md)[]
 
-Defined in: [packages/client/src/components/SliderField.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L18)
+Defined in: [packages/client/src/components/SliderField.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L18)
 
 ***
 
@@ -178,7 +178,7 @@ Defined in: [packages/client/src/components/SliderField.ts:18](https://github.co
 
 > `optional` **notchTicksVisible**: `boolean`
 
-Defined in: [packages/client/src/components/SliderField.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L19)
+Defined in: [packages/client/src/components/SliderField.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L19)
 
 ***
 
@@ -186,7 +186,7 @@ Defined in: [packages/client/src/components/SliderField.ts:19](https://github.co
 
 > `optional` **resetValue**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L21)
+Defined in: [packages/client/src/components/SliderField.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L21)
 
 ***
 
@@ -194,7 +194,7 @@ Defined in: [packages/client/src/components/SliderField.ts:21](https://github.co
 
 > `optional` **showValue**: `boolean`
 
-Defined in: [packages/client/src/components/SliderField.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L20)
+Defined in: [packages/client/src/components/SliderField.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L20)
 
 ***
 
@@ -202,7 +202,7 @@ Defined in: [packages/client/src/components/SliderField.ts:20](https://github.co
 
 > `optional` **step**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L16)
+Defined in: [packages/client/src/components/SliderField.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L16)
 
 ***
 
@@ -210,7 +210,7 @@ Defined in: [packages/client/src/components/SliderField.ts:16](https://github.co
 
 > `optional` **tooltip**: `string`
 
-Defined in: [packages/client/src/components/Item.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/Item.ts#L11)
+Defined in: [packages/client/src/components/Item.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/Item.ts#L11)
 
 #### Inherited from
 
@@ -222,7 +222,7 @@ Defined in: [packages/client/src/components/Item.ts:11](https://github.com/Steam
 
 > `optional` **validValues**: `"steps"` \| `"range"` \| (`value`: `number`) => `boolean`
 
-Defined in: [packages/client/src/components/SliderField.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L24)
+Defined in: [packages/client/src/components/SliderField.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L24)
 
 ***
 
@@ -230,7 +230,7 @@ Defined in: [packages/client/src/components/SliderField.ts:24](https://github.co
 
 > **value**: `number`
 
-Defined in: [packages/client/src/components/SliderField.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L13)
+Defined in: [packages/client/src/components/SliderField.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L13)
 
 ***
 
@@ -238,7 +238,7 @@ Defined in: [packages/client/src/components/SliderField.ts:13](https://github.co
 
 > `optional` **valueSuffix**: `string`
 
-Defined in: [packages/client/src/components/SliderField.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L25)
+Defined in: [packages/client/src/components/SliderField.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L25)
 
 ## Methods
 
@@ -246,7 +246,7 @@ Defined in: [packages/client/src/components/SliderField.ts:25](https://github.co
 
 > `optional` **onChange**(`value`: `number`): `void`
 
-Defined in: [packages/client/src/components/SliderField.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/SliderField.ts#L27)
+Defined in: [packages/client/src/components/SliderField.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/SliderField.ts#L27)
 
 #### Parameters
 

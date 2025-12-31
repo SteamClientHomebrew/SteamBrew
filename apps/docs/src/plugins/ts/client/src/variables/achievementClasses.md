@@ -2,7 +2,7 @@
 component: Static Classes
 ---
 
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -12,7 +12,7 @@ component: Static Classes
 
 > `const` **achievementClasses**: `AchievementListClasses` = `achievementListClasses`
 
-Defined in: [packages/client/src/utils/static-classes.ts:1123](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/utils/static-classes.ts#L1123)
+Defined in: [packages/client/src/utils/static-classes.ts:1123](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/utils/static-classes.ts#L1123)
 
 ## Deprecated
 

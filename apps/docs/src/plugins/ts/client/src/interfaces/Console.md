@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Console
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L6)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L6)
 
 Represents the console functionality for executing commands and handling spew output.
 
@@ -16,7 +16,7 @@ Represents the console functionality for executing commands and handling spew ou
 
 > **ExecCommand**(`command`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L11)
 
 Executes a console command.
 
@@ -38,7 +38,7 @@ The command to execute in the console.
 
 > **GetAutocompleteSuggestions**(`command`: `string`): `Promise`\<`string`[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L18)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L18)
 
 Retrieves autocomplete suggestions for a given console command.
 
@@ -62,7 +62,7 @@ an array of autocomplete suggestions.
 
 > **RegisterForSpewOutput**(`callback`: (`output`: [`SpewOutput`](SpewOutput.md)) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Console.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Console.ts#L25)
+Defined in: [packages/client/src/globals/steam-client/Console.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Console.ts#L25)
 
 Registers a callback function to receive spew output.
 

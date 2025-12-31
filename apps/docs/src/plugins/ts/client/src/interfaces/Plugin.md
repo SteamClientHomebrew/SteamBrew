@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Plugin
 
-Defined in: [packages/client/src/index.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L22)
+Defined in: [packages/client/src/index.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L22)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/index.ts:22](https://github.com/SteamClientHome
 
 > `optional` **alwaysRender**: `boolean`
 
-Defined in: [packages/client/src/index.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L27)
+Defined in: [packages/client/src/index.ts:27](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L27)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/index.ts:27](https://github.com/SteamClientHome
 
 > `optional` **content**: `Element`
 
-Defined in: [packages/client/src/index.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L25)
+Defined in: [packages/client/src/index.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L25)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/index.ts:25](https://github.com/SteamClientHome
 
 > **icon**: `Element`
 
-Defined in: [packages/client/src/index.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L24)
+Defined in: [packages/client/src/index.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L24)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/index.ts:24](https://github.com/SteamClientHome
 
 > `optional` **titleView**: `Element`
 
-Defined in: [packages/client/src/index.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L28)
+Defined in: [packages/client/src/index.ts:28](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L28)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/index.ts:28](https://github.com/SteamClientHome
 
 > `optional` **version**: `string`
 
-Defined in: [packages/client/src/index.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L23)
+Defined in: [packages/client/src/index.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L23)
 
 ## Methods
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/index.ts:23](https://github.com/SteamClientHome
 
 > `optional` **onDismount**(): `void`
 
-Defined in: [packages/client/src/index.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/index.ts#L26)
+Defined in: [packages/client/src/index.ts:26](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/index.ts#L26)
 
 #### Returns
 

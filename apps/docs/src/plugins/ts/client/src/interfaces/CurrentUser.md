@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CurrentUser
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:179](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L179)
+Defined in: [packages/client/src/globals/steam-client/User.ts:179](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L179)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:179](https://githu
 
 > **bHWSurveyPending**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:191](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L191)
+Defined in: [packages/client/src/globals/steam-client/User.ts:191](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L191)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:191](https://githu
 
 > **bIsLimited**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:192](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L192)
+Defined in: [packages/client/src/globals/steam-client/User.ts:192](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L192)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:192](https://githu
 
 > **bIsOfflineMode**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:193](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L193)
+Defined in: [packages/client/src/globals/steam-client/User.ts:193](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L193)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:193](https://githu
 
 > **bPromptToChangePassword**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:194](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L194)
+Defined in: [packages/client/src/globals/steam-client/User.ts:194](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L194)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:194](https://githu
 
 > **bSupportAckOnlyMessages**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:195](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L195)
+Defined in: [packages/client/src/globals/steam-client/User.ts:195](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L195)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:195](https://githu
 
 > **bSupportAlertActive**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:196](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L196)
+Defined in: [packages/client/src/globals/steam-client/User.ts:196](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L196)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:196](https://githu
 
 > **bSupportPopupMessage**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:197](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L197)
+Defined in: [packages/client/src/globals/steam-client/User.ts:197](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L197)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:197](https://githu
 
 > **clientinstanceid**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:198](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L198)
+Defined in: [packages/client/src/globals/steam-client/User.ts:198](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L198)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:198](https://githu
 
 > **NotificationCounts**: \{ `async_game_updates`: `number`; `comments`: `number`; `gifts`: `number`; `help_request_replies`: `number`; `inventory_items`: `number`; `invites`: `number`; `moderator_messages`: `number`; `offline_messages`: `number`; `trade_offers`: `number`; \}
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:180](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L180)
+Defined in: [packages/client/src/globals/steam-client/User.ts:180](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L180)
 
 #### async\_game\_updates
 
@@ -122,7 +122,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:180](https://githu
 
 > **strAccountBalance**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:199](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L199)
+Defined in: [packages/client/src/globals/steam-client/User.ts:199](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L199)
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:199](https://githu
 
 > **strAccountBalancePending**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:200](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L200)
+Defined in: [packages/client/src/globals/steam-client/User.ts:200](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L200)
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:200](https://githu
 
 > **strAccountName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:201](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L201)
+Defined in: [packages/client/src/globals/steam-client/User.ts:201](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L201)
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:201](https://githu
 
 > **strFamilyGroupID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:202](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L202)
+Defined in: [packages/client/src/globals/steam-client/User.ts:202](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L202)
 
 ***
 
@@ -154,4 +154,4 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:202](https://githu
 
 > **strSteamID**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:203](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L203)
+Defined in: [packages/client/src/globals/steam-client/User.ts:203](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L203)

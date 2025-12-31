@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MsgSystemUpdateState
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L48)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:48](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L48)
 
 CMsgSystemUpdateState
 
@@ -20,7 +20,7 @@ CMsgSystemUpdateState
 
 > **getClassName**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L252)
 
 #### Returns
 
@@ -36,7 +36,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:252](https://git
 
 > **progress**(): [`UpdateProgress`](UpdateProgress.md) \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L51)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:51](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L51)
 
 #### Returns
 
@@ -48,7 +48,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:51](https://git
 
 > **serializeBase64String**(): `string`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L254)
 
 #### Returns
 
@@ -64,7 +64,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:254](https://git
 
 > **serializeBinary**(): `Uint8Array`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L256)
 
 #### Returns
 
@@ -80,7 +80,7 @@ Defined in: [packages/client/src/globals/steam-client/shared.ts:256](https://git
 
 > **state**(): [`EUpdaterState`](../enumerations/EUpdaterState.md) \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L49)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:49](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L49)
 
 #### Returns
 
@@ -92,7 +92,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:49](https://git
 
 > **supports\_os\_updates**(): `boolean` \| `undefined`
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L53)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:53](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L53)
 
 #### Returns
 
@@ -104,7 +104,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:53](https://git
 
 > **toObject**(`includeJsPbInstance`: `boolean`): `any`
 
-Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
+Defined in: [packages/client/src/globals/steam-client/shared.ts:261](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/shared.ts#L261)
 
 Converts the message to an object.
 
@@ -128,7 +128,7 @@ Converts the message to an object.
 
 > **update\_apply\_results**(): [`UpdateApplyResult`](UpdateApplyResult.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L55)
 
 #### Returns
 
@@ -140,7 +140,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:55](https://git
 
 > **update\_check\_results**(): [`UpdateCheckResult`](UpdateCheckResult.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L57)
 
 #### Returns
 

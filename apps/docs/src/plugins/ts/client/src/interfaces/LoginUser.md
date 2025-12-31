@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: LoginUser
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:240](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L240)
+Defined in: [packages/client/src/globals/steam-client/User.ts:240](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L240)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:240](https://githu
 
 > **accountName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:242](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L242)
+Defined in: [packages/client/src/globals/steam-client/User.ts:242](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L242)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:242](https://githu
 
 > **avatarUrl**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:245](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L245)
+Defined in: [packages/client/src/globals/steam-client/User.ts:245](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L245)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:245](https://githu
 
 > **hasPin**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:243](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L243)
+Defined in: [packages/client/src/globals/steam-client/User.ts:243](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L243)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:243](https://githu
 
 > **personaName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:241](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L241)
+Defined in: [packages/client/src/globals/steam-client/User.ts:241](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L241)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/client/src/globals/steam-client/User.ts:241](https://githu
 
 > **rememberPassword**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/User.ts:244](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/User.ts#L244)
+Defined in: [packages/client/src/globals/steam-client/User.ts:244](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/User.ts#L244)

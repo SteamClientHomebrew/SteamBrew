@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CoplayData
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L55)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:55](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L55)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Friends.ts:55](https://git
 
 > **currentUsers**: [`CoplayUser`](CoplayUser.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L56)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:56](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L56)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/client/src/globals/steam-client/Friends.ts:56](https://git
 
 > **recentUsers**: [`CoplayUser`](CoplayUser.md)[]
 
-Defined in: [packages/client/src/globals/steam-client/Friends.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L57)
+Defined in: [packages/client/src/globals/steam-client/Friends.ts:57](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Friends.ts#L57)

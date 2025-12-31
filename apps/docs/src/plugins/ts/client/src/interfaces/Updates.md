@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Updates
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L3)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:3](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L3)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:3](https://gith
 
 > **ApplyUpdates**(`base64`: `string`): `Promise`\<[`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L7)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L7)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Serialized base64 message from `CMsgSystemUpdateApplyParams`.
 
 > **CheckForUpdates**(): `Promise`\<[`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L9)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L9)
 
 #### Returns
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:9](https://gith
 
 > **GetCurrentOSBranch**(): `Promise`\<[`OSBranch`](OSBranch.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L11)
 
 #### Returns
 
@@ -58,7 +58,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:11](https://git
 
 > **GetOSBranchList**(): `Promise`\<`any`[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L13)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L13)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/client/src/globals/steam-client/Updates.ts:13](https://git
 
 > **RegisterForUpdateStateChanges**(`callback`: (`data`: `ArrayBuffer`) => `void`): [`Unregisterable`](Unregisterable.md)
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L19)
 
 If `data` is deserialized, returns [MsgSystemUpdateState](MsgSystemUpdateState.md).
 
@@ -92,7 +92,7 @@ a ProtoBuf message.
 
 > **SelectOSBranch**(`base64`: `string`): `Promise`\<[`OperationResponse`](OperationResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Updates.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L24)
+Defined in: [packages/client/src/globals/steam-client/Updates.ts:24](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Updates.ts#L24)
 
 #### Parameters
 

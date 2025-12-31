@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Screenshots
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L4)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:4](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L4)
 
 Interface for managing screenshots.
 
@@ -16,7 +16,7 @@ Interface for managing screenshots.
 
 > **DeleteLocalScreenshot**(`appId`: `string`, `screenshotIndex`: `number`): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L11)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L11)
 
 Deletes a local screenshot.
 
@@ -46,7 +46,7 @@ a boolean value indicating whether the deletion was successful.
 
 > **DeleteLocalScreenshots**(`screenshots`: [`ScreenshotToDelete`](ScreenshotToDelete.md)[]): `Promise`\<[`ScreenshotDeletionResponse`](ScreenshotDeletionResponse.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L13)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L13)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:13](https:/
 
 > **GetAllAppsLocalScreenshots**(): `Promise`\<[`Screenshot`](Screenshot.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L19)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L19)
 
 Retrieves all local screenshots for all applications.
 
@@ -80,7 +80,7 @@ an array of Screenshot objects.
 
 > **GetAllAppsLocalScreenshotsCount**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L25)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:25](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L25)
 
 Retrieves the count of all local screenshots for all applications.
 
@@ -96,7 +96,7 @@ the count of local screenshots.
 
 > **GetAllAppsLocalScreenshotsRange**(`start`: `number`, `end`: `number`): `Promise`\<[`Screenshot`](Screenshot.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L33)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:33](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L33)
 
 Retrieves a range of local screenshots for all applications.
 
@@ -126,7 +126,7 @@ an array of Screenshot objects within the specified range.
 
 > **GetAllLocalScreenshots**(): `Promise`\<[`Screenshot`](Screenshot.md)[]\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L39)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:39](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L39)
 
 Retrieves all local screenshots.
 
@@ -142,7 +142,7 @@ an array of Screenshot objects.
 
 > **GetGameWithLocalScreenshots**(`screenshotIndex`: `number`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L46)
 
 Retrieves the game associated with a specific local screenshot index.
 
@@ -166,7 +166,7 @@ the ID of the game associated with the screenshot.
 
 > **GetLastScreenshotTaken**(): `Promise`\<[`Screenshot`](Screenshot.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L52)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:52](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L52)
 
 Retrieves the last taken local screenshot.
 
@@ -182,7 +182,7 @@ the last taken local screenshot.
 
 > **GetLocalScreenshotByHandle**(`appId`: `string`, `screenshotIndex`: `number`): `Promise`\<[`Screenshot`](Screenshot.md)\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L60)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:60](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L60)
 
 Retrieves a specific local screenshot for an application.
 
@@ -212,7 +212,7 @@ the requested local screenshot.
 
 > **GetLocalScreenshotCount**(`appId`: `number`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L67)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:67](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L67)
 
 Retrieves the count of local screenshots for a specific application.
 
@@ -236,7 +236,7 @@ the count of local screenshots for the application.
 
 > **GetLocalScreenshotPath**(`appId`: `number`, `hHandle`: `number`): `Promise`\<`string`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L75)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:75](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L75)
 
 Retrieves the path of a screenshot.
 
@@ -266,7 +266,7 @@ the screenshot path or the screenshot directory if no such handle.
 
 > **GetNumGamesWithLocalScreenshots**(): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L81)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:81](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L81)
 
 Retrieves the number of games with local screenshots.
 
@@ -282,7 +282,7 @@ the number of games with local screenshots.
 
 > **GetTotalDiskSpaceUsage**(`path`: `string`): `Promise`\<`number`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L88)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:88](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L88)
 
 Gets total screenshot usage in the specified library folder.
 
@@ -306,7 +306,7 @@ the number of taken space in bytes.
 
 > **ShowScreenshotInSystemViewer**(`appId`: `string`, `screenshotIndex`: `number`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L96)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:96](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L96)
 
 Opens a local screenshot in the system image viewer.
 If the screenshot index is invalid, this function opens the screenshots directory for the specified application ID.
@@ -335,7 +335,7 @@ The index of the local screenshot.
 
 > **ShowScreenshotsOnDisk**(`appId`: `string`): `void`
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L102)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:102](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L102)
 
 Opens the folder containing local screenshots for a specific application.
 
@@ -357,7 +357,7 @@ The ID of the application.
 
 > **UploadLocalScreenshot**(`appId`: `string`, `localScreenshot_hHandle`: `number`, `filePrivacyState`: [`EUCMFilePrivacyState`](../enumerations/EUCMFilePrivacyState.md)): `Promise`\<`boolean`\>
 
-Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L111)
+Defined in: [packages/client/src/globals/steam-client/Screenshots.ts:111](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Screenshots.ts#L111)
 
 Uploads a local screenshot.
 

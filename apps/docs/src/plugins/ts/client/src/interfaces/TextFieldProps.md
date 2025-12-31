@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TextFieldProps
 
-Defined in: [packages/client/src/components/TextField.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L5)
+Defined in: [packages/client/src/components/TextField.ts:5](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L5)
 
 ## Extends
 
@@ -967,7 +967,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **bAlwaysShowClearAction**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L12)
+Defined in: [packages/client/src/components/TextField.ts:12](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L12)
 
 ***
 
@@ -975,7 +975,7 @@ Defined in: [packages/client/src/components/TextField.ts:12](https://github.com/
 
 > `optional` **bIsPassword**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L13)
+Defined in: [packages/client/src/components/TextField.ts:13](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L13)
 
 ***
 
@@ -983,7 +983,7 @@ Defined in: [packages/client/src/components/TextField.ts:13](https://github.com/
 
 > `optional` **bShowClearAction**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L11)
+Defined in: [packages/client/src/components/TextField.ts:11](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L11)
 
 ***
 
@@ -991,7 +991,7 @@ Defined in: [packages/client/src/components/TextField.ts:11](https://github.com/
 
 > `optional` **bShowCopyAction**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L10)
+Defined in: [packages/client/src/components/TextField.ts:10](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L10)
 
 ***
 
@@ -1123,7 +1123,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **description**: `ReactNode`
 
-Defined in: [packages/client/src/components/TextField.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L8)
+Defined in: [packages/client/src/components/TextField.ts:8](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L8)
 
 ***
 
@@ -1143,7 +1143,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **disabled**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L9)
+Defined in: [packages/client/src/components/TextField.ts:9](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L9)
 
 ***
 
@@ -1191,7 +1191,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **focusOnMount**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L19)
+Defined in: [packages/client/src/components/TextField.ts:19](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L19)
 
 ***
 
@@ -1239,7 +1239,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/inert
 
 > `optional` **inlineControls**: `ReactNode`
 
-Defined in: [packages/client/src/components/TextField.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L21)
+Defined in: [packages/client/src/components/TextField.ts:21](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L21)
 
 ***
 
@@ -1355,7 +1355,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **label**: `ReactNode`
 
-Defined in: [packages/client/src/components/TextField.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L6)
+Defined in: [packages/client/src/components/TextField.ts:6](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L6)
 
 ***
 
@@ -1375,7 +1375,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **mustBeEmail**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L18)
+Defined in: [packages/client/src/components/TextField.ts:18](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L18)
 
 ***
 
@@ -1383,7 +1383,7 @@ Defined in: [packages/client/src/components/TextField.ts:18](https://github.com/
 
 > `optional` **mustBeNumeric**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L16)
+Defined in: [packages/client/src/components/TextField.ts:16](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L16)
 
 ***
 
@@ -1391,7 +1391,7 @@ Defined in: [packages/client/src/components/TextField.ts:16](https://github.com/
 
 > `optional` **mustBeURL**: `boolean`
 
-Defined in: [packages/client/src/components/TextField.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L17)
+Defined in: [packages/client/src/components/TextField.ts:17](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L17)
 
 ***
 
@@ -1639,7 +1639,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **onChange**: `ChangeEventHandler`\<`HTMLInputElement`\>
 
-Defined in: [packages/client/src/components/TextField.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L22)
+Defined in: [packages/client/src/components/TextField.ts:22](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L22)
 
 #### Overrides
 
@@ -3547,7 +3547,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **rangeMax**: `number`
 
-Defined in: [packages/client/src/components/TextField.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L15)
+Defined in: [packages/client/src/components/TextField.ts:15](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L15)
 
 ***
 
@@ -3555,7 +3555,7 @@ Defined in: [packages/client/src/components/TextField.ts:15](https://github.com/
 
 > `optional` **rangeMin**: `number`
 
-Defined in: [packages/client/src/components/TextField.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L14)
+Defined in: [packages/client/src/components/TextField.ts:14](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L14)
 
 ***
 
@@ -3575,7 +3575,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **requiredLabel**: `ReactNode`
 
-Defined in: [packages/client/src/components/TextField.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L7)
+Defined in: [packages/client/src/components/TextField.ts:7](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L7)
 
 ***
 
@@ -3727,7 +3727,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **tooltip**: `string`
 
-Defined in: [packages/client/src/components/TextField.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L20)
+Defined in: [packages/client/src/components/TextField.ts:20](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L20)
 
 ***
 
@@ -3771,7 +3771,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.1.1/node\_modules/@types/react/i
 
 > `optional` **value**: `string`
 
-Defined in: [packages/client/src/components/TextField.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/components/TextField.ts#L23)
+Defined in: [packages/client/src/components/TextField.ts:23](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/components/TextField.ts#L23)
 
 ***
 

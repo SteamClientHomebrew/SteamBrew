@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ParentalSettings
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L29)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:29](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L29)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:29](https://gi
 
 > **ever\_enabled**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L30)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:30](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L30)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:30](https://gi
 
 > **locked**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L31)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:31](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L31)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Parental.ts:31](https://gi
 
 > **settings**: `ArrayBuffer`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L35)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:35](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L35)
 
 If deserialized, returns [ParentalSettingsProtoMsg](ParentalSettingsProtoMsg.md).
 
@@ -40,4 +40,4 @@ If deserialized, returns [ParentalSettingsProtoMsg](ParentalSettingsProtoMsg.md)
 
 > **strPlaintextPassword**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Parental.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L36)
+Defined in: [packages/client/src/globals/steam-client/Parental.ts:36](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Parental.ts#L36)

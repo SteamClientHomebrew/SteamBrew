@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AppBackupStatus
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1067](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1067)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1067](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1067)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1067](https://githu
 
 > **appid**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1068](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1068)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1068](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1068)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1068](https://githu
 
 > **eError**: [`EAppUpdateError`](../enumerations/EAppUpdateError.md)
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1069](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1069)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1069](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1069)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1069](https://githu
 
 > **strBytesProcessed**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1071](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1071)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1071](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1071)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1071](https://githu
 
 > **strBytesToProcess**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1070](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1070)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1070](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1070)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/client/src/globals/steam-client/App.ts:1070](https://githu
 
 > **strTotalBytesWritten**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/App.ts:1072](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/App.ts#L1072)
+Defined in: [packages/client/src/globals/steam-client/App.ts:1072](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/App.ts#L1072)

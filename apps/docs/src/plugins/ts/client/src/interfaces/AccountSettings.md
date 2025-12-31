@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AccountSettings
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:113](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L113)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:113](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L113)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:113](https://g
 
 > **bEmailValidated**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L115)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:115](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L115)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:115](https://g
 
 > **bHasAnyVACBans**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:116](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L116)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:116](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L116)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:116](https://g
 
 > **bHasTwoFactor**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L117)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:117](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L117)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:117](https://g
 
 > **bSaveAccountCredentials**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L120)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:120](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L120)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:120](https://g
 
 > **eSteamGuardState**: [`ESteamGuardState`](../enumerations/ESteamGuardState.md)
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L118)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:118](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L118)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:118](https://g
 
 > **rtSteamGuardEnableTime**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L119)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:119](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L119)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [packages/client/src/globals/steam-client/Settings.ts:119](https://g
 
 > **strEmail**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/Settings.ts:114](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L114)
+Defined in: [packages/client/src/globals/steam-client/Settings.ts:114](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/Settings.ts#L114)

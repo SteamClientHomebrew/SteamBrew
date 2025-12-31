@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FileDialogFilter
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:211](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L211)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:211](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L211)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/system/index.ts:211](https
 
 > `optional` **bUseAsDefault**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:220](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L220)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:220](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L220)
 
 Whether to use this filter by default.
 
@@ -24,7 +24,7 @@ Whether to use this filter by default.
 
 > **rFilePatterns**: `string`[]
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:218](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L218)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:218](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L218)
 
 File patterns.
 
@@ -40,6 +40,6 @@ File patterns.
 
 > **strFileTypeName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/system/index.ts:213](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L213)
+Defined in: [packages/client/src/globals/steam-client/system/index.ts:213](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/system/index.ts#L213)
 
 A localization string for the file type.

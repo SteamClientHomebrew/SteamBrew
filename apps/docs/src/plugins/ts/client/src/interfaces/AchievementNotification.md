@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AchievementNotification
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L44)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:44](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L44)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:44](https:
 
 > **achievement**: [`AppAchievements`](AppAchievements.md)
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L45)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:45](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L45)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:45](https:
 
 > **nCurrentProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L46)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:46](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L46)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:46](https:
 
 > **nMaxProgress**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L47)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:47](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L47)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:47](https:
 
 > **unAppID**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L41)
+Defined in: [packages/client/src/globals/steam-client/GameSessions.ts:41](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/GameSessions.ts#L41)
 
 #### Inherited from
 

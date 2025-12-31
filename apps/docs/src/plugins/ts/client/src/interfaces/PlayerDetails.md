@@ -1,4 +1,4 @@
-[**@steambrew/docs v1.1.1**](../../../README.md)
+[**@steambrew/docs v1.1.2**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PlayerDetails
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:340](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L340)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:340](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L340)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:340](http
 
 > **bRefreshComplete**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:349](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L349)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:349](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L349)
 
 `true` when the server refresh is done.
 
@@ -24,7 +24,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:349](http
 
 > **bSuccess**: `boolean`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:344](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L344)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:344](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L344)
 
 `true` is the server refresh is successful.
 
@@ -34,7 +34,7 @@ Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:344](http
 
 > `optional` **playerName**: `string`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:356](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L356)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:356](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L356)
 
 Player name.
 
@@ -48,7 +48,7 @@ Defined when [bRefreshComplete](#brefreshcomplete) is `true`.
 
 > `optional` **score**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:363](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L363)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:363](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L363)
 
 Player score.
 
@@ -62,7 +62,7 @@ Defined when [bRefreshComplete](#brefreshcomplete) is `true`.
 
 > `optional` **timePlayed**: `number`
 
-Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:370](https://github.com/SteamClientHomebrew/Millennium/blob/8a57b02d3469279aae948570883c198c8e14d879/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L370)
+Defined in: [packages/client/src/globals/steam-client/ServerBrowser.ts:370](https://github.com/SteamClientHomebrew/Millennium/blob/fb5ead1ff95a5ec05bfc30d7abfbefed6b3e0605/src/sdk/packages/client/src/globals/steam-client/ServerBrowser.ts#L370)
 
 Time played on the server in seconds
 
