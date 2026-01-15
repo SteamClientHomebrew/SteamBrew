@@ -1,126 +1,158 @@
+---
+order: 1
+---
+
 # logger
 
-Logger module for Millennium plugin development. Provides logging functionality with different severity levels.
+## Exported Functions
+
+- [info](#info)
+- [warn](#warn)
+- [error](#error)
+
+### Usage
 
 ```lua
 local logger = require("logger")
 ```
 
-## Functions
+---
 
--   `logger:info(message)` - Log an informational message
--   `logger:warn(message)` - Log a warning message
--   `logger:error(message)` - Log an error message
+## info
 
-## Functions
+### Abstract
 
-### logger:info(message)
+Log an informational message. Use for routine runtime information and progress updates.
 
-Log an informational message.
+### Parameters
 
-**Parameters:**
+| Parameter | Type   | Description             |
+| --------- | :----: | ----------------------- |
+| message   | string | Message to log          |
 
--   `message` (string) - The message to log
+### Returns
 
-**Usage:**
+None.
+
+### Usage
 
 ```lua
+local logger = require("logger")
 logger:info("Plugin initialized successfully")
-logger:info("Processing 10 items")
-logger:info("Configuration loaded from config.json")
+logger:info("Processed " .. count .. " items")
 ```
 
 ---
 
-### logger:warn(message)
+## warn
 
-Log a warning message.
+### Abstract
 
-**Parameters:**
+Log a warning message. Use for recoverable issues or unexpected states that do not prevent operation.
 
--   `message` (string) - The warning message to log
+### Parameters
 
-**Usage:**
+| Parameter | Type   | Description             |
+| --------- | :----: | ----------------------- |
+| message   | string | Warning message         |
+
+### Returns
+
+None.
+
+### Usage
 
 ```lua
+local logger = require("logger")
 logger:warn("API rate limit approaching")
-logger:warn("Deprecated function called")
-logger:warn("Configuration file not found, using defaults")
+logger:warn("Configuration file missing, using defaults")
 ```
 
 ---
 
-### logger:error(message)
+## error
 
-Log an error message.
+### Abstract
 
-**Parameters:**
+Log an error message. Use for errors that indicate a failure or require attention.
 
--   `message` (string) - The error message to log
+### Parameters
 
-**Usage:**
+| Parameter | Type   | Description             |
+| --------- | :----: | ----------------------- |
+| message   | string | Error message           |
+
+### Returns
+
+None.
+
+### Usage
 
 ```lua
+local logger = require("logger")
 logger:error("Failed to connect to database")
-logger:error("Invalid JSON in response")
-logger:error("Missing required configuration parameter")
+logger:error("Unhandled exception: " .. tostring(err))
 ```
+
+---
 
 ## Common Patterns
 
-### Basic Logging
+### Basic logging
 
 ```lua
--- Log at different severity levels
-logger:info("Starting data processing")
-logger:warn("Cache is getting full")
-logger:error("Failed to save data")
+local logger = require("logger")
+
+logger:info("Starting task")
+logger:warn("Low disk space")
+logger:error("Task failed")
 ```
 
-### Logging with Context
+### Logging with context
+
+- Include relevant context (IDs, filenames, user identifiers) to make logs actionable.
+- Prefer concise interpolated strings rather than large tables.
 
 ```lua
--- Include relevant context in log messages
+local logger = require("logger")
 local user_id = 12345
 logger:info("User " .. user_id .. " logged in")
-
-local error_code = 404
-logger:error("API request failed with status " .. error_code)
+logger:error("Payment failed for user " .. user_id .. " : code " .. err_code)
 ```
 
-### Error Handling with Logging
+### Error handling and propagation
+
+- Use `logger:error` when an operation fails and you need an audit trail.
+- Avoid logging sensitive information (passwords, tokens, PII).
 
 ```lua
-local response, err = http.get("https://api.example.com/data")
+local logger = require("logger")
+local http = require("http")
 
-if not response then
-    logger:error("HTTP request failed: " .. err)
-    return
+local res, err = http.get("https://api.example.com/data")
+if not res then
+  logger:error("HTTP request failed: " .. tostring(err))
+  return nil, err
 end
 
-if response.status ~= 200 then
-    logger:warn("Unexpected status code: " .. response.status)
+if res.status ~= 200 then
+  logger:warn("Unexpected status: " .. tostring(res.status))
 end
-
-logger:info("Successfully retrieved data")
 ```
 
-### Conditional Logging
+### Conditional / debug-style logging
+
+- If you need verbose or debug logging, gate it behind configuration in your plugin and call the appropriate logger method when necessary.
 
 ```lua
-local function process_data(data)
-    if not data then
-        logger:error("Cannot process nil data")
-        return false
-    end
+local logger = require("logger")
+local verbose = plugin_config.verbose
 
-    if #data == 0 then
-        logger:warn("Processing empty dataset")
-        return true
-    end
-
-    logger:info("Processing " .. #data .. " records")
-    -- Process data...
-    return true
+if verbose then
+  logger:info("Verbose mode enabled - detailed startup logs follow")
 end
 ```
+
+---
+
+That's the `logger` module — a tiny, consistent logging interface for Millennium Lua plugins. Use `info` for normal runtime events, `warn` for recoverable issues, and `error` for failures that need attention.

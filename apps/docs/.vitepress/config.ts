@@ -323,6 +323,9 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 					collapsed: false,
 					items: [
 						{ text: 'millennium', link: '/plugins/lua/millennium' },
+						{ text: 'fs', link: '/plugins/lua/fs' },
+						{ text: 'datetime', link: '/plugins/lua/datetime' },
+						{ text: 'regex', link: '/plugins/lua/regex' },
 						{ text: 'cjson', link: '/plugins/lua/cjson' },
 						{ text: 'http', link: '/plugins/lua/http' },
 						{ text: 'logger', link: '/plugins/lua/logger' },
