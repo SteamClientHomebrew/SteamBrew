@@ -1,18 +1,26 @@
+---
+order: 1
+---
+
 # http
 
-HTTP module for making HTTP requests using libcurl.
+HTTP client module for Millennium Lua plugins. Provides a simple, flexible API for making HTTP requests (built on libcurl in the native implementation).
+
+## Exported Functions
+
+- [request](#request)
+- [get](#get)
+- [post](#post)
+- [put](#put)
+- [delete](#delete)
+
+### Usage
 
 ```lua
 local http = require("http")
 ```
 
-## Functions
-
--   `http.request(url, options)` - Make a generic HTTP request with full configuration
--   `http.get(url, options)` - Make a GET request
--   `http.post(url, data, options)` - Make a POST request
--   `http.put(url, data, options)` - Make a PUT request
--   `http.delete(url, options)` - Make a DELETE request
+---
 
 ## Types
 
@@ -24,338 +32,286 @@ Request configuration options.
 | ------------------ | --------------------- | ---------------- | ---------------------------------------------------------- |
 | `method`           | string                | `"GET"`          | HTTP method (GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS) |
 | `data`             | string                | -                | Request body data                                          |
-| `headers`          | table<string, string> | -                | HTTP headers as key-value pairs                            |
+| `headers`          | table<string,string>  | -                | HTTP headers as key-value pairs                            |
 | `timeout`          | integer               | `30`             | Timeout in seconds                                         |
 | `follow_redirects` | boolean               | `true`           | Whether to follow redirects                                |
 | `verify_ssl`       | boolean               | `true`           | Whether to verify SSL certificates                         |
 | `user_agent`       | string                | `"Lua-HTTP/1.0"` | User agent string                                          |
 | `auth`             | HTTPAuth              | -                | Authentication credentials                                 |
-| `proxy`            | string                | -                | Proxy URL (e.g., "http://proxy.example.com:8080")          |
+| `proxy`            | string                | -                | Proxy URL (e.g., `"http://proxy.example.com:8080"`)        |
 
 ### HTTPAuth
 
 Authentication credentials for HTTP requests.
 
-**Fields:**
-
--   `user` (string) - Username for authentication
--   `pass` (string) - Password for authentication
+| Field | Type   | Description                 |
+| ----- | :----: | --------------------------- |
+| user  | string | Username for authentication |
+| pass  | string | Password for authentication |
 
 ### HTTPResponse
 
 HTTP response object.
 
-**Fields:**
-
--   `status` (integer) - HTTP status code (e.g., 200, 404, 500)
--   `body` (string) - Response body content
--   `headers` (table<string, string>) - Response headers as key-value pairs
-
-## Functions
-
-### http.request(url, options)
-
-Make a generic HTTP request with full configuration options.
-
-**Parameters:**
-
--   `url` (string) - The URL to request
--   `options` (HTTPOptions, optional) - Request configuration options
-
-**Returns:**
-
--   `response` (HTTPResponse|nil) - Response object or nil on failure
--   `error` (string, optional) - Error message if request failed
-
-**Usage:**
-
-```lua
--- Simple GET request
-local response, err = http.request("https://api.example.com/data")
-if response then
-    print("Status:", response.status)
-    print("Body:", response.body)
-end
-
--- POST request with custom headers and timeout
-local response, err = http.request("https://api.example.com/submit", {
-    method = "POST",
-    data = '{"key":"value"}',
-    headers = {
-        ["Content-Type"] = "application/json",
-        ["Authorization"] = "Bearer token123"
-    },
-    timeout = 10,
-    verify_ssl = true
-})
-
--- Request with authentication
-local response, err = http.request("https://api.example.com/protected", {
-    auth = {
-        user = "username",
-        pass = "password"
-    }
-})
-
--- Request through proxy
-local response, err = http.request("https://example.com", {
-    proxy = "http://proxy.example.com:8080"
-})
-```
+| Field   | Type                     | Description                         |
+| ------- | ------------------------ | ----------------------------------- |
+| status  | integer                  | HTTP status code (e.g., 200, 404)   |
+| body    | string                   | Response body content               |
+| headers | table<string,string>     | Response headers as key-value pairs |
 
 ---
 
-### http.get(url, options)
+## request
 
-Make a GET request.
+### Abstract
 
-**Parameters:**
+Make a generic HTTP request with full configuration. This is the most flexible entry point and can be used to implement any method or custom behavior by providing an `options` table.
 
--   `url` (string) - The URL to request
--   `options` (HTTPOptions, optional) - Additional request options
+### Parameters
 
-**Returns:**
+| Parameter | Type        | Description               |
+| --------- | :---------: | ------------------------- |
+| url       | string      | URL to request            |
+| options   | HTTPOptions | Optional request options  |
 
--   `response` (HTTPResponse|nil) - Response object or nil on failure
--   `error` (string, optional) - Error message if request failed
+### Returns
 
-**Usage:**
+- `response` (HTTPResponse | nil) — Response object, or `nil` on failure  
+- `error` (string | nil) — Error message if request failed
+
+### Usage
 
 ```lua
--- Simple GET request
-local response, err = http.get("https://api.example.com/users")
-if response then
-    print("Status:", response.status)
-    print("Body:", response.body)
+local http = require("http")
+
+-- Simple GET
+local res, err = http.request("https://api.example.com/data")
+if not res then
+  print("request failed:", err)
 else
-    print("Error:", err)
+  print("status:", res.status)
+  print("body:", res.body)
 end
 
--- GET with custom headers
-local response, err = http.get("https://api.example.com/data", {
-    headers = {
-        ["Accept"] = "application/json",
-        ["X-API-Key"] = "your-api-key"
-    },
-    timeout = 5
-})
-
--- GET with query parameters (encode them in the URL)
-local response, err = http.get("https://api.example.com/search?q=lua&limit=10")
-```
-
----
-
-### http.post(url, data, options)
-
-Make a POST request.
-
-**Parameters:**
-
--   `url` (string) - The URL to request
--   `data` (string, optional) - Request body data
--   `options` (HTTPOptions, optional) - Additional request options
-
-**Returns:**
-
--   `response` (HTTPResponse|nil) - Response object or nil on failure
--   `error` (string, optional) - Error message if request failed
-
-**Usage:**
-
-```lua
--- POST JSON data
-local json_data = cjson.encode({ name = "John", age = 30 })
-local response, err = http.post("https://api.example.com/users", json_data, {
-    headers = {
-        ["Content-Type"] = "application/json"
-    }
-})
-
--- POST form data
-local form_data = "username=john&password=secret"
-local response, err = http.post("https://example.com/login", form_data, {
-    headers = {
-        ["Content-Type"] = "application/x-www-form-urlencoded"
-    }
-})
-
--- POST with authentication
-local response, err = http.post("https://api.example.com/submit", '{"data":"value"}', {
-    headers = {
-        ["Content-Type"] = "application/json"
-    },
-    auth = {
-        user = "apiuser",
-        pass = "apipass"
-    }
+-- Custom POST with headers and timeout
+local res, err = http.request("https://api.example.com/submit", {
+  method = "POST",
+  data = '{"key":"value"}',
+  headers = {
+    ["Content-Type"] = "application/json",
+    ["Authorization"] = "Bearer token123"
+  },
+  timeout = 10,
+  verify_ssl = true
 })
 ```
 
 ---
 
-### http.put(url, data, options)
+## get
 
-Make a PUT request.
+### Abstract
 
-**Parameters:**
+Convenience wrapper for making GET requests. Accepts the same options as `request` but defaults to `method = "GET"`.
 
--   `url` (string) - The URL to request
--   `data` (string, optional) - Request body data
--   `options` (HTTPOptions, optional) - Additional request options
+### Parameters
 
-**Returns:**
+| Parameter | Type        | Description              |
+| --------- | :---------: | ------------------------ |
+| url       | string      | URL to request           |
+| options   | HTTPOptions | Optional request options |
 
--   `response` (HTTPResponse|nil) - Response object or nil on failure
--   `error` (string, optional) - Error message if request failed
+### Returns
 
-**Usage:**
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `error` (string | nil) — Error message if request failed
+
+### Usage
 
 ```lua
--- Update a resource with PUT
-local updated_data = cjson.encode({ name = "John Doe", age = 31 })
-local response, err = http.put("https://api.example.com/users/123", updated_data, {
-    headers = {
-        ["Content-Type"] = "application/json",
-        ["Authorization"] = "Bearer token123"
-    }
-})
+local http = require("http")
 
-if response and response.status == 200 then
-    print("Update successful")
+local res, err = http.get("https://api.example.com/users")
+if not res then
+  print("GET failed:", err)
 else
-    print("Update failed:", err or response.status)
+  print("status:", res.status)
+  print("body length:", #res.body)
 end
 
--- PUT with custom options
-local response, err = http.put("https://api.example.com/resource/456", '{"field":"value"}', {
-    headers = {
-        ["Content-Type"] = "application/json"
-    },
-    timeout = 15,
-    verify_ssl = true
+-- With custom headers and timeout
+local res, err = http.get("https://api.example.com/data", {
+  headers = { ["Accept"] = "application/json" },
+  timeout = 5
 })
 ```
 
 ---
 
-### http.delete(url, options)
+## post
 
-Make a DELETE request.
+### Abstract
 
-**Parameters:**
+Convenience wrapper for making POST requests. Sends provided `data` as the request body and accepts `options` to control headers, timeouts, authentication, etc.
 
--   `url` (string) - The URL to request
--   `options` (HTTPOptions, optional) - Additional request options
+### Parameters
 
-**Returns:**
+| Parameter | Type        | Description                  |
+| --------- | :---------: | ---------------------------- |
+| url       | string      | URL to request               |
+| data      | string      | Request body (optional)      |
+| options   | HTTPOptions | Optional request options     |
 
--   `response` (HTTPResponse|nil) - Response object or nil on failure
--   `error` (string, optional) - Error message if request failed
+### Returns
 
-**Usage:**
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `error` (string | nil) — Error message if request failed
+
+### Usage
 
 ```lua
--- Simple DELETE request
-local response, err = http.delete("https://api.example.com/users/123")
-if response and response.status == 204 then
-    print("Resource deleted successfully")
-end
+local http = require("http")
+local cjson = require("cjson")
 
--- DELETE with authorization
-local response, err = http.delete("https://api.example.com/posts/456", {
-    headers = {
-        ["Authorization"] = "Bearer token123"
-    }
+local payload = cjson.encode({ username = "alice", email = "a@example.com" })
+local res, err = http.post("https://api.example.com/register", payload, {
+  headers = { ["Content-Type"] = "application/json" },
+  timeout = 10
 })
 
--- DELETE with error handling
-local response, err = http.delete("https://api.example.com/items/789", {
-    timeout = 10
-})
-
-if not response then
-    print("Request failed:", err)
-elseif response.status == 404 then
-    print("Resource not found")
-elseif response.status == 204 then
-    print("Resource deleted")
+if not res then
+  print("POST failed:", err)
+elseif res.status == 201 then
+  print("created:", res.body)
 else
-    print("Unexpected status:", response.status)
+  print("unexpected status:", res.status)
 end
 ```
+
+---
+
+## put
+
+### Abstract
+
+Convenience wrapper for making PUT requests. Useful for updating resources.
+
+### Parameters
+
+| Parameter | Type        | Description                  |
+| --------- | :---------: | ---------------------------- |
+| url       | string      | URL to request               |
+| data      | string      | Request body (optional)      |
+| options   | HTTPOptions | Optional request options     |
+
+### Returns
+
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `error` (string | nil) — Error message if request failed
+
+### Usage
+
+```lua
+local http = require("http")
+local payload = '{"name":"Updated"}'
+
+local res, err = http.put("https://api.example.com/items/123", payload, {
+  headers = { ["Content-Type"] = "application/json" },
+  timeout = 15
+})
+
+if not res then
+  print("PUT failed:", err)
+elseif res.status == 200 then
+  print("update successful")
+else
+  print("status:", res.status)
+end
+```
+
+---
+
+## delete
+
+### Abstract
+
+Convenience wrapper for making DELETE requests.
+
+### Parameters
+
+| Parameter | Type        | Description                  |
+| --------- | :---------: | ---------------------------- |
+| url       | string      | URL to request               |
+| options   | HTTPOptions | Optional request options     |
+
+### Returns
+
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `error` (string | nil) — Error message if request failed
+
+### Usage
+
+```lua
+local http = require("http")
+
+local res, err = http.delete("https://api.example.com/users/123", {
+  headers = { ["Authorization"] = "Bearer token123" }
+})
+
+if not res then
+  print("DELETE failed:", err)
+elseif res.status == 204 then
+  print("deleted")
+else
+  print("unexpected status:", res.status)
+end
+```
+
+---
 
 ## Common Patterns
 
-### Error Handling
+### Error handling
 
-```lua
-local response, err = http.get("https://api.example.com/data")
-
-if not response then
-    print("Request failed:", err)
-    return
+```/dev/null/examples/error_handling.lua#L1-12
+local http = require("http")
+local res, err = http.get("https://api.example.com/data")
+if not res then
+  print("request failed:", err)
+  return
 end
 
-if response.status >= 200 and response.status < 300 then
-    print("Success:", response.body)
-elseif response.status == 404 then
-    print("Resource not found")
-elseif response.status >= 500 then
-    print("Server error:", response.status)
+if res.status >= 200 and res.status < 300 then
+  print("success")
+elseif res.status == 404 then
+  print("not found")
 else
-    print("Unexpected status:", response.status)
+  print("status:", res.status)
 end
 ```
 
-### Working with JSON APIs
+### JSON APIs
 
-```lua
--- Making a JSON API request
-local payload = cjson.encode({
-    username = "user123",
-    email = "user@example.com"
+```/dev/null/examples/json_api.lua#L1-16
+local http = require("http")
+local cjson = require("cjson")
+
+local payload = cjson.encode({ name = "bob" })
+local res, err = http.post("https://api.example.com/create", payload, {
+  headers = { ["Content-Type"] = "application/json", ["Accept"] = "application/json" }
 })
 
-local response, err = http.post("https://api.example.com/register", payload, {
-    headers = {
-        ["Content-Type"] = "application/json",
-        ["Accept"] = "application/json"
-    }
-})
-
-if response and response.status == 201 then
-    local data = cjson.decode(response.body)
-    print("User ID:", data.id)
+if res and res.status == 201 then
+  local obj = cjson.decode(res.body)
+  print("id:", obj.id)
 end
 ```
 
-### Accessing Response Headers
+### Timeouts and retries
 
-```lua
-local response, err = http.get("https://api.example.com/data")
+- Use `timeout` in the `options` table for per-request control.
+- Implement retries in Lua by wrapping `http.*` calls in a loop with backoff — the native binding intentionally provides a single-request abstraction.
 
-if response then
-    print("Content-Type:", response.headers["content-type"])
-    print("Content-Length:", response.headers["content-length"])
+---
 
-    -- Headers are case-insensitive in HTTP, but stored as-is
-    for key, value in pairs(response.headers) do
-        print(key .. ": " .. value)
-    end
-end
-```
-
-### Using Timeouts
-
-```lua
--- Short timeout for health checks
-local response, err = http.get("https://api.example.com/health", {
-    timeout = 2
-})
-
--- Longer timeout for data processing endpoints
-local response, err = http.post("https://api.example.com/process", data, {
-    timeout = 60
-})
-```
+That's the `http` module — a compact, consistent HTTP client API for Millennium Lua plugins. If you want, I can split the inline examples into real example files under `apps/docs/src/plugins/lua/examples/` and update the code-fence paths accordingly.

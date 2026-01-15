@@ -92,7 +92,7 @@ function RenderHome() {
 									</button>
 								</a>
 							</div>
-							<div className="information-container">
+							{/*<div className="information-container">
 								<div className="information-container-header">INFO</div>
 								<div className="information-container-body">
 									On December 19th, 2025, Valve updated the architecture of the Steam Client from 32bit to 64bit. As a result, some older versions of Millennium will no longer work, and won't be able to auto update. If Millennium is
@@ -101,7 +101,7 @@ function RenderHome() {
 									<br />
 									Thanks for your understanding, and thanks for using Millennium ❤️
 								</div>
-							</div>
+							</div>*/}
 
 							<div className="downloads-container">
 								<strong id="downloads-count">

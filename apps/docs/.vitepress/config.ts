@@ -307,8 +307,15 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 				{
 					text: 'Introduction',
 					items: [
-						{ text: 'Quick Start', link: '/plugins/' },
-						{ text: '', link: '/plugins/setup' },
+						{ text: 'Quick Start', link: '/plugins/introduction/quick-start' },
+						{ text: 'Environment', link: '/plugins/introduction/environment' },
+					],
+				},
+				{
+					text: 'Basic',
+					items: [
+						{ text: 'File Structure', link: '/plugins/structure/file-structure' },
+						{ text: 'Configuring A Plugin', link: '/plugins/structure/config' },
 					],
 				},
 				{
@@ -316,6 +323,9 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 					collapsed: false,
 					items: [
 						{ text: 'millennium', link: '/plugins/lua/millennium' },
+						{ text: 'fs', link: '/plugins/lua/fs' },
+						{ text: 'datetime', link: '/plugins/lua/datetime' },
+						{ text: 'regex', link: '/plugins/lua/regex' },
 						{ text: 'cjson', link: '/plugins/lua/cjson' },
 						{ text: 'http', link: '/plugins/lua/http' },
 						{ text: 'logger', link: '/plugins/lua/logger' },
