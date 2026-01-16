@@ -42,7 +42,7 @@ We officially offer nix package for millennium. Currently, it isn't available in
 1. Add input to your flake:
 
 ```nix
-inputs.millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
+inputs.millennium.url = "github:SteamClientHomebrew/Millennium?dir=packages/nix";
 ```
 
 2. Import millennium overlay:
@@ -56,22 +56,18 @@ nixpkgs.overlays = [ inputs.millennium.overlays.default ];
 ```nix
 programs.steam = {
   enable = true;
-  package = pkgs.steam-millennium;
+  package = pkgs.millennium-steam;
 };
 ```
 
 3.b If you're not using the Steam module, just replace steam with millennium in your list of packages:
 
 ```nix
-environment.systemPackages = with pkgs; [
-# Your other packages...
-steam-millennium
+environment.systemPackages = [
+  # Your other packages...
+  pkgs.millennium-steam
 ];
 ```
-
-::: tip
-If on rebuild you get hash related errors, you should run `nix flake update millennium` command in terminal to download newest git commits for millennium.
-:::
 
 ::: details Other Distributions
 
