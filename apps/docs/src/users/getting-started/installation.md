@@ -36,8 +36,8 @@ After installing Millennium through the AUR, simply launch steam.
 
 We officially offer nix package for millennium. Currently, it isn't available in nixpkgs, but you can use our flake.
 
--   Step 1 is done in flake.nix file.
--   Steps 2, 3.a, 3.b are done in configuration.nix file.
+- Step 1 is done in flake.nix file.
+- Steps 2, 3.a, 3.b are done in configuration.nix file.
 
 1. Add input to your flake:
 
@@ -68,6 +68,8 @@ environment.systemPackages = [
   pkgs.millennium-steam
 ];
 ```
+
+:::
 
 ::: details Other Distributions
 
