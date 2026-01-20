@@ -9,7 +9,7 @@ Starting Steam in developer mode is rather straight forward, all it requires is 
 
 ### Windows
 
-On Windows, many developers choose to create a custom shortcut for Steam to launch it into developer mode. To do this, lookup Steam on the start menu, right click it and open its file location. From there create a copy of the existing Steam shortcut and name it something relevant like **Steam Dev**. Right click your new shortcut and at the end of the target simply add `-dev`. Now, whenever you want to develop your theme, Start steam from this shortcut.
+On Windows, many developers choose to create a custom shortcut for Steam to launch it into developer mode. To do this, lookup Steam on the start menu, right click it and open its file location. From there create a copy of the existing Steam shortcut and name it something relevant like **Steam Dev**. Right click your new shortcut and at the end of the target outside the quotes simply add `-dev` (e.g. `"C:\Program Files (x86)\Steam\steam.exe" -dev`). Now, whenever you want to develop your theme, Start steam from this shortcut.
 
 ### Linux
 
