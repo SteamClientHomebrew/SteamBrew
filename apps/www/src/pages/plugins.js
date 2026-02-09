@@ -24,6 +24,8 @@ function PluginLibrary({ isSteamClient }) {
 	const [tags, setTags] = useState([]);
 	const [sortBy, setSortBy] = useState(1); // Default sorting method
 	const [selectedTags, setSelectedTags] = useState({ label: 'All' });
+	const [searchQuery, setSearchQuery] = useState('');
+	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
 		const fetchData = async () => {
@@ -41,6 +43,12 @@ function PluginLibrary({ isSteamClient }) {
 				});
 
 				setTags(buffer);
+
+				if (searchQuery) {
+					const query = searchQuery.toLowerCase();
+					result = result.filter((item) => item.pluginJson?.common_name?.toLowerCase().includes(query) || item.pluginJson?.description?.toLowerCase().includes(query) || item.repoOwner?.toLowerCase().includes(query));
+				}
+
 				let sorted = [...result];
 				let filteredData = [];
 
@@ -78,11 +86,13 @@ function PluginLibrary({ isSteamClient }) {
 				setCards(cardElements);
 			} catch (error) {
 				console.error('Error fetching data:', error);
+			} finally {
+				setLoading(false);
 			}
 		};
 
 		fetchData();
-	}, [sortBy, selectedTags]);
+	}, [sortBy, selectedTags, searchQuery]);
 
 	const [options, setOptions] = useState([
 		{ value: 1, label: 'Most Downloaded', checked: true },
@@ -130,11 +140,11 @@ function PluginLibrary({ isSteamClient }) {
 				<div className="themes-panel">
 					<div className="themes-left-side">
 						<div className="filter-header">Filter Plugins</div>
-						<form className="header-right search-container">
+						<form className="header-right search-container" onSubmit={(e) => e.preventDefault()} onReset={() => setSearchQuery('')}>
 							<svg className="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
 								<path fillRule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
 							</svg>
-							<input className="search" id="addon-search" type="text" name="search" placeholder="Type here to search..." />
+							<input className="search" id="addon-search" type="text" name="search" placeholder="Type here to search..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
 							<button className="search-clear-btn" type="reset">
 								<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16">
 									<path
@@ -165,25 +175,17 @@ function PluginLibrary({ isSteamClient }) {
 								{tag.label}
 							</div>
 						))}
-
-						<div className="filter-header filter-spacer">Filter Tags</div>
-						<Select
-							className="react-select-container"
-							classNamePrefix="react-select"
-							placeholder="Select tags..."
-							options={tags.map((tag, index) => {
-								return { value: index, label: tag };
-							})}
-							onChange={handleTagChange}
-							value={selectedTags}
-						/>
 					</div>
 					<div className="themes-right-side">
 						<section id="addons-content" className="page-section">
 							<div className="theme-listings">
-								{!cards.length ? (
+								{loading ? (
 									<div className="card-container">
 										<ShowThemeSkeletonCards cardHeight={153} />
+									</div>
+								) : !cards.length ? (
+									<div className="card-container">
+										<p>No results found.</p>
 									</div>
 								) : (
 									<div className="card-container plugin-card-container">
