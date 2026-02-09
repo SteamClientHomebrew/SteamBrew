@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Document() {
 	return (
-		<Html lang="en">
+		<Html lang="en" style={{ backgroundColor: '#0f0f0f' }}>
 			<Head>
 				<link rel="icon" href="/favicon/favicon.svg" type="image/x-icon"></link>
 			</Head>

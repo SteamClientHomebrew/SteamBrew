@@ -33,7 +33,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html lang="en" style={{ backgroundColor: '#0f0f0f' }}>
 			<head>
 				<link rel="icon" href="/favicon/favicon.svg" type="image/x-icon"></link>
 			</head>

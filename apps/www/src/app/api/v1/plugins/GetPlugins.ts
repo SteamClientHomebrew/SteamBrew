@@ -1,4 +1,4 @@
-import { Database, StorageBucket, firebaseAdmin } from '../../Firebase';
+import { Database, StorageBucket } from '../../Firebase';
 import { GetPluginData, PluginDataProps, PluginDataTable } from './GetPluginData';
 import { GetPluginMetadata } from './GetPluginMetadata';
 import { RetrievePluginList } from './GetPluginList';
@@ -10,131 +10,85 @@ const FormatBytes = (bytes: number, decimals = 2) => {
 	return `${(bytes / Math.pow(1024, i)).toFixed(decimals)} ${sizes[i]}`;
 };
 
-// Cache duration: 30 minutes (in milliseconds)
 const CACHE_DURATION_MS = 30 * 60 * 1000;
 
-// Helper function to check if a cache entry is still valid
-const isCacheValid = (timestamp: FirebaseFirestore.Timestamp): boolean => {
-	const now = new Date();
-	const cacheTime = timestamp.toDate();
-	return now.getTime() - cacheTime.getTime() < CACHE_DURATION_MS;
-};
+// In-memory cache — single source of truth, no Firestore round-trips
+let cachedResult: PluginDataTable | null = null;
+let cacheTimestamp = 0;
 
-// Interface for plugin cache entry
-interface PluginCacheEntry {
-	data: PluginDataTable;
-	timestamp: FirebaseFirestore.Timestamp;
-	expiresAt: FirebaseFirestore.Timestamp;
-}
+// In-flight promise — deduplicates concurrent requests so only one fetch runs at a time
+let inflightFetch: Promise<PluginDataTable> | null = null;
 
-// Function to get cached plugin data
-const getCachedPluginData = async (): Promise<PluginDataTable | null> => {
-	try {
-		const docRef = Database.collection('PluginCache').doc('allPlugins');
-		const doc = await docRef.get();
+const fetchFreshPlugins = async (): Promise<PluginDataTable> => {
+	console.log('Cache miss — fetching fresh plugin data');
 
-		if (!doc.exists) {
-			return null;
-		}
+	const pluginList = await RetrievePluginList();
 
-		const data = doc.data() as PluginCacheEntry;
-		if (data && isCacheValid(data.timestamp)) {
-			console.log('Found valid cached plugin data');
-			return data.data;
-		} else if (data) {
-			// Remove expired entry
-			await docRef.delete();
-			console.log('Removed expired plugin cache entry');
-		}
+	const [metadata, pluginData] = await Promise.all([GetPluginMetadata(), GetPluginData(pluginList)]);
+	const [files, downloadDocs] = await Promise.all([StorageBucket.getFiles({ prefix: 'plugins/' }), Database.collection('downloads').get()]);
 
-		return null;
-	} catch (error) {
-		console.error('Error retrieving cached plugin data:', error);
-		return null;
-	}
-};
+	// Build lookup maps once instead of scanning per-plugin
+	const fileMetadataMap = new Map<string, any>();
+	await Promise.all(
+		files[0].map(async (file) => {
+			const [meta] = await file.getMetadata();
+			fileMetadataMap.set(file.name, meta);
+		}),
+	);
 
-// Function to cache plugin data
-const setCachedPluginData = async (data: PluginDataTable): Promise<void> => {
-	try {
-		const docRef = Database.collection('PluginCache').doc('allPlugins');
-		const now = new Date();
-
-		const cacheEntry: PluginCacheEntry = {
-			data,
-			timestamp: firebaseAdmin.firestore.Timestamp.fromDate(now),
-			expiresAt: firebaseAdmin.firestore.Timestamp.fromDate(new Date(now.getTime() + CACHE_DURATION_MS)),
-		};
-
-		await docRef.set(cacheEntry);
-		console.log(`Cached plugin data for ${CACHE_DURATION_MS / (1000 * 60)} minutes`);
-	} catch (error) {
-		console.error('Error caching plugin data:', error);
-	}
-};
-
-export const FetchPlugins = async () => {
-	return new Promise<PluginDataTable>(async (resolve, reject) => {
-		try {
-			// Try to get cached data first
-			const cachedData = await getCachedPluginData();
-			if (cachedData) {
-				resolve(cachedData);
-				return;
-			}
-
-			// Cache miss - fetch fresh data
-			console.log('Cache miss - fetching fresh plugin data');
-
-			const pluginList = await RetrievePluginList();
-
-			const [metadata, pluginData] = await Promise.all([GetPluginMetadata(), GetPluginData(pluginList)]);
-			const [files, downloadDocs] = await Promise.all([StorageBucket.getFiles({ prefix: 'plugins/' }), Database.collection('downloads').get()]);
-
-			const fileMetadataMap = new Map();
-			const downloadCounts = {};
-
-			await Promise.all(
-				files[0].map(async (file) => {
-					const [metadata] = await file.getMetadata();
-					fileMetadataMap.set(file.name, metadata);
-				}),
-			);
-
-			downloadDocs.forEach((doc) => {
-				downloadCounts[doc.id] = doc.data().downloadCount || 0;
-			});
-
-			for (const key in pluginData) {
-				const data = metadata.find((meta) => meta.commitId === pluginData[key].id);
-				if (data) {
-					const pluginId = data.id.substring(0, 12);
-					const initCommitId = data.id;
-					const filePath = `plugins/${initCommitId}.zip`;
-					const fileMetadata = fileMetadataMap.get(filePath);
-
-					if (fileMetadata) {
-						pluginData[key].downloadSize = FormatBytes(fileMetadata.size);
-					}
-
-					pluginData[key].downloadCount = downloadCounts[initCommitId] ?? 0;
-					pluginData[key].id = pluginId;
-					pluginData[key].commitId = data.commitId;
-					pluginData[key].initCommitId = initCommitId;
-				}
-			}
-
-			const result: PluginDataTable = { pluginData, metadata };
-
-			// Cache the result (fire and forget)
-			setCachedPluginData(result).catch((error) => {
-				console.error('Failed to cache plugin data:', error);
-			});
-
-			resolve(result);
-		} catch (error) {
-			console.error('An error occurred while processing plugins:', error);
-			reject(error);
-		}
+	const downloadCounts = new Map<string, number>();
+	downloadDocs.forEach((doc) => {
+		downloadCounts.set(doc.id, doc.data().downloadCount || 0);
 	});
+
+	const metadataByCommit = new Map(metadata.map((m) => [m.commitId, m]));
+
+	for (const plugin of pluginData) {
+		const meta = metadataByCommit.get(plugin.id);
+		if (!meta) {
+			console.warn(`Plugin ${plugin.repoOwner}/${plugin.repoName} has no metadata entry (commitId: ${plugin.id})`);
+			continue;
+		}
+
+		const initCommitId = meta.id;
+		const filePath = `plugins/${initCommitId}.zip`;
+		const fileMetadata = fileMetadataMap.get(filePath);
+
+		if (fileMetadata) {
+			plugin.downloadSize = FormatBytes(fileMetadata.size);
+		}
+
+		plugin.downloadCount = downloadCounts.get(initCommitId) ?? 0;
+		plugin.id = initCommitId.substring(0, 12);
+		plugin.commitId = meta.commitId;
+		plugin.initCommitId = initCommitId;
+	}
+
+	return { pluginData, metadata };
+};
+
+export const FetchPlugins = async (): Promise<PluginDataTable> => {
+	// Return cached data if still valid
+	if (cachedResult && Date.now() - cacheTimestamp < CACHE_DURATION_MS) {
+		console.log('Returning in-memory cached plugin data');
+		return cachedResult;
+	}
+
+	// If another request is already fetching, wait for it instead of starting a duplicate
+	if (inflightFetch) {
+		console.log('Waiting on in-flight fetch');
+		return inflightFetch;
+	}
+
+	inflightFetch = fetchFreshPlugins()
+		.then((result) => {
+			cachedResult = result;
+			cacheTimestamp = Date.now();
+			return result;
+		})
+		.finally(() => {
+			inflightFetch = null;
+		});
+
+	return inflightFetch;
 };
