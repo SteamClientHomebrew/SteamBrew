@@ -10,14 +10,6 @@ import { useEffect } from 'react';
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
-// I hate this thing, so I'll import the images manually, feel free to map it -claw
-import headerMain from '../assets/images/headerMain.webp';
-import gameLib from '../assets/images/gameLib.webp';
-import frontStore from '../assets/images/frontStore.webp';
-import gameStore from '../assets/images/gameStore.webp';
-import friendsChat from '../assets/images/friendsChat.webp';
-import tweakOptions from '../assets/images/tweakOptions.webp';
-
 export async function getServerSideProps(context) {
 	const isSteamClient = /Valve Steam Client/.test(context.req.headers['user-agent']);
 	return {
@@ -162,37 +154,34 @@ export default function FluentyViewModal({ isSteamClient }) {
 
 													<p>Thanks for understanding, and we hope you enjoy the theme ❤️</p>
 
-													<a href={headerMain.src} target="_blank" data-fancybox>
-														<img src={headerMain.src} alt="Steam Skin" />
+													<a href="https://i.imgur.com/ca6ncMp.gif" target="_blank" data-fancybox>
+														<img src="https://i.imgur.com/ca6ncMp.gif" alt="Steam Skin" />
 													</a>
 													<div className="FluentyImageContainer">
-														<a href={gameLib.src} target="_blank" data-fancybox>
-															<img src={gameLib.src} alt="Steam Skin" />
+														<a href="https://i.imgur.com/ZbhJmIT.gif" target="_blank" data-fancybox>
+															<img src="https://i.imgur.com/ZbhJmIT.gif" alt="Steam Skin" />
 														</a>
-														<a href={friendsChat.src} target="_blank" data-fancybox>
-															<img src={friendsChat.src} alt="Steam Skin" />
-														</a>
-													</div>
-													<div className="FluentyImageContainer">
-														<a href={frontStore.src} target="_blank" data-fancybox>
-															<img src={frontStore.src} alt="Steam Skin" />
-														</a>
-														<a href={gameStore.src} target="_blank" data-fancybox>
-															<img src={gameStore.src} alt="Steam Skin" />
+														<a href="https://i.imgur.com/VB83oTU.gif" target="_blank" data-fancybox>
+															<img src="https://i.imgur.com/VB83oTU.gif" alt="Steam Skin" />
 														</a>
 													</div>
 												</div>
 												<h2>Installing</h2>
-												<p>Purchase the theme through patreon subscription.</p>
-												<p>Cancelling the subscription results in keeping the theme, however you will not receive future updates unless you resubscribe.</p>
+												<p>Purchase the theme through patreon subscription</p>
+												<p>Cancelling the subscription results in keeping the theme, however you will not receive future updates unless you resubscribe</p>
 												<p>Once subscribed, download the latest listed version and then open Millennium and click the open skins folder. Drag the downloaded theme into that directory and proceed to extract it.</p>
 												<p>Select it from the menu and your good to go!</p>
 												<h2>Configuration</h2>
-												<p>Fluenty comes with various tweak options that you can customize.</p>
-												<p>You can find more options once you have fluenty installed by going to the theme's settings. Below are the examples of fluenty's sidebar options and the play game button alignment.</p>
-												<a href={tweakOptions.src} target="_blank" data-fancybox>
-													<img src={tweakOptions.src} alt="Steam Skin" />
-												</a>
+												<p>Fluenty comes with 2 built in styles. Compact, and Spacious.</p>
+												<p>To change between the two head over to the millennium interface and click edit on Fluenty, then deselect/select the compact view appropriately</p>
+												<div className="FluentyImageContainer">
+													<a href="https://i.imgur.com/ca6ncMp.gif" target="_blank" data-fancybox>
+														<img src="https://i.imgur.com/ca6ncMp.gif" alt="Steam Skin" />
+													</a>
+													<a href="https://i.imgur.com/9U9Vq5x.gif" target="_blank" data-fancybox>
+														<img src="https://i.imgur.com/9U9Vq5x.gif" alt="Steam Skin" />
+													</a>
+												</div>
 												<h2>Notice</h2>
 												<p>Fluenty is very close to being finished, however it's still in development and not everything is perfect. expect bugs and report them in the discord server if you encounter any!</p>
 												<br />
