@@ -65,7 +65,6 @@ export const getServerSideProps = async (context) => {
 	const isSteamClient = /Valve Steam Client/.test(context.req.headers['user-agent']);
 
 	try {
-		console.log(API_URL + `/api/v1/plugin/` + context.query.id);
 		const response = await fetch(API_URL + `/api/v1/plugin/` + context.query.id);
 		const pluginData = await response.json();
 

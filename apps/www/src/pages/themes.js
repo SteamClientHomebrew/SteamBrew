@@ -33,8 +33,6 @@ function ThemeLibrary({ isSteamClient }) {
 				const response = await fetch(API_URL + '/api/v2');
 				let result = await response.json();
 
-				console.log(result);
-
 				const buffer = ['All'];
 				result.forEach((theme) => {
 					theme?.tags?.forEach((tag) => {
@@ -48,11 +46,7 @@ function ThemeLibrary({ isSteamClient }) {
 
 				if (searchQuery) {
 					const query = searchQuery.toLowerCase();
-					result = result.filter((item) =>
-						(item.name?.toLowerCase().includes(query)) ||
-						(item.description?.toLowerCase().includes(query)) ||
-						(item.data?.github?.owner?.toLowerCase().includes(query))
-					);
+					result = result.filter((item) => item.name?.toLowerCase().includes(query) || item.description?.toLowerCase().includes(query) || item.data?.github?.owner?.toLowerCase().includes(query));
 				}
 
 				let sorted = [...result];
@@ -65,8 +59,6 @@ function ThemeLibrary({ isSteamClient }) {
 				} else {
 					filteredData = result;
 				}
-
-				console.log(filteredData);
 
 				switch (sortBy) {
 					case 1: // Most Downloaded
@@ -111,7 +103,6 @@ function ThemeLibrary({ isSteamClient }) {
 	const toggleCheckbox = (index) => {
 		const updatedOptions = options.map((option) => {
 			if (option.value === index) {
-				console.log('updating index ', option.label, option.checked);
 				setSortBy(option.value);
 				return { ...option, checked: !option.checked };
 			} else {

@@ -68,15 +68,11 @@ const fetchFreshPlugins = async (): Promise<PluginDataTable> => {
 };
 
 export const FetchPlugins = async (): Promise<PluginDataTable> => {
-	// Return cached data if still valid
 	if (cachedResult && Date.now() - cacheTimestamp < CACHE_DURATION_MS) {
-		console.log('Returning in-memory cached plugin data');
 		return cachedResult;
 	}
 
-	// If another request is already fetching, wait for it instead of starting a duplicate
 	if (inflightFetch) {
-		console.log('Waiting on in-flight fetch');
 		return inflightFetch;
 	}
 

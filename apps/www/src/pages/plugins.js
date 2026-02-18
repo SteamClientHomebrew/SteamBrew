@@ -60,8 +60,6 @@ function PluginLibrary({ isSteamClient }) {
 					filteredData = result;
 				}
 
-				console.log(filteredData);
-
 				switch (sortBy) {
 					case 1: // Most Downloaded
 						sorted = filteredData.sort((a, b) => (b?.downloadCount ?? 0) - (a?.downloadCount ?? 0));
@@ -105,7 +103,6 @@ function PluginLibrary({ isSteamClient }) {
 	const toggleCheckbox = (index) => {
 		const updatedOptions = options.map((option) => {
 			if (option.value === index) {
-				console.log('updating index ', option.label, option.checked);
 				setSortBy(option.value);
 				return { ...option, checked: !option.checked };
 			} else {

@@ -16,13 +16,6 @@ const createCacheKey = (query: string): string => {
 
 	const queryTypePrefix = normalizedQuery.includes('repository(owner:') ? 'single_' : normalizedQuery.includes('_0: repository') ? 'batch_' : 'other_';
 	const cacheKey = `${queryTypePrefix}${hash}`;
-
-	console.log('=== CACHE KEY DEBUG ===');
-	console.log('Query preview:', normalizedQuery.substring(0, 100) + '...');
-	console.log('Generated cache key:', cacheKey);
-	console.log('Query type detected:', queryTypePrefix.replace('_', ''));
-	console.log('=======================');
-
 	return cacheKey;
 };
 
@@ -54,12 +47,9 @@ const getCachedData = async (cacheKey: string) => {
 
 		const data = doc.data();
 		if (data && isCacheEntryValid(data.timestamp)) {
-			console.log('Found valid cached GraphQL response');
 			return data.response;
 		} else if (data) {
-			// Remove expired entry
 			await docRef.delete();
-			console.log('Removed expired cache entry');
 		}
 
 		return null;
@@ -80,8 +70,6 @@ const setCachedData = async (cacheKey: string, response: any, query: string) => 
 			timestamp: new Date(),
 			expiresAt: new Date(Date.now() + CACHE_DURATION_MS),
 		});
-
-		console.log(`Cached GraphQL response in Firestore for ${CACHE_DURATION_MS / (1000 * 60)} minutes`);
 	} catch (error) {
 		console.error('Error caching data:', error);
 	}
@@ -99,7 +87,6 @@ const GithubGraphQL = {
 			const snapshot = await expiredQuery.get();
 
 			if (snapshot.empty) {
-				console.log('No expired cache entries found');
 				return;
 			}
 
@@ -109,7 +96,6 @@ const GithubGraphQL = {
 			});
 
 			await batch.commit();
-			console.log(`Cleaned up ${snapshot.size} expired GraphQL cache entries`);
 		} catch (error) {
 			console.error('Error cleaning up expired cache:', error);
 		}
@@ -119,7 +105,6 @@ const GithubGraphQL = {
 		try {
 			const db = getDatabase();
 			if (!db) {
-				console.log('Database not available');
 				return;
 			}
 
@@ -131,7 +116,6 @@ const GithubGraphQL = {
 			});
 
 			await batch.commit();
-			console.log(`Cleared ${snapshot.size} GraphQL cache entries`);
 		} catch (error) {
 			console.error('Error clearing GraphQL cache:', error);
 		}
@@ -216,7 +200,6 @@ const GithubGraphQL = {
 				});
 
 				const json = await response.json();
-				console.log('GraphQL Response with Rate Limit:', JSON.stringify(json.data?.rateLimit, null, 2));
 
 				if (json.data && json.data.rateLimit) {
 					const { rateLimit, ...dataWithoutRateLimit } = json.data;
