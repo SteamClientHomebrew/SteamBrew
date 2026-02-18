@@ -62,7 +62,7 @@ function DisplayFluentyAd() {
 		<>
 			<a className="card-wrap" ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
 				<div className="card" onClick={() => (window.location.href = '/fluenty-steam')} onContextMenu={handleContextMenu} style={{ width: '100%', height: '100%' }}>
-					<img loading="lazy" className="card-image" src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/mainHeader.jpg" data-holder-rendered="true" />
+					<img loading="lazy" className="card-image" src="https://i.imgur.com/2aAaAES.gif" data-holder-rendered="true" />
 					<div className="card-body">
 						<h3 className="card-title">Fluenty</h3>
 						<p className="card-description package-description">{fluenty.description}</p>
