@@ -154,34 +154,36 @@ export default function FluentyViewModal({ isSteamClient }) {
 
 													<p>Thanks for understanding, and we hope you enjoy the theme ❤️</p>
 
-													<a href="https://i.imgur.com/ca6ncMp.gif" target="_blank" data-fancybox>
-														<img src="https://i.imgur.com/ca6ncMp.gif" alt="Steam Skin" />
+													<a href="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/mainHeader.jpg" target="_blank" data-fancybox>
+														<img src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/mainHeader.jpg" alt="Steam Skin" />
 													</a>
 													<div className="FluentyImageContainer">
-														<a href="https://i.imgur.com/ZbhJmIT.gif" target="_blank" data-fancybox>
-															<img src="https://i.imgur.com/ZbhJmIT.gif" alt="Steam Skin" />
+														<a href="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/gameLib.jpg" target="_blank" data-fancybox>
+															<img src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/gameLib.jpg" alt="Steam Skin" />
 														</a>
-														<a href="https://i.imgur.com/VB83oTU.gif" target="_blank" data-fancybox>
-															<img src="https://i.imgur.com/VB83oTU.gif" alt="Steam Skin" />
+														<a href="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/friendsChat.jpg" target="_blank" data-fancybox>
+															<img src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/friendsChat.jpg" alt="Steam Skin" />
+														</a>
+													</div>
+													<div className="FluentyImageContainer">
+														<a href="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/storePage.jpg" target="_blank" data-fancybox>
+															<img src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/storePage.jpg" alt="Steam Skin" />
+														</a>
+														<a href="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/gameStorePage.jpg" target="_blank" data-fancybox>
+															<img src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/gameStorePage.jpg" alt="Steam Skin" />
 														</a>
 													</div>
 												</div>
 												<h2>Installing</h2>
-												<p>Purchase the theme through patreon subscription</p>
-												<p>Cancelling the subscription results in keeping the theme, however you will not receive future updates unless you resubscribe</p>
+												<p>Purchase the theme through patreon subscription.</p>
+												<p>Cancelling the subscription results in keeping the theme, however you will not receive future updates unless you resubscribe.</p>
 												<p>Once subscribed, download the latest listed version and then open Millennium and click the open skins folder. Drag the downloaded theme into that directory and proceed to extract it.</p>
 												<p>Select it from the menu and your good to go!</p>
 												<h2>Configuration</h2>
-												<p>Fluenty comes with 2 built in styles. Compact, and Spacious.</p>
-												<p>To change between the two head over to the millennium interface and click edit on Fluenty, then deselect/select the compact view appropriately</p>
-												<div className="FluentyImageContainer">
-													<a href="https://i.imgur.com/ca6ncMp.gif" target="_blank" data-fancybox>
-														<img src="https://i.imgur.com/ca6ncMp.gif" alt="Steam Skin" />
-													</a>
-													<a href="https://i.imgur.com/9U9Vq5x.gif" target="_blank" data-fancybox>
-														<img src="https://i.imgur.com/9U9Vq5x.gif" alt="Steam Skin" />
-													</a>
-												</div>
+												<p>Fluenty comes with various tweak options that you can customize.</p>
+												<p>You can find more options once you have fluenty installed by going to the theme's settings. Below are the examples of fluenty's sidebar options and the play game button alignment.</p><a href="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/tweakOptions.jpg" target="_blank" data-fancybox>
+													<img src="https://raw.githubusercontent.com/SteamClientHomebrew/SteamBrew/refs/heads/main/apps/www/src/media/images/tweakOptions.jpg" alt="Steam Skin" />
+												</a>
 												<h2>Notice</h2>
 												<p>Fluenty is very close to being finished, however it's still in development and not everything is perfect. expect bugs and report them in the discord server if you encounter any!</p>
 												<br />
