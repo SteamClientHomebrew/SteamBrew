@@ -171,7 +171,7 @@ Convenience wrapper for making POST requests. Sends provided `data` as the reque
 
 ```lua
 local http = require("http")
-local cjson = require("cjson")
+local cjson = require("json")
 
 local payload = cjson.encode({ username = "alice", email = "a@example.com" })
 local res, err = http.post("https://api.example.com/register", payload, {
@@ -294,7 +294,7 @@ end
 
 ```/dev/null/examples/json_api.lua#L1-16
 local http = require("http")
-local cjson = require("cjson")
+local cjson = require("json")
 
 local payload = cjson.encode({ name = "bob" })
 local res, err = http.post("https://api.example.com/create", payload, {

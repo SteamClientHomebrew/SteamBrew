@@ -41,7 +41,7 @@ local cjson = require("json")
 ## Usage
 
 ```lua
-local cjson = require("cjson")
+local cjson = require("json")
 
 local json = cjson.encode({ name = "Alice", online = true })
 local obj  = cjson.decode('{"name":"Alice","online":true}')
