@@ -44,12 +44,12 @@ This reference page covers the config types available in `plugin.json`. If you'r
     <tr>
       <td>backend</td>
       <td>❌</td>
-      <td>The relative path to the frontend directory. If not provided, the default folder is <code>frontend</code>.</td>
+      <td>The relative path to the backend directory. If not provided, the default folder is <code>backend</code>.</td>
     </tr>
     <tr>
       <td>frontend</td>
       <td>❌</td>
-      <td>The relative path to the backend directory. If not provided, the default folder is <code>backend</code>.</td>
+      <td>The relative path to the frontend directory. If not provided, the default folder is <code>frontend</code>.</td>
     </tr>
     <tr>
       <td>backendType</td>
