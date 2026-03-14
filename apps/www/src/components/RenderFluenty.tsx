@@ -60,8 +60,8 @@ function DisplayFluentyAd() {
 
 	return (
 		<>
-			<a className="card-wrap" ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
-				<a className="card" href="/fluenty-steam" onContextMenu={handleContextMenu} style={{ width: '100%', height: '100%' }}>
+			<a className="card-wrap" href="/fluenty-steam" ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
+				<div className="card" onContextMenu={handleContextMenu} style={{ width: '100%', height: '100%' }}>
 					<img loading="lazy" className="card-image" src="https://i.imgur.com/2aAaAES.gif" data-holder-rendered="true" />
 					<div className="card-body">
 						<h3 className="card-title">Fluenty</h3>
@@ -88,7 +88,7 @@ function DisplayFluentyAd() {
 						</svg>
 						<span className="downloadTagText">{fluenty.downloads}</span>
 					</div>
-				</a>
+				</div>
 				{contextMenu.visible && (
 					<ul
 						className="custom-context-menu"
