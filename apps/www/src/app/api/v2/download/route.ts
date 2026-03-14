@@ -1,25 +1,25 @@
 import { Firebase } from '../../Firebase';
+import { FieldValue } from 'firebase-admin/firestore';
 
 const IncrementDownload = async (requestBody) => {
-	return new Promise(async (resolve, reject) => {
-		const data = await Firebase.FromRepository(requestBody.owner, requestBody.repo);
+	const data = await Firebase.FromRepository(requestBody.owner, requestBody.repo);
 
-		if (!data.docs.length) {
-			reject("couldn't find doc from collection");
-		}
+	if (!data.docs.length) {
+		throw new Error("couldn't find doc from collection");
+	}
 
-		const doc = data.docs.at(0)!;
-		const count = isNaN(doc.data().download) ? 0 : doc.data().download + 1;
+	const doc = data.docs.at(0)!;
+	await doc.ref.update({ download: FieldValue.increment(1) });
 
-		doc.ref.update({ download: count });
+	const updated = await doc.ref.get();
+	const count = updated.data()?.download ?? 0;
 
-		resolve({
-			success: true,
-			data: {
-				count: count,
-			},
-		});
-	});
+	return {
+		success: true,
+		data: {
+			count: count,
+		},
+	};
 };
 
 export async function POST(request: Request) {

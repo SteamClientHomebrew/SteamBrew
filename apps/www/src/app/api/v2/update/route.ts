@@ -1,31 +1,38 @@
 import { Firebase } from '../../Firebase';
-import { FetchThemes } from '../FetchThemes';
+import { GithubGraphQL } from '../GraphQLInterop';
+import { FieldValue } from 'firebase-admin/firestore';
 
-export const revalidate = 1800;
+export const revalidate = 60;
 
 async function GetThemeUpdate(requestBody: any) {
-	const themes = await FetchThemes();
-	const theme = themes.find((t) => t.owner === requestBody.owner && t.repo === requestBody.repo);
-
-	if (!theme) {
-		throw new Error("couldn't find theme");
-	}
-
+	const json = await GithubGraphQL.Post(`{
+		repository(owner: "${requestBody.owner}", name: "${requestBody.repo}") {
+			defaultBranchRef {
+				name
+				target { oid }
+			}
+		}
+	}`);
 	const data = await Firebase.FromRepository(requestBody.owner, requestBody.repo);
+
 	if (!data.docs.length) {
 		throw new Error("couldn't find doc from collection");
 	}
 
 	const doc = data.docs.at(0)!;
-	const count = isNaN(doc.data().download) ? 0 : doc.data().download + 1;
-	doc.ref.update({ download: count });
+
+	// update the download count atomically
+	await doc.ref.update({ download: FieldValue.increment(1) });
+
+	const updated = await doc.ref.get();
+	const count = updated.data()?.download ?? 0;
 
 	return {
 		success: true,
 		data: {
-			download: `https://github.com/${theme.owner}/${theme.repo}/archive/refs/heads/${theme.defaultBranch}.zip`,
-			rest: `https://api.github.com/repos/${theme.owner}/${theme.repo}/commits/${theme.latestCommitOid}`,
-			latestHash: theme.latestCommitOid,
+			download: `https://github.com/${requestBody.owner}/${requestBody.repo}/archive/refs/heads/${json?.data?.repository?.defaultBranchRef?.name}.zip`,
+			rest: `https://api.github.com/repos/${requestBody.owner}/${requestBody.repo}/commits/${json?.data?.repository?.defaultBranchRef?.target?.oid}`,
+			latestHash: json?.data?.repository?.defaultBranchRef?.target?.oid ?? null,
 			count: count,
 		},
 	};

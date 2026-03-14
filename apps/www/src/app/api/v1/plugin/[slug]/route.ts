@@ -1,7 +1,7 @@
 import { StorageBucket } from '../../../Firebase';
 import { FetchPlugins } from '../../plugins/GetPlugins';
 
-export const revalidate = 1800;
+export const revalidate = 60;
 
 const FindPlugin = async (id: string) => {
 	const plugin = (await FetchPlugins()).pluginData.find((plugin) => plugin.id === id);

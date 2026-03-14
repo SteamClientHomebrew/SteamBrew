@@ -1,6 +1,6 @@
 import { FetchThemes } from './FetchThemes';
 
-export const revalidate = 1800;
+export const revalidate = 60;
 
 export async function GET(request: Request) {
 	const themes = await FetchThemes();
