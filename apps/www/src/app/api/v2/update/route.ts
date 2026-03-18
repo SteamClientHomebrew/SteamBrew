@@ -23,7 +23,7 @@ async function GetThemeUpdate(requestBody: any) {
 	return {
 		success: true,
 		data: {
-			download: `https://github.com/${theme.owner}/${theme.repo}/archive/refs/heads/${theme.defaultBranch}.zip`,
+			download: `https://github.com/${theme.owner}/${theme.repo}/archive/${theme.latestCommitOid}.zip`,
 			rest: `https://api.github.com/repos/${theme.owner}/${theme.repo}/commits/${theme.latestCommitOid}`,
 			latestHash: theme.latestCommitOid,
 			count: count,

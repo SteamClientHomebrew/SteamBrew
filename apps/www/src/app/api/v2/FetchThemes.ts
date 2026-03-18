@@ -122,7 +122,7 @@ async function fetchFreshThemes(): Promise<ThemeData[]> {
 			skinJson,
 			readme: repo.read_me?.text ?? null,
 			listingStyle: repo.listing_style?.text ?? null,
-			downloadUrl: `https://codeload.github.com/${doc.github.owner}/${doc.github.repo}/zip/refs/heads/${defaultBranch}`,
+			downloadUrl: `https://codeload.github.com/${doc.github.owner}/${doc.github.repo}/zip/${target?.oid ?? defaultBranch}`,
 		});
 	}
 
