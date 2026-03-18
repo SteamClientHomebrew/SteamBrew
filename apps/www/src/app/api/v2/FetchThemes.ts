@@ -88,6 +88,11 @@ async function fetchFreshThemes(): Promise<ThemeData[]> {
 
 	const result = await GithubGraphQL.Post(query);
 
+	if (!result.data) {
+		console.error('GraphQL response missing data:', JSON.stringify(result).slice(0, 500));
+		return [];
+	}
+
 	const themes: ThemeData[] = [];
 	for (const [key, repo] of Object.entries(result.data) as [string, any][]) {
 		const index = parseInt(key.slice(1), 10);

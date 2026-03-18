@@ -1,6 +1,6 @@
 import { FetchThemes, ThemeData } from '../../FetchThemes';
 
-export const revalidate = 1800;
+export const revalidate = 60;
 
 interface DiscordInfo {
 	name?: string;

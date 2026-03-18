@@ -10,7 +10,8 @@ const FormatBytes = (bytes: number, decimals = 2) => {
 	return `${(bytes / Math.pow(1024, i)).toFixed(decimals)} ${sizes[i]}`;
 };
 
-const CACHE_DURATION_MS = 30 * 60 * 1000;
+// Cache duration: 5 minutes (in milliseconds)
+const CACHE_DURATION_MS = 5 * 60 * 1000;
 
 // In-memory cache — single source of truth, no Firestore round-trips
 let cachedResult: PluginDataTable | null = null;

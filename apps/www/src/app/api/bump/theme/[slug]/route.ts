@@ -1,4 +1,5 @@
 import { FieldValue } from 'firebase-admin/firestore';
+import { Database } from '../../../Firebase';
 
 function withCORS(response: Response): Response {
 	response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');

@@ -1,5 +1,5 @@
-// Cache duration: 45 minutes (in milliseconds)
-const CACHE_DURATION_MS = 45 * 60 * 1000;
+// Cache duration: 30 minutes (in milliseconds)
+const CACHE_DURATION_MS = 30 * 60 * 1000;
 
 const simpleHash = (str: string): string => {
 	let hash = 5381;
@@ -174,8 +174,14 @@ const GithubGraphQL = {
 
 				const cachedResponse = await getCachedData(cacheKey);
 				if (cachedResponse) {
-					resolve(cachedResponse);
-					return;
+					if (!cachedResponse.data) {
+						console.warn('Evicting bad cached response for key:', cacheKey);
+						const db = getDatabase();
+						if (db) await db.collection('GraphQLCache').doc(cacheKey).delete();
+					} else {
+						resolve(cachedResponse);
+						return;
+					}
 				}
 
 				const rateLimitFields = `
@@ -206,9 +212,11 @@ const GithubGraphQL = {
 					json.data = dataWithoutRateLimit;
 				}
 
-				setCachedData(cacheKey, json, body).catch((error) => {
-					console.error('Failed to cache response:', error);
-				});
+				if (json.data) {
+					setCachedData(cacheKey, json, body).catch((error) => {
+						console.error('Failed to cache response:', error);
+					});
+				}
 
 				resolve(json);
 			} catch (error) {

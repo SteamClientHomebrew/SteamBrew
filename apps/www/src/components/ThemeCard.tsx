@@ -19,10 +19,6 @@ function CreateCard(item) {
 		}
 	}
 
-	const openPopup = () => {
-		window.location.href = `/theme?id=${data.data.id}`;
-	};
-
 	const openInNewTab = (e) => {
 		window.open(`/theme?id=${data.data.id}`, '_blank');
 		setContextMenu({ ...contextMenu, visible: false });
@@ -75,7 +71,7 @@ function CreateCard(item) {
 
 	return (
 		<>
-			<a className="card-wrap" onClick={openPopup} onContextMenu={handleContextMenu} ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
+			<a className="card-wrap" href={`/theme?id=${data.data.id}`} onContextMenu={handleContextMenu} ref={cardRef} tabIndex={0} style={{ position: 'relative', userSelect: 'none' }}>
 				<div className="card" style={{ width: '100%', height: '100%' }}>
 					<img
 						loading="lazy"

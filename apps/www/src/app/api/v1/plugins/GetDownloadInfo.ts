@@ -5,7 +5,7 @@ const GetDownloadInfo = async () => {
 				Authorization: process.env.BEARER!,
 				'Content-Type': 'application/json',
 			},
-			next: { revalidate: 1800 },
+			next: { revalidate: 300 },
 		})
 			.then((text) => text.json())
 			.then((data) => {
