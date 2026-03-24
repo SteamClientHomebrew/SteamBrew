@@ -24,12 +24,12 @@ This reference page covers the config types available in `plugin.json`. If you'r
     <tr>
       <td>common_name</td>
       <td>✅</td>
-      <td>The human readable name of your plugin - this is what will show in Millennium's plugin manager</td>
+      <td>The human-readable name of your plugin - this is what will show in Millennium's plugin manager</td>
     </tr>
     <tr>
       <td>description</td>
       <td>✅</td>
-      <td>The human readable description of your plugin - this is what will show in Millennium's plugin manager</td>
+      <td>The human-readable description of your plugin - this is what will show in Millennium's plugin manager</td>
     </tr>
     <tr>
       <td>version</td>
@@ -44,17 +44,17 @@ This reference page covers the config types available in `plugin.json`. If you'r
     <tr>
       <td>backend</td>
       <td>❌</td>
-      <td>The relative path to the frontend directory. If not provided, the default folder is <code>frontend</code>.</td>
+      <td>The relative path to the backend directory. If not provided, the default folder is <code>backend</code>.</td>
     </tr>
     <tr>
       <td>frontend</td>
       <td>❌</td>
-      <td>The relative path to the backend directory. If not provided, the default folder is <code>backend</code>.</td>
+      <td>The relative path to the frontend directory. If not provided, the default folder is <code>frontend</code>.</td>
     </tr>
     <tr>
       <td>backendType</td>
       <td>❌</td>
-      <td>Either <code>lua</code> or <code>python</code>. All new Millennium plugins - including yours - needs to be written in Lua. 
+      <td>Either <code>lua</code> or <code>python</code>. All new Millennium plugins - including yours - need to be written in Lua. 
       This option is simply for compatibility with legacy plugins. Python support will be completely dropped in a future release.</td>
     </tr>
   </tbody>
