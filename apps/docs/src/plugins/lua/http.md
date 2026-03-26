@@ -4,7 +4,11 @@ order: 1
 
 # http
 
-HTTP client module for Millennium Lua plugins. Provides a simple, flexible API for making HTTP requests (built on libcurl in the native implementation).
+HTTP client module for Millennium Lua plugins. Provides a simple, flexible API for making HTTP requests. Requests are executed in the parent Millennium process via RPC — the Lua sandbox itself does not link libcurl.
+
+::: info Response body limit
+`request`, `get`, `post`, `put`, and `delete` buffer the entire response in memory and are capped at **64 MB**. For larger payloads, use [`download`](#download) which streams directly to disk.
+:::
 
 ## Exported Functions
 
@@ -13,6 +17,7 @@ HTTP client module for Millennium Lua plugins. Provides a simple, flexible API f
 - [post](#post)
 - [put](#put)
 - [delete](#delete)
+- [download](#download)
 
 ### Usage
 
@@ -36,7 +41,7 @@ Request configuration options.
 | `timeout`          | integer               | `30`             | Timeout in seconds                                         |
 | `follow_redirects` | boolean               | `true`           | Whether to follow redirects                                |
 | `verify_ssl`       | boolean               | `true`           | Whether to verify SSL certificates                         |
-| `user_agent`       | string                | `"Lua-HTTP/1.0"` | User agent string                                          |
+| `user_agent`       | string                | `"Millennium/1.0"` | User agent string                                          |
 | `auth`             | HTTPAuth              | -                | Authentication credentials                                 |
 | `proxy`            | string                | -                | Proxy URL (e.g., `"http://proxy.example.com:8080"`)        |
 
@@ -269,11 +274,76 @@ end
 
 ---
 
+## download
+
+### Abstract
+
+Download a file from a URL and stream it directly to disk. Unlike `get`/`request`, this has **no response size limit** — the data is written to the file as it arrives and is never buffered in memory.
+
+::: warning Availability
+`http.download` requires Millennium **3.0.0** or later.
+:::
+
+### Parameters
+
+| Parameter | Type            | Description                       |
+| --------- | :-------------: | --------------------------------- |
+| url       | string          | URL to download                   |
+| path      | string          | Destination file path             |
+| options   | DownloadOptions | Optional download options         |
+
+### DownloadOptions
+
+| Field              | Type                 | Default            | Description                                                |
+| ------------------ | -------------------- | ------------------ | ---------------------------------------------------------- |
+| `headers`          | table<string,string> | -                  | HTTP headers as key-value pairs                            |
+| `timeout`          | integer              | `0` (no limit)     | Timeout in seconds                                         |
+| `follow_redirects` | boolean              | `true`             | Whether to follow redirects                                |
+| `verify_ssl`       | boolean              | `true`             | Whether to verify SSL certificates                         |
+| `user_agent`       | string               | `"Millennium/1.0"` | User agent string                                          |
+
+### Returns
+
+- `response` (table | nil) — Table with `success` (boolean), `status` (integer), and `bytes_written` (integer), or `nil` on failure
+- `error` (string | nil) — Error message if download failed. Partial files are automatically deleted on failure.
+
+### Usage
+
+```lua
+local http = require("http")
+
+-- Simple file download
+local res, err = http.download(
+  "https://example.com/archive.zip",
+  "/tmp/archive.zip"
+)
+
+if not res then
+  print("download failed:", err)
+elseif res.status == 200 then
+  print("downloaded", res.bytes_written, "bytes")
+else
+  print("unexpected status:", res.status)
+end
+
+-- With custom headers
+local res, err = http.download(
+  "https://api.example.com/export",
+  "/tmp/export.csv",
+  {
+    headers = { ["Authorization"] = "Bearer token123" },
+    timeout = 120
+  }
+)
+```
+
+---
+
 ## Common Patterns
 
 ### Error handling
 
-```/dev/null/examples/error_handling.lua#L1-12
+```lua
 local http = require("http")
 local res, err = http.get("https://api.example.com/data")
 if not res then
@@ -292,7 +362,7 @@ end
 
 ### JSON APIs
 
-```/dev/null/examples/json_api.lua#L1-16
+```lua
 local http = require("http")
 local cjson = require("json")
 
@@ -313,5 +383,3 @@ end
 - Implement retries in Lua by wrapping `http.*` calls in a loop with backoff — the native binding intentionally provides a single-request abstraction.
 
 ---
-
-That's the `http` module — a compact, consistent HTTP client API for Millennium Lua plugins. If you want, I can split the inline examples into real example files under `apps/docs/src/plugins/lua/examples/` and update the code-fence paths accordingly.
