@@ -4,3 +4,4 @@ onlyBuiltDependencies:
   - esbuild
   - protobufjs
   - re2
+minimumReleaseAge: 1440 # Protect against supply chain attacks by requiring dependencies to be 24h old before installation.
