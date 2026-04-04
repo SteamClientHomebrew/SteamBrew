@@ -196,7 +196,7 @@ function PluginLibrary({ isSteamClient }) {
 										</svg>
 									</div>
 									<div className="content">
-										Looking for <b>Augmented Steam</b> or <b>SteamDB</b>? They've been both been replaced by{' '}
+										Looking for <b>Augmented Steam</b> or <b>SteamDB</b>? They've both been superseded by{' '}
 										<a href="https://steambrew.app/plugin?id=788ed8554492" style={{ color: 'inherit', fontWeight: 'bold', textDecoration: 'underline' }}>
 											Extendium
 										</a>{' '}
