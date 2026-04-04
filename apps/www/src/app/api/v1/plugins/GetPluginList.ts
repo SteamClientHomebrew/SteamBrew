@@ -2,7 +2,7 @@ import querystring from 'querystring';
 
 const RetrievePluginList = async () => {
 	return new Promise((resolve, reject) => {
-		fetch('https://api.github.com/repos/shdwmtr/plugdb/contents/plugins', {
+		fetch('https://api.github.com/repos/SteamClientHomebrew/PluginDatabase/contents/plugins', {
 			headers: {
 				Authorization: process.env.BEARER!,
 				'Content-Type': 'application/json',
