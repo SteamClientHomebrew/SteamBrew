@@ -1,6 +1,6 @@
 import { FieldValue } from 'firebase-admin/firestore';
 import { Database } from '../../../Firebase';
-import { FetchPlugins } from '../../v1/plugins/GetPlugins';
+import { FetchPlugins } from '../../../v1/plugins/GetPlugins';
 
 function withCORS(response: Response): Response {
 	response.headers.set('Access-Control-Allow-Origin', 'https://steamloopback.host');
@@ -19,7 +19,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 		const { pluginData } = await FetchPlugins();
 		const plugin = pluginData.find((p) => p.id === slug || p.initCommitId === slug);
 
-		if (!plugin) {
+		if (!plugin || !plugin.initCommitId) {
 			return withCORS(new Response(JSON.stringify({ success: false, message: 'Plugin not found' }), { status: 404 }));
 		}
 

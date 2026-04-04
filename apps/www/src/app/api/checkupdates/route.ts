@@ -136,22 +136,23 @@ async function CheckForPluginUpdates(plugins: PluginUpdateCheck[]) {
 	const allPlugins = fetchResult.pluginData;
 	const metadata = fetchResult.metadata;
 
-	const pluginStatuses: PluginUpdateStatus[] = plugins.map((plugin) => {
+	const pluginStatuses: PluginUpdateStatus[] = plugins.flatMap((plugin) => {
 		const metadataEntry = metadata.find((m) => m.id === plugin.id);
 		const pluginInfo = allPlugins.find((p) => p.initCommitId === plugin.id);
 
 		if (!pluginInfo || !pluginInfo.commitId) {
-			throw new Error(`Plugin ${plugin.id} not found or missing commit ID`);
+			console.warn(`Plugin ${plugin.id} not found in database — skipping`);
+			return [];
 		}
 
-		return {
+		return [{
 			id: plugin.id,
 			pluginDirectory: plugin.name,
 			commit: pluginInfo.commitId,
 			hasUpdate: metadataEntry ? metadataEntry.commitId !== plugin.commit : false,
 			commitMessage: pluginInfo.commitMessage,
 			pluginInfo: pluginInfo,
-		};
+		}];
 	});
 
 	return pluginStatuses;
