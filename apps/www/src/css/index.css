@@ -4565,3 +4565,16 @@ video {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
+
+.information {
+    padding: 24px;
+    background: #432514;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 10px;
+    border: 1px solid #804400;
+    color: #d7c8b9;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

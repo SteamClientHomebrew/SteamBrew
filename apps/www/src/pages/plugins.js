@@ -176,6 +176,33 @@ function PluginLibrary({ isSteamClient }) {
 					<div className="themes-right-side">
 						<section id="addons-content" className="page-section">
 							<div className="theme-listings">
+								<div className="information">
+									<div className="icon">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											strokeWidth="2"
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											style={{ flexShrink: 0, marginTop: '2px' }}
+										>
+											<circle cx="12" cy="12" r="10" />
+											<line x1="12" y1="8" x2="12" y2="12" />
+											<line x1="12" y1="16" x2="12.01" y2="16" />
+										</svg>
+									</div>
+									<div className="content">
+										Looking for <b>Augmented Steam</b> or <b>SteamDB</b>? They've been both been replaced by{' '}
+										<a href="https://steambrew.app/plugin?id=788ed8554492" style={{ color: 'inherit', fontWeight: 'bold', textDecoration: 'underline' }}>
+											Extendium
+										</a>{' '}
+										on April 4th, 2026. Extendium offers the same features and more!
+									</div>
+								</div>
 								{loading ? (
 									<div className="card-container">
 										<ShowThemeSkeletonCards cardHeight={153} />
