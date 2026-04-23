@@ -26,18 +26,21 @@ jobs:
               with:
                   node-version: '20'
 
+            - name: Set up Bun
+              uses: oven-sh/setup-bun@v2
+
             - name: Authenticate SteamBrew
               run: echo "$FIREBASE_CREDENTIALS" | base64 -d > ./apps/www/credentials.json && echo "$BEARER" > ./apps/www/.env
               env:
                   FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
                   BEARER: ${{ secrets.BEARER }}
 
-            - name: Install pnpm
-              run: npm install -g pnpm && pnpm install && pnpm run build
+            - name: Install dependencies and build
+              run: bun install --frozen-lockfile && bun run build
 
             - name: Install Firebase Tools
               run: |
-                  npm install -g firebase-tools
+                  npm install -g firebase-tools@13
                   firebase experiments:enable webframeworks
 
             - name: Deploy Documentation
@@ -46,7 +49,7 @@ jobs:
               run: |
                   cd apps/docs
                   firebase use --add steam-brew
-                  firebase target:apply hosting steambrew-docs steambrew-docs       
+                  firebase target:apply hosting steambrew-docs steambrew-docs
                   firebase deploy --only hosting --token $FIREBASE_TOKEN --force
 
             - name: Deploy Main Site

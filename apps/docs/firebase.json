@@ -2,7 +2,7 @@
 	"hosting": {
 		"target": "steambrew-docs",
 		"public": ".vitepress/dist",
-		"predeploy": "pnpm run build",
+		"predeploy": "bun run build",
 		"ignore": [],
 		"cleanUrls": true,
 		"redirects": [

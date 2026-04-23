@@ -3,7 +3,7 @@
 		"errorPages": {
 			"500": "/public/500.html"
 		},
-		"predeploy": "pnpm run build",
+		"predeploy": "bun run build",
 		"target": "steam-brew",
 		"source": ".",
 		"ignore": [],
