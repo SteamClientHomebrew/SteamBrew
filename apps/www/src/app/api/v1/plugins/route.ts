@@ -1,6 +1,6 @@
 import { FetchPlugins } from './GetPlugins';
 
-export const revalidate = 60;
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: Request) {
 	return Response.json((await FetchPlugins()).pluginData);

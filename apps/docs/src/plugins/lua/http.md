@@ -273,7 +273,7 @@ end
 
 ### Error handling
 
-```/dev/null/examples/error_handling.lua#L1-12
+```lua
 local http = require("http")
 local res, err = http.get("https://api.example.com/data")
 if not res then
@@ -292,7 +292,7 @@ end
 
 ### JSON APIs
 
-```/dev/null/examples/json_api.lua#L1-16
+```lua
 local http = require("http")
 local cjson = require("json")
 

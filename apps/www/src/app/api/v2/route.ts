@@ -1,6 +1,6 @@
 import { FetchThemes } from './FetchThemes';
 
-export const revalidate = 60;
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: Request) {
 	const themes = await FetchThemes();

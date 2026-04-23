@@ -2,7 +2,7 @@ import { Firebase } from '../../Firebase';
 import { GithubGraphQL } from '../GraphQLInterop';
 import { FieldValue } from 'firebase-admin/firestore';
 
-export const revalidate = 60;
+export const dynamic = 'force-dynamic';
 
 async function GetThemeUpdate(requestBody: any) {
 	const json = await GithubGraphQL.Post(`{

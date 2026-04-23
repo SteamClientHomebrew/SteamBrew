@@ -1,15 +1,18 @@
 {
-	"name": "@steambrew/web",
-	"version": "1.0.0",
-	"scripts": {
-		"dev": "turbo run dev",
-		"build": "turbo run build"
-	},
-	"author": "SteamClientHomebrew",
-	"license": "MIT",
-	"private": true,
-	"devDependencies": {
-		"turbo": "^2.5.5"
-	},
-	"packageManager": "pnpm@10.29.2"
+  "name": "@steambrew/web",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "author": "SteamClientHomebrew",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  },
+  "packageManager": "pnpm@10.29.2",
+  "workspaces": [
+    "apps/*"
+  ]
 }
