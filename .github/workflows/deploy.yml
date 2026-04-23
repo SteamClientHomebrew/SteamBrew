@@ -35,7 +35,12 @@ jobs:
                   FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
                   BEARER: ${{ secrets.BEARER }}
 
-            - name: Install dependencies and build
+            - name: Install and build docs
+              working-directory: apps/docs
+              run: bun install --frozen-lockfile && bun run build
+
+            - name: Install and build www
+              working-directory: apps/www
               run: bun install --frozen-lockfile && bun run build
 
             - name: Install Firebase Tools
