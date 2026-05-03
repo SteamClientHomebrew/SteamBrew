@@ -7,7 +7,7 @@ description: Quick guide to installing Millennium.
 
 ## Windows
 
-To install Millennium on windows, we use an installer module. This installer is [cryptographically signed](https://signpath.org/) and [open source](https://github.com/SteamClientHomebrew/Installer), we encourage the community audit the source code!
+To install Millennium on **Windows**, we use an installer module. This installer is [cryptographically signed](https://signpath.org/) and [open source](https://github.com/SteamClientHomebrew/Installer); we encourage the community to audit the source code!
 
 [📥 MillenniumInstaller-Windows.exe](https://github.com/SteamClientHomebrew/Installer/releases/latest/download/MillenniumInstaller-Windows.exe)
 
