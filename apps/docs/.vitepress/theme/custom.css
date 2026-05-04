@@ -1,94 +1,95 @@
 span.line .global-bdapi {
-	color: #3e82e5;
-	background-color: var(--vp-c-bg-soft);
-	border: 1px solid var(--vp-c-border);
-	padding: 1px 3px;
-	margin: -1px -3px;
-	border-radius: 4px;
+    color: #3e82e5;
+    background-color: var(--vp-c-bg-soft);
+    border: 1px solid var(--vp-c-border);
+    padding: 1px 3px;
+    margin: -1px -3px;
+    border-radius: 4px;
 }
 
 :root {
-	--vp-home-hero-name-color: transparent;
-	--vp-home-hero-name-background: linear-gradient(120deg, #3e82e5 30%, #41d1ff);
+    --vp-custom-block-tip-bg: rgba(125, 143, 198, 0.1);
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(120deg, #3e82e5 30%, #41d1ff);
 
-	--vp-home-hero-image-background-image: linear-gradient(-45deg, #3e82e5 50%, #41d1ff 50%);
-	--vp-home-hero-image-filter: blur(44px);
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #3e82e5 50%, #41d1ff 50%);
+    --vp-home-hero-image-filter: blur(44px);
 }
 
 @media (min-width: 640px) {
-	:root {
-		--vp-home-hero-image-filter: blur(56px);
-	}
+    :root {
+        --vp-home-hero-image-filter: blur(56px);
+    }
 }
 
 @media (min-width: 960px) {
-	:root {
-		--vp-home-hero-image-filter: blur(68px);
-	}
+    :root {
+        --vp-home-hero-image-filter: blur(68px);
+    }
 }
 
 .vp-doc p {
-	text-wrap: pretty;
+    text-wrap: pretty;
 }
 
 .dark {
-	--vp-c-bg: #141414;
-	--vp-c-bg-alt: #0f0f0f;
-	--vp-c-bg-elv: #202020;
-	--vp-c-bg-soft: #202020;
-	--vp-c-gutter: transparent;
-	--vp-custom-block-details-bg: #212121;
+    --vp-c-bg: #141414;
+    --vp-c-bg-alt: #0f0f0f;
+    --vp-c-bg-elv: #202020;
+    --vp-c-bg-soft: #202020;
+    --vp-c-gutter: transparent;
+    --vp-custom-block-details-bg: #212121;
 
-	--vp-c-indigo-1: #5a88ce;
-	--vp-c-indigo-2: #3e82e5;
-	--vp-c-indigo-3: #195cbd;
-	--vp-c-indigo-soft: rgba(58, 58, 58, 0.1);
+    --vp-c-indigo-1: #5a88ce;
+    --vp-c-indigo-2: #3e82e5;
+    --vp-c-indigo-3: #195cbd;
+    --vp-c-indigo-soft: rgba(58, 58, 58, 0.1);
 
-	--vp-c-green-1: #3ac172;
-	--vp-c-green-2: #30a46c;
-	--vp-c-green-3: #298459;
-	--vp-c-green-soft: rgba(58, 193, 114, 0.1);
+    --vp-c-green-1: #3ac172;
+    --vp-c-green-2: #30a46c;
+    --vp-c-green-3: #298459;
+    --vp-c-green-soft: rgba(58, 193, 114, 0.1);
 
-	--vp-c-yellow-1: #fbbf24;
-	--vp-c-yellow-2: #da8b17;
-	--vp-c-yellow-3: #a46a0a;
-	--vp-c-yellow-soft: rgba(251, 191, 36, 0.1);
+    --vp-c-yellow-1: #fbbf24;
+    --vp-c-yellow-2: #da8b17;
+    --vp-c-yellow-3: #a46a0a;
+    --vp-c-yellow-soft: rgba(251, 191, 36, 0.1);
 
-	--vp-c-red-1: #c13a3a;
-	--vp-c-red-2: #f14158;
-	--vp-c-red-3: #b62a3c;
-	--vp-c-red-soft: rgba(193, 58, 58, 0.1);
+    --vp-c-red-1: #c13a3a;
+    --vp-c-red-2: #f14158;
+    --vp-c-red-3: #b62a3c;
+    --vp-c-red-soft: rgba(193, 58, 58, 0.1);
 
-	--docsearch-container-background: #30303036;
+    --docsearch-container-background: #30303036;
 }
 
 .DocSearch.DocSearch-Container {
-	backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 :root {
-	--vp-custom-block-note-border: var(--vp-c-default-1);
-	--vp-custom-block-tip-border: var(--vp-c-tip-1);
-	--vp-custom-block-tip-text: var(--vp-c-tip-1);
-	--vp-custom-block-important-border: var(--vp-c-important-1);
-	--vp-custom-block-important-text: var(--vp-c-important-1);
-	--vp-custom-block-warning-border: var(--vp-c-warning-1);
-	--vp-custom-block-warning-text: var(--vp-c-warning-1);
-	--vp-custom-block-danger-border: var(--vp-c-danger-1);
-	--vp-custom-block-danger-text: var(--vp-c-danger-1);
-	--vp-custom-block-caution-border: var(--vp-c-caution-1);
-	--vp-custom-block-caution-text: var(--vp-c-caution-1);
+    --vp-custom-block-note-border: var(--vp-c-default-1);
+    --vp-custom-block-tip-border: var(--vp-c-tip-1);
+    --vp-custom-block-tip-text: var(--vp-c-tip-1);
+    --vp-custom-block-important-border: var(--vp-c-important-1);
+    --vp-custom-block-important-text: var(--vp-c-important-1);
+    --vp-custom-block-warning-border: var(--vp-c-warning-1);
+    --vp-custom-block-warning-text: var(--vp-c-warning-1);
+    --vp-custom-block-danger-border: var(--vp-c-danger-1);
+    --vp-custom-block-danger-text: var(--vp-c-danger-1);
+    --vp-custom-block-caution-border: var(--vp-c-caution-1);
+    --vp-custom-block-caution-text: var(--vp-c-caution-1);
 }
 
 .custom-block {
-	border: 0;
-	border-left: 5px solid;
+    border: 0;
+    border-left: 5px solid;
 }
 
 .VPNav .VPImage.logo {
-	filter: none;
+    filter: none;
 }
 
 html:not(.dark) .VPNav .VPImage.logo {
-	filter: brightness(0.1);
+    filter: brightness(0.1);
 }

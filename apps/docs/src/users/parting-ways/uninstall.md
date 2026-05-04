@@ -83,13 +83,11 @@ steam-millennium # [!code --]
 ::: details Other Distributions
 
 ```sh
-sudo rm -rf /usr/lib/millennium /usr/share/millennium "${XDG_CONFIG_HOME:-$HOME/.config}/millennium" "${XDG_DATA_HOME:-$HOME/.local/share}/millennium"
-```
-
-Then, replace the patched Steam binary with the original binary:
-
-```sh
-sudo mv /usr/bin/steam.millennium.bak /usr/bin/steam
+sudo rm -rf \
+/usr/lib/millennium \
+/usr/share/millennium \
+"${XDG_CONFIG_HOME:-$HOME/.config}/millennium" \
+"${XDG_DATA_HOME:-$HOME/.local/share}/millennium"
 ```
 
 :::

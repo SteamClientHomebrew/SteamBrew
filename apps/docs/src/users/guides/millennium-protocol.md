@@ -40,18 +40,6 @@ start "steam://your_command"
 
 :::
 
-## Millennium ≤ v2.25.1
-
--   **steam://millennium** -> Open Millennium dialog
--   **steam://millennium/updates** -> Open the **Updates** tab
--   **steam://millennium/themes/disable** -> Use default theme
--   **steam://millennium/themes/enable/aerothemesteam** -> Enable the Office 2007 theme using its internal name
--   **steam://millennium/plugins/disable/steam-db** -> Disable the SteamDB plugin using its internal name
--   **steam://millennium/plugins/disable** -> Disable all plugins
--   **steam://millennium/devtools/open** -> Open the SharedJSContext developer tools.
-
-## Millennium ≥ 2.26.0
-
 -   **steam://millennium/settings** -> Open Millennium.
 -   **steam://millennium/settings/updates** -> Open the **Updates** tab.
 -   **steam://millennium/settings/themes/disable** -> Use default theme.

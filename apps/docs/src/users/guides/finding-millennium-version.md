@@ -4,10 +4,6 @@ order: 4
 
 # Find Millennium version
 
-::: warning
-If the following command returns in an error on empty version, you are using a version prior to v2.25.1
-:::
-
 ::: code-group
 
 ```powershell [Windows]
