@@ -59,7 +59,6 @@ function RenderHome() {
 			<div itemScope itemType="https://schema.org/WebSite">
 				<meta itemProp="url" content="https://steambrew.app/" />
 				<meta itemProp="name" content="Steam Homebrew" />
-				<link rel="icon" href="/favicon/favicon.svg" type="image/x-icon"></link>
 			</div>
 
 			<RenderHeader />
