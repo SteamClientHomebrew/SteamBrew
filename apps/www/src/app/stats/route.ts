@@ -52,6 +52,35 @@ function systemStats() {
     return { totalMem, usedMem, memPct, load1, load5, load15, cpuCount, cpuPct, disk };
 }
 
+// keep in sync with the OnCalendar= line in steambrew-www-swap.timer on the server
+const RESTART_HOUR_UTC = 4;
+const RESTART_MINUTE_UTC = 17;
+const LOCAL_TZ = 'America/Halifax';
+
+function formatUtc(date: Date) {
+    return date.toISOString().replace('T', ' ').replace(/\.\d+Z$/, ' UTC');
+}
+
+function formatLocal(date: Date) {
+    return `${date.toLocaleString('en-US', { timeZone: LOCAL_TZ, dateStyle: 'medium', timeStyle: 'medium' })} (${LOCAL_TZ})`;
+}
+
+function formatDuration(totalSeconds: number) {
+    const d = Math.floor(totalSeconds / 86400);
+    const h = Math.floor((totalSeconds % 86400) / 3600);
+    const m = Math.floor((totalSeconds % 3600) / 60);
+    const s = Math.floor(totalSeconds % 60);
+    return [d && `${d}d`, (d || h) && `${h}h`, (d || h || m) && `${m}m`, `${s}s`].filter(Boolean).join(' ');
+}
+
+function nextScheduledRestart(now: Date) {
+    const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), RESTART_HOUR_UTC, RESTART_MINUTE_UTC, 0));
+    if (next.getTime() <= now.getTime()) {
+        next.setUTCDate(next.getUTCDate() + 1);
+    }
+    return next;
+}
+
 export function GET() {
     const now = Date.now() / 1000;
     const www  = parseLog(LOG_FILES.www);
@@ -66,8 +95,19 @@ export function GET() {
         all.filter(e => e.status >= min && e.status < max).length;
     const sys     = systemStats();
 
+    const nowDate    = new Date(now * 1000);
+    const startedAt  = new Date(now * 1000 - process.uptime() * 1000);
+    const nextRestart = nextScheduledRestart(nowDate);
+
     const text = `steambrew.app — live stats
 updated ${new Date().toUTCString()}
+
+process
+  uptime                 ${formatDuration(process.uptime())}
+  started                ${formatUtc(startedAt)}
+                          ${formatLocal(startedAt)}
+  next restart           ${formatUtc(nextRestart)}
+                          ${formatLocal(nextRestart)}  (±5m jitter)
 
 server
   cpu                   ${sys.cpuPct}% (${sys.cpuCount} cores, load ${sys.load1.toFixed(2)} / ${sys.load5.toFixed(2)} / ${sys.load15.toFixed(2)})
