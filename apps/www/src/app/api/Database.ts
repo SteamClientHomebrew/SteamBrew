@@ -38,7 +38,9 @@ export const Themes = {
 	},
 	incrementDownload: (id: string): number => {
 		getDb().prepare('UPDATE themes SET downloads = downloads + 1 WHERE id = ?').run(id);
-		const row = getDb().prepare('SELECT downloads FROM themes WHERE id = ?').get(id) as { downloads: number } | null;
+		const row = getDb().prepare('SELECT downloads FROM themes WHERE id = ?').get(id) as {
+			downloads: number;
+		} | null;
 		return row?.downloads ?? 0;
 	},
 };
@@ -53,17 +55,11 @@ export const PluginDownloads = {
 		return getDb().prepare('SELECT * FROM plugin_downloads').all() as PluginDownloadRow[];
 	},
 	getCount: (commitId: string): number => {
-		const row = getDb().prepare('SELECT download_count FROM plugin_downloads WHERE commit_id = ?').get(commitId) as
-			| { download_count: number }
-			| null;
+		const row = getDb().prepare('SELECT download_count FROM plugin_downloads WHERE commit_id = ?').get(commitId) as { download_count: number } | null;
 		return row?.download_count ?? 0;
 	},
 	increment: (commitId: string): number => {
-		getDb()
-			.prepare(
-				'INSERT INTO plugin_downloads (commit_id, download_count) VALUES (?, 1) ON CONFLICT(commit_id) DO UPDATE SET download_count = download_count + 1',
-			)
-			.run(commitId);
+		getDb().prepare('INSERT INTO plugin_downloads (commit_id, download_count) VALUES (?, 1) ON CONFLICT(commit_id) DO UPDATE SET download_count = download_count + 1').run(commitId);
 		return PluginDownloads.getCount(commitId);
 	},
 };

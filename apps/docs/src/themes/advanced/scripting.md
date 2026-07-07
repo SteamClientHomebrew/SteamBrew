@@ -18,10 +18,10 @@ Javascript is a web based scripting language that is often used in websites. Opp
 
 When you're working on Steam themes, you'll eventually run into situations where CSS just can't do what you want. That's where JavaScript comes in handy. It's commonly used for:
 
--   Better control over elements
--   Custom animations and effects
--   Smarter element positioning
--   Enhanced user interactions
+- Better control over elements
+- Custom animations and effects
+- Smarter element positioning
+- Enhanced user interactions
 
 ## The bottom line
 

@@ -16,10 +16,10 @@ By the end of this guide, you'll understand how to create, test, and distribute 
 
 While we'll cover the Steam-specific aspects thoroughly, you should have a solid understanding of:
 
--   TypeScript fundamentals
--   Lua fundamentals
--   Browser developer tools for inspecting and debugging
--   Basic file management and text editing
+- TypeScript fundamentals
+- Lua fundamentals
+- Browser developer tools for inspecting and debugging
+- Basic file management and text editing
 
 ## Ready to get started?
 

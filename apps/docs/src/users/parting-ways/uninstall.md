@@ -74,9 +74,9 @@ steam-millennium # [!code --]
 
 4. You may need to manually delete Themes, Config and Plugins. (replacing {steam}, {$HOME} with actual locations)
 
--   `{steam}/steamui/skins` - User Themes
--   `{$HOME}/.config/millennium` - Config
--   `{$HOME}/.local/share/millennium` - Plugins
+- `{steam}/steamui/skins` - User Themes
+- `{$HOME}/.config/millennium` - Config
+- `{$HOME}/.local/share/millennium` - Plugins
 
 :::
 

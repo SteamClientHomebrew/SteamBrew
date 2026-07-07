@@ -6,10 +6,7 @@ export const useScrollNavigation = (refsArray) => {
 
 	const jumpTo = useCallback(
 		(targetRef) => {
-			const targetRefObject =
-				typeof targetRef === 'number'
-					? refsArray[Math.max(0, Math.min(targetRef, refsArray.length - 1))]
-					: targetRef;
+			const targetRefObject = typeof targetRef === 'number' ? refsArray[Math.max(0, Math.min(targetRef, refsArray.length - 1))] : targetRef;
 
 			if (targetRefObject && targetRefObject.current) {
 				// Prevent multiple simultaneous scrolls
@@ -46,10 +43,7 @@ export const useScrollNavigation = (refsArray) => {
 			if (isScrolling) return;
 
 			const direction = e.deltaY > 0 ? 1 : -1;
-			const nextIndex = Math.max(
-				0,
-				Math.min(refsArray.length - 1, navigatorIndex + direction),
-			);
+			const nextIndex = Math.max(0, Math.min(refsArray.length - 1, navigatorIndex + direction));
 
 			if (nextIndex === navigatorIndex) return;
 			jumpTo(nextIndex);

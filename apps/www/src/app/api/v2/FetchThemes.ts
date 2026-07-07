@@ -26,7 +26,6 @@ let cachedThemes: ThemeData[] | null = null;
 let cacheTimestamp = 0;
 let inflightFetch: Promise<ThemeData[]> | null = null;
 
-
 async function fetchFreshThemes(): Promise<ThemeData[]> {
 	const rows = Themes.getAll();
 

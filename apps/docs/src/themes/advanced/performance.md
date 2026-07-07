@@ -38,22 +38,22 @@ So we've talked about some potential performance issues with selectors and anima
 
 Here are a few tips for improving your descendant selectors while keeping up specificity.
 
--   Use an element closer in the tree for the next ancestor (`.main .container .row` => `.container .row-wrap .row`)
--   Use another class on the target or parent element (`.card-container .card` => `.card.card-info`)
--   Use IDs whenever possible
--   Make use of pseudo-classes on target elements
--   Consider the use of `!important` sparingly
--   Duplicate your selectors (`.container .row` => `.row.row.row`)
+- Use an element closer in the tree for the next ancestor (`.main .container .row` => `.container .row-wrap .row`)
+- Use another class on the target or parent element (`.card-container .card` => `.card.card-info`)
+- Use IDs whenever possible
+- Make use of pseudo-classes on target elements
+- Consider the use of `!important` sparingly
+- Duplicate your selectors (`.container .row` => `.row.row.row`)
 
 #### Attribute Selectors
 
 Here are a few tips for improving your attribute selectors.
 
--   Consider if it's absolutely necessary.
--   Try using an exact match `[attr=value]` over a wildcard `[attr*=val]`
--   Try using native attribute selection via pseudo-classes
--   Try using state checks rather than attributes
--   Monitor the classes on the element to see if a state related class (e.g. `active`) is added when needed
+- Consider if it's absolutely necessary.
+- Try using an exact match `[attr=value]` over a wildcard `[attr*=val]`
+- Try using native attribute selection via pseudo-classes
+- Try using state checks rather than attributes
+- Monitor the classes on the element to see if a state related class (e.g. `active`) is added when needed
 
 ### Animations & Transitions
 

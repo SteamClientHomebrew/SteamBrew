@@ -11,7 +11,11 @@ function withCORS(response: Response): Response {
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
 	const { slug } = await params;
 	if (!slug) {
-		return withCORS(new Response(JSON.stringify({ success: false, message: 'Missing plugin slug' }), { status: 400 }));
+		return withCORS(
+			new Response(JSON.stringify({ success: false, message: 'Missing plugin slug' }), {
+				status: 400,
+			}),
+		);
 	}
 
 	try {
@@ -19,7 +23,11 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 		const plugin = pluginData.find((p) => p.id === slug || p.initCommitId === slug);
 
 		if (!plugin || !plugin.initCommitId) {
-			return withCORS(new Response(JSON.stringify({ success: false, message: 'Plugin not found' }), { status: 404 }));
+			return withCORS(
+				new Response(JSON.stringify({ success: false, message: 'Plugin not found' }), {
+					status: 404,
+				}),
+			);
 		}
 
 		const newCount = PluginDownloads.increment(plugin.initCommitId);

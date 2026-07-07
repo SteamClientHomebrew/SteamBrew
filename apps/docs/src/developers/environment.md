@@ -37,6 +37,6 @@ Millennium plugins work by injecting JavaScript into the CEF-rendered pages that
 
 The modification approach typically involves:
 
--   JavaScript injection into CEF pages
--   React component hooking and modification
--   Utilizing Steam's internal APIs and data structures
+- JavaScript injection into CEF pages
+- React component hooking and modification
+- Utilizing Steam's internal APIs and data structures

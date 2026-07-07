@@ -147,34 +147,6 @@ function addBasePathToLinks(items: DefaultTheme.SidebarItem[], basePath: string)
 	return result;
 }
 
-let steambrewClient = addBasePathToLinks(
-	generateSidebar({
-		documentRootPath: 'src',
-		scanStartPath: 'plugins/ts/client/src',
-		basePath: '/plugins/ts/client/src/',
-		resolvePath: '/plugins/ts/client/src/',
-		useTitleFromFileHeading: true,
-		includeRootIndexFile: false,
-		collapsed: true,
-		sortFolderTo: 'bottom',
-	}) as any,
-	'/plugins/ts/client/src/',
-);
-
-let steambrewBrowser = addBasePathToLinks(
-	generateSidebar({
-		documentRootPath: 'src',
-		scanStartPath: 'plugins/ts/browser/src',
-		basePath: '/plugins/ts/browser/src/',
-		resolvePath: '/plugins/ts/browser/src/',
-		useTitleFromFileHeading: true,
-		includeRootIndexFile: false,
-		collapsed: true,
-		sortFolderTo: 'bottom',
-	}) as any,
-	'/plugins/ts/browser/src/',
-);
-
 const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 	srcDir: './src',
 	title: 'Steam Homebrew',
@@ -308,7 +280,7 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 					text: 'Introduction',
 					items: [
 						{ text: 'Quick Start', link: '/plugins/introduction/quick-start' },
-						{ text: 'Environment', link: '/plugins/introduction/environment' },
+						{ text: 'Development Quirks', link: '/plugins/introduction/environment' },
 					],
 				},
 				{
@@ -319,32 +291,71 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 					],
 				},
 				{
-					text: 'Lua API Modules',
-					collapsed: false,
+					text: 'Advanced',
 					items: [
-						{ text: 'millennium', link: '/plugins/lua/millennium' },
-						{ text: 'fs', link: '/plugins/lua/fs' },
-						{ text: 'datetime', link: '/plugins/lua/datetime' },
-						{ text: 'regex', link: '/plugins/lua/regex' },
-						{ text: 'cjson', link: '/plugins/lua/cjson' },
-						{ text: 'http', link: '/plugins/lua/http' },
-						{ text: 'logger', link: '/plugins/lua/logger' },
-						{ text: 'utils', link: '/plugins/lua/utils' },
+						{ text: 'Hooking API', link: '/plugins/advanced/hooking' },
+						{ text: 'Configuration API', link: '/plugins/advanced/config' },
 					],
 				},
 				{
-					text: 'Typescript API',
-					collapsed: false,
+					text: 'References',
 					items: [
 						{
-							text: '@steambrew/client',
+							text: 'LuaJIT API',
 							collapsed: true,
-							items: steambrewClient,
+							items: [
+								{ text: 'millennium', link: '/plugins/lua/millennium' },
+								{ text: 'fs', link: '/plugins/lua/fs' },
+								{ text: 'datetime', link: '/plugins/lua/datetime' },
+								{ text: 'regex', link: '/plugins/lua/regex' },
+								{ text: 'cjson', link: '/plugins/lua/cjson' },
+								{ text: 'http', link: '/plugins/lua/http' },
+								{ text: 'logger', link: '/plugins/lua/logger' },
+								{ text: 'utils', link: '/plugins/lua/utils' },
+							],
 						},
 						{
-							text: '@steambrew/browser',
+							text: 'TypeScript API',
 							collapsed: true,
-							items: steambrewBrowser,
+							items: [
+								{
+									text: 'Millennium',
+									link: '/plugins/ts/Millennium',
+								},
+								{
+									text: 'ChromeDevToolsProtocol',
+									link: '/plugins/ts/ChromeDevToolsProtocol',
+								},
+								{
+									text: 'React Components',
+									collapsed: true,
+									items: [
+										{ text: 'ButtonItem', link: '/plugins/ts/components/ButtonItem' },
+										{ text: 'Button', link: '/plugins/ts/components/Button' },
+										{ text: 'Carousel', link: '/plugins/ts/components/Carousel' },
+										{ text: 'ControlsList', link: '/plugins/ts/components/ControlsList' },
+										{ text: 'DialogCheckbox', link: '/plugins/ts/components/DialogCheckbox' },
+										{ text: 'Dialog', link: '/plugins/ts/components/Dialog' },
+										{ text: 'Dropdown', link: '/plugins/ts/components/Dropdown' },
+										{ text: 'ErrorBoundary', link: '/plugins/ts/components/ErrorBoundary' },
+										{ text: 'Field', link: '/plugins/ts/components/Field' },
+										{ text: 'Focusable', link: '/plugins/ts/components/Focusable' },
+										{ text: 'FocusRing', link: '/plugins/ts/components/FocusRing' },
+										{ text: 'IconsModule', link: '/plugins/ts/components/IconsModule' },
+										{ text: 'Marquee', link: '/plugins/ts/components/Marquee' },
+										{ text: 'Menu', link: '/plugins/ts/components/Menu' },
+										{ text: 'Modal', link: '/plugins/ts/components/Modal' },
+										{ text: 'Panel', link: '/plugins/ts/components/Panel' },
+										{ text: 'ProgressBar', link: '/plugins/ts/components/ProgressBar' },
+										{ text: 'Scroll', link: '/plugins/ts/components/Scroll' },
+										{ text: 'SliderField', link: '/plugins/ts/components/SliderField' },
+										{ text: 'SteamSpinner', link: '/plugins/ts/components/SteamSpinner' },
+										{ text: 'TextField', link: '/plugins/ts/components/TextField' },
+										{ text: 'ToggleField', link: '/plugins/ts/components/ToggleField' },
+										{ text: 'Toggle', link: '/plugins/ts/components/Toggle' },
+									],
+								},
+							],
 						},
 					],
 				},
@@ -418,9 +429,11 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
 				name: 'escape-generic-types',
 				enforce: 'pre',
 				transform(code: string, id: string) {
-					if (id.endsWith('.md')) {
-						return code.replace(/<([A-Z][A-Za-z0-9]*?)>/g, '&lt;$1&gt;');
-					}
+					if (!id.endsWith('.md')) return;
+					// Only escape bare `<Foo>` placeholders in prose - leave fenced/inline code alone,
+					// since markdown-it/shiki already escape `<`/`>` there and re-escaping double-encodes them.
+					const parts = code.split(/(```[\s\S]*?```|`[^`\n]*?`)/g);
+					return parts.map((part, i) => (i % 2 === 0 ? part.replace(/<([A-Z][A-Za-z0-9]*?)>/g, '&lt;$1&gt;') : part)).join('');
 				},
 			},
 			groupIconVitePlugin({

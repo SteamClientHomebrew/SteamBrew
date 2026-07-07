@@ -65,14 +65,16 @@ async function CheckForPluginUpdates(plugins: PluginUpdateCheck[]) {
 			return [];
 		}
 
-		return [{
-			id: plugin.id,
-			pluginDirectory: plugin.name,
-			commit: pluginInfo.commitId,
-			hasUpdate: metadataEntry ? metadataEntry.commitId !== plugin.commit : false,
-			commitMessage: pluginInfo.commitMessage,
-			pluginInfo: pluginInfo,
-		}];
+		return [
+			{
+				id: plugin.id,
+				pluginDirectory: plugin.name,
+				commit: pluginInfo.commitId,
+				hasUpdate: metadataEntry ? metadataEntry.commitId !== plugin.commit : false,
+				commitMessage: pluginInfo.commitMessage,
+				pluginInfo: pluginInfo,
+			},
+		];
 	});
 
 	return pluginStatuses;

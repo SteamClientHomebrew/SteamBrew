@@ -22,9 +22,9 @@ steam steam://your_command
 
 You can run these commands in a plethora of ways.
 
--   URL address bar on your browser
--   Windows+R Run menu.
--   File address bar on file explorer.
+- URL address bar on your browser
+- Windows+R Run menu.
+- File address bar on file explorer.
 
 or from PowerShell:
 
@@ -40,10 +40,10 @@ start "steam://your_command"
 
 :::
 
--   **steam://millennium/settings** -> Open Millennium.
--   **steam://millennium/settings/updates** -> Open the **Updates** tab.
--   **steam://millennium/settings/themes/disable** -> Use default theme.
--   **steam://millennium/settings/themes/enable/aerothemesteam** -> Enable aerothemesteam plugin.
--   **steam://millennium/settings/plugins/disable/steam-db** -> Disable the steam-dev plugin.
--   **steam://millennium/settings/plugins/disable** -> Disable all plugins.
--   **steam://millennium/settings/devtools/open** -> Open developer tools.
+- **steam://millennium/settings** -> Open Millennium.
+- **steam://millennium/settings/updates** -> Open the **Updates** tab.
+- **steam://millennium/settings/themes/disable** -> Use default theme.
+- **steam://millennium/settings/themes/enable/aerothemesteam** -> Enable aerothemesteam plugin.
+- **steam://millennium/settings/plugins/disable/steam-db** -> Disable the steam-dev plugin.
+- **steam://millennium/settings/plugins/disable** -> Disable all plugins.
+- **steam://millennium/settings/devtools/open** -> Open developer tools.

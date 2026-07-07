@@ -28,11 +28,7 @@ const fetchFreshPlugins = async (): Promise<PluginDataTable> => {
 	const pluginsDir = process.env.PLUGINS_DIR;
 	if (!pluginsDir) throw new Error('PLUGINS_DIR is not set');
 
-	const [metadata, pluginData, downloadRows] = await Promise.all([
-		GetPluginMetadata(),
-		GetPluginData(pluginList),
-		Promise.resolve(PluginDownloads.getAll()),
-	]);
+	const [metadata, pluginData, downloadRows] = await Promise.all([GetPluginMetadata(), GetPluginData(pluginList), Promise.resolve(PluginDownloads.getAll())]);
 
 	// Build file size map from local disk
 	const fileMetadataMap = new Map<string, number>();
@@ -42,7 +38,7 @@ const fetchFreshPlugins = async (): Promise<PluginDataTable> => {
 			try {
 				const s = await stat(join(pluginsDir, filename));
 				fileMetadataMap.set(`plugins/${filename}`, s.size);
-			} catch { }
+			} catch {}
 		}),
 	);
 

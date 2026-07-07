@@ -81,8 +81,8 @@ Convert seconds-since-epoch to milliseconds (simple helper).
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description         |
+| --------- | :-----: | ------------------- |
 | sec       | integer | Seconds since epoch |
 
 ### Returns
@@ -107,8 +107,8 @@ Convert milliseconds-since-epoch to seconds (integer division).
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description              |
+| --------- | :-----: | ------------------------ |
 | ms        | integer | Milliseconds since epoch |
 
 ### Returns
@@ -133,10 +133,10 @@ Format a millisecond timestamp into a human-readable string using strftime-style
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
-| ms        | integer | Timestamp in milliseconds since epoch |
-| fmt       | string  | Optional. strftime format string. Default: "%Y-%m-%d %H:%M:%S" |
+| Parameter |  Type   | Description                                                               |
+| --------- | :-----: | ------------------------------------------------------------------------- |
+| ms        | integer | Timestamp in milliseconds since epoch                                     |
+| fmt       | string  | Optional. strftime format string. Default: "%Y-%m-%d %H:%M:%S"            |
 | utc       | boolean | Optional. If truthy, formats in UTC; otherwise local time. Default: false |
 
 ### Returns
@@ -162,9 +162,9 @@ Parse a date/time string according to a strftime-style format and return millise
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
-| str       | string | Input date/time string |
+| Parameter |  Type  | Description                                                           |
+| --------- | :----: | --------------------------------------------------------------------- |
+| str       | string | Input date/time string                                                |
 | fmt       | string | Optional. strftime format used to parse. Default: "%Y-%m-%d %H:%M:%S" |
 
 ### Returns
@@ -196,10 +196,10 @@ Add a delta to a millisecond timestamp and return the resulting timestamp (in mi
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
-| ms        | integer | Base timestamp in milliseconds |
-| delta     | integer | Amount to add (signed integer) |
+| Parameter |  Type   | Description                                                                                    |
+| --------- | :-----: | ---------------------------------------------------------------------------------------------- |
+| ms        | integer | Base timestamp in milliseconds                                                                 |
+| delta     | integer | Amount to add (signed integer)                                                                 |
 | unit      | string  | Optional. Unit name: "milliseconds", "seconds", "minutes", "hours", "days". Default: "seconds" |
 
 ### Returns
@@ -225,10 +225,10 @@ Compute the difference between two millisecond timestamps and return the result 
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
-| ms1       | integer | Minuend timestamp in milliseconds |
-| ms2       | integer | Subtrahend timestamp in milliseconds |
+| Parameter |  Type   | Description                                                                                          |
+| --------- | :-----: | ---------------------------------------------------------------------------------------------------- |
+| ms1       | integer | Minuend timestamp in milliseconds                                                                    |
+| ms2       | integer | Subtrahend timestamp in milliseconds                                                                 |
 | unit      | string  | Optional. Unit for result: "milliseconds", "seconds", "minutes", "hours", "days". Default: "seconds" |
 
 ### Returns
@@ -254,14 +254,15 @@ Break a millisecond timestamp into calendar components (year, month, day, hour, 
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
-| ms        | integer | Timestamp in milliseconds |
+| Parameter |  Type   | Description                                                                     |
+| --------- | :-----: | ------------------------------------------------------------------------------- |
+| ms        | integer | Timestamp in milliseconds                                                       |
 | utc       | boolean | Optional. If truthy return UTC components; otherwise local time. Default: false |
 
 ### Returns
 
 Table with fields:
+
 - `year` (integer)
 - `month` (1-12)
 - `day` (1-31)
@@ -289,8 +290,8 @@ Create a timestamp (milliseconds since epoch) from a table of components. The ta
 
 ### Parameters
 
-| Parameter | Type  | Description |
-| --------- | :---: | ----------- |
+| Parameter | Type  | Description                                                          |
+| --------- | :---: | -------------------------------------------------------------------- |
 | t         | table | Table with fields `year`, `month`, `day`, `hour`, `minute`, `second` |
 
 ### Returns
@@ -324,8 +325,8 @@ Notes: `create` uses local time when constructing the std::tm and calling mktime
 - `format` accepts any strftime-style format supported by the platform's std::put_time implementation (common specifiers are supported).
 - `parse` uses std::get_time. Some platforms' std::get_time implementations are stricter; always check for `nil, error_message`.
 - Timezone behavior:
-  - `format(ms, fmt, true)` and `components(ms, true)` use UTC (gmtime).
-  - Without the UTC flag they use the system local timezone (localtime).
+    - `format(ms, fmt, true)` and `components(ms, true)` use UTC (gmtime).
+    - Without the UTC flag they use the system local timezone (localtime).
 - Arithmetic functions (`add`, `diff`) perform integer math on milliseconds — be mindful of DST and calendar-specific adjustments when performing date arithmetic across DST transitions (the module performs simple epoch-based arithmetic).
 - When creating timestamps with `create`, the result depends on local timezone because `mktime` is used.
 

@@ -27,7 +27,10 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 
 	const theme = Themes.getById(slug.trim());
 	if (!theme) {
-		return new Response(`Error: Repository with ID '${slug.trim()}' not found`, { status: 404, headers });
+		return new Response(`Error: Repository with ID '${slug.trim()}' not found`, {
+			status: 404,
+			headers,
+		});
 	}
 
 	return Response.json({ download_count: theme.downloads }, { headers });

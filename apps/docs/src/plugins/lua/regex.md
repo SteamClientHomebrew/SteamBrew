@@ -33,9 +33,9 @@ Check whether the entire input string matches the provided regular expression (e
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
-| str       | string | Input string to test |
+| Parameter |  Type  | Description                |
+| --------- | :----: | -------------------------- |
+| str       | string | Input string to test       |
 | pattern   | string | Regular expression pattern |
 
 ### Returns
@@ -66,28 +66,28 @@ Search the input string for the first occurrence of the pattern and return a res
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
-| str       | string | Input string to search |
+| Parameter |  Type  | Description                |
+| --------- | :----: | -------------------------- |
+| str       | string | Input string to search     |
 | pattern   | string | Regular expression pattern |
 
 ### Returns
 
 - On success when a match is found: a table describing the match.
-  - Numeric captures: the matched substrings are stored with numeric indices. Note: the implementation stores the overall match at index `0` and captured subgroups at indices `1..N`.
-  - Named fields:
-    - `pos` (integer) — 1-based starting position of the overall match in the input string.
-    - `len` (integer) — length (in bytes/chars) of the overall match.
+    - Numeric captures: the matched substrings are stored with numeric indices. Note: the implementation stores the overall match at index `0` and captured subgroups at indices `1..N`.
+    - Named fields:
+        - `pos` (integer) — 1-based starting position of the overall match in the input string.
+        - `len` (integer) — length (in bytes/chars) of the overall match.
 - On success when no match is found: `nil`.
 - On error (invalid pattern): `nil, error_message`.
 
 Example match table:
 {
-  [0] = "full match",
-  [1] = "first capture",
-  [2] = "second capture",
-  pos = 5,
-  len = 12
+[0] = "full match",
+[1] = "first capture",
+[2] = "second capture",
+pos = 5,
+len = 12
 }
 
 ### Usage
@@ -117,17 +117,17 @@ Find all non-overlapping occurrences of the pattern in the input string and retu
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
-| str       | string | Input string to search |
+| Parameter |  Type  | Description                |
+| --------- | :----: | -------------------------- |
+| str       | string | Input string to search     |
 | pattern   | string | Regular expression pattern |
 
 ### Returns
 
 - On success: an array-like table (1-based) where each element is a match table. Each match table contains:
-  - Numeric captures: index `0` for the overall match, `1..N` for capture groups.
-  - `pos` (integer) — 1-based starting position of that match.
-  - `len` (integer) — length of that match.
+    - Numeric captures: index `0` for the overall match, `1..N` for capture groups.
+    - `pos` (integer) — 1-based starting position of that match.
+    - `len` (integer) — length of that match.
 - On error (invalid pattern): `nil, error_message`.
 - If no matches are found the function returns an empty table.
 
@@ -156,11 +156,11 @@ Replace all occurrences of a pattern with a replacement string (std::regex_repla
 
 ### Parameters
 
-| Parameter    | Type   | Description |
-| ------------ | :----: | ----------- |
-| str          | string | Input string |
-| pattern      | string | Regular expression pattern |
-| replacement  | string | Replacement text (supports standard replacement sequences accepted by std::regex_replace) |
+| Parameter   |  Type  | Description                                                                               |
+| ----------- | :----: | ----------------------------------------------------------------------------------------- |
+| str         | string | Input string                                                                              |
+| pattern     | string | Regular expression pattern                                                                |
+| replacement | string | Replacement text (supports standard replacement sequences accepted by std::regex_replace) |
 
 ### Returns
 
@@ -190,11 +190,11 @@ Replace only the first occurrence of a pattern with a replacement string. If no 
 
 ### Parameters
 
-| Parameter    | Type   | Description |
-| ------------ | :----: | ----------- |
-| str          | string | Input string |
-| pattern      | string | Regular expression pattern |
-| replacement  | string | Replacement text |
+| Parameter   |  Type  | Description                |
+| ----------- | :----: | -------------------------- |
+| str         | string | Input string               |
+| pattern     | string | Regular expression pattern |
+| replacement | string | Replacement text           |
 
 ### Returns
 
@@ -224,9 +224,9 @@ Split the input string using the provided pattern as the delimiter (equivalent t
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
-| str       | string | Input string |
+| Parameter |  Type  | Description                          |
+| --------- | :----: | ------------------------------------ |
+| str       | string | Input string                         |
 | pattern   | string | Regular expression used as delimiter |
 
 ### Returns
@@ -258,8 +258,8 @@ Escape regex metacharacters in a string so it can be treated as a literal in a p
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
+| Parameter |  Type  | Description            |
+| --------- | :----: | ---------------------- |
 | str       | string | Input string to escape |
 
 ### Returns
@@ -285,10 +285,10 @@ Test whether the pattern is present in the input string. Supports optional flags
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
-| str       | string | Input string |
-| pattern   | string | Regular expression pattern |
+| Parameter |  Type  | Description                                                                                            |
+| --------- | :----: | ------------------------------------------------------------------------------------------------------ |
+| str       | string | Input string                                                                                           |
+| pattern   | string | Regular expression pattern                                                                             |
 | flags     | string | Optional flags string (supported: `'i'` = case-insensitive, `'g'` = global (ignored by this function)) |
 
 ### Returns

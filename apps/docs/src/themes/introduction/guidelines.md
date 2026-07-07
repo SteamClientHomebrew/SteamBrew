@@ -12,7 +12,7 @@ These are guidelines that all themes are expected to abide by. Any themes that v
 
 1.  Themes must be in public GitHub repositories.
 1.  Themes must not negatively affect users.
-    -   e.g., ban risk, disabling security features, accessing private information
+    - e.g., ban risk, disabling security features, accessing private information
 1.  Themes must not discriminate whom can use it.
 1.  Themes must not collect user data under any circumstance.
 1.  Themes must not include explicit sexual material or other adult content.

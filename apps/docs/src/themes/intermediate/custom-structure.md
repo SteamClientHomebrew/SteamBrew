@@ -113,9 +113,9 @@ The `Patches` object is relatively simple. its a list of regex search tests Mill
 
 It runs the regex against:
 
--   Steam browser view URL (ex: `https://.\*.steampowered.com`)
--   Steam window titles (ex: `^Steam$`)
--   Steam window DOM body classes (ex: `.FullModalOverlay`)
+- Steam browser view URL (ex: `https://.\*.steampowered.com`)
+- Steam window titles (ex: `^Steam$`)
+- Steam window DOM body classes (ex: `.FullModalOverlay`)
 
 ### Example
 

@@ -49,9 +49,9 @@ Check whether a filesystem path exists.
 
 ### Parameters
 
-| Parameter | Type   | Description        |
-| --------- | :----: | ------------------ |
-| path      | string | Path to check      |
+| Parameter |  Type  | Description   |
+| --------- | :----: | ------------- |
+| path      | string | Path to check |
 
 ### Returns
 
@@ -72,7 +72,7 @@ Return whether the path is an existing directory.
 
 ### Parameters
 
-| Parameter | Type   | Description   |
+| Parameter |  Type  | Description   |
 | --------- | :----: | ------------- |
 | path      | string | Path to check |
 
@@ -95,7 +95,7 @@ Return whether the path is an existing regular file.
 
 ### Parameters
 
-| Parameter | Type   | Description   |
+| Parameter |  Type  | Description   |
 | --------- | :----: | ------------- |
 | path      | string | Path to check |
 
@@ -118,7 +118,7 @@ Return whether the path is a symbolic link.
 
 ### Parameters
 
-| Parameter | Type   | Description   |
+| Parameter |  Type  | Description   |
 | --------- | :----: | ------------- |
 | path      | string | Path to check |
 
@@ -141,7 +141,7 @@ Return whether the path is empty. For files this means zero bytes; for directori
 
 ### Parameters
 
-| Parameter | Type   | Description   |
+| Parameter |  Type  | Description   |
 | --------- | :----: | ------------- |
 | path      | string | Path to check |
 
@@ -164,7 +164,7 @@ Create a single directory. Does not create parent directories.
 
 ### Parameters
 
-| Parameter | Type   | Description         |
+| Parameter |  Type  | Description         |
 | --------- | :----: | ------------------- |
 | path      | string | Directory to create |
 
@@ -190,7 +190,7 @@ Create a directory and any missing parent directories.
 
 ### Parameters
 
-| Parameter | Type   | Description         |
+| Parameter |  Type  | Description         |
 | --------- | :----: | ------------------- |
 | path      | string | Directory to create |
 
@@ -216,8 +216,8 @@ Remove a file or an empty directory.
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
+| Parameter |  Type  | Description    |
+| --------- | :----: | -------------- |
 | path      | string | Path to remove |
 
 ### Returns
@@ -246,8 +246,8 @@ Recursively remove a path and its contents.
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
+| Parameter |  Type  | Description    |
+| --------- | :----: | -------------- |
 | path      | string | Path to remove |
 
 ### Returns
@@ -274,13 +274,14 @@ List entries in a directory (non-recursive). Returns an array of entry tables.
 
 ### Parameters
 
-| Parameter | Type   | Description      |
-| --------- | :----: | ---------------- |
+| Parameter |  Type  | Description       |
+| --------- | :----: | ----------------- |
 | path      | string | Directory to list |
 
 ### Returns
 
 On success, an array-like table of entries. Each entry contains:
+
 - `name` (string)
 - `path` (string)
 - `is_directory` (boolean)
@@ -312,8 +313,8 @@ Recursively list directory entries. Each entry includes a `depth` field (0 = ent
 
 ### Parameters
 
-| Parameter | Type   | Description      |
-| --------- | :----: | ---------------- |
+| Parameter |  Type  | Description       |
+| --------- | :----: | ----------------- |
 | path      | string | Directory to list |
 
 ### Returns
@@ -342,10 +343,10 @@ Copy a file or directory (non-recursive). Overwrites existing destination by def
 
 ### Parameters
 
-| Parameter   | Type    | Description |
-| ----------- | :-----: | ----------- |
-| from        | string  | Source path |
-| to          | string  | Destination path |
+| Parameter   |  Type   | Description                                                             |
+| ----------- | :-----: | ----------------------------------------------------------------------- |
+| from        | string  | Source path                                                             |
+| to          | string  | Destination path                                                        |
 | throw_error | boolean | If truthy, raises a Lua error on failure. Otherwise returns `nil, err`. |
 
 ### Returns
@@ -370,10 +371,10 @@ Recursive copy. Copies directories and their contents. Overwrites existing files
 
 ### Parameters
 
-| Parameter   | Type    | Description |
-| ----------- | :-----: | ----------- |
-| from        | string  | Source path |
-| to          | string  | Destination path |
+| Parameter   |  Type   | Description                                                             |
+| ----------- | :-----: | ----------------------------------------------------------------------- |
+| from        | string  | Source path                                                             |
+| to          | string  | Destination path                                                        |
 | throw_error | boolean | If truthy, raises a Lua error on failure. Otherwise returns `nil, err`. |
 
 ### Returns
@@ -398,10 +399,10 @@ Rename or move a file/directory.
 
 ### Parameters
 
-| Parameter   | Type    | Description |
-| ----------- | :-----: | ----------- |
-| from        | string  | Source path |
-| to          | string  | Destination path |
+| Parameter   |  Type   | Description                                                             |
+| ----------- | :-----: | ----------------------------------------------------------------------- |
+| from        | string  | Source path                                                             |
+| to          | string  | Destination path                                                        |
 | throw_error | boolean | If truthy, raises a Lua error on failure. Otherwise returns `nil, err`. |
 
 ### Returns
@@ -426,7 +427,7 @@ Return the size of a regular file in bytes.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | File path   |
 
@@ -454,7 +455,7 @@ Return the last modification time of a file/directory as a Unix timestamp.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Path        |
 
@@ -499,8 +500,8 @@ Set the current working directory for the process.
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
+| Parameter |  Type  | Description             |
+| --------- | :----: | ----------------------- |
 | path      | string | Directory to set as CWD |
 
 ### Returns
@@ -525,7 +526,7 @@ Return the absolute form of a path.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Input path  |
 
@@ -548,7 +549,7 @@ Return the canonical (resolved symlinks) path.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Input path  |
 
@@ -572,10 +573,10 @@ Return `path` relative to an optional `base` path (or current working directory 
 
 ### Parameters
 
-| Parameter | Type     | Description                 |
-| --------- | :------: | --------------------------- |
-| path      | string   | Path to relativize         |
-| base      | string?  | Optional base path         |
+| Parameter |  Type   | Description        |
+| --------- | :-----: | ------------------ |
+| path      | string  | Path to relativize |
+| base      | string? | Optional base path |
 
 ### Returns
 
@@ -596,7 +597,7 @@ Return the filename component of a path.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Input path  |
 
@@ -619,7 +620,7 @@ Return the file extension (including leading dot) or empty string if none.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Input path  |
 
@@ -642,7 +643,7 @@ Return the stem of a filename (filename without extension).
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Input path  |
 
@@ -665,7 +666,7 @@ Return the parent path of the provided path.
 
 ### Parameters
 
-| Parameter | Type   | Description |
+| Parameter |  Type  | Description |
 | --------- | :----: | ----------- |
 | path      | string | Input path  |
 
@@ -709,8 +710,8 @@ Return filesystem space information for the volume containing `path`.
 
 ### Parameters
 
-| Parameter | Type   | Description |
-| --------- | :----: | ----------- |
+| Parameter |  Type  | Description           |
+| --------- | :----: | --------------------- |
 | path      | string | Path on target volume |
 
 ### Returns
@@ -735,6 +736,7 @@ end
 
 - Prefer returning `nil, err` for failures and reserve `throw_error` for cases where you want a Lua error to be raised and caught via `pcall`.
 - Always check for `nil, err` on operations that can fail:
+
 ```lua
 local fs = require("fs")
 local ok, err = fs.create_directory("/protected/dir")
@@ -742,6 +744,7 @@ if not ok then
   print("failed:", err)
 end
 ```
+
 - Use `fs.list` / `fs.list_recursive` and read the entry fields instead of calling multiple single-purpose queries per entry to reduce overhead.
 
 That's the `fs` module — a small, safe set of filesystem primitives for Millennium Lua plugins.

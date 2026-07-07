@@ -90,22 +90,22 @@ You can see more examples on the [MDN page](https://developer.mozilla.org/en-US/
 
 Some common methods to increase specificity often found in Millennium themes:
 
--   Add a new descendant selector
--   Add multiple classes from the same element
--   Add `!important` (use with caution)
--   Add the HTML tag to the selector
--   Add duplicate selectors (e.g. change `#myContent` to `#myContent#myContent`)
+- Add a new descendant selector
+- Add multiple classes from the same element
+- Add `!important` (use with caution)
+- Add the HTML tag to the selector
+- Add duplicate selectors (e.g. change `#myContent` to `#myContent#myContent`)
 
 ## Selectors in Steam
 
 There are some selectors, pseudo-selectors, and pseudo-classes that are used way more often in this environment than in classic web development.
 
--   `:not()` is often used when classes are removed from elements rather than added
--   `:has()` is used to check descendant trees when elements lack important information
--   Attribute selectors used frequently for checking the state of inputs
-    -   They can also be used to be more tolerant of Steam's class changes
-    -   `:disabled` and `:checked` are also used for inputs
--   `:nth-child()` and `:nth-of-type` are used when a tree is lacking classes but the structure is stable
--   `:root` is used constantly for CSS variables
+- `:not()` is often used when classes are removed from elements rather than added
+- `:has()` is used to check descendant trees when elements lack important information
+- Attribute selectors used frequently for checking the state of inputs
+    - They can also be used to be more tolerant of Steam's class changes
+    - `:disabled` and `:checked` are also used for inputs
+- `:nth-child()` and `:nth-of-type` are used when a tree is lacking classes but the structure is stable
+- `:root` is used constantly for CSS variables
 
 But remember, you are competing with Steam's styles so these selectors can get pretty crazy. Some styles are even inlined requiring the use of `!important`. Your best bet is to try out some of these selectors on the Steam client itself and experiment with what works and what doesn't. Another good idea is to look at existing themes and see how other developers tackle certain styles.

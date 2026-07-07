@@ -2,7 +2,6 @@
 layout: home
 hero:
     name: Millennium
-    text: Steam Homebrew
     tagline: A better Steam client experience
     actions:
         - theme: brand
@@ -30,8 +29,8 @@ features:
       details: Create your own addons with our open-ended and flexible system.
 ---
 
-<BackdropAnimation />
+<!--<BackdropAnimation />
 
 <script setup>
 import BackdropAnimation from '../.vitepress/theme/LandingPage.vue'
-</script>
+</script>-->

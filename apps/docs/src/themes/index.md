@@ -16,9 +16,9 @@ By the end of this guide, you'll understand how to create, test, and distribute 
 
 While we'll cover the Steam-specific aspects thoroughly, you should have a solid understanding of:
 
--   CSS fundamentals
--   Browser developer tools for inspecting and debugging
--   Basic file management and text editing
+- CSS fundamentals
+- Browser developer tools for inspecting and debugging
+- Basic file management and text editing
 
 If you're comfortable styling web applications, you'll feel right at home with Steam theming.
 

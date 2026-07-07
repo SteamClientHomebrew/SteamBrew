@@ -28,23 +28,23 @@ local http = require("http")
 
 Request configuration options.
 
-| Field              | Type                  | Default          | Description                                                |
-| ------------------ | --------------------- | ---------------- | ---------------------------------------------------------- |
-| `method`           | string                | `"GET"`          | HTTP method (GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS) |
-| `data`             | string                | -                | Request body data                                          |
-| `headers`          | table<string,string>  | -                | HTTP headers as key-value pairs                            |
-| `timeout`          | integer               | `30`             | Timeout in seconds                                         |
-| `follow_redirects` | boolean               | `true`           | Whether to follow redirects                                |
-| `verify_ssl`       | boolean               | `true`           | Whether to verify SSL certificates                         |
-| `user_agent`       | string                | `"Lua-HTTP/1.0"` | User agent string                                          |
-| `auth`             | HTTPAuth              | -                | Authentication credentials                                 |
-| `proxy`            | string                | -                | Proxy URL (e.g., `"http://proxy.example.com:8080"`)        |
+| Field              | Type                 | Default          | Description                                                |
+| ------------------ | -------------------- | ---------------- | ---------------------------------------------------------- |
+| `method`           | string               | `"GET"`          | HTTP method (GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS) |
+| `data`             | string               | -                | Request body data                                          |
+| `headers`          | table<string,string> | -                | HTTP headers as key-value pairs                            |
+| `timeout`          | integer              | `30`             | Timeout in seconds                                         |
+| `follow_redirects` | boolean              | `true`           | Whether to follow redirects                                |
+| `verify_ssl`       | boolean              | `true`           | Whether to verify SSL certificates                         |
+| `user_agent`       | string               | `"Lua-HTTP/1.0"` | User agent string                                          |
+| `auth`             | HTTPAuth             | -                | Authentication credentials                                 |
+| `proxy`            | string               | -                | Proxy URL (e.g., `"http://proxy.example.com:8080"`)        |
 
 ### HTTPAuth
 
 Authentication credentials for HTTP requests.
 
-| Field | Type   | Description                 |
+| Field |  Type  | Description                 |
 | ----- | :----: | --------------------------- |
 | user  | string | Username for authentication |
 | pass  | string | Password for authentication |
@@ -53,11 +53,11 @@ Authentication credentials for HTTP requests.
 
 HTTP response object.
 
-| Field   | Type                     | Description                         |
-| ------- | ------------------------ | ----------------------------------- |
-| status  | integer                  | HTTP status code (e.g., 200, 404)   |
-| body    | string                   | Response body content               |
-| headers | table<string,string>     | Response headers as key-value pairs |
+| Field   | Type                 | Description                         |
+| ------- | -------------------- | ----------------------------------- |
+| status  | integer              | HTTP status code (e.g., 200, 404)   |
+| body    | string               | Response body content               |
+| headers | table<string,string> | Response headers as key-value pairs |
 
 ---
 
@@ -69,14 +69,14 @@ Make a generic HTTP request with full configuration. This is the most flexible e
 
 ### Parameters
 
-| Parameter | Type        | Description               |
-| --------- | :---------: | ------------------------- |
-| url       | string      | URL to request            |
-| options   | HTTPOptions | Optional request options  |
+| Parameter |    Type     | Description              |
+| --------- | :---------: | ------------------------ |
+| url       |   string    | URL to request           |
+| options   | HTTPOptions | Optional request options |
 
 ### Returns
 
-- `response` (HTTPResponse | nil) — Response object, or `nil` on failure  
+- `response` (HTTPResponse | nil) — Response object, or `nil` on failure
 - `error` (string | nil) — Error message if request failed
 
 ### Usage
@@ -116,14 +116,14 @@ Convenience wrapper for making GET requests. Accepts the same options as `reques
 
 ### Parameters
 
-| Parameter | Type        | Description              |
+| Parameter |    Type     | Description              |
 | --------- | :---------: | ------------------------ |
-| url       | string      | URL to request           |
+| url       |   string    | URL to request           |
 | options   | HTTPOptions | Optional request options |
 
 ### Returns
 
-- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure
 - `error` (string | nil) — Error message if request failed
 
 ### Usage
@@ -156,15 +156,15 @@ Convenience wrapper for making POST requests. Sends provided `data` as the reque
 
 ### Parameters
 
-| Parameter | Type        | Description                  |
-| --------- | :---------: | ---------------------------- |
-| url       | string      | URL to request               |
-| data      | string      | Request body (optional)      |
-| options   | HTTPOptions | Optional request options     |
+| Parameter |    Type     | Description              |
+| --------- | :---------: | ------------------------ |
+| url       |   string    | URL to request           |
+| data      |   string    | Request body (optional)  |
+| options   | HTTPOptions | Optional request options |
 
 ### Returns
 
-- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure
 - `error` (string | nil) — Error message if request failed
 
 ### Usage
@@ -198,15 +198,15 @@ Convenience wrapper for making PUT requests. Useful for updating resources.
 
 ### Parameters
 
-| Parameter | Type        | Description                  |
-| --------- | :---------: | ---------------------------- |
-| url       | string      | URL to request               |
-| data      | string      | Request body (optional)      |
-| options   | HTTPOptions | Optional request options     |
+| Parameter |    Type     | Description              |
+| --------- | :---------: | ------------------------ |
+| url       |   string    | URL to request           |
+| data      |   string    | Request body (optional)  |
+| options   | HTTPOptions | Optional request options |
 
 ### Returns
 
-- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure
 - `error` (string | nil) — Error message if request failed
 
 ### Usage
@@ -239,14 +239,14 @@ Convenience wrapper for making DELETE requests.
 
 ### Parameters
 
-| Parameter | Type        | Description                  |
-| --------- | :---------: | ---------------------------- |
-| url       | string      | URL to request               |
-| options   | HTTPOptions | Optional request options     |
+| Parameter |    Type     | Description              |
+| --------- | :---------: | ------------------------ |
+| url       |   string    | URL to request           |
+| options   | HTTPOptions | Optional request options |
 
 ### Returns
 
-- `response` (HTTPResponse | nil) — Response object or `nil` on failure  
+- `response` (HTTPResponse | nil) — Response object or `nil` on failure
 - `error` (string | nil) — Error message if request failed
 
 ### Usage

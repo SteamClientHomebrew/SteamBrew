@@ -28,16 +28,16 @@ The rest will be handled for you automatically. the Colors will be globally avai
 
 Check the example below for implementation example
 
--   Raw RGB channels
--   Raw RGBA channels
--   RGB channels
--   RGBA channels
--   Hex
+- Raw RGB channels
+- Raw RGBA channels
+- RGB channels
+- RGBA channels
+- Hex
 
 ### Adding Color Metadata
 
--   Add a custom name for a color with a comment above the color, and a `@name` selector
--   Add a custom description for a color with a comment above the color, and a `@description` selector
+- Add a custom name for a color with a comment above the color, and a `@name` selector
+- Add a custom description for a color with a comment above the color, and a `@description` selector
 
 ## Example CSS File
 

@@ -57,8 +57,8 @@ Encode a Lua value to a JSON string. This function throws on encoding errors.
 
 ### Parameters
 
-| Parameter | Type | Description |
-| --------- | :--: | ----------- |
+| Parameter | Type | Description                                                                  |
+| --------- | :--: | ---------------------------------------------------------------------------- |
 | value     | any  | Lua value to encode (tables, numbers, strings, booleans, `cjson.null`, etc.) |
 
 ### Returns
@@ -86,8 +86,8 @@ Decode a JSON string into a Lua value. This function throws on parse errors unle
 
 ### Parameters
 
-| Parameter   | Type   | Description |
-| ----------- | :----: | ----------- |
+| Parameter   |  Type  | Description           |
+| ----------- | :----: | --------------------- |
 | json_string | string | JSON string to decode |
 
 ### Returns
@@ -141,11 +141,11 @@ Control how sparse arrays are encoded. If an array is sparse beyond the configur
 
 ### Parameters
 
-| Parameter | Type             | Description |
-| --------- | :--------------: | ----------- |
-| convert   | boolean|number   | Enable conversion of sparse arrays (or treat as integer toggle) |
-| ratio     | integer         | Sparseness ratio threshold |
-| safe      | integer         | Maximum index count considered safe to keep as an array |
+| Parameter |  Type   | Description                                             |
+| --------- | :-----: | ------------------------------------------------------- |
+| convert   | boolean | number                                                  | Enable conversion of sparse arrays (or treat as integer toggle) |
+| ratio     | integer | Sparseness ratio threshold                              |
+| safe      | integer | Maximum index count considered safe to keep as an array |
 
 ### Returns
 
@@ -170,8 +170,8 @@ Get or set maximum encoding nesting depth.
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description                               |
+| --------- | :-----: | ----------------------------------------- |
 | depth     | integer | Maximum allowed nesting depth (1..2^31-1) |
 
 ### Returns
@@ -195,8 +195,8 @@ Get or set maximum decoding nesting depth.
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description                                |
+| --------- | :-----: | ------------------------------------------ |
 | depth     | integer | Maximum allowed nesting depth for decoding |
 
 ### Returns
@@ -219,8 +219,8 @@ Get or set decimal precision used for encoding numbers.
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description                  |
+| --------- | :-----: | ---------------------------- |
 | precision | integer | Precision 1..14 (default 14) |
 
 ### Returns
@@ -245,8 +245,8 @@ Control whether the encoder reuses an internal buffer between calls (improves pe
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description                                        |
+| --------- | :-----: | -------------------------------------------------- |
 | keep      | boolean | Keep buffer between calls when true (default true) |
 
 ### Returns
@@ -269,9 +269,9 @@ Controls handling of invalid numbers (NaN, Infinity) during encoding.
 
 ### Parameters
 
-| Parameter | Type                | Description |
-| --------- | :-----------------: | ----------- |
-| setting   | boolean|string      | "off"|"on"|"null" or boolean; "off" by default |
+| Parameter |  Type   | Description |
+| --------- | :-----: | ----------- |
+| setting   | boolean | string      | "off" | "on" | "null" or boolean; "off" by default |
 
 ### Returns
 
@@ -297,8 +297,8 @@ Controls whether invalid numbers are permitted during decoding.
 
 ### Parameters
 
-| Parameter | Type    | Description |
-| --------- | :-----: | ----------- |
+| Parameter |  Type   | Description                          |
+| --------- | :-----: | ------------------------------------ |
 | setting   | boolean | Allow invalid numbers (default true) |
 
 ### Returns

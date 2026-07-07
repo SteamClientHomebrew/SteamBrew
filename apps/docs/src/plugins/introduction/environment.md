@@ -9,7 +9,7 @@ description: The plugin environment.
 Make sure you've read up on how to enable [Steam developer mode](../../developers/devtools.md) before continuing these docs, its very important!
 :::
 
-Steams code structure tends to be confuse people when they first start developing. This section will cover most of these quirks - its recommended you read the entirety of this page! 
+Steams code structure tends to be confuse people when they first start developing. This section will cover most of these quirks - its recommended you read the entirety of this page!
 
 ## Steam's Multi-Window Architecture
 
@@ -18,6 +18,7 @@ Opening developer tools reveals multiple devtool windows—one per Steam window 
 ## SharedJSContext: The Parent Instance
 
 For plugin development, focus on the **SharedJSContext** devtools. This headless parent instance:
+
 - Contains all Steam UI/logic code
 - Spawns child windows (Main, Settings, Properties, etc) via `window.open`, passing its execution context
 - Has no visual DOM of its own

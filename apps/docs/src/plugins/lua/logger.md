@@ -26,9 +26,9 @@ Log an informational message. Use for routine runtime information and progress u
 
 ### Parameters
 
-| Parameter | Type   | Description             |
-| --------- | :----: | ----------------------- |
-| message   | string | Message to log          |
+| Parameter |  Type  | Description    |
+| --------- | :----: | -------------- |
+| message   | string | Message to log |
 
 ### Returns
 
@@ -52,9 +52,9 @@ Log a warning message. Use for recoverable issues or unexpected states that do n
 
 ### Parameters
 
-| Parameter | Type   | Description             |
-| --------- | :----: | ----------------------- |
-| message   | string | Warning message         |
+| Parameter |  Type  | Description     |
+| --------- | :----: | --------------- |
+| message   | string | Warning message |
 
 ### Returns
 
@@ -78,9 +78,9 @@ Log an error message. Use for errors that indicate a failure or require attentio
 
 ### Parameters
 
-| Parameter | Type   | Description             |
-| --------- | :----: | ----------------------- |
-| message   | string | Error message           |
+| Parameter |  Type  | Description   |
+| --------- | :----: | ------------- |
+| message   | string | Error message |
 
 ### Returns
 

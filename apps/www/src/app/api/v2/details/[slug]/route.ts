@@ -98,7 +98,14 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 		const theme = themes.find((t) => t.id === cleanId);
 
 		if (!theme) {
-			const response = Response.json({ success: false, error: 'NOT_FOUND', message: `Repository with ID '${cleanId}' not found` }, { status: 404 });
+			const response = Response.json(
+				{
+					success: false,
+					error: 'NOT_FOUND',
+					message: `Repository with ID '${cleanId}' not found`,
+				},
+				{ status: 404 },
+			);
 			addCorsHeaders(response);
 			return response;
 		}

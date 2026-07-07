@@ -2,11 +2,18 @@
 	"name": "@steambrew/docs",
 	"version": "1.0.0",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"lint": "eslint --ext .ts --ignore-path .gitignore .",
 		"dev": "vitepress dev .",
 		"build": "vitepress build .",
 		"preview": "vitepress preview ."
+	},
+	"dependencies": {
+		"@steambrew/docs": "^1.1.1",
+		"react": "17",
+		"react-dom": "17",
+		"shiki": "^3.7.0"
 	},
 	"devDependencies": {
 		"@digitak/esrun": "^3.2.26",
@@ -34,12 +41,5 @@
 	},
 	"engines": {
 		"node": ">=16.14"
-	},
-	"type": "module",
-	"dependencies": {
-		"@steambrew/docs": "^1.1.1",
-		"react": "17",
-		"react-dom": "17",
-		"shiki": "^3.7.0"
 	}
 }

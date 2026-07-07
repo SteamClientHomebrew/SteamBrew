@@ -1,5 +1,4 @@
-const description =
-	"An open-source low-code modding framework to create, manage and use themes/plugins for the desktop Steam Client without any low-level internal interaction or overhead.";
+const description = 'An open-source low-code modding framework to create, manage and use themes/plugins for the desktop Steam Client without any low-level internal interaction or overhead.';
 
 export const metadata = {
 	metadataBase: new URL('http://localhost:3000'),

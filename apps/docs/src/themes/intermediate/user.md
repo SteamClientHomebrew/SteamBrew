@@ -18,8 +18,8 @@ Although the example config we'll show below is relatively self explanatory, we'
 
 Although more might be on the way, we currently support two types of config within themes:
 
--   Dropdowns
--   Checkboxes
+- Dropdowns
+- Checkboxes
 
 ## Dropdown format vs. Checkbox format
 
@@ -119,9 +119,9 @@ Millennium will test your regex against all open window titles, and the loaded U
 
 As mentioned above, simplified regex isn't supported, so to select for example the steam community page, you'd need:
 
--   `https:\/\/steamcommunity\.com\/.*`, not `https://steamcommunity.com*` to select the community page
--   `.*` not `*` to select everything
--   `^Steam$` not `Steam` to select the main UI
+- `https:\/\/steamcommunity\.com\/.*`, not `https://steamcommunity.com*` to select the community page
+- `.*` not `*` to select everything
+- `^Steam$` not `Steam` to select the main UI
 
 ### Example
 
@@ -142,9 +142,9 @@ The following config loads `some.css` into all windows, and loads `some.js` into
 
 ## Useful Notes
 
--   If between updates you change the name of a config item, All users will have it reset to the default option.
--   It is entirely safe to remove a dropdown option between updates, if a user has it selected they will simply be reverted to the default setting.
--   It is entirely safe to remove an entire option between updates.
+- If between updates you change the name of a config item, All users will have it reset to the default option.
+- It is entirely safe to remove a dropdown option between updates, if a user has it selected they will simply be reverted to the default setting.
+- It is entirely safe to remove an entire option between updates.
 
 ## Summary of Properties
 

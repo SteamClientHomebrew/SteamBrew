@@ -10,8 +10,8 @@ order: 1
 Using VSCode is not required, but the theme documentation is written specifically for it. If you're using a different editor, the docs likely won't be as helpful.
 :::
 
--   Git - https://git-scm.com/downloads
--   VSCode - https://code.visualstudio.com/download
+- Git - https://git-scm.com/downloads
+- VSCode - https://code.visualstudio.com/download
 
 ## Hello World
 
