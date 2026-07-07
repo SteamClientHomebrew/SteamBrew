@@ -56,3 +56,4 @@ api/node_modules
 **/apps/docs/.vitepress/dist
 **/apps/docs/.vitepress/cache
 CLAUDE.md
+bun.lock

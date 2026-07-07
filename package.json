@@ -1,22 +1,7 @@
 {
-	"name": "@steambrew/web",
-	"version": "1.0.0",
-	"private": true,
-	"license": "MIT",
-	"author": "SteamClientHomebrew",
-	"scripts": {
-		"install:all": "cd apps/www && bun install && cd ../docs && bun install",
-		"dev": "(cd apps/www && bun run dev)",
-		"docs": "(cd apps/docs && bun run dev)",
-		"build": "cd apps/www && bun run build && cd ../../apps/docs && bun run build"
-	},
-	"devDependencies": {
-		"oxfmt": "^0.58.0"
-	},
-	"packageManager": "bun@1.3.13",
-	"trustedDependencies": [
-		"esbuild",
-		"protobufjs",
-		"re2"
-	]
+    "private": true,
+    "devDependencies": {
+        "oxfmt": "latest"
+    },
+    "packageManager": "bun@1.3.13"
 }
