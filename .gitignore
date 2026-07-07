@@ -55,3 +55,4 @@ api/node_modules
 # vitepress cache & build
 **/apps/docs/.vitepress/dist
 **/apps/docs/.vitepress/cache
+CLAUDE.md
