@@ -16,16 +16,6 @@ Obviously, this whole time `UseDefaultPatches` was actually doing something behi
 {
 	"Patches": [
 		{
-			"MatchRegexString": "https://.*.steampowered.com",
-			"TargetCss": "webkit.css",
-			"TargetJs": "webkit.js"
-		},
-		{
-			"MatchRegexString": "https://steamcommunity.com",
-			"TargetCss": "webkit.css",
-			"TargetJs": "webkit.js"
-		},
-		{
 			"MatchRegexString": "^Steam$",
 			"TargetCss": "libraryroot.custom.css",
 			"TargetJs": "libraryroot.custom.js"
@@ -47,8 +37,8 @@ Obviously, this whole time `UseDefaultPatches` was actually doing something behi
 		},
 		{
 			"MatchRegexString": "^notificationtoasts_",
-			"TargetCss": "notifications.custom.css",
-			"TargetJs": "notifications.custom.js"
+			"TargetCss": "libraryroot.custom.css",
+			"TargetJs": "libraryroot.custom.js"
 		},
 		{
 			"MatchRegexString": "^SteamBrowser_Find$",
