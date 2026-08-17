@@ -99,8 +99,8 @@ jobs:
 
             - name: Sync www
               run: |
-                  rsync -az --copy-links --delete \
-                    steambrew/www/.next steambrew/www/public steambrew/www/package.json steambrew/www/.env steambrew/www/node_modules \
+                  rsync -az --delete \
+                    steambrew/www/.next steambrew/www/public steambrew/www/package.json steambrew/www/.env \
                     ubuntu@${{ secrets.SSH_HOST }}:~/net/steambrew/www/
 
             - name: Sync docs
@@ -109,6 +109,7 @@ jobs:
                     steambrew/docs/.vitepress/dist/ \
                     ubuntu@${{ secrets.SSH_HOST }}:~/net/steambrew/docs/
 
-            - name: Swap
+            - name: Install deps and swap
               run: |
+                  ssh ubuntu@${{ secrets.SSH_HOST }} "cd ~/net/steambrew/www && ~/.bun/bin/bun install --production --silent"
                   ssh ubuntu@${{ secrets.SSH_HOST }} "bash ~/net/steambrew/swap.sh"
