@@ -4133,7 +4133,7 @@ tr {
 
 @media screen and (min-width: 1500px) {
     .plugin-card-container {
-        grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(355px, 1fr));
     }
 }
 
