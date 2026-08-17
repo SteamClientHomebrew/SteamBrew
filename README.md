@@ -6,9 +6,9 @@ Documentation and website assets for Millennium. This repository also includes t
 
 ## Contents
 
-- [User API](./apps/www/src/app/api)
-- [Documentation](./apps/docs/)
-- [SteamBrew App](./apps/www/)
+- [User API](./steambrew/www/src/app/api)
+- [Documentation](./steambrew/docs/)
+- [SteamBrew App](./steambrew/www/)
 
 ## Building
 
