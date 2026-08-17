@@ -33,4 +33,3 @@ As you'd likely imagine, with `UseDefaultPatches`:
 - **bigpicture.custom.css** & **bigpicture.custom.js** are inserted into the Steam Big Picture window.
 - **friends.custom.css** & **friends.custom.js** are inserted into the Steam Friends List.
 - **libraryroot.custom.css** & **libraryroot.custom.js** are inserted into the main Steam window.
-- **webkit.css** is loaded into all Steam web views (Store, Community, etc.)
