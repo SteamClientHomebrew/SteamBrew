@@ -53,7 +53,7 @@ api/node_modules
 **/.env
 
 # vitepress cache & build
-**/apps/docs/.vitepress/dist
-**/apps/docs/.vitepress/cache
+/steambrew/docs/.vitepress/cache
+/steambrew/docs/.vitepress/dist
 CLAUDE.md
 bun.lock
