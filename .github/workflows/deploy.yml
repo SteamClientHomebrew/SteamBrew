@@ -48,6 +48,17 @@ jobs:
               working-directory: steambrew/www
               run: bun run build
 
+            - name: Fix native module symlinks
+              working-directory: steambrew/www
+              run: |
+                  for link in .next/node_modules/*; do
+                    if [ -L "$link" ]; then
+                      name=$(basename "$link")
+                      pkg=$(echo "$name" | sed -E 's/-[0-9a-f]{16}$//')
+                      ln -sfn "../../node_modules/$pkg" "$link"
+                    fi
+                  done
+
             - name: Install Playwright browsers
               if: ${{ inputs.run_tests != false }}
               working-directory: steambrew/www
@@ -88,8 +99,8 @@ jobs:
 
             - name: Sync www
               run: |
-                  rsync -az --delete \
-                    steambrew/www/.next steambrew/www/public steambrew/www/package.json steambrew/www/.env \
+                  rsync -az --copy-links --delete \
+                    steambrew/www/.next steambrew/www/public steambrew/www/package.json steambrew/www/.env steambrew/www/node_modules \
                     ubuntu@${{ secrets.SSH_HOST }}:~/net/steambrew/www/
 
             - name: Sync docs
@@ -98,7 +109,6 @@ jobs:
                     steambrew/docs/.vitepress/dist/ \
                     ubuntu@${{ secrets.SSH_HOST }}:~/net/steambrew/docs/
 
-            - name: Install deps and swap
+            - name: Swap
               run: |
-                  ssh ubuntu@${{ secrets.SSH_HOST }} "cd ~/net/steambrew/www && ~/.bun/bin/bun install --production --silent"
                   ssh ubuntu@${{ secrets.SSH_HOST }} "bash ~/net/steambrew/swap.sh"
