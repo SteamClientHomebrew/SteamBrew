@@ -1,4 +1,4 @@
-export const revalidate = 1800;
+export const dynamic = 'force-dynamic';
 
 const CACHE_DURATION_MS = 30 * 60 * 1000;
 let cachedStats: { downloadCount: number; latestVersion: string } | null = null;
@@ -10,6 +10,7 @@ async function getDownloadCountAndLatestVersion() {
 	const perPage = 100;
 	let page = 1;
 	let totalDownloads = 0;
+	let latestRelease: any = null;
 	let latestNonPrereleaseVersion: any = null;
 
 	if (!process.env.BEARER) {
@@ -24,7 +25,7 @@ async function getDownloadCountAndLatestVersion() {
 
 	while (true) {
 		const url = `${baseUrl}?per_page=${perPage}&page=${page}`;
-		const res = await fetch(url, { headers, next: { revalidate: 1800 } });
+		const res = await fetch(url, { headers, next: { revalidate: 1800 }, signal: AbortSignal.timeout(10000) });
 
 		if (!res.ok) {
 			throw new Error(`GitHub API request failed: ${res.status} ${res.statusText}`);
@@ -33,7 +34,8 @@ async function getDownloadCountAndLatestVersion() {
 		const releases = await res.json();
 		if (!releases.length) break;
 
-		if (page === 1 && !latestNonPrereleaseVersion) {
+		if (page === 1) {
+			latestRelease = releases[0];
 			latestNonPrereleaseVersion = releases.find((release) => !release.prerelease && !release.draft);
 		}
 
@@ -50,10 +52,16 @@ async function getDownloadCountAndLatestVersion() {
 		page++;
 	}
 
+	const latestVersion = (latestNonPrereleaseVersion ?? latestRelease)?.tag_name;
+
+	if (!latestVersion) {
+		throw new Error('No GitHub releases found for SteamClientHomebrew/Millennium');
+	}
+
 	// add download count from old cdn as well: https://api.github.com/repos/ShadowMonster99/millennium-steam-binaries/releases
 	return {
 		downloadCount: totalDownloads + 174452,
-		latestVersion: latestNonPrereleaseVersion.tag_name,
+		latestVersion,
 	};
 }
 
@@ -72,6 +80,12 @@ async function fetchStats() {
 			cacheTimestamp = Date.now();
 			return result;
 		})
+		.catch((error) => {
+			if (cachedStats) {
+				return cachedStats;
+			}
+			throw error;
+		})
 		.finally(() => {
 			inflightFetch = null;
 		});
@@ -80,6 +94,10 @@ async function fetchStats() {
 }
 
 export async function GET(request: Request) {
-	const data = await fetchStats();
-	return Response.json(data);
+	try {
+		const data = await fetchStats();
+		return Response.json(data);
+	} catch (error) {
+		return Response.json({ error: 'Failed to fetch Millennium stats' }, { status: 503 });
+	}
 }
