@@ -249,7 +249,7 @@ function RenderHome() {
 							{stat?.contributors && (
 								<div className="contributors-container">
 									<div className="contributors-list">
-										{stat.contributors.map((contributor, index) => (
+										{stat.contributors.slice(0, 50).map((contributor, index) => (
 											<a key={index} href={contributor.html_url} target="_blank" rel="noreferrer">
 												<div key={index} className="contributor">
 													<img src={contributor.avatar_url} alt={contributor.login} />
@@ -257,6 +257,15 @@ function RenderHome() {
 											</a>
 										))}
 									</div>
+
+									{stat.contributors.length > 50 && (
+										<button
+											className="btn btn-secondary view-more-contributors"
+											onClick={() => window.open('https://github.com/SteamClientHomebrew/Millennium/graphs/contributors', '_blank')}
+										>
+											View More
+										</button>
+									)}
 								</div>
 							)}
 						</div>
