@@ -44,6 +44,6 @@ start "steam://your_command"
 - **steam://millennium/settings/updates** -> Open the **Updates** tab.
 - **steam://millennium/settings/themes/disable** -> Use default theme.
 - **steam://millennium/settings/themes/enable/aerothemesteam** -> Enable aerothemesteam plugin.
-- **steam://millennium/settings/plugins/disable/steam-db** -> Disable the steam-dev plugin.
+- **steam://millennium/settings/plugins/disable/steam-db** -> Disable the steamdb plugin.
 - **steam://millennium/settings/plugins/disable** -> Disable all plugins.
 - **steam://millennium/settings/devtools/open** -> Open developer tools.
