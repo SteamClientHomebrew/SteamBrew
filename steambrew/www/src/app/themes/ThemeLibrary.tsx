@@ -117,8 +117,23 @@ function ThemeLibrary({ isSteamClient }: ThemeLibraryProps) {
 				</section>
 				<div className="ad leaderboard_ros_atf" id="ad-container-1"></div>
 				<div className="themes-panel">
-					<div className="themes-left-side">
-						<div className="filter-header">Filter Themes</div>
+					<div className="themes-toolbar">
+						<div className="sort-pills">
+							{options.map((option) => (
+								<button key={option.value} type="button" className={`sort-pill${option.checked ? ' active' : ''}`} onClick={() => toggleCheckbox(option.value)}>
+									{option.label}
+								</button>
+							))}
+						</div>
+						<Select
+							instanceId="theme-tags"
+							className="react-select-container"
+							classNamePrefix="react-select"
+							placeholder="Select tags..."
+							options={tags.map((tag, index) => ({ value: index, label: tag }))}
+							onChange={(opt) => setSelectedTags(opt)}
+							value={selectedTags}
+						/>
 						<form className="header-right search-container" onSubmit={(e) => e.preventDefault()} onReset={() => setSearchQuery('')}>
 							<svg className="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
 								<path fillRule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
@@ -133,32 +148,6 @@ function ThemeLibrary({ isSteamClient }: ThemeLibraryProps) {
 								</svg>
 							</button>
 						</form>
-						<div className="filter-header">Sort By</div>
-						{options.map((tag, index) => (
-							<div key={index} className="theme-tag" onClick={() => toggleCheckbox(tag.value)}>
-								<span className="checkbox_check__5FdyV">
-									<input className="geist-sr-only checkbox_input__ydSbd" id={`checkbox-sort-${tag.value}`} type="checkbox" checked={tag.checked} onChange={() => toggleCheckbox(tag.value)} />
-									<span aria-hidden="true" className="checkbox_icon__6T6ug">
-										<svg fill="none" height="16" viewBox="0 0 20 20" width="16">
-											<path d="M14 7L8.5 12.5L6 10" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
-											<line stroke="var(--checkbox-color)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="5" x2="15" y1="10" y2="10" />
-										</svg>
-									</span>
-								</span>
-								{tag.label}
-							</div>
-						))}
-
-						<div className="filter-header filter-spacer">Filter Tags</div>
-						<Select
-							instanceId="theme-tags"
-							className="react-select-container"
-							classNamePrefix="react-select"
-							placeholder="Select tags..."
-							options={tags.map((tag, index) => ({ value: index, label: tag }))}
-							onChange={(opt) => setSelectedTags(opt)}
-							value={selectedTags}
-						/>
 					</div>
 					<div className="themes-right-side">
 						<section id="addons-content" className="page-section">
