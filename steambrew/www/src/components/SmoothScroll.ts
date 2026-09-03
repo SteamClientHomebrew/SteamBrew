@@ -2,17 +2,12 @@ import { useCallback, useEffect, useState } from 'react';
 
 export const useScrollNavigation = (refsArray) => {
 	const [navigatorIndex, setNavigatorIndex] = useState(0);
-	const [isScrolling, setIsScrolling] = useState(false);
 
 	const jumpTo = useCallback(
 		(targetRef) => {
 			const targetRefObject = typeof targetRef === 'number' ? refsArray[Math.max(0, Math.min(targetRef, refsArray.length - 1))] : targetRef;
 
 			if (targetRefObject && targetRefObject.current) {
-				// Prevent multiple simultaneous scrolls
-				if (isScrolling) return;
-				setIsScrolling(true);
-
 				if (targetRefObject.current.tagName === 'VIDEO') {
 					const videoElement = targetRefObject.current;
 					videoElement.currentTime = 0;
@@ -28,33 +23,39 @@ export const useScrollNavigation = (refsArray) => {
 				if (newIndex !== -1) {
 					setNavigatorIndex(newIndex);
 				}
-
-				setTimeout(() => {
-					setIsScrolling(false);
-				}, 800);
 			}
 		},
-		[refsArray, isScrolling],
+		[refsArray],
 	);
 
 	useEffect(() => {
-		const handleWheel = (e) => {
-			e.preventDefault();
-			if (isScrolling) return;
+		const updateActiveSection = () => {
+			const viewportCenter = window.innerHeight / 2;
+			let closestIndex = 0;
+			let closestDistance = Infinity;
 
-			const direction = e.deltaY > 0 ? 1 : -1;
-			const nextIndex = Math.max(0, Math.min(refsArray.length - 1, navigatorIndex + direction));
+			refsArray.forEach((ref, index) => {
+				if (!ref.current) return;
+				const rect = ref.current.getBoundingClientRect();
+				const distance = Math.abs(rect.top + rect.height / 2 - viewportCenter);
+				if (distance < closestDistance) {
+					closestDistance = distance;
+					closestIndex = index;
+				}
+			});
 
-			if (nextIndex === navigatorIndex) return;
-			jumpTo(nextIndex);
+			setNavigatorIndex(closestIndex);
 		};
 
-		window.addEventListener('wheel', handleWheel, { passive: false });
+		updateActiveSection();
+		window.addEventListener('scroll', updateActiveSection, { passive: true });
+		window.addEventListener('resize', updateActiveSection);
 
 		return () => {
-			window.removeEventListener('wheel', handleWheel);
+			window.removeEventListener('scroll', updateActiveSection);
+			window.removeEventListener('resize', updateActiveSection);
 		};
-	}, [jumpTo, navigatorIndex, refsArray, isScrolling]);
+	}, [refsArray]);
 
 	return {
 		navigatorIndex,

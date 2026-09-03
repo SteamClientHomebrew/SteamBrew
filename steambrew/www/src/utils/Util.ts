@@ -10,6 +10,7 @@ export interface StatisticProps {
 	version: string;
 	download_count: number;
 	server_members: number;
+	stargazers_count: number;
 	contributors: any[];
 }
 
@@ -26,6 +27,7 @@ export const GetStatisticsSync = async (): Promise<StatisticProps> => {
 		version: github.latestVersion,
 		download_count: github.downloadCount,
 		server_members: discord.approximate_member_count,
+		stargazers_count: github.stargazersCount,
 		contributors: contributors,
 	};
 

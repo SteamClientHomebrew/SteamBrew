@@ -1,9 +1,37 @@
 export const dynamic = 'force-dynamic';
 
 const CACHE_DURATION_MS = 30 * 60 * 1000;
-let cachedStats: { downloadCount: number; latestVersion: string } | null = null;
+type Stats = { downloadCount: number; latestVersion: string; stargazersCount: number };
+let cachedStats: Stats | null = null;
 let cacheTimestamp = 0;
-let inflightFetch: Promise<{ downloadCount: number; latestVersion: string }> | null = null;
+let inflightFetch: Promise<Stats> | null = null;
+
+const githubHeaders = () => {
+	if (!process.env.BEARER) {
+		throw new Error('GitHub API token (BEARER) is required');
+	}
+
+	return {
+		Accept: 'application/vnd.github+json',
+		'User-Agent': 'Millennium-Download-Count',
+		Authorization: process.env.BEARER!,
+	};
+};
+
+async function getStargazersCount() {
+	const res = await fetch('https://api.github.com/repos/SteamClientHomebrew/Millennium', {
+		headers: githubHeaders(),
+		next: { revalidate: 1800 },
+		signal: AbortSignal.timeout(10000),
+	});
+
+	if (!res.ok) {
+		throw new Error(`GitHub API request failed: ${res.status} ${res.statusText}`);
+	}
+
+	const repo = await res.json();
+	return repo.stargazers_count as number;
+}
 
 async function getDownloadCountAndLatestVersion() {
 	const baseUrl = 'https://api.github.com/repos/SteamClientHomebrew/Millennium/releases';
@@ -13,15 +41,7 @@ async function getDownloadCountAndLatestVersion() {
 	let latestRelease: any = null;
 	let latestNonPrereleaseVersion: any = null;
 
-	if (!process.env.BEARER) {
-		throw new Error('GitHub API token (BEARER) is required');
-	}
-
-	const headers = {
-		Accept: 'application/vnd.github+json',
-		'User-Agent': 'Millennium-Download-Count',
-		Authorization: process.env.BEARER!,
-	};
+	const headers = githubHeaders();
 
 	while (true) {
 		const url = `${baseUrl}?per_page=${perPage}&page=${page}`;
@@ -74,8 +94,9 @@ async function fetchStats() {
 		return inflightFetch;
 	}
 
-	inflightFetch = getDownloadCountAndLatestVersion()
-		.then((result) => {
+	inflightFetch = Promise.all([getDownloadCountAndLatestVersion(), getStargazersCount()])
+		.then(([releases, stargazersCount]) => {
+			const result = { ...releases, stargazersCount };
 			cachedStats = result;
 			cacheTimestamp = Date.now();
 			return result;

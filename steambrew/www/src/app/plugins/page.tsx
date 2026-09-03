@@ -3,7 +3,7 @@ import { headers } from 'next/headers';
 import PluginLibrary from './PluginLibrary';
 
 export const metadata: Metadata = {
-	title: 'Plugins • Millennium',
+	title: 'Plugins - Millennium',
 };
 
 export default async function PluginsPage() {

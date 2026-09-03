@@ -10,12 +10,14 @@ html {
   padding-right: 25px; */
 }
 
-.footer-container footer#section-footer {
-    background: #0a0a0a !important;
+:root,
+html,
+body {
+    background-color: #000 !important;
 }
 
-html {
-    overflow: hidden !important;
+.footer-container footer#section-footer {
+    background: #0a0a0a !important;
 }
 
 canvas {
@@ -26,6 +28,7 @@ canvas {
 }
 
 .landscape {
+    --landscape-width: 1920px;
     z-index: 0;
     left: 0;
     bottom: 0;
@@ -42,7 +45,7 @@ canvas {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: max(100%, var(--landscape-width)) auto;
     background-position: center;
     -moz-transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
     -o-transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
@@ -181,7 +184,40 @@ canvas {
 .landscape .landscapeItem.trees.foreground {
     z-index: 6;
     background-image: url(/mountains/mountain.svg);
+    bottom: 0;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
 }
+
+main#main-page-content {
+    background: #0a0a0a;
+}
+
+/*.landscape .landscapeItem.mountains.closest {
+    z-index: 8;
+    background-image: none;
+    background-color: #0a0a0a;
+    -webkit-mask-image: url(/mountains/mountain.svg);
+    mask-image: url(/mountains/mountain.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 128%;
+    mask-size: 128%;
+    -webkit-mask-position: 35% 64%;
+    mask-position: 35% 64%;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    transition-delay: 0s;
+}*/
+
+/*.landscapeItem.mountains.closest.animateIn {
+    margin-bottom: -400px;
+}*/
 
 .landscape .landscapeItem.trees:nth-last-child(1) {
     -moz-transition-delay: 0.1s;
@@ -295,4 +331,14 @@ canvas {
 }
 .information-container-header {
     font-size: 10px;
+}
+
+.downloads-container {
+    display: flex;
+    gap: 10px;
+}
+
+span.count-value {
+    font-weight: bold;
+    color: white;
 }

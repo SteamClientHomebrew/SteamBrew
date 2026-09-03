@@ -3,7 +3,7 @@ import { headers } from 'next/headers';
 import ThemeLibrary from './ThemeLibrary';
 
 export const metadata: Metadata = {
-	title: 'Themes • Millennium',
+	title: 'Themes - Millennium',
 };
 
 export default async function ThemesPage() {
