@@ -6,7 +6,7 @@ function RenderFooter() {
 					<section id="footer-top" className="flex-container hide-mobile">
 						<div className="footer-column">
 							<a className="footer-logo-wrap" href="/">
-								<img className="footer-logo" loading="lazy" src="https://i.imgur.com/9qYPFSA.png" />
+								<img className="footer-logo" loading="lazy" src="/favicon/favicon-white.svg" />
 							</a>
 						</div>
 						<div className="footer-column">

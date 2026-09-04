@@ -73,8 +73,8 @@ function RenderHeader() {
                 <div className="page-section-inner">
                     <div className="logo-hamburger-section">
                         <a className="navbar-logo-container" href="/">
-                            <img loading="lazy" className="navbar-logo hide-mobile" src="https://i.imgur.com/9qYPFSA.png" />
-                            <img loading="lazy" className="navbar-logo small" src="https://i.imgur.com/9qYPFSA.png" />
+                            <img loading="lazy" className="navbar-logo hide-mobile" src="/favicon/favicon-white.svg" />
+                            <img loading="lazy" className="navbar-logo small" src="/favicon/favicon-white.svg" />
                             <div>Steam Homebrew</div>
                         </a>
                     </div>

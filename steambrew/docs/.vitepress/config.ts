@@ -10,10 +10,10 @@ import { VitePressSidebarOptions } from "vitepress-sidebar/types";
 import * as fs from "fs";
 import * as path from "path";
 
-const steamBrewIcon = localIconLoader(
-    import.meta.url,
-    "../src/public/branding/logo.svg",
-);
+// const steamBrewIcon = localIconLoader(
+//     import.meta.url,
+//     "../src/public/branding/logo.svg",
+// );
 const currentYear = new Date().getFullYear();
 
 const SIDEBARS: VitePressSidebarOptions | VitePressSidebarOptions[] = [
@@ -194,40 +194,7 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
     title: "Steam Homebrew",
     description: "User and developer documentation for using Millennium.",
     head: [
-        [
-            "link",
-            {
-                rel: "icon",
-                type: "image/png",
-                href: "/favicon/favicon-96x96.png",
-                sizes: "96x96",
-            },
-        ],
-        [
-            "link",
-            {
-                rel: "icon",
-                type: "image/svg+xml",
-                href: "/favicon/favicon.svg",
-            },
-        ],
-        ["link", { rel: "shortcut icon", href: "/favicon/favicon.ico" }],
-        [
-            "link",
-            {
-                rel: "apple-touch-icon",
-                sizes: "180x180",
-                href: "/favicon/apple-touch-icon.png",
-            },
-        ],
-        [
-            "meta",
-            {
-                name: "apple-mobile-web-app-title",
-                content: "Steam Homebrew Docs",
-            },
-        ],
-        ["link", { rel: "manifest", href: "/favicon/site.webmanifest" }],
+        ["link", { rel: "shortcut icon", href: "/favicon/favicon.svg" }],
         [
             "meta",
             { property: "og:site_name", content: "SteamClientHomebrew Docs" },
@@ -305,13 +272,13 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
     cleanUrls: true,
     themeConfig: {
         siteTitle: false,
-        logo: "/branding/logo.svg",
+        logo: "/favicon/favicon.svg",
         footer: {
             message: "Released under the MIT License.",
             copyright: `Copyright © 2023-${currentYear} SteamClientHomebrew`,
         },
         nav: [
-            { text: "Home", link: "/" },
+            // { text: "Home", link: "/" },
             { text: "User Guides", link: "/users/", activeMatch: "/users/" },
             {
                 text: "Developer Guides",
@@ -365,12 +332,7 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
         },
 
         search: {
-            provider: "algolia",
-            options: {
-                appId: "1H90CYBBIE",
-                apiKey: "2b499d1195c690a6e7acf4a45b244768",
-                indexName: "docs_steambrew_app_1h90cybbie_pages",
-            },
+            provider: "local",
         },
 
         outline: "deep",
@@ -659,8 +621,8 @@ const VITEPRESS_CONFIG: UserConfig<DefaultTheme.Config> = {
                     js: "vscode-icons:file-type-js",
                     jsx: "vscode-icons:file-type-js",
                     json: "vscode-icons:file-type-json",
-                    ".plugin.js": steamBrewIcon,
-                    ".theme.css": steamBrewIcon,
+                    // ".plugin.js": steamBrewIcon,
+                    // ".theme.css": steamBrewIcon,
                 },
             }),
         ],

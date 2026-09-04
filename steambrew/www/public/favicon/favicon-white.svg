@@ -2,8 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="102.400000pt" height="102.400000pt" viewBox="0 0 102.400000 102.400000" preserveAspectRatio="xMidYMid meet" xmlns:c2pa="http://c2pa.org/manifest"><metadata></metadata>
 <style>
-  g { fill: #000000; }
-  @media (prefers-color-scheme: dark) { g { fill: #ffffff; } }
+  g { fill: #ffffff; }
 </style>
 <g transform="translate(0.000000,102.400000) scale(0.010000,-0.010000)" stroke="none">
 <path d="M1675 10234 c-16 -2 -73 -9 -125 -15 -383 -43 -740 -218 -1021 -498
