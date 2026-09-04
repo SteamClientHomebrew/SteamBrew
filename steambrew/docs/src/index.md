@@ -2,5 +2,5 @@
 
 Welcome to the Millennium documentation!
 
-* [User Documentations](/users)
-* [Developers](/developers)
+* [User Documentations](/users/)
+* [Developers](/developers/)
